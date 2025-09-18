@@ -1,0 +1,17 @@
+{
+  "name": "alberta-tomorrow-resources-api",
+  "version": "1.0.0",
+  "description": "videos and lesson plans for alberta tomorrow",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
