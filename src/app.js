@@ -3,6 +3,7 @@ import swaggerJsdoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
 import videosRouter from './routes/videos.js';
 import lessonPlansRouter from './routes/lesson-plans.js';
+import statsRouter from './routes/stats.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -15,6 +16,11 @@ const swaggerOptions = {
       title: 'Alberta Tomorrow Resources API',
       version: '1.0.0',
       description: 'API for educational videos and lesson plans for Alberta Tomorrow',
+      contact: {
+        name: 'Chace Nielson',
+        email: 'chacenielson@gmail.com',
+        url: 'https://chacenielson.com'
+      }
     },
     servers: [
       {
@@ -23,10 +29,18 @@ const swaggerOptions = {
       },
     ],
   },
-  apis: ['./src/routes/*.js', './src/app.js'], // Path to the API docs
+  apis: [
+    './src/routes/videos.js',
+    './src/routes/lesson-plans.js',
+    './src/routes/stats.js',
+    './src/app.js'
+  ], // Path to the API docs
 };
 
 const swaggerSpec = swaggerJsdoc(swaggerOptions);
+
+// Debug: Check if swagger spec is generated properly
+console.log('🔍 Swagger spec generated with', Object.keys(swaggerSpec.paths || {}).length, 'paths');
 
 // Middleware to parse JSON requests
 app.use(express.json());
@@ -34,32 +48,12 @@ app.use(express.json());
 // Mount route modules
 app.use('/api/videos', videosRouter);
 app.use('/api/lessons', lessonPlansRouter);
+app.use('/api/stats/', statsRouter);
 
 // Swagger UI setup
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
-/**
- * @swagger
- * /:
- *   get:
- *     summary: API Information
- *     description: Returns basic API information and welcome message
- *     responses:
- *       200:
- *         description: API information
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 message:
- *                   type: string
- *                 service:
- *                   type: string
- *                 version:
- *                   type: string
- */
-// Basic hello world route
+// Root endpoint
 app.get('/', (req, res) => {
   res.json({
     message: 'Welcome to the Alberta Tomorrow Resources API!',
@@ -69,28 +63,7 @@ app.get('/', (req, res) => {
   });
 });
 
-/**
- * @swagger
- * /health:
- *   get:
- *     summary: Health Check
- *     description: Returns the health status of the API
- *     responses:
- *       200:
- *         description: API is healthy
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 status:
- *                   type: string
- *                 message:
- *                   type: string
- *                 timestamp:
- *                   type: string
- */
-// Health check route
+// health Check endpoint
 app.get('/health', (req, res) => {
   res.json({
     status: 'OK',
@@ -102,7 +75,7 @@ app.get('/health', (req, res) => {
 // Routes listing endpoint
 app.get('/routes', (req, res) => {
   res.json({
-    message: 'API routes are now documented with Swagger',
+    message: 'API routes are documented with Swagger',
     swaggerUI: `http://localhost:${PORT}/api-docs`,
     jsonSpec: `http://localhost:${PORT}/api-docs.json`,
     availableRoutes: [
@@ -113,7 +86,11 @@ app.get('/routes', (req, res) => {
       'GET /api/videos',
       'GET /api/videos/:id',
       'GET /api/lessons',
-      'GET /api/lessons/:id'
+      'GET /api/lessons/:id',
+      'GET /api/stats',
+      'GET /api/stats/videos',
+      'GET /api/stats/lessons',
+      'GET /api/stats/filters'
     ]
   });
 });
@@ -147,7 +124,6 @@ app.listen(PORT, () => {
   console.log(`📋 Interactive API Documentation: http://localhost:${PORT}/api-docs`);
   console.log(`📄 API Specification (JSON): http://localhost:${PORT}/api-docs.json`);
   console.log(`🌐 API Base URL: http://localhost:${PORT}`);
-  console.log(`\n✨ Use Swagger UI for testing - much better than Postman!`);
 });
 
 export default app;
