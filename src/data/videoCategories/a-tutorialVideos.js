@@ -17,7 +17,9 @@ export const tutorialVideos = [
     description: 
       "Watch this tutorial to see how to register for a Public, Teacher or Student Account.",
     category: VideoCategory.TUTORIALS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=5Qi8v-Y3iXM",
@@ -32,7 +34,9 @@ export const tutorialVideos = [
     description: 
       "Watch this tutorial to see the different features of the Alberta Tomorrow Simulator.",
     category: VideoCategory.TUTORIALS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=nnm0V6jmpbM",
@@ -47,7 +51,9 @@ export const tutorialVideos = [
     description: 
       "An overview of the mission you will accomplish using Alberta Tomorrow",
     category: VideoCategory.TUTORIALS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=yNljbKNBI1M",
@@ -62,7 +68,9 @@ export const tutorialVideos = [
     description: 
       "Watch this video to find out how your study area has changed since 1910!",
     category: VideoCategory.TUTORIALS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=qMXZYBHCD_E",
@@ -77,7 +85,9 @@ export const tutorialVideos = [
     description: 
       "A BAU scenario gives you a glimpse of a possible future, one that carries current trends in landuse into the future.",
     category: VideoCategory.TUTORIALS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=gWm7yWBkPHo",
@@ -92,7 +102,9 @@ export const tutorialVideos = [
     description: 
       "This video will show you how to select your watershed study area, set goals, make changes on the map, and run your scenario.",
     category: VideoCategory.TUTORIALS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=RQ2Pz6gLIQ0",
@@ -107,7 +119,9 @@ export const tutorialVideos = [
     description: 
       "This tutorial walks you through how to create your own observation in the simulator that you and all registered users can see.",
     category: VideoCategory.TUTORIALS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=fp_WVPCdCnU",
@@ -122,7 +136,9 @@ export const tutorialVideos = [
     description: 
       "See how you can view changes that may occur due to climate change with Mild, Medium or Hot Climate Change Scenarios.",
     category: VideoCategory.TUTORIALS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=yF4SY7VoqDs",
@@ -137,7 +153,9 @@ export const tutorialVideos = [
     description: 
       "This short tutorial video will show you how to create and share a report in the simulator.",
     category: VideoCategory.TUTORIALS,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=poxco59ASU8",

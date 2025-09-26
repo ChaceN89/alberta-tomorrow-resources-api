@@ -22,7 +22,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/CEmbcJ_2oPA?si=aqTK4AvzdPw2yPXx",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/6efd0003-1620-480a-95d4-49bf1d429d89/thumbnails/Consulting%20With%20Stoney_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/b745602b6e764e30bbc4c2757bf56abd/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/6efd0003-1620-480a-95d4-49bf1d429d89/thumbnails/Consulting%20With%20Stoney_tumb.0000000.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -41,7 +44,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/KFbHx-jduws?si=IpEgy6vTFzxCDL-u",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/b647ff76-e29d-438c-85c3-5f9b64e5ce32/thumbnails/Cement%20Factory_tumb.0000001.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/cb7cae889c1e4bc4a47b860d1fff5b2d/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/b647ff76-e29d-438c-85c3-5f9b64e5ce32/thumbnails/Cement%20Factory_tumb.0000001.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -60,7 +66,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/NvR7dT83UKE?si=MWipJUoMutYdAGzY",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/55aaaa60-b4e8-4a17-8e57-a160624b63a7/thumbnails/Railway_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/85d6fd325c624e8e9ba016f1766bac8e/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/55aaaa60-b4e8-4a17-8e57-a160624b63a7/thumbnails/Railway_tumb.0000000.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -79,7 +88,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/ZqpwZ1irYFY?si=sdiru7LP4nhu6jox",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/ec2fe1f5-06e1-47b5-b9c4-7ca8e985e17d/thumbnails/Using%20Land%20for%20Protection_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/02f88ebbe40148fab9dfd8411262d278/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/ec2fe1f5-06e1-47b5-b9c4-7ca8e985e17d/thumbnails/Using%20Land%20for%20Protection_tumb.0000000.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -98,7 +110,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/IxZgkmJnYrw?si=2haLY-beyIpsZQ5W",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/88e5ec8f-5109-493e-a3ba-94c10f630a08/thumbnails/Glaciers_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/aa887ef962c443d389e6329a81631e6f/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/88e5ec8f-5109-493e-a3ba-94c10f630a08/thumbnails/Glaciers_tumb.0000000.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -117,7 +132,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/HKy3Sb2u-Mk?si=FUDzF1rx4dzmQzKz",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/7d5e3424-03c7-40c0-b1f6-e26ef8dd99ec/thumbnails/Creator Story_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/9413cdebc33046d997eb4929e9824866/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/7d5e3424-03c7-40c0-b1f6-e26ef8dd99ec/thumbnails/Creator Story_tumb.0000000.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -136,7 +154,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/PYuxiSw06jM?si=ZT9Il2CxUSq80vc7",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/b88daa80-37fc-4079-869a-7f9f5a0fdb96/thumbnails/Reclimatizing_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/f9f942d3df3e4df0b0f10ed526aaa212/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/b88daa80-37fc-4079-869a-7f9f5a0fdb96/thumbnails/Reclimatizing_tumb.0000000.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -155,7 +176,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/tuNheHwbU7c?si=uTlYq-LqELvWmpuf",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/a9b99252-a854-4a77-aaa2-f7fe43a1a6c1/thumbnails/Before%20Treaty_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/4de5a67c0f5e4ab4af0ed4c2a2a1ef94/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/a9b99252-a854-4a77-aaa2-f7fe43a1a6c1/thumbnails/Before%20Treaty_tumb.0000000.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -174,7 +198,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/2CaTbIIOHNE?si=yevh87KVNQY-uCua",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/cc961a95-b604-4cba-9c34-993437f3f823/thumbnails/Life%20of%20a%20Stoney%20Boy_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/7441081f7b8f42a2bea5fc2e2f3a2e33/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/cc961a95-b604-4cba-9c34-993437f3f823/thumbnails/Life%20of%20a%20Stoney%20Boy_tumb.0000000.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -193,7 +220,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/Y5ib6lh4HLE?si=p3HpiNYvKy9rFqPT",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/09bee351-3a94-49b1-9a86-a4978e7c53cd/thumbnails/Bring%20Back%20Bison_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/596772a9b3c7416fa7c5c9fc407c1680/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/09bee351-3a94-49b1-9a86-a4978e7c53cd/thumbnails/Bring%20Back%20Bison_tumb.0000000.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -212,7 +242,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/GX0PKaCqJiI?si=lL2dqXTkoa-tjh3r",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/6735981d-73e2-4ca4-8239-31f2a45921d5/thumbnails/Yamnuska%20Meaning_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/d80414f9729d413e90e43feedeca4954/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/6735981d-73e2-4ca4-8239-31f2a45921d5/thumbnails/Yamnuska%20Meaning_tumb.0000000.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -231,7 +264,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/9269H-WWRBg?si=DX65Ftlw44R5YvbW",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/ea8539b2-f1e7-4b50-bd6b-b41af7d06c94/thumbnails/Cougar%20Story_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/d9fe4679c597486e9cc81f546482c16c/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/ea8539b2-f1e7-4b50-bd6b-b41af7d06c94/thumbnails/Cougar%20Story_tumb.0000000.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -246,11 +282,16 @@ export const stoneyVoicesVideos = [
       "How did the Stoney people survive off the land, especially in the winter?  Watch to find out.",
     coordinates: [-115.118069, 51.160761],
     category: VideoCategory.STONEY_VOICES,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/s1NAu1rTZzQ?si=8RolJGkfnYz5Bm06",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/1821b035-16d6-461d-ab1f-9341cd6124be/thumbnails/Food%20and%20Camp_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/ee087a318f124a518400d11ecf696504/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/1821b035-16d6-461d-ab1f-9341cd6124be/thumbnails/Food%20and%20Camp_tumb.0000000.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -265,11 +306,16 @@ export const stoneyVoicesVideos = [
       'Travis talks about differences in the concept of time. The oral tradition says "Back in time".  Stoney used the surroundings and animals to tell time, seasons and the weather. "The Sky was the clock, the moon, the stars."',
     coordinates: [-115.118069, 51.010761],
     category: VideoCategory.STONEY_VOICES,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [], 
     media: {
       url: "https://www.youtube.com/watch?v=8Rxut4EAyYg",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/16e0288c-1b7e-4323-8470-91ed4f317b65/thumbnails/Concept%20of%20Time_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/8572595c46bb453087dd76a47c633998/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/16e0288c-1b7e-4323-8470-91ed4f317b65/thumbnails/Concept%20of%20Time_tumb.0000000.jpg",
       is360: false
     },
     observedTime: 1705966403883,
@@ -283,14 +329,22 @@ export const stoneyVoicesVideos = [
     description: 
       "What is your hope for the future?",
     category: VideoCategory.STONEY_VOICES,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [], 
     media: {
-      url: "https://youtu.be/UpJUo8M5Bck?si=PHyuoBHHtza4vsmy",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/695381a7-7628-4818-990f-89d3211aa303/thumbnails/What%20Will%20Land%20Look%20Like%20in%20Future_tumb.0000000.jpg",
+      url: "https://youtu.be/EKJ4X0QhZmY?si=9FO7qzKUxNbzs-8y",
+      cloudFrontUrl: 
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/c179f3d78bb74efc80802db5b15903c4/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/b37b2a2b-8c73-4eed-b62c-e2f6a0fd1bcd/thumbnails/What%20will%20the%20land%20look%20like%20in%20the%20future_tumb.0000000.jpg",
       is360: false
     },
-    hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
+    observedTime: 1705966403883,
+    hashtags: [
+      "indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"
+    ]
   },
   { // video 16 - Great Depression
     id: "stoney-016h-great-depression",
@@ -302,7 +356,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/57vkAX541xY?si=pygUdIJEajIdovUC",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/f6e8f0b0-7db4-4bc4-b13e-81a31217b801/thumbnails/Great%20Depression_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/ee71ff1d90cb489eaf10de03d0772267/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/f6e8f0b0-7db4-4bc4-b13e-81a31217b801/thumbnails/Great%20Depression_tumb.0000000.jpg",
       is360: false
     },
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
@@ -317,7 +374,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://www.youtube.com/watch?v=oG-PuCO-h7I&list=PLvZi8sQT8o8MTHACtzLmHa69Eln1AiDsn",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/91762971-98d6-4e2a-91d0-8cce43dfb69f/thumbnails/Water%20-%20now%20and%20future_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/eee47828da824aeb93a087271924c641/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/91762971-98d6-4e2a-91d0-8cce43dfb69f/thumbnails/Water%20-%20now%20and%20future_tumb.0000000.jpg",
       is360: false
     },
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
@@ -328,11 +388,16 @@ export const stoneyVoicesVideos = [
     description: 
       "Land Use planning in Alberta needs to include a Stoney Voice.",
     category: VideoCategory.STONEY_VOICES,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/kuFB4CrTufw?si=rVjuYL9xCxY5HwVm",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/1bd74c11-faa1-41f4-8d12-cab9e5b0767c/thumbnails/Stoney%20Voice%20at%20the%20Table_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/039a9fe3282b4a1db7ecaa1fb69d87c4/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/1bd74c11-faa1-41f4-8d12-cab9e5b0767c/thumbnails/Stoney%20Voice%20at%20the%20Table_tumb.0000000.jpg",
       is360: false
     },
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
@@ -343,11 +408,16 @@ export const stoneyVoicesVideos = [
     description: 
       "The Stoney used to use the fish from the Bow River, but they don't eat the fish anymore. They enjoy the river but they don't eat the fish.",
     category: VideoCategory.STONEY_VOICES,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/vN_X59jznLE?si=qs742rPJ9WvbOe1y",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/e9bd9064-c34e-4769-a3c3-8d702623d91b/thumbnails/Fishing%20on%20the%20Bow_tumb.0000000.jpg",
+      cloudFrontUrl:
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/64b6a087dc63427fa227b08165994242/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/e9bd9064-c34e-4769-a3c3-8d702623d91b/thumbnails/Fishing%20on%20the%20Bow_tumb.0000000.jpg",
       is360: false
     },
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
@@ -362,7 +432,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/Yhx8ylh81EM?si=gPY1Fj7h65WvWSk1",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/5d37a660-4f5b-40b7-badc-9bbf98077e92/thumbnails/Tornado_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/33ed848c7fc340c78f27189eb57bdc71/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/5d37a660-4f5b-40b7-badc-9bbf98077e92/thumbnails/Tornado_tumb.0000000.jpg",
       is360: false
     },
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
@@ -377,7 +450,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/yz52Ysp_meQ?si=2uYyt4W4Qjq31z2N",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/a7edc400-3c29-48bb-bcc6-296883adc89c/thumbnails/Using%20the%20Land_tumb.0000000.jpg",
+      cloudFrontUrl:
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/31daf805c8d44748a6a14f7d38cc0084/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/a7edc400-3c29-48bb-bcc6-296883adc89c/thumbnails/Using%20the%20Land_tumb.0000000.jpg",
       is360: false
     },
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
@@ -392,7 +468,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/rb0WIzUHnYw?si=r438JuVzkL4PxsaR",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/18212f4c-ba95-443b-9a9c-8cea0186f22a/thumbnails/Moose%20Story_tumb.0000000.jpg",
+      cloudFrontUrl:
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/0b5e0c2176c843228629c01f7775b085/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/18212f4c-ba95-443b-9a9c-8cea0186f22a/thumbnails/Moose%20Story_tumb.0000000.jpg",
       is360: false
     },
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
@@ -406,7 +485,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/d_wKqUZMaTk?si=3dnMMNcSOKg8pW5X",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/4682cb45-4133-437f-b341-98c1a7254a06/thumbnails/Land%20Use%20wildlife_tumb.0000000.jpg",
+      cloudFrontUrl:
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/5eefc5c24b0d4099bd93ae333cf1ec23/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/4682cb45-4133-437f-b341-98c1a7254a06/thumbnails/Land%20Use%20wildlife_tumb.0000000.jpg",
       is360: false
     },
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
@@ -421,7 +503,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/IuvVMb1y0oU?si=mka-5Q1s3IP_kDPU",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/eb6c9fb2-43cb-4c4c-bc42-d08c1228837b/thumbnails/Protected%20Areas_tumb.0000000.jpg",
+      cloudFrontUrl:
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/a8a4fbaf9189470e922b26d22087ba9c/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/eb6c9fb2-43cb-4c4c-bc42-d08c1228837b/thumbnails/Protected%20Areas_tumb.0000000.jpg",
       is360: false
     },
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
@@ -436,7 +521,10 @@ export const stoneyVoicesVideos = [
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/P65TspAOwrU?si=JEA8buNzlAZus7Jl",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/a84b6134-084c-4223-b8eb-ace6e197e71e/thumbnails/ReconciliACTION_tumb.0000000.jpg",
+      cloudFrontUrl:
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/0f562ac8997a4da3bafd009f8ced4ae0/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/a84b6134-084c-4223-b8eb-ace6e197e71e/thumbnails/ReconciliACTION_tumb.0000000.jpg",
       is360: false
     },
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
@@ -447,11 +535,16 @@ export const stoneyVoicesVideos = [
     description: 
       "Travis recalls stories of Stoney encountering Settlers for the first time.",
     category: VideoCategory.STONEY_VOICES,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/7pI3iyUuhK0?si=Y-8Gc_UmAStwrK1Y",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/cdf75db1-7b00-473f-bf7c-927b33b3589a/thumbnails/First%20Contact%20w%20Settlers_tumb.0000000.jpg",
+      cloudFrontUrl: 
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/09712087a0d0458aaceab78d5d4a83b8/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/cdf75db1-7b00-473f-bf7c-927b33b3589a/thumbnails/First%20Contact%20w%20Settlers_tumb.0000000.jpg",
       is360: false
     },
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
@@ -462,11 +555,16 @@ export const stoneyVoicesVideos = [
     description: 
       "Listen to Elders talk about the  importance of the Sibbald Flats for hunting, collecting berries and traditional uses and the incompatibility with some other land uses.",
     category: VideoCategory.STONEY_VOICES,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [], 
     media: {
       url: "https://www.youtube.com/watch?v=4ZixFCSIMww",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/8fd91908-cba7-4774-9faa-113d7c686c01/thumbnails/Access%20to%20Land%20-%20Sibbald%20Flats_tumb.0000000.jpg",
+      cloudFrontUrl:
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/a6f5f938da924f6880a27fdf9bc0da59/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/8fd91908-cba7-4774-9faa-113d7c686c01/thumbnails/Access%20to%20Land%20-%20Sibbald%20Flats_tumb.0000000.jpg",
       is360: false
     },
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]
@@ -477,11 +575,16 @@ export const stoneyVoicesVideos = [
     description: 
       "Meet the Elders from the Stoney Nakoda Nation who made this video series possible.",
     category: VideoCategory.STONEY_VOICES,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     lessonPlans: [], 
     media: {
       url: "https://youtu.be/E1vzAxvrgR4?si=vCtjAcHbtMPzJsNf",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/0b286b2d-05fe-4d19-b923-da03d9afd668/thumbnails/Introductions_tumb.0000001.jpg",
+      cloudFrontUrl: 
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/8a8abe4d2ab84cd6ae428cfd5c381c62/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/0b286b2d-05fe-4d19-b923-da03d9afd668/thumbnails/Introductions_tumb.0000001.jpg",
       is360: false
     },
     hashtags: ["indigenousstories", "stoneynakoda", "indigenouslanduse", "morley", "landuse", "abwater", "alberta", "stoneyvoices", "traditionallanduse"]

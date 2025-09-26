@@ -13,7 +13,7 @@
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=youtubeID",
-      cloudfrontURL:"" (Optional extra option)
+      cloudFrontUrl:"" (Optional extra option)
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialRegisterAccount.jpg",
       is360: false
     },
@@ -29,7 +29,7 @@
  <!-- Lesson plan
  
  
- 
+
  
  
   -->

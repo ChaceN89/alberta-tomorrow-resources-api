@@ -36,7 +36,10 @@ export const understandingTheLandscapeVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=WBKwcDIqJ0U",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/a3db110f-8d4b-4190-b512-a84cf1472eb5/thumbnails/Management Practices_H264_tumb.0000039.jpg",
+      cloundFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/883ad936d3e74ad29f7aebfa3ae56dc2/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/a3db110f-8d4b-4190-b512-a84cf1472eb5/thumbnails/Management Practices_H264_tumb.0000039.jpg",
       is360: false
     },
     hashtags: [
@@ -52,8 +55,10 @@ export const understandingTheLandscapeVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=WBdpkY9KSgs",
-      cloundFrontUrl: "https://d2qcvmovr4fv.cloudfront.net/out/v1/d3af3f5027fc4578bb8a5e661fd15662/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/7f76a14f-20e9-430d-bef6-5c08247cad75/thumbnails/Ecological Goods v2_H264_tumb.0000033.jpg",
+      cloudFrontUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/d3af3f5027fc4578bb8a5e661fd15662/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/7f76a14f-20e9-430d-bef6-5c08247cad75/thumbnails/Ecological Goods v2_H264_tumb.0000033.jpg",
       is360: false
     },
     hashtags: [
@@ -69,7 +74,8 @@ export const understandingTheLandscapeVideos = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=Xgb3_I8nagY",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/water-climate-change-glaciers-webinar.jpg",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/water-climate-change-glaciers-webinar.jpg",
       is360: false
     },
     hashtags: [

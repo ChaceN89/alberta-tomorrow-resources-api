@@ -19,10 +19,13 @@ export const blackfootVoicesVideos = [
     coordinates: [-112.45130318711476, 50.77737948576379],
     lessonPlans: [], 
     category: VideoCategory.BLACKFOOT_VOICES,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     media: {
       url: "https://www.youtube.com/watch?v=r-NzlnMgDj4",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/thumb-a-blackfoot-perspective.jpg",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/thumb-a-blackfoot-perspective.jpg",
       is360: true,
     },
     observedTime: 1607104608043, // Approx: Dec 4, 2020

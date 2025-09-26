@@ -19,7 +19,9 @@ export const pointsOfInterestVideos = [
     coordinates: [-114.7121597, 53.63705],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     media: {
       url: "https://www.youtube.com/watch?v=PD8FnEmi-l0",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/michael_sullivan_isle_lake_fish_kill.jpg",
@@ -36,10 +38,15 @@ export const pointsOfInterestVideos = [
     coordinates: [-114.51295548244191, 50.28114220769186],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     media: {
       url: "https://www.youtube.com/watch?v=lztrWhXpnHg",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/7e1583c8-8c39-47f1-89ad-12c7433c8798/thumbnails/obs_7db174da-e122-4667-82c8-824f6787c863_tumb.0000514.jpg",
+      cloudFrontUrl:
+        "https://d2qcvmovr4fv.cloudfront.net/out/v1/d97ba23aca8543fb8635bb205dfd9882/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/7e1583c8-8c39-47f1-89ad-12c7433c8798/thumbnails/obs_7db174da-e122-4667-82c8-824f6787c863_tumb.0000514.jpg",
       is360: false,
     },
     observedTime: 1595618236362,
@@ -53,10 +60,13 @@ export const pointsOfInterestVideos = [
     coordinates: [-110.89052249220633, 58.17244060712531],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     media: {
       url: "https://www.youtube.com/watch?v=KrkcyfUn274",
-      thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_AthabascaSandDunes.jpg",
+      thumbUrl: 
+        "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_AthabascaSandDunes.jpg",
       is360: false,
     },
     observedTime: 1607104608043,
@@ -70,7 +80,9 @@ export const pointsOfInterestVideos = [
     coordinates: [-111.63423545056287, 49.06794067595865],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     media: {
       url: "https://www.youtube.com/watch?v=-MJXlSxkka8",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_WritingOnStone.jpg",
@@ -87,7 +99,9 @@ export const pointsOfInterestVideos = [
     coordinates: [-115.34838293901707, 51.6563101205077],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     media: {
       url: "https://www.youtube.com/watch?v=r-_LsSi7FJ0",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_HangingCulvert.jpg",
@@ -104,7 +118,9 @@ export const pointsOfInterestVideos = [
     coordinates: [-119.163818359374, 54.47916440896674],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     media: {
       url: "https://www.youtube.com/watch?v=3ojS4z9Z68c",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_PineBeetle.jpg",
@@ -121,7 +137,9 @@ export const pointsOfInterestVideos = [
     coordinates: [-110.69863851935013, 49.39300483924299],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     media: {
       url: "https://www.youtube.com/watch?v=u1qMoL3V61g",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_GrasslandRestoration.jpg",
@@ -138,7 +156,9 @@ export const pointsOfInterestVideos = [
     coordinates: [-114.8371996666042, 51.28249611577988],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     media: {
       url: "https://www.youtube.com/watch?v=KdEN85OgG4o",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/gwas-ghost-waiparous.jpg",
@@ -155,7 +175,9 @@ export const pointsOfInterestVideos = [
     coordinates: [-114.359536, 49.865747],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
-    tools: [AssociatedTool.SIMULATOR],
+    tools: [
+      AssociatedTool.SIMULATOR
+    ],
     media: {
       url: "https://www.youtube.com/watch?v=E2wYNZJ-tC4",
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/livingstone_findingwater.jpg",

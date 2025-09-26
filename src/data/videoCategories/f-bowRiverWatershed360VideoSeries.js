@@ -1,9 +1,7 @@
 /**
  * @file f-bowRiverWatershed360VideoSeries.js
  * @module Data/Video/f-bowRiverWatershed360VideoSeries
- * @desc Contains video data for the "Bow River Watershed 360 Video Series" category in Alberta Tomorrow.
- * 
- * @author Chace Nielson
+ * @desc Contains video data for the "Bow River Watershed 360 Video Series" category in Alber  { //  @author Chace Nielson
  * @created Apr 9, 2025
  * @updated Apr 10, 2025
  */
@@ -25,6 +23,7 @@ export const bowRiverWatershed360VideoSeries = [
     ],
     media: {
       url: "https://www.youtube.com/watch?v=-66yGxMmQxE&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=9", //Bow River Watershed 360 Tour
+      cloudFrontUrl: 'https://d2qcvmovr4fv.cloudfront.net/out/v1/7f8e6a38b7534de6b27c6d87eade9d62/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_11_watershed.png",
       is360: true,
       locations: [
@@ -60,6 +59,7 @@ export const bowRiverWatershed360VideoSeries = [
     ],
     media: {
       url: "https://www.youtube.com/watch?v=6B31usY3S6E&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=2", // Bow River Watershed: Hydrology & Climate Change
+      cloudFrontUrl: 'https://d2qcvmovr4fv.cloudfront.net/out/v1/4364db1e1a7041538db38b0d58346cb5/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_10_hydrology_and_climate_change.png",
       is360: true,
       locations: [
@@ -80,6 +80,7 @@ export const bowRiverWatershed360VideoSeries = [
     lessonPlans: [],
     media: {
       url: "https://www.youtube.com/watch?v=1sIN7zr8xoo&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=5", //managing the watershed
+      cloudFrontUrl: 'https://d2qcvmovr4fv.cloudfront.net/out/v1/fa86c43190f043ce98aed64b16304c33/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_9_watershed_management_and_data.png",
       is360: true,
       locations: [
@@ -107,6 +108,7 @@ export const bowRiverWatershed360VideoSeries = [
     ],
     media: {
       url: "https://www.youtube.com/watch?v=_hFqA3agfhk&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3", 
+      cloudFrontUrl: 'https://d2qcvmovr4fv.cloudfront.net/out/v1/a2355c31a3d7451483e63750d2ae1f48/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_4_watersheds_and_hydrology.png",
       is360: true,
       locations: [
@@ -130,6 +132,8 @@ export const bowRiverWatershed360VideoSeries = [
     ],
     media: {
       url: "https://www.youtube.com/watch?v=2qSAx5fmtWg&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=3",
+      cloudFrontUrl:
+        'https://d2qcvmovr4fv.cloudfront.net/out/v1/7a9a290fb3a84ce58f07e91f8e96049b/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_8_hydrology_and_land_development.png",
       is360: true,
       locations: [
@@ -156,6 +160,7 @@ export const bowRiverWatershed360VideoSeries = [
     ],
     media: {
       url: "https://www.youtube.com/watch?v=3wvA7macCMM",
+      cloudFrontUrl: 'https://d2qcvmovr4fv.cloudfront.net/out/v1/0acc6dd386ae4331bf1388181d2511dc/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_2_elbow_river_watershed_partnership_aquifers.png",
       is360: true,
       locations: [
@@ -179,6 +184,7 @@ export const bowRiverWatershed360VideoSeries = [
     ],
     media: {
       url: 'https://www.youtube.com/watch?v=lmypedsjMjQ&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=10',
+      cloudFrontUrl: 'https://d2qcvmovr4fv.cloudfront.net/out/v1/eb92e3d8e984451f9386414c7dd75121/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
       thumbUrl: 'https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_5_wetlands_and_stormwater.png',
       is360: true,
       locations: [
@@ -202,6 +208,7 @@ export const bowRiverWatershed360VideoSeries = [
     ],
     media: {
       url: "https://www.youtube.com/watch?v=9ksSbswY_CA&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=8", //Water Quality
+      cloudFrontUrl: 'https://d2qcvmovr4fv.cloudfront.net/out/v1/0566b3f5515243b89026137be6fe050e/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_7_water_quality.png",
       is360: true
     },
@@ -220,6 +227,7 @@ export const bowRiverWatershed360VideoSeries = [
     ],
     media: {
       url: "https://www.youtube.com/watch?v=BselhdsCzvM&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=6",
+      cloudFrontUrl: 'https://d2qcvmovr4fv.cloudfront.net/out/v1/71e5011337c04dda87b9327490254d70/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_6_water_services.png",
       is360: true,
       locations: [
@@ -243,6 +251,7 @@ export const bowRiverWatershed360VideoSeries = [
     ],
     media: {
       url: "https://www.youtube.com/watch?v=EAVeYoygr0c&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=11",
+      cloudFrontUrl: 'https://d2qcvmovr4fv.cloudfront.net/out/v1/31117838b5b049f195d0a14790e95a64/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_3_native_prairies_and_plants.png",
       is360: true,
       locations: [
@@ -268,6 +277,7 @@ export const bowRiverWatershed360VideoSeries = [
     ],
     media: {
       url: "https://www.youtube.com/watch?v=EQXmN_v_2qw&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=7",
+      cloudFrontUrl: 'https://d2qcvmovr4fv.cloudfront.net/out/v1/3360de4ce6ba4b1ead9e342a2cdec406/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8',
       thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_1_invasive_species_and_control.png",
       is360: true,
       locations: [
