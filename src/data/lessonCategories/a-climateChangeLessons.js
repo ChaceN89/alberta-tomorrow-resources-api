@@ -16,7 +16,7 @@
  */
 
 
-import {Theme, Grade, Subject, AssociatedTool} from "../lessonPlanEnums";
+import {Theme, Grade, Subject, AssociatedTool} from "../enums/lessonPlanEnums.js";
 
 export const ClimateLessons = [
   { // Lesson 1 - Going Going Going Gone: Climate Change and the Columbia Icefield

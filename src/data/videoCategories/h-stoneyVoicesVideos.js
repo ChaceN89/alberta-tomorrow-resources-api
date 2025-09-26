@@ -8,7 +8,7 @@
  * @updated Apr 9, 2025
  */
 
-import { VideoCategory, AssociatedTool } from "../videosEnums";
+import { VideoCategory, AssociatedTool } from "../enums/videosEnums.js";
 
 export const stoneyVoicesVideos = [
   { // video 1 - Consulting With The Stoney

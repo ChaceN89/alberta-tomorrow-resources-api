@@ -14,7 +14,7 @@
  * @created Apr 14, 2025
  * @updated July 14, 2025
  */
-import {Theme, Grade, Subject, AssociatedTool} from "../lessonPlanEnums";
+import {Theme, Grade, Subject, AssociatedTool} from "../enums/lessonPlanEnums.js";
 
 export const IndigenousVoicesLessons = [
   { // Lesson 1 - Where is my Home? Using the Indigenous Map Overlays

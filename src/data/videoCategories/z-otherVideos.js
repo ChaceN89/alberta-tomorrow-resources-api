@@ -8,7 +8,7 @@
  * @updated Apr 12, 2025
  */
 
-import { VideoCategory, AssociatedTool } from "../videosEnums";
+import { VideoCategory, AssociatedTool } from "../enums/videosEnums.js";
 
 export const otherVideos = [
   { // video 1 - Oxygen Isotopes and the Paleoclimate Record

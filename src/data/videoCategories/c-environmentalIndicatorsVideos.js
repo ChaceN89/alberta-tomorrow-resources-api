@@ -8,7 +8,7 @@
  * @updated Apr 10, 2025
  */
 
-import { VideoCategory, AssociatedTool } from "../videosEnums";
+import { VideoCategory, AssociatedTool } from "../enums/videosEnums.js";
 
 export const environmentalIndicatorsVideos = [
   { // video 1 - Natural Landscapes

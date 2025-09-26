@@ -9,16 +9,16 @@
  */
 
 
-import { ClimateLessons } from "./lessonCategories/a-climateChangeLessons";
-import { GlaciersAndWatershedsLessons } from "./lessonCategories/b-glaciersAndWatershedsLessons";
-import { LandUseLessons } from "./lessonCategories/c-landUseLessons";
-import { IndigenousVoicesLessons } from "./lessonCategories/d-indigenousVoicesLessons";
-import { BowRiverWatershedLessons } from "./lessonCategories/e-bowRiverWatershedLessons";
-import { AlbertNaturalRegions } from "./lessonCategories/f-albertaNaturalRegions"; // previously named NaturalRegions360Lessons
-import { EnergyLessons } from "./lessonCategories/g-energyLessons";
+import { ClimateLessons } from "./lessonCategories/a-climateChangeLessons.js";
+import { GlaciersAndWatershedsLessons } from "./lessonCategories/b-glaciersAndWatershedsLessons.js";
+import { LandUseLessons } from "./lessonCategories/c-landUseLessons.js";
+import { IndigenousVoicesLessons } from "./lessonCategories/d-indigenousVoicesLessons.js";
+import { BowRiverWatershedLessons } from "./lessonCategories/e-bowRiverWatershedLessons.js";
+import { AlbertNaturalRegions } from "./lessonCategories/f-albertaNaturalRegions.js"; // previously named NaturalRegions360Lessons
+import { EnergyLessons } from "./lessonCategories/g-energyLessons.js";
 
 // ======= Aggregated lessons =======
-export const allLessons = [
+const allLessons = [
   ...GlaciersAndWatershedsLessons, // 5 lesssons
   ...AlbertNaturalRegions, // 6 lessons
   ...ClimateLessons, // 3 lessons
@@ -30,3 +30,5 @@ export const allLessons = [
 
   // 36 lessons total
 ];
+
+export { allLessons };

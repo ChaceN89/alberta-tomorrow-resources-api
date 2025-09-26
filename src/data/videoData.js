@@ -19,20 +19,20 @@
  * @created Apr 10, 2025
  * @updated Apr 10, 2025
  */
-import { tutorialVideos } from "./videoCategories/a-tutorialVideos";
-import { understandingTheLandscapeVideos } from "./videoCategories/b-understandingTheLandscapeVideos";
-import { environmentalIndicatorsVideos } from "./videoCategories/c-environmentalIndicatorsVideos";
-import { socioEconomicIndicatorsVideos } from "./videoCategories/d-socio-economicIndicatorsVideos";
-import { indigenousIndicatorsVideos } from "./videoCategories/e-indigenousIndicatorsVideos";
-import { bowRiverWatershed360VideoSeries } from "./videoCategories/f-bowRiverWatershed360VideoSeries";
-import { guardiansOfTheIceVideos } from "./videoCategories/g-guardiansOfTheIceVideoSeries";
-import { stoneyVoicesVideos } from "./videoCategories/h-stoneyVoicesVideos";
-import { blackfootVoicesVideos } from "./videoCategories/i-blackfootVoicesVideos";
-import { pointsOfInterestVideos } from "./videoCategories/j-pointsOfInterest";
-import { otherVideos } from "./videoCategories/z-otherVideos";
+import { tutorialVideos } from "./videoCategories/a-tutorialVideos.js";
+import { understandingTheLandscapeVideos } from "./videoCategories/b-understandingTheLandscapeVideos.js";
+import { environmentalIndicatorsVideos } from "./videoCategories/c-environmentalIndicatorsVideos.js";
+import { socioEconomicIndicatorsVideos } from "./videoCategories/d-socio-economicIndicatorsVideos.js";
+import { indigenousIndicatorsVideos } from "./videoCategories/e-indigenousIndicatorsVideos.js";
+import { bowRiverWatershed360VideoSeries } from "./videoCategories/f-bowRiverWatershed360VideoSeries.js";
+import { guardiansOfTheIceVideos } from "./videoCategories/g-guardiansOfTheIceVideoSeries.js";
+import { stoneyVoicesVideos } from "./videoCategories/h-stoneyVoicesVideos.js";
+import { blackfootVoicesVideos } from "./videoCategories/i-blackfootVoicesVideos.js";
+import { pointsOfInterestVideos } from "./videoCategories/j-pointsOfInterest.js";
+import { otherVideos } from "./videoCategories/z-otherVideos.js";
 
 // ======= Aggregated Videos =======
-export const allVideos = [
+const allVideos = [
   ...tutorialVideos, // 9 videos
   ...understandingTheLandscapeVideos, // 4 videos
 
@@ -55,3 +55,5 @@ export const allVideos = [
 
   // 127 videos total
 ];
+
+export { allVideos };

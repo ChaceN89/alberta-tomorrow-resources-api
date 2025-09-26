@@ -8,7 +8,7 @@
  * @updated Apr 10, 2025
  */
 
-import { VideoCategory, AssociatedTool } from "../videosEnums";
+import { VideoCategory, AssociatedTool } from "../enums/videosEnums.js";
 
 export const tutorialVideos = [
   { // video 1 - Registering for an account

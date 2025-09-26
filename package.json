@@ -2,16 +2,19 @@
   "name": "alberta-tomorrow-resources-api",
   "version": "1.0.0",
   "description": "videos and lesson plans for alberta tomorrow",
-  "main": "app.js",
+  "main": "src/app.js",
+  "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "dev": "node app.js",
+    "start": "node src/app.js",
+    "dev": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   }
 }

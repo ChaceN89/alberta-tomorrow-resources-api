@@ -17,7 +17,7 @@
  * @updated Apr 14, 2025
  */
 
-import {Theme, Grade, Subject, AssociatedTool} from "../lessonPlanEnums";
+import {Theme, Grade, Subject, AssociatedTool} from "../enums/lessonPlanEnums.js";
 
 export const GlaciersAndWatershedsLessons = [
   { // Lesson 1 - Introduction to Glaciers

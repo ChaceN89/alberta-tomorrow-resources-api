@@ -14,7 +14,7 @@
  * @updated Jul 14, 2025
  */
 
-import { Theme, Grade, Subject, AssociatedTool } from "../lessonPlanEnums";
+import { Theme, Grade, Subject, AssociatedTool } from "../enums/lessonPlanEnums.js";
 
 export const EnergyLessons = [
     { // Lesson 1 - Renewable vs Non-Renewable Resources

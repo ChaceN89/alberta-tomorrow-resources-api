@@ -8,7 +8,7 @@
  * @updated Apr 9, 2025
  */
 
-import { VideoCategory, AssociatedTool } from "../videosEnums";
+import { VideoCategory, AssociatedTool } from "../enums/videosEnums.js";
 
 export const blackfootVoicesVideos = [
   { // video 1 - A Blackfoot Perspective on Water

@@ -32,7 +32,7 @@ Constructed Wetlands and Stormwater
  * @created Apr 14, 2025
  * @updated Apr 14, 2025
  */
-import { Theme, Grade, Subject, AssociatedTool } from "../lessonPlanEnums";
+import { Theme, Grade, Subject, AssociatedTool } from "../enums/lessonPlanEnums.js";
 
 export const BowRiverWatershedLessons = [
   { // Lesson 1 - Isotopes and Climate Change

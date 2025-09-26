@@ -7,7 +7,7 @@
  */
 
 
-import { VideoCategory, AssociatedTool } from "../videosEnums";
+import { VideoCategory, AssociatedTool } from "../enums/videosEnums.js";
 
 export const bowRiverWatershed360VideoSeries = [
   { // 1 watershed 360 tour - done

@@ -21,7 +21,7 @@
  * @updated Apr 14, 2025
  */
 
-import { Theme, Grade, Subject, AssociatedTool } from "../lessonPlanEnums";
+import { Theme, Grade, Subject, AssociatedTool } from "../enums/lessonPlanEnums.js";
 
 export const LandUseLessons = [
   { // Lesson 1 - Yesterday, Today, and Tomorrow: Using the Alberta Tomorrow Simulator

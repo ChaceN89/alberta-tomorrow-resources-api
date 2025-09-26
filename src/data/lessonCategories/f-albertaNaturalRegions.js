@@ -21,7 +21,7 @@
  * @updated July 14, 2025
  */
 
-import { Theme, Grade, Subject, AssociatedTool } from "../lessonPlanEnums";
+import { Theme, Grade, Subject, AssociatedTool } from "../enums/lessonPlanEnums.js";
 
 export const AlbertNaturalRegions = [
   { // Lesson 1 - 360 Virtual Field Trips to Alberta's 6 Ecoregions
