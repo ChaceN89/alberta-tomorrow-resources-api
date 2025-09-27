@@ -139,7 +139,10 @@ router.get('/', (req, res) => {
   // Filter by category
   if (category) {
     filteredVideos = filteredVideos.filter(
-      (video) => video.subtype?.toLowerCase() === category.toLowerCase()
+      (video) => {
+        const videoCategory = video.category;
+        return videoCategory?.toLowerCase() === category.toLowerCase();
+      }
     );
     console.log("Filtered by category:", filteredVideos.length);
   }

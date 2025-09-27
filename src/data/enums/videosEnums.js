@@ -8,6 +8,7 @@
  * @updated Apr 1, 2025
  */
 
+// Categories videos can fall under
 export const VideoCategory = {
   TUTORIALS: "Simulator Tutorials",
   LANDSCAPE: "Understanding the Landscape",
@@ -22,6 +23,7 @@ export const VideoCategory = {
   OTHER: "Other Videos",
 };
 
+// Associated tools for videos
 export const AssociatedTool = {
   SIMULATOR: "Land Use Simulator",
   ENERGY_TOMORROW: "Energy Tomorrow",

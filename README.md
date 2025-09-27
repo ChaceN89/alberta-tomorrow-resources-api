@@ -87,37 +87,148 @@ abc-alberta-tomorrow-resources-api/
 | `GET` | `/api/lessons` | Get all lesson plans (with filtering) |
 | `GET` | `/api/lessons/:id` | Get single lesson plan by ID |
 
-## 🔍 Filtering & Query Parameters
+### Statistics & Metadata Endpoints
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/api/stats` | Get comprehensive API statistics |
+| `GET` | `/api/stats/videos` | Get video-only statistics |
+| `GET` | `/api/stats/lessons` | Get lesson-only statistics |
+| `GET` | `/api/stats/filters` | Get all available filter values |
 
-### Video Filters
+## 🔍 Filtering, Pagination & Query Parameters
+
+### 📄 Pagination
+
+All collection endpoints (`/api/videos` and `/api/lessons`) support pagination:
+
 ```bash
-# Filter by category
-GET /api/videos?category=tutorials
+# Basic pagination
+GET /api/videos?page=1&limit=10
+
+# Get all results (bypass pagination)
+GET /api/videos?page=all
+
+# Default pagination (page=1, limit=10)
+GET /api/videos
+```
+
+#### Pagination Parameters
+- **`page`**: Page number (default: 1, or use `"all"` for no pagination)
+- **`limit`**: Items per page (default: 10)
+
+#### Pagination Response Format
+```javascript
+{
+  "data": [/* array of videos/lessons */],
+  "meta": {
+    "currentPage": 1,
+    "totalPages": 13,
+    "totalItems": 128,
+    "itemsPerPage": 10,
+    "hasNextPage": true,
+    "hasPreviousPage": false
+  }
+}
+```
+
+### 🎯 Video Filters
+```bash
+# Filter by category (URL encoded for spaces)
+GET /api/videos?category=Simulator%20Tutorials
 
 # Filter by associated tool
 GET /api/videos?tool=Land%20Use%20Simulator
 
-# Combine filters
-GET /api/videos?category=tutorials&tool=Land%20Use%20Simulator
+# Combine filters with pagination
+GET /api/videos?category=Simulator%20Tutorials&tool=Land%20Use%20Simulator&page=1&limit=5
 ```
 
-### Lesson Plan Filters
+#### Available Video Categories
+- `Simulator Tutorials`
+- `Understanding the Landscape`
+- `Environmental Indicators`
+- `Socio-Economic Indicators`
+- `Indigenous Indicators`
+- `Bow River Watershed 360 Series`
+- `Glacier Series`
+- `Stoney Voices`
+- `Blackfoot Voices`
+- `Points of Interest`
+- `Other Videos`
+
+### 📚 Lesson Plan Filters
 ```bash
 # Filter by theme
 GET /api/lessons?theme=Climate%20Change
 
 # Filter by subject
-GET /api/lessons?subject=science
+GET /api/lessons?subject=Science
 
 # Filter by grade level
-GET /api/lessons?grade=9
+GET /api/lessons?grade=Grade%209
 
 # Filter by associated tool
 GET /api/lessons?tool=Land%20Use%20Simulator
 
-# Combine multiple filters
-GET /api/lessons?theme=Climate%20Change&grade=9&subject=science
+# Combine multiple filters with pagination
+GET /api/lessons?theme=Climate%20Change&grade=Grade%209&subject=Science&page=1&limit=20
 ```
+
+#### Available Lesson Themes
+- `Climate Change`
+- `Glaciers and Watersheds`
+- `Land Use`
+- `Indigenous Voices`
+- `Bow River Watershed`
+- `Alberta's Natural Regions`
+- `Energy`
+
+### 🔍 Discovering Filter Values
+
+Use the stats/filters endpoint to get all available filter values:
+
+```bash
+# Get all available filter options
+GET /api/stats/filters
+```
+
+**Response:**
+```javascript
+{
+  "videos": {
+    "categories": ["Simulator Tutorials", "Understanding the Landscape", ...],
+    "tools": ["Land Use Simulator", "Energy Tomorrow", ...]
+  },
+  "lessons": {
+    "themes": ["Climate Change", "Land Use", ...],
+    "grades": ["Grade 4", "Grade 5", ...],
+    "subjects": ["Science", "Social Studies", ...],
+    "tools": ["Land Use Simulator", "Wildlife Tomorrow", ...]
+  }
+}
+```
+
+### 📊 Statistics Endpoints
+
+```bash
+# Get comprehensive API statistics
+GET /api/stats
+
+# Get video statistics only
+GET /api/stats/videos
+
+# Get lesson statistics only  
+GET /api/stats/lessons
+
+# Get available filter values (shown above)
+GET /api/stats/filters
+```
+
+**Pro Tips:**
+- 🔗 Use `/api/stats/filters` to build dynamic dropdown menus
+- 📄 Use `page=all` when you need all results for data analysis
+- 🎯 Combine filters and pagination for precise data retrieval
+- 🌐 URL encode spaces and special characters (e.g., `%20` for spaces)
 
 ## 📊 Data Structure
 
@@ -130,9 +241,12 @@ GET /api/lessons?theme=Climate%20Change&grade=9&subject=science
   category: "Simulator Tutorials",
   subtype: "tutorials",
   tools: ["Land Use Simulator"],
-  lessonPlans: [],
+  lessonPlans: [
+    { title: "Lesson Plan", link: "link to lesson plan" },
+  ],
   media: {
     url: "https://www.youtube.com/watch?v=...",
+    cloudfrontUrl: "Specific URl for a cloudfront endpoint"
     thumbUrl: "https://d2qcvmovr4fv.cloudfront.net/...",
     is360: false
   },
@@ -215,6 +329,8 @@ npm test     # Run tests (not implemented yet)
 
 - ✅ **RESTful API** with consistent endpoints
 - ✅ **Comprehensive Filtering** by multiple parameters
+- ✅ **Flexible Pagination** with customizable page sizes
+- ✅ **Statistics & Metadata** endpoints for API insights
 - ✅ **Interactive Documentation** with Swagger UI
 - ✅ **CORS Support** for cross-origin requests
 - ✅ **Error Handling** with meaningful responses
@@ -222,6 +338,7 @@ npm test     # Run tests (not implemented yet)
 - ✅ **ES6 Modules** for modern JavaScript
 - ✅ **Type-Safe Enums** for consistency
 - ✅ **Detailed Logging** for debugging
+- ✅ **Developer-Friendly** with filter discovery endpoints
 
 ## 🔧 Configuration
 
@@ -231,28 +348,60 @@ npm test     # Run tests (not implemented yet)
 
 ## 📚 Usage Examples
 
-### Get All Tutorial Videos
+### Get Tutorial Videos with Pagination
 ```bash
-curl "http://localhost:3000/api/videos?category=tutorials"
+# First page of tutorials (default 10 per page)
+curl "http://localhost:3000/api/videos?category=Simulator%20Tutorials"
+
+# Second page with custom page size
+curl "http://localhost:3000/api/videos?category=Simulator%20Tutorials&page=2&limit=5"
+
+# All tutorial videos (bypass pagination)
+curl "http://localhost:3000/api/videos?category=Simulator%20Tutorials&page=all"
 ```
 
 ### Get Climate Change Lessons for Grade 9
 ```bash
-curl "http://localhost:3000/api/lessons?theme=Climate%20Change&grade=9"
+# With pagination
+curl "http://localhost:3000/api/lessons?theme=Climate%20Change&grade=Grade%209"
+
+# Get all matching lessons
+curl "http://localhost:3000/api/lessons?theme=Climate%20Change&grade=Grade%209&page=all"
 ```
 
-### Get Single Video
+### Get Single Resources
 ```bash
+# Single video by ID
 curl "http://localhost:3000/api/videos/tutorial-01a-register-account"
+
+# Single lesson by ID
+curl "http://localhost:3000/api/lessons/climate-01a-going-going-gone"
+```
+
+### Get Statistics and Metadata
+```bash
+# API overview statistics
+curl "http://localhost:3000/api/stats"
+
+# Available filter values for frontend dropdowns
+curl "http://localhost:3000/api/stats/filters"
+
+# Video-only statistics
+curl "http://localhost:3000/api/stats/videos"
 ```
 
 ## 🚀 Best Practices for Developers
 
 1. **Use Swagger UI** (`/api-docs`) for API testing instead of Postman
-2. **Follow naming conventions** when adding new data files
-3. **Use existing enums** rather than hardcoded strings
-4. **Test filters** with multiple parameters to ensure compatibility
-5. **Check console logs** for request tracking and debugging
+2. **Start with `/api/stats/filters`** to discover available filter values
+3. **Use pagination** for better performance (`page=1&limit=10`)
+4. **URL encode parameters** with spaces (e.g., `Grade%209`, `Climate%20Change`)
+5. **Follow naming conventions** when adding new data files
+6. **Use existing enums** rather than hardcoded strings
+7. **Test filters** with multiple parameters to ensure compatibility
+8. **Check console logs** for request tracking and debugging
+9. **Use `page=all`** only when you need all results (e.g., data export)
+10. **Combine stats endpoints** with main endpoints for comprehensive frontends
 
 ## 📋 Data Statistics
 

@@ -8,7 +8,8 @@
  * @updated Apr 1, 2025
  */
 
-export const Theme ={
+// Themes for lesson plans
+export const Theme = {
   GLACIERS_AND_WATERSHEDS: "Glaciers/Watersheds",
   CLIMATE_CHANGE: "Climate Change",
   LAND_USE: "Land Use",
@@ -18,6 +19,7 @@ export const Theme ={
   ENERGY: "Energy",
 }
 
+// Grade levels for lesson plans
 export const Grade = {
   KINDERGARTEN: "Kindergarten",
   GRADE_1: "Grade 1",
@@ -35,6 +37,7 @@ export const Grade = {
   POST_SECONDARY: "Post-Secondary",
 }
 
+// Subjects for lesson plans
 export const Subject = {
   SCIENCE: "Science",
   BIOLOGY: "Biology",
@@ -54,6 +57,7 @@ export const Subject = {
   OTHER: "Other"
 }
 
+// Associated tools for lesson plans
 export const AssociatedTool = {
   SIMULATOR: "Land Use Simulator",
   ENERGY_TOMORROW: "Energy Tomorrow",
