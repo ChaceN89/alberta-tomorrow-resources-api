@@ -45,6 +45,9 @@ console.log('🔍 Swagger spec generated with', Object.keys(swaggerSpec.paths ||
 // Middleware to parse JSON requests
 app.use(express.json());
 
+// Serve static PDF files
+app.use('/pdfs', express.static('src/data/pdfs'));
+
 // Mount route modules
 app.use('/api/videos', videosRouter);
 app.use('/api/lessons', lessonPlansRouter);
