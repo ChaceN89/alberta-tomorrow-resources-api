@@ -1,9 +1,36 @@
+/**
+ * @file app.js
+ * @author Chace Nielson
+ * @created Sep 26, 2025
+ * @updated Dec 3, 2025
+ *
+ * @description
+ * Main Express application for the Alberta Tomorrow Resources API.
+ *
+ * This file sets up the Express server, configures API documentation (Swagger),
+ * mounts all route modules, and provides middleware for error handling and static file serving.
+ *
+ * Key Features:
+ * - Loads environment variables from .env (via dotenv)
+ * - Configures and serves Swagger UI for API documentation
+ * - Serves static PDF files from /pdfs
+ * - Mounts /api/videos, /api/lessons, and /api/stats endpoints
+ * - Provides health check and route listing endpoints
+ * - Handles errors and 404s gracefully
+ * - Starts the server in standalone mode (not in Lambda)
+ *
+ * Usage:
+ * - For local development: run with `npm start` or `npm run dev`
+ * - For AWS Lambda: imported and run by lambda.js
+ */
 import express from 'express';
 import swaggerJsdoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
 import videosRouter from './routes/videos.js';
 import lessonPlansRouter from './routes/lesson-plans.js';
 import statsRouter from './routes/stats.js';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -121,12 +148,15 @@ app.use((req, res) => {
   });
 });
 
-// Start the server
-app.listen(PORT, () => {
-  console.log(`🚀 Alberta Tomorrow Resources API is running on port ${PORT}`);
-  console.log(`📋 Interactive API Documentation: http://localhost:${PORT}/api-docs`);
-  console.log(`📄 API Specification (JSON): http://localhost:${PORT}/api-docs.json`);
-  console.log(`🌐 API Base URL: http://localhost:${PORT}`);
-});
+// Start the server (only if not running in Lambda)
+if (process.env.NODE_ENV !== 'lambda') {
+  app.listen(PORT, () => {
+    console.log(`🚀 Alberta Tomorrow Resources API is running on port ${PORT}`);
+    console.log(`📋 Interactive API Documentation: http://localhost:${PORT}/api-docs`);
+    console.log(`📄 API Specification (JSON): http://localhost:${PORT}/api-docs.json`);
+    console.log(`🌐 API Base URL: http://localhost:${PORT}`);
+    console.log(`\n✨ Use Swagger UI for testing - much better than Postman!`);
+  });
+}
 
 export default app;
