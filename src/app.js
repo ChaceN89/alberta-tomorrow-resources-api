@@ -149,7 +149,7 @@ app.use((req, res) => {
 });
 
 // Start the server (only if not running in Lambda)
-if (process.env.NODE_ENV !== 'lambda') {
+if (process.env.NODE_ENV !== 'lambda') { // Check for Lambda environment automatically skipped due to lambda.js
   app.listen(PORT, () => {
     console.log(`🚀 Alberta Tomorrow Resources API is running on port ${PORT}`);
     console.log(`📋 Interactive API Documentation: http://localhost:${PORT}/api-docs`);
