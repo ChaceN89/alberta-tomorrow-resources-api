@@ -92,7 +92,7 @@ export const IndigenousVoicesLessons = [
       {
         title: "Mapping Indigenous Areas",
         description: "",
-        link: "https://docs.google.com/document/d/1Uyrqu1VyKnJFc7Y_6tZbWeXvMeHkU0zTfktRYppQlYA/edit?tab=t.0g"
+        link: "https://docs.google.com/document/d/1Uyrqu1VyKnJFc7Y_6tZbWeXvMeHkU0zTfktRYppQlYA"
       }
     ],
     grades: [Grade.GRADE_3],

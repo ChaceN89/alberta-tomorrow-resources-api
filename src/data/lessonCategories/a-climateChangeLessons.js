@@ -72,7 +72,21 @@ export const ClimateLessons = [
       {
         title: "Climate Change in Alberta: Using the Alberta Tomorrow Simulator",
         link: "/pdfs/lesson-plans/climateChange/ClimateChangeinAlbertaUsingtheAlbertaTomorrowSimuator.pdf"
-      }
+      },
+      {
+        title: "Climate Change in Alberta: Worksheet",
+        link: "https://docs.google.com/document/d/1j1reZMpUG8hr2aTxRFKGKUIrWKubjc6LBPs9YorcJQQ/"
+      },
+      { 
+        title: "Climate Change in Alberta: Student Worksheet",
+        description: "",
+        link: "https://docs.google.com/presentation/d/1iAiOWchQmyjHwoXPpempjHKD6y0xKxl9_vORNbfE4jw"
+      },
+      { 
+        title: "Energy Resources and Climate Change in Alberta - Presentation Slides",
+        description: "",
+        link: "https://docs.google.com/document/d/1pL06qekV3WdnjSxIFHvFefVdAmgLEgvRCsrqvzzbaPM/"
+      },
     ],
     grades: [
       Grade.GRADE_4, Grade.GRADE_5, Grade.GRADE_6, Grade.GRADE_7, Grade.GRADE_8,
@@ -126,7 +140,7 @@ export const ClimateLessons = [
       },
       {
         title: "Glaciers in Alberta (Google Slides)",
-        link: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg/edit?usp=sharing"
+        link: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
       }
     ],
     grades: [

@@ -216,7 +216,7 @@ export const BowRiverWatershedLessons = [
     files: [
       {
         title: "Hydrology and Land Development - Google Doc",
-        link: "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq/edit"
+        link: "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq"
       }
     ],
     grades: [
@@ -247,7 +247,7 @@ export const BowRiverWatershedLessons = [
     files: [
       {
         title: "Watersheds and Hydrology - Google Doc",
-        link: "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW/edit"
+        link: "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW"
       }
     ],
     grades: [
@@ -278,7 +278,7 @@ export const BowRiverWatershedLessons = [
     files: [
       {
         title: "Hydrology and Climate Change - Google Doc",
-        link: "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4/edit"
+        link: "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4"
       }
     ],
     grades: [

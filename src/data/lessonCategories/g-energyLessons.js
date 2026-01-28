@@ -33,13 +33,13 @@ export const EnergyLessons = [
       {
         title: "Renewable vs Non-Renewable Resources",
         description: "A guided activity that helps students compare renewable and non-renewable energy resources in Alberta and Canada using discussion, research, and the Alberta Tomorrow Simulator.",
-        link: "https://docs.google.com/document/d/1QU_kIWDMITb9Zau0XcB3-e3yTgBzn8W9P2qlM1NaDa8/edit?tab=t.0"
+        link: "https://docs.google.com/document/d/1QU_kIWDMITb9Zau0XcB3-e3yTgBzn8W9P2qlM1NaDa8"
       },
       { 
-        title: "Presentation Slides",
+        title: "Renewable and Non-Renewable Sources of Energy - Presentation Slides",
         description: "A classroom slide deck that introduces renewable and non-renewable energy sources, with visuals and prompts to support discussion and comparison.",
-        link: "https://docs.google.com/presentation/d/1ZeVKUKvxdKaTkf24aXG_xr29TvKWb4hX3bKAFThe-Cg/edit?slide=id.g3ba12546f28_0_0#slide=id.g3ba12546f28_0_0"
-      }
+        link: "https://docs.google.com/presentation/d/1ZeVKUKvxdKaTkf24aXG_xr29TvKWb4hX3bKAFThe-Cg"
+      },
     ],
     grades: [Grade.GRADE_5],
     subjects: [Subject.SCIENCE],
@@ -76,12 +76,17 @@ export const EnergyLessons = [
       {
         title: "Factors Affecting Energy Use",
         description: "",
-        link: "https://docs.google.com/document/d/1K7qSY79jvMX3pRrYz2F2jw5_vhh-6WGzRGSkDMAx6zY/edit?tab=t.0"
+        link: "https://docs.google.com/document/d/1K7qSY79jvMX3pRrYz2F2jw5_vhh-6WGzRGSkDMAx6zY"
       },
       {
         title: "Student Worksheet",
         description: "",
-        link: "https://docs.google.com/document/d/1T3bvL-Gh1cWDfkHCn6PtPiaKzS457F5EHrXWGdnbAe4/edit?tab=t.0"
+        link: "https://docs.google.com/document/d/1T3bvL-Gh1cWDfkHCn6PtPiaKzS457F5EHrXWGdnbAe4"
+      },
+      { 
+        title: "Energy Resources and Climate Change in Alberta - Presentation Slides",
+        description: "",
+        link: "https://docs.google.com/presentation/d/1iAiOWchQmyjHwoXPpempjHKD6y0xKxl9_vORNbfE4jw"
       }
     ],
     grades: [Grade.GRADE_6],
