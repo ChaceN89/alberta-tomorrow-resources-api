@@ -1,3 +1,7 @@
+# terraform files
+*.tfstate
+prod.tfvars
+
 # Dependencies
 node_modules/
 npm-debug.log*

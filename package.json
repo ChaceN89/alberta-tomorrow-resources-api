@@ -2,17 +2,20 @@
   "name": "alberta-tomorrow-resources-api",
   "version": "1.0.0",
   "description": "videos and lesson plans for alberta tomorrow",
-  "main": "src/app.js",
+  "main": "lambda.js",
   "type": "module",
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
+    "lambda": "NODE_ENV=lambda node lambda.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vendia/serverless-express": "^4.12.6",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"

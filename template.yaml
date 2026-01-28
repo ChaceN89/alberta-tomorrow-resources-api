@@ -1,0 +1,53 @@
+# ----------------------------------------------------------------------------
+# template.yaml
+#
+# AWS SAM (Serverless Application Model) template for deploying the
+# Alberta Tomorrow Resources API as a serverless application on AWS Lambda.
+#
+# This file defines the AWS resources needed for deployment, including:
+#   - A Lambda function that runs the Express API using @vendia/serverless-express
+#   - API Gateway configuration to expose the Lambda as a REST API
+#   - Global settings for runtime, timeout, and environment variables
+#   - Output for the deployed API Gateway endpoint URL
+#
+# Usage:
+#   - Deploy with AWS SAM CLI (`sam deploy`) or AWS CloudFormation
+#   - Do not modify handler or runtime unless your entry point or Node.js version changes
+#   - For local development, use src/app.js directly
+# ------------------------------------------------------------------------------
+
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Alberta Tomorrow Resources API
+
+Globals:
+  Function:
+    Timeout: 30
+    Runtime: nodejs18.x
+    Environment:
+      Variables:
+        NODE_ENV: lambda
+
+Resources:
+  AlbertaTomorrowApi:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./
+      Handler: lambda.handler
+      Runtime: nodejs18.x
+      Events:
+        ApiEvent:
+          Type: Api
+          Properties:
+            Path: /{proxy+}
+            Method: ANY
+        RootEvent:
+          Type: Api
+          Properties:
+            Path: /
+            Method: ANY
+
+Outputs:
+  ApiUrl:
+    Description: "API Gateway endpoint URL"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"

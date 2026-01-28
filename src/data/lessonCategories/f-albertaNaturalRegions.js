@@ -55,12 +55,12 @@ export const AlbertNaturalRegions = [
       {
         title: "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
         description: "",
-        link: "https://docs.google.com/presentation/d/1cqF8G4yz8O23Jg65PTvcoe-juJLizHjjP8vPkZY1H4k/edit?usp=sharing"
+        link: "https://docs.google.com/presentation/d/1cqF8G4yz8O23Jg65PTvcoe-juJLizHjjP8vPkZY1H4k"
       },
       {
         title: "Scavenger Hunt Sheet - Fillable Google Slides",
         description: "",
-        link: "https://docs.google.com/presentation/d/1iGXFpDscj18TBWM_f03jUxc7rGtzPWRxn6Yxvrn-Pfs/edit#slide=id.p"
+        link: "https://docs.google.com/presentation/d/1iGXFpDscj18TBWM_f03jUxc7rGtzPWRxn6Yxvrn-Pfs"
       }
     ],
     grades: [
@@ -118,7 +118,7 @@ export const AlbertNaturalRegions = [
       {
         title: "Animal Adaptations Student Worksheet - Fillable Google Slides",
         description: "",
-        link: "https://docs.google.com/presentation/d/1BcHISVOfng7MYn0MFUiFrYbpL9XYm8x-lCDFQvLPmEY/edit#slide=id.p"
+        link: "https://docs.google.com/presentation/d/1BcHISVOfng7MYn0MFUiFrYbpL9XYm8x-lCDFQvLPmEY"
       }
     ],
     grades: [Grade.GRADE_3],
@@ -155,7 +155,7 @@ export const AlbertNaturalRegions = [
       {
         title: "Grade 9 Plant and Animal Adaptations Student Worksheet - Fillable Google Slides",
         description: "",
-        link: "https://docs.google.com/presentation/d/1b_EosZ3fXr638ZeakaiqvjUYDMXGrXiwV7Yw3o04w8E/edit#slide=id.p"
+        link: "https://docs.google.com/presentation/d/1b_EosZ3fXr638ZeakaiqvjUYDMXGrXiwV7Yw3o04w8E"
       }
     ],
     grades: [Grade.GRADE_9],
@@ -191,12 +191,12 @@ export const AlbertNaturalRegions = [
       {
         title: "Alberta’s Natural Resources",
         description: "",
-        link: "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg/edit?tab=t.0"
+        link: "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg"
       },
       {
         title: "Student Worksheet",
         description: "",
-        link: "https://docs.google.com/document/d/11p5vAYKphMkiPaqH_4zJ49AFQKH_WEhSB5yVTxKjAAw/edit?tab=t.0"
+        link: "https://docs.google.com/document/d/11p5vAYKphMkiPaqH_4zJ49AFQKH_WEhSB5yVTxKjAAw"
       }
 
     ],
@@ -238,7 +238,7 @@ export const AlbertNaturalRegions = [
     files: [
       {
         title: "Alberta’s Natural Regions",
-        link: "https://docs.google.com/document/d/1FPPfuy7iwOp9QC0pyLNjI1ujvS1EW0JU3YV4qZO9MeE/edit?tab=t.0"
+        link: "https://docs.google.com/document/d/1FPPfuy7iwOp9QC0pyLNjI1ujvS1EW0JU3YV4qZO9MeE"
       }
     ],
     grades: [Grade.GRADE_4],
@@ -274,9 +274,14 @@ export const AlbertNaturalRegions = [
     approximateTime: "2–3 x 45 min classes",
     files: [
       {
-        title: "Alberta's Ecosystem Diversity ",
+        title: "Alberta’s Ecosystems Scavenger Hunt",
         description: "",
-        link: "https://docs.google.com/document/d/1zFJMnLFr8H2mBVgnX_52c2l6XonAQ32PC6FH_O_VT90/edit?tab=t.0" 
+        link: "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE" 
+      },
+      {
+        title: "Ecosystems in Alberta",
+        description: "",
+        link: "https://docs.google.com/document/d/1yQJJ48YHAhWmoKr_TTpnmW4heDOxD31sXAv5ktS8izE" 
       }
     ],
     grades: [Grade.GRADE_6],
