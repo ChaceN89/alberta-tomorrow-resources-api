@@ -12,8 +12,8 @@
  * - 360 Virtual Field Trips to Alberta's 6 Ecoregions
  * - Animal Adaptations - Using the 360 Virtual Field Trips
  * - Plant and Animal Adaptations - Using the 360 Virtual Field Trips
- * - Alberta’s Natural Resources
- * - Alberta’s Natural Regions
+ * - Alberta's Natural Resources
+ * - Alberta's Natural Regions
  * - Alberta's Ecosystem Diversity
  *
  * @author Chace Nielson
@@ -93,7 +93,7 @@ export const AlbertNaturalRegions = [
       "Students will identify species and risk in each ecoregion"
     ],
     videos: [
-      "oth-03z-intro-360-virtual-field-trips"  // "Introducing Alberta Tomorrow’s 360 Virtual Field Trips"
+      "oth-03z-intro-360-virtual-field-trips"  // "Introducing Alberta Tomorrow's 360 Virtual Field Trips"
     ],
     relatedUrls: []
   },
@@ -130,7 +130,7 @@ export const AlbertNaturalRegions = [
       "Students will learn how animals are adapted to life in each of the 6 natural regions of Alberta"
     ],
     videos: [
-      "oth-03z-intro-360-virtual-field-trips"  // "Introducing Alberta Tomorrow’s 360 Virtual Field Trips"
+      "oth-03z-intro-360-virtual-field-trips"  // "Introducing Alberta Tomorrow's 360 Virtual Field Trips"
     ],
     relatedUrls: []
   },
@@ -171,13 +171,13 @@ export const AlbertNaturalRegions = [
       "Students will identify species at risk in each region"
     ],
     videos: [
-      "oth-03z-intro-360-virtual-field-trips"  // "Introducing Alberta Tomorrow’s 360 Virtual Field Trips"
+      "oth-03z-intro-360-virtual-field-trips"  // "Introducing Alberta Tomorrow's 360 Virtual Field Trips"
     ],
     relatedUrls: []
   },
   { //Lesson 4 Alberta Natural Resoucres
     id: "abRegions-04-natural-resources",
-    title: "Alberta’s Natural Resources",
+    title: "Alberta's Natural Resources",
     provider: {
       name: "Alberta Tomorrow",
       link: "https://www.albertatomorrow.ca"
@@ -189,7 +189,7 @@ export const AlbertNaturalRegions = [
     approximateTime: "3 x 45 min classes",
     files: [
       {
-        title: "Alberta’s Natural Resources",
+        title: "Alberta's Natural Resources",
         description: "",
         link: "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg"
       },
@@ -225,7 +225,7 @@ export const AlbertNaturalRegions = [
   },
   {// Lesson 5 - Alberta's Natural Regions
     id: "abRegions-05-alberta-natural-regions",
-    title: "Alberta’s Natural Regions",
+    title: "Alberta's Natural Regions",
     provider: {
       name: "Alberta Tomorrow",
       link: "https://www.albertatomorrow.ca"
@@ -233,15 +233,15 @@ export const AlbertNaturalRegions = [
     theme: Theme.AB_NATURAL_REGIONS,
     tools: [AssociatedTool.SIMULATOR],
     description:
-      "In this activity, students will research and construct maps of Alberta’s Natural Regions.",
+      "In this activity, students will research and construct maps of Alberta's Natural Regions.",
     approximateTime: "3 x 45 min classes",
     files: [
       {
-        title: "Alberta’s Natural Regions",
+        title: "Alberta's Natural Regions",
         link: "https://docs.google.com/document/d/1FPPfuy7iwOp9QC0pyLNjI1ujvS1EW0JU3YV4qZO9MeE"
       }
     ],
-    grades: [Grade.GRADE_4],
+    grades: [Grade.GRADE_3],
     subjects: [Subject.SOCIAL_STUDIES],
     tags: [
       "Natural Regions", "landforms", "vegetation", "bodies of water", "climate",
@@ -249,10 +249,10 @@ export const AlbertNaturalRegions = [
       "environment", "Alberta landscapes", "regional diversity"
     ],
     learningOutcomes: [
-      "Distinguish between Alberta’s natural regions based on physical geography",
+      "Distinguish between Alberta's natural regions based on physical geography",
       "Describe key natural features such as landforms, vegetation, and climate",
       "Identify the relationship between natural resources and regional geography",
-      "Construct and annotate maps showing Alberta’s physical regions"
+      "Construct and annotate maps showing Alberta's physical regions"
     ],
     videos: [
       "env-01c-natural-landscapes",
@@ -270,11 +270,11 @@ export const AlbertNaturalRegions = [
     theme: Theme.AB_NATURAL_REGIONS,
     tools: [AssociatedTool.SIMULATOR],
     description:
-      "In this activity, students explore Alberta’s ecosystems using 360 Virtual Tours to identify and compare abiotic and biotic components. They will analyze how ecosystem characteristics influence plant and animal diversity.",
+      "In this activity, students explore Alberta's ecosystems using 360 Virtual Tours to identify and compare abiotic and biotic components. They will analyze how ecosystem characteristics influence plant and animal diversity.",
     approximateTime: "2–3 x 45 min classes",
     files: [
       {
-        title: "Alberta’s Ecosystems Scavenger Hunt",
+        title: "Alberta's Ecosystems Scavenger Hunt",
         description: "",
         link: "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE" 
       },

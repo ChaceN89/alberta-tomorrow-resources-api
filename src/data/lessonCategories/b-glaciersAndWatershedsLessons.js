@@ -98,7 +98,7 @@ export const GlaciersAndWatershedsLessons = [
     learningOutcomes: [
       "identify glacier location in Alberta",
       "observe change in the glaciers over time",
-      "Investigate how climate change is affecting the Alberta’s Glaciers",
+      "Investigate how climate change is affecting the Alberta's Glaciers",
       "be challenged to develop an action plan of how they can help prevent further loss of the glaciers"
     ],
     videos: [

@@ -64,7 +64,7 @@ export const LandUseLessons = [
     theme: Theme.LAND_USE,
     tools: [AssociatedTool.SIMULATOR],
     description:
-      "Students use the Alberta Tomorrow simulator to create a land use plan for Alberta’s future.",
+      "Students use the Alberta Tomorrow simulator to create a land use plan for Alberta's future.",
     approximateTime: "90 min",
     files: [
       {
@@ -83,7 +83,7 @@ export const LandUseLessons = [
     tags: [
       "land use", "future planning", "economy", "ecosystem services"
     ],
-    learningOutcomes: ["Create a landuse plan for Alberta’s future"],
+    learningOutcomes: ["Create a landuse plan for Alberta's future"],
     videos: [],
     relatedUrls: [
       {

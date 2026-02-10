@@ -199,7 +199,7 @@ export const bowRiverWatershed360VideoSeries = [
     id: "brbc-08f-water-quality",
     title: "Water Quality",
     description: 
-      "Join Patrick Van den Eynden as he talks about the City of Calgary’s Glenmore Water Treatment Plant’s process from getting the water from the reservoir, all the way to disinfection and sending the water out to service sites across the city.",
+      "Join Patrick Van den Eynden as he talks about the City of Calgary's Glenmore Water Treatment Plant's process from getting the water from the reservoir, all the way to disinfection and sending the water out to service sites across the city.",
     coordinates: [-114.098440, 51.002496],
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],
@@ -218,7 +218,7 @@ export const bowRiverWatershed360VideoSeries = [
     id: "brbc-09f-water-services",
     title: "Water Services",
     description: 
-      "Explore some of the Glenmore dam and reservoir as Patrick Van den Eynden talks about its history, infrastructure, services, and the City’s water drinking system.",
+      "Explore some of the Glenmore dam and reservoir as Patrick Van den Eynden talks about its history, infrastructure, services, and the City's water drinking system.",
     coordinates: [-114.097184, 50.999912],
     category: VideoCategory.BOW_RIVER_360,
     tools: [AssociatedTool.SIMULATOR],

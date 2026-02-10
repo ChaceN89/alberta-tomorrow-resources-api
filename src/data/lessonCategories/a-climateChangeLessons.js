@@ -106,8 +106,8 @@ export const ClimateLessons = [
       "fish health", "future", "land use planning", "historical change", "industrial activity"
     ],
     learningOutcomes: [
-      "Investigate the impact of climate change on Alberta’s precipitation, climate",
-      "Investigate the impact of climate change on Alberta’s natural regions",
+      "Investigate the impact of climate change on Alberta's precipitation, climate",
+      "Investigate the impact of climate change on Alberta's natural regions",
       "Investigate the impact of climate change on our environment and economy"
     ],
     videos: [
@@ -131,7 +131,7 @@ export const ClimateLessons = [
     approximateTime: "180 min",
     files: [
       {
-        title: "Water Quality, Climate Change and Alberta’s Glaciers",
+        title: "Water Quality, Climate Change and Alberta's Glaciers",
         link: "/pdfs/lesson-plans/climateChange/WaterQualityClimateChangeandAlbertasGlaciers.pdf"
       },
       {
@@ -158,10 +158,10 @@ export const ClimateLessons = [
       "learn about water quality in Alberta",
       "identify what watershed you live within",
       "understand basic glacier terminology",
-      "describe the effect of climate change on Alberta’s glaciers",
+      "describe the effect of climate change on Alberta's glaciers",
       "be introduced to the impact of forest fires on glaciers",
       "become aware of the importance of water policy in dealing with the effects of climate change",
-      "consider the impact of our activities on climate change and Alberta’s glaciers"
+      "consider the impact of our activities on climate change and Alberta's glaciers"
     ],
     videos: [
       "landscape-04b-glaciers-webinar" ///Water Quality, Climate Change and Alberta's Glaciers Webinar

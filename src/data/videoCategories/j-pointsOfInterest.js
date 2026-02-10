@@ -171,7 +171,7 @@ export const pointsOfInterestVideos = [
     id: "poi-09j-finding-water-healthy-land-stream",
     title: "Finding Water: Healthy Land, Healthy Stream",
     description: 
-      "A documentary video on the sources of Canada’s prairie rivers and their vulnerability to land use.",
+      "A documentary video on the sources of Canada's prairie rivers and their vulnerability to land use.",
     coordinates: [-114.359536, 49.865747],
     lessonPlans: [], 
     category: VideoCategory.POINTS_OF_INTEREST,
