@@ -31,7 +31,7 @@ export const EnergyLessons = [
     approximateTime: "3 x 45 min classes",
     files: [
       {
-        title: "Renewable vs Non-Renewable Resources",
+        title: "Renewable vs Non-Renewable Resources - Lesson Plan",
         description: "A guided activity that helps students compare renewable and non-renewable energy resources in Alberta and Canada using discussion, research, and the Alberta Tomorrow Simulator.",
         link: "https://docs.google.com/document/d/1QU_kIWDMITb9Zau0XcB3-e3yTgBzn8W9P2qlM1NaDa8"
       },

@@ -61,7 +61,7 @@ export const ClimateLessons = [
   },
   { // Lesson 2 - Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios
     id: "climate-02a-scenarios",
-    title: "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios",
+    title: "Climate Change in Alberta",
     provider: { name: "Alberta Tomorrow", link: "https://www.albertatomorrow.ca" },
     theme: Theme.CLIMATE_CHANGE,
     tools: [AssociatedTool.SIMULATOR],
@@ -70,22 +70,27 @@ export const ClimateLessons = [
     approximateTime: "",
     files: [
       {
-        title: "Climate Change in Alberta: Using the Alberta Tomorrow Simulator",
+        title: "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios: Lesson Plan",
         link: "/pdfs/lesson-plans/climateChange/ClimateChangeinAlbertaUsingtheAlbertaTomorrowSimuator.pdf"
       },
       {
-        title: "Climate Change in Alberta: Worksheet",
+        title: "Science 6 Climate Change in Alberta - Lesson Plan",
         link: "https://docs.google.com/document/d/1j1reZMpUG8hr2aTxRFKGKUIrWKubjc6LBPs9YorcJQQ/"
       },
       { 
-        title: "Climate Change in Alberta: Student Worksheet",
+        title: "Climate Change in Alberta - Student Worksheet",
         description: "",
         link: "https://docs.google.com/presentation/d/1iAiOWchQmyjHwoXPpempjHKD6y0xKxl9_vORNbfE4jw"
       },
       { 
-        title: "Energy Resources and Climate Change in Alberta - Presentation Slides",
+        title: "Energy Resources and Climate Change in Alberta - Student Worksheet",
         description: "",
         link: "https://docs.google.com/document/d/1pL06qekV3WdnjSxIFHvFefVdAmgLEgvRCsrqvzzbaPM/"
+      },
+      { 
+        title: "Climate Change:  Truth and Misconceptions - Presentation Slides",
+        description: "",
+        link: "https://docs.google.com/presentation/d/1k56_dQvhzLsiWqFujAotFC8Ifl4HSmXaBM3Oc_JY4YA/edit?pli=1&slide=id.g3d0207c412d_0_0#slide=id.g3d0207c412d_0_0"
       },
     ],
     grades: [
@@ -113,12 +118,7 @@ export const ClimateLessons = [
     videos: [
       "landscape-01b-climate-change", // Climate Change
     ],
-    relatedUrls: [
-      {
-        title: "Climate Change in Alberta",
-        link: "https://www.alberta.ca/climate-change-alberta.aspx"
-      }
-    ]
+    relatedUrls: [] // no related links
   },
   { // Lesson 3 - Water Quality, Climate Change and Alberta's Glaciers
     id: "climate-03a-water-quality-glaciers",
