@@ -33,27 +33,27 @@ import { otherVideos } from "./videoCategories/z-otherVideos.js";
 
 // ======= Aggregated Videos =======
 const allVideos = [
-  ...tutorialVideos, // 9 videos
-  ...understandingTheLandscapeVideos, // 4 videos
+    ...tutorialVideos, // 9 videos
+    ...understandingTheLandscapeVideos, // 4 videos
 
-  // indcators videos
-  ...environmentalIndicatorsVideos, // 6 videos
-  ...socioEconomicIndicatorsVideos, // 6 videos
-  ...indigenousIndicatorsVideos, // 6 videos
+    // indcators videos
+    ...environmentalIndicatorsVideos, // 6 videos
+    ...socioEconomicIndicatorsVideos, // 6 videos
+    ...indigenousIndicatorsVideos, // 6 videos
 
-  ...bowRiverWatershed360VideoSeries, //12 videos
+    ...bowRiverWatershed360VideoSeries, //12 videos
 
-  ...guardiansOfTheIceVideos, // 44 videos
- 
-  // Indigenous Voices
-  ...stoneyVoicesVideos, // 28 videos
-  ...blackfootVoicesVideos, // 1 video
+    ...guardiansOfTheIceVideos, // 44 videos
 
-  ...pointsOfInterestVideos, // 9 videos
+    // Indigenous Voices
+    ...stoneyVoicesVideos, // 28 videos
+    ...blackfootVoicesVideos, // 1 video
 
-  ...otherVideos, // 2 videos
+    ...pointsOfInterestVideos, // 9 videos
 
-  // 127 videos total
+    ...otherVideos, // 2 videos
+
+    // 127 videos total
 ];
 
 export { allVideos };
