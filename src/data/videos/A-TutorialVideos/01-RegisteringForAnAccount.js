@@ -6,9 +6,52 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 30, 2026
+ *
+ * @dependencies
+ * - videoCategoryIds.js
+ *
+ * @notes
+ * - The ID is a stable API value and should not be changed.
+ * - French localization is currently awaiting translation.
+ * - The current media URL is shared between locales.
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 
 export const registeringForAnAccountVideo = {
+  id: "tutorial-01a-register-account",
+
+  categoryId: VideoCategory.TUTORIALS.id,
+
+  title: {
+    en: "User Tutorial: Registering for an Account",
+    fr: ""
+  },
+
+  description: {
+    en: "Watch this tutorial to see how to register for a Public, Teacher or Student Account.",
+    fr: ""
+  },
+
+  media: {
+    type: "youtube",
+    url: "https://www.youtube.com/watch?v=5Qi8v-Y3iXM",
+    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialRegisterAccount.jpg",
+    is360: false
+  },
+
+  searchTerms: {
+    en: [
+      "account",
+      "registration",
+      "user guide",
+      "education",
+      "public account",
+      "teacher account",
+      "student account"
+    ],
+
+    fr: []
+  },
+
 };

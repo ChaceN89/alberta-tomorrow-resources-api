@@ -1,0 +1,170 @@
+[
+  {
+    "id": "climate-01a-going-going-gone",
+    "themeId": "climate-change",
+    "title": {
+      "en": "Going Going Going Gone: Climate Change and the Columbia Icefield",
+      "fr": "N/A"
+    },
+    "description": {
+      "en": "Students will explore how climate change has affected Alberta's glaciers and do some calculations to determine the loss of ice on the Athabasca Glacier.",
+      "fr": "N/A"
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "N/A"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Going Going Going Gone",
+          "description": "N/A",
+          "url": "/pdfs/lesson-plans/climateChange/GoingGoingGoingGone.pdf"
+        }
+      ],
+      "fr": []
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-5",
+      "grade-7",
+      "grade-8",
+      "grade-10",
+      "grade-11"
+    ],
+    "subjectIds": [
+      "social-studies",
+      "science",
+      "biology",
+      "cts"
+    ],
+    "searchTerms": {
+      "en": [
+        "glaciers",
+        "climate change",
+        "math",
+        "ice loss",
+        "calculations",
+        "water",
+        "Energy Flow in Global Systems",
+        "Environmental Stewardship",
+        "Physical Geography of Canada"
+      ],
+      "fr": []
+    },
+    "learningOutcomes": {
+      "en": [
+        "Understand seasonal variation in glacier mass",
+        "Understand the effect of climate change on glacier mass",
+        "Calculate loss of glacier ice on the Athabasca Glacier over the next 10 years",
+        "Determine the loss of ice volume in Rocky Mountain glaciers"
+      ],
+      "fr": []
+    },
+    "videoIds": [
+      "env-06c-greenhouse-gasses",
+      "landscape-01b-climate-change",
+      "goi-35g-why-are-alberta-glaciers-important",
+      "goi-22g-forest-fires-and-glaciers",
+      "oth-01z-oxygen-isotopes"
+    ],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "glaciers-02b-love-it-or-lose-it",
+    "themeId": "glaciers-and-watersheds",
+    "title": {
+      "en": "Love It or Lose It: Alberta Glacier Edition",
+      "fr": "N/A"
+    },
+    "description": {
+      "en": "Students investigate the location of glaciers in Alberta and observe how they have changed over time. Students learn about how climate change is affecting our glaciers and come up with an action plan to help prevent the further loss of our glaciers.",
+      "fr": "N/A"
+    },
+    "approximateTime": {
+      "en": "30 min plus project time",
+      "fr": "N/A"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Love It or Lose It: Alberta Glacier Edition",
+          "description": "N/A",
+          "url": "/pdfs/lesson-plans/glaciersAndWatersheds/Love_it_or_Lose_it__Alberta_Glacier_Edition.pdf"
+        }
+      ],
+      "fr": []
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-5",
+      "grade-7",
+      "grade-8",
+      "grade-10",
+      "grade-11"
+    ],
+    "subjectIds": [
+      "social-studies",
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "A Sense of the Land",
+        "Physical Geography of Canada",
+        "Wetland Ecosystems",
+        "Interactions and Ecosystems",
+        "Freshwater and Saltwater Systems",
+        "Energy Flow in Global Systems",
+        "Energy and Matter Exchange",
+        "Grade 10 Science",
+        "Biology 20",
+        "glaciers",
+        "climate change",
+        "action plan",
+        "personal actions",
+        "glacier loss"
+      ],
+      "fr": []
+    },
+    "learningOutcomes": {
+      "en": [
+        "Identify glacier locations in Alberta",
+        "Observe changes in glaciers over time",
+        "Investigate how climate change is affecting Alberta's glaciers",
+        "Develop an action plan to help prevent further loss of glaciers"
+      ],
+      "fr": []
+    },
+    "videoIds": [
+      "goi-43g-every-year-its-further-to-get-to-work",
+      "goi-14g-where-will-the-glacier-be-in-30-years",
+      "goi-24g-growth-and-attrition",
+      "goi-13g-where-was-the-glacier-in-1982",
+      "goi-12g-where-was-the-athabasca-glacier-in-2006",
+      "goi-19g-why-should-we-protect-glaciers",
+      "goi-01g-are-people-affecting-the-glaciers",
+      "goi-33g-what-can-we-do-to-protect-alberta"
+    ],
+    "relatedResources": {
+      "en": [
+        {
+          "id": "mountain-legacy-project",
+          "title": "Mountain Legacy Project",
+          "url": "http://mountainlegacy.ca/"
+        },
+        {
+          "id": "guardians-of-the-ice",
+          "title": "Guardians of the Ice",
+          "url": "https://guardiansoftheice.com/the-columbia-icefield/"
+        }
+      ],
+      "fr": []
+    }
+  }
+]

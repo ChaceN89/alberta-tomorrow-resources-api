@@ -1,0 +1,68 @@
+[
+  {
+    "id": "tutorial-01a-register-account",
+    "categoryId": "simulator-tutorials",
+    "title": {
+      "en": "User Tutorial: Registering for an Account",
+      "fr": "N/A"
+    },
+    "description": {
+      "en": "Watch this tutorial to see how to register for a Public, Teacher or Student Account.",
+      "fr": "N/A"
+    },
+    "media": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=5Qi8v-Y3iXM",
+      "cloudFrontUrl": "N/A",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialRegisterAccount.jpg",
+      "is360": false
+    },
+    "searchTerms": {
+      "en": [
+        "account",
+        "registration",
+        "user guide",
+        "education",
+        "public account",
+        "teacher account",
+        "student account"
+      ],
+      "fr": []
+    },
+    "lessonPlanIds": []
+  },
+  {
+    "id": "landscape-02b-management-practices",
+    "categoryId": "understanding-the-landscape",
+    "title": {
+      "en": "Beneficial Management Practices",
+      "fr": "N/A"
+    },
+    "description": {
+      "en": "What are Beneficial Management Practices and how do they affect the future of Alberta? Find out what large companies, farmers, and individuals can do to minimize their effects on the environment.",
+      "fr": "N/A"
+    },
+    "media": {
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=WBKwcDIqJ0U",
+      "cloudFrontUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/883ad936d3e74ad29f7aebfa3ae56dc2/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/a3db110f-8d4b-4190-b512-a84cf1472eb5/thumbnails/Management Practices_H264_tumb.0000039.jpg",
+      "is360": false
+    },
+    "searchTerms": {
+      "en": [
+        "beneficial management practices",
+        "management",
+        "land use",
+        "sustainability",
+        "industry",
+        "agriculture",
+        "farmers",
+        "environment",
+        "future of Alberta"
+      ],
+      "fr": []
+    },
+    "lessonPlanIds": []
+  }
+]
