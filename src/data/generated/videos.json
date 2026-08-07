@@ -388,7 +388,8 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-01a-going-going-gone"
+      "climate-01a-going-going-gone",
+      "climate-02a-scenarios"
     ]
   },
   {
@@ -519,7 +520,9 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "climate-03a-water-quality-glaciers"
+    ]
   },
   {
     "id": "env-01c-natural-landscapes",
@@ -555,7 +558,12 @@
         "ecoregions alberta"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-05c-did-we-do-that",
+      "landuse-06c-did-i-do-that"
+    ]
   },
   {
     "id": "env-02c-caribou-habitat",
@@ -597,7 +605,12 @@
         "faune alberta"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-05c-did-we-do-that",
+      "landuse-06c-did-i-do-that"
+    ]
   },
   {
     "id": "env-03c-grizzly-habitat",
@@ -637,7 +650,12 @@
         "espece menacee"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-05c-did-we-do-that",
+      "landuse-06c-did-i-do-that"
+    ]
   },
   {
     "id": "env-04c-fish-habitat",
@@ -677,7 +695,12 @@
         "truite indigene"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-05c-did-we-do-that",
+      "landuse-06c-did-i-do-that"
+    ]
   },
   {
     "id": "env-05c-water-quality",
@@ -715,7 +738,13 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics",
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-05c-did-we-do-that",
+      "landuse-06c-did-i-do-that"
+    ]
   },
   {
     "id": "env-06c-greenhouse-gasses",
@@ -764,7 +793,11 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-01a-going-going-gone"
+      "climate-01a-going-going-gone",
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-05c-did-we-do-that",
+      "landuse-06c-did-i-do-that"
     ]
   },
   {
@@ -803,7 +836,12 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-05c-did-we-do-that",
+      "landuse-06c-did-i-do-that"
+    ]
   },
   {
     "id": "soc-02d-gdp",
@@ -839,7 +877,12 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-05c-did-we-do-that",
+      "landuse-06c-did-i-do-that"
+    ]
   },
   {
     "id": "soc-03d-hydrocarbon-production",
@@ -877,7 +920,12 @@
         "economie alberta"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-05c-did-we-do-that",
+      "landuse-06c-did-i-do-that"
+    ]
   },
   {
     "id": "soc-04d-timber-production",
@@ -915,7 +963,12 @@
         "economie alberta"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-05c-did-we-do-that",
+      "landuse-06c-did-i-do-that"
+    ]
   },
   {
     "id": "soc-05d-agriculture-production",
@@ -953,7 +1006,12 @@
         "economie alberta"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-05c-did-we-do-that",
+      "landuse-06c-did-i-do-that"
+    ]
   },
   {
     "id": "soc-06d-water-consumption",
@@ -991,7 +1049,13 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics",
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-05c-did-we-do-that",
+      "landuse-06c-did-i-do-that"
+    ]
   },
   {
     "id": "ind-01e-tlu-access",
@@ -1647,6 +1711,7 @@
       ]
     },
     "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers",
       "glaciers-02b-love-it-or-lose-it"
     ]
   },
@@ -1694,7 +1759,9 @@
         "bleu"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-03g-glaciers-move",
@@ -1786,7 +1853,9 @@
         "ici"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-05g-how-do-forest-fires-affect-glaciers",
@@ -1832,7 +1901,9 @@
         "fonte"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-04b-follow-the-flow"
+    ]
   },
   {
     "id": "goi-06g-is-it-important-glaciers-are-in-the-national-park",
@@ -1923,7 +1994,9 @@
         "sur"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-08g-striations-on-the-rocks",
@@ -1960,7 +2033,9 @@
         "glaciaires"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-09g-what-is-a-moraine",
@@ -1999,7 +2074,9 @@
         "pas"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-10g-where-do-glaciers-form",
@@ -2044,7 +2121,9 @@
         "bas"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-11g-where-does-water-from-the-snowdome",
@@ -2090,7 +2169,9 @@
         "intermediaire"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-04b-follow-the-flow"
+    ]
   },
   {
     "id": "goi-12g-where-was-the-athabasca-glacier-in-2006",
@@ -2307,7 +2388,9 @@
         "sol"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-17g-how-much-glacial-ice-are-we-losing",
@@ -2433,6 +2516,7 @@
       ]
     },
     "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers",
       "glaciers-02b-love-it-or-lose-it"
     ]
   },
@@ -2472,7 +2556,9 @@
         "athabasca"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-21g-endocrine-disruptors",
@@ -2518,7 +2604,9 @@
         "cela"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics"
+    ]
   },
   {
     "id": "goi-22g-forest-fires-and-glaciers",
@@ -2651,6 +2739,7 @@
       ]
     },
     "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers",
       "glaciers-02b-love-it-or-lose-it"
     ]
   },
@@ -2738,7 +2827,10 @@
         "chimiques"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics",
+      "glaciers-04b-follow-the-flow"
+    ]
   },
   {
     "id": "goi-27g-ion-chromatrography",
@@ -2776,7 +2868,9 @@
         "ionique"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics"
+    ]
   },
   {
     "id": "goi-28g-measuring-isotopes",
@@ -2822,7 +2916,9 @@
         "oxygene"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics"
+    ]
   },
   {
     "id": "goi-29g-persistent-chemicals-in-alberta",
@@ -2868,7 +2964,9 @@
         "degrade"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-04b-follow-the-flow"
+    ]
   },
   {
     "id": "goi-30g-what-is-the-picarro-machine",
@@ -2912,7 +3010,9 @@
         "oxygene"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics"
+    ]
   },
   {
     "id": "goi-31g-sea-level-rise",
@@ -3000,7 +3100,9 @@
         "continent"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-04b-follow-the-flow"
+    ]
   },
   {
     "id": "goi-33g-what-can-we-do-to-protect-alberta",
@@ -3434,7 +3536,9 @@
         "athabasca"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-43g-every-year-its-further-to-get-to-work",
@@ -5209,7 +5313,8 @@
       ]
     },
     "lessonPlanIds": [
-      "climate-01a-going-going-gone"
+      "climate-01a-going-going-gone",
+      "glaciers-03b-ice-core-basics"
     ]
   },
   {

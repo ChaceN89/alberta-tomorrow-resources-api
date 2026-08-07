@@ -5,7 +5,7 @@
  *
  * @author Chace Nielson
  * @created Jul 30, 2026
- * @updated Jul 30, 2026
+ * @updated Aug 07, 2026
  *
  * @dependencies
  * - LessonThemeIds.js
@@ -28,43 +28,75 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
 
   title: {
     en: "Love It or Lose It: Alberta Glacier Edition",
-    fr: ""
+    fr: "Aimez-les ou perdez-les : les glaciers de l’Alberta"
   },
 
   description: {
     en: "Students investigate the location of glaciers in Alberta and observe how they have changed over time. Students learn about how climate change is affecting our glaciers and come up with an action plan to help prevent the further loss of our glaciers.",
-    fr: ""
+    fr: "Les élèves chercheront l’emplacement des glaciers de l’Alberta et observeront comment ils ont changé au fil du temps. Les élèves apprendront l’effet des changements climatiques sur nos glaciers et prépareront un plan d’action pour contribuer à prévenir et à ralentir la perte de nos glaciers."
   },
 
   approximateTime: {
     en: "30 min plus project time",
-    fr: ""
+    fr: "30 min plus le temps du projet"
   },
 
   files: {
     en: [
       {
         id: "lesson-plan",
-        title: "Love It or Lose It: Alberta Glacier Edition",
+        title: "Love it or Lose it: Alberta Glacier Edition Lesson Plan",
         description: "",
-        url: "/pdfs/lesson-plans/glaciersAndWatersheds/Love_it_or_Lose_it__Alberta_Glacier_Edition.pdf"
+        url: null
+      },
+      {
+        id: "student-worksheet",
+        title: "Love it or Lose it: Alberta Glacier Edition: Student Worksheet",
+        description: "",
+        url: null
+      },
+      {
+        id: "glaciers-in-alberta-slides",
+        title: "Glaciers in Alberta Slide Show",
+        description: "",
+        url: null
       }
     ],
 
-    fr: []
+    fr: [
+      {
+        id: "lesson-plan",
+        title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : plan de leçon",
+        description: "",
+        url: null
+      },
+      {
+        id: "student-worksheet",
+        title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : feuille de travail de l'élève",
+        description: "",
+        url: null
+      },
+      {
+        id: "glaciers-in-alberta-slides",
+        title: "Les glaciers en Alberta : présentation",
+        description: "",
+        url: null
+      }
+    ]
   },
 
   gradeIds: [
-    Grade.GRADE_4.id,
-    Grade.GRADE_5.id,
+    Grade.GRADE_2.id,
+    Grade.GRADE_3.id,
+    Grade.GRADE_6.id,
     Grade.GRADE_7.id,
     Grade.GRADE_8.id,
+    Grade.GRADE_9.id,
     Grade.GRADE_10.id,
     Grade.GRADE_11.id
   ],
 
   subjectIds: [
-    Subject.SOCIAL_STUDIES.id,
     Subject.SCIENCE.id,
     Subject.BIOLOGY.id
   ],
@@ -87,18 +119,28 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
       "glacier loss"
     ],
 
-    fr: []
+    fr: [
+      "glaciers",
+      "changements climatiques",
+      "plan d’action",
+      "perte des glaciers"
+    ]
   },
 
   learningOutcomes: {
     en: [
-      "Identify glacier locations in Alberta",
-      "Observe changes in glaciers over time",
-      "Investigate how climate change is affecting Alberta's glaciers",
-      "Develop an action plan to help prevent further loss of glaciers"
+      "Identify glacier location in Alberta.",
+      "Observe change in the glaciers over time.",
+      "Investigate how climate change is affecting Alberta's glaciers.",
+      "Develop an action plan of how they can help prevent further loss of the glaciers."
     ],
 
-    fr: []
+    fr: [
+      "Trouver l’emplacement des glaciers de l’Alberta.",
+      "Observer comment les glaciers ont changé au fil du temps.",
+      "Étudier l’effet des changements climatiques sur les glaciers de l’Alberta.",
+      "Préparer un plan d’action pour contribuer à prévenir et à ralentir la perte des glaciers."
+    ]
   },
 
   videoIds: [
@@ -126,6 +168,17 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
       }
     ],
 
-    fr: []
+    fr: [
+      {
+        id: "mountain-legacy-project",
+        title: "N/A",
+        url: "http://mountainlegacy.ca/"
+      },
+      {
+        id: "guardians-of-the-ice",
+        title: "N/A",
+        url: "https://guardiansoftheice.com/the-columbia-icefield/"
+      }
+    ]
   }
 };

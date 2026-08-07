@@ -5,10 +5,157 @@
  *
  * @author Chace Nielson
  * @created Jul 30, 2026
- * @updated Jul 30, 2026
+ * @updated Aug 07, 2026
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { Grade } from "../../enums/gradeIds.js";
+import { Subject } from "../../enums/subjectIds.js";
 
 export const followTheFlowLessonPlan = {
+  id: "glaciers-04b-follow-the-flow",
+
+  themeId: LessonTheme.GLACIERS_AND_WATERSHEDS.id,
+
+  title: {
+    en: "Follow the Flow: Water Quality and the Columbia Icefield",
+    fr: "Suivre le flux : la qualité de l’eau et le champ de glace Columbia"
+  },
+
+  description: {
+    en: "Students will learn what a watershed is and identify what watershed they live within. Through watching some short video interviews students will understand how climate change is resulting in persistent chemicals, some banned in Canada, are being released into the rivers from which we get our drinking water from.",
+    fr: "Les élèves apprennent ce qu’est un bassin hydrographique et dans quel bassin hydrographique ils vivent. En regardant de courtes vidéos d’entrevues, les élèves comprendront comment les changements climatiques font que des produits chimiques persistants, dont certains sont interdits au Canada, sont rejetés dans les rivières où nous puisons notre eau potable."
+  },
+
+  approximateTime: {
+    en: "60 min",
+    fr: "60 min"
+  },
+
+  files: {
+    en: [
+      {
+        id: "lesson-plan",
+        title: "Follow the Flow: Lesson Plan",
+        description: "",
+        url: "https://docs.google.com/document/d/1twB1ff_o9mF3ilUHyIYNV9oBfgcYPau7naA4pnK7POk/edit?usp=drive_link"
+      },
+      {
+        id: "student-worksheet",
+        title: "Follow the Flow: Student Worksheet",
+        description: "",
+        url: "https://docs.google.com/document/d/1vhF9bySogY1Ie_ghov17TdJx93WA6u-j94BHeJCg2NM/edit?usp=drive_link"
+      },
+      {
+        id: "slides",
+        title: "Follow the Flow: Slide Show",
+        description: "",
+        url: "https://docs.google.com/presentation/d/12OrymNcfZXL8iWEIgtktG0Lkr0QsVZbCbdvhrtMJXr0/edit?usp=drive_link"
+      },
+      {
+        id: "glaciers-in-alberta-slides",
+        title: "Glaciers in Alberta: Slide Show",
+        description: "",
+        url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg/edit?usp=drive_link"
+      }
+    ],
+
+    fr: [
+      {
+        id: "lesson-plan",
+        title: "Suivre le flux : plan de leçon",
+        description: "",
+        url: "https://docs.google.com/document/d/1ETh1-9VemIzGnnd9eaVxbwtQ_IGlkw0g/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
+      },
+      {
+        id: "student-worksheet",
+        title: "Suivre le flux : feuille de travail de l’élève",
+        description: "",
+        url: "https://docs.google.com/document/d/14nd4-44ffnWBS-bjr41M6whUkDrrCarw/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
+      },
+      {
+        id: "slides",
+        title: "Suivre le flux : présentation PowerPoint",
+        description: "",
+        url: "https://docs.google.com/presentation/d/1rl9N4QY6T2q3J9QYrYFAuIO2GN5l8C_b/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
+      },
+      {
+        id: "glaciers-in-alberta-slides",
+        title: "Les glaciers en Alberta : présentation PowerPoint",
+        description: "",
+        url: null
+      }
+    ]
+  },
+
+  gradeIds: [
+    Grade.GRADE_5.id,
+    Grade.GRADE_7.id,
+    Grade.GRADE_8.id,
+    Grade.GRADE_10.id,
+    Grade.GRADE_11.id,
+    Grade.GRADE_12.id
+  ],
+
+  subjectIds: [
+    Subject.SCIENCE.id,
+    Subject.BIOLOGY.id,
+    Subject.OUTDOOR_EDUCATION.id,
+    Subject.CTS.id
+  ],
+
+  searchTerms: {
+    en: [
+      "Science 14",
+      "Biology 20",
+      "Physical Geography of Canada",
+      "Wetlands Ecosystems",
+      "Interactions and Ecosystems",
+      "Freshwater and Saltwater Systems",
+      "Environmental Chemistry",
+      "Energy Flow in Global Systems",
+      "Climate Change",
+      "Persistent Chemicals",
+      "cfcs",
+      "water",
+      "watershed",
+      "glaciers",
+      "water source"
+    ],
+    fr: [
+      "bassin hydrographique",
+      "qualite de l’eau",
+      "produits chimiques persistants",
+      "changements climatiques",
+      "champ de glace columbia"
+    ]
+  },
+
+  learningOutcomes: {
+    en: [
+      "Identify their watershed and drainage basin.",
+      "Find the Columbia Icefield on the map.",
+      "Define persistent chemicals.",
+      "Investigate factors that contribute to water quality."
+    ],
+    fr: [
+      "Identifier leur bassin hydrographique et leur bassin versant.",
+      "Trouver le champ de glace Columbia sur la carte.",
+      "Définir les produits chimiques persistants.",
+      "Étudier les facteurs qui ont un effet sur la qualité de l’eau."
+    ]
+  },
+
+  videoIds: [
+    "goi-32g-watershed-great-divide",
+    "goi-11g-where-does-water-from-the-snowdome",
+    "goi-26g-how-do-chemicals-that-were-trapped",
+    "goi-29g-persistent-chemicals-in-alberta",
+    "goi-05g-how-do-forest-fires-affect-glaciers"
+  ],
+
+  relatedResources: {
+    en: [],
+    fr: []
+  }
 };

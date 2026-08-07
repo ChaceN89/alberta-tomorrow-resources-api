@@ -48,19 +48,19 @@ export const goingGoingGoingGoneLessonPlan = {
         id: "lesson-plan",
         title: "Going Going Going Gone: Lesson Plan",
         description: "",
-        url: "https://docs.google.com/document/d/13jaSoGz_ilgV4SVwfopuKanJnysWxGLs7kggEQMHjqM"
+        url: null
       },
       {
         id: "student-worksheet",
         title: "Going Going Going Gone: Student Worksheet",
         description: "",
-        url: "https://docs.google.com/document/d/1K0zsaIfodtZkpjgmS-KE74Rw1HmC7MJt-z7zfYgZfro"
+        url: null
       },
       {
         id: "climate-myths-and-misconceptions-slides",
         title: "Climate Myths and Misconceptions: Slide Show",
         description: "",
-        url: "https://docs.google.com/presentation/d/1reQRVGi0VSEUcPAwk4SZ-NCiakFZNO3De-_0s9PehHk"
+        url: null
       }
     ],
 
@@ -69,19 +69,19 @@ export const goingGoingGoingGoneLessonPlan = {
         id: "lesson-plan",
         title: "Il recule, il recule, il disparaît : plan de leçon",
         description: "",
-        url: "https://docs.google.com/document/d/1Q7CxkPAjDXu4vO9RBeQQFyfDMxovQbmX"
+        url: null
       },
       {
         id: "student-worksheet",
         title: "Il recule, il recule, il disparaît : feuille de travail de l’élève",
         description: "",
-        url: "https://docs.google.com/document/d/15C4_1VYx-saaj54RKG7KXQ-_-e_O5jJZ"
+        url: null
       },
       {
         id: "climate-myths-and-misconceptions-slides",
         title: "Mythes et idées fausses sur les changements climatiques : présentation",
         description: "",
-        url: "https://docs.google.com/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr"
+        url: null
       }
     ]
   },
