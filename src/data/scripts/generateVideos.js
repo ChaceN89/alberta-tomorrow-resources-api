@@ -77,7 +77,6 @@ function normalizeVideo(raw) {
     searchTerms: normalizeLocalizedArray(raw.searchTerms),
 
     // lessonPlanIds is injected later by addLessonPlanIds()
-    // lessonPlanIds: normalizeArray(raw.lessonPlanIds), // remvoed for now- could add back in later
   };
 }
 

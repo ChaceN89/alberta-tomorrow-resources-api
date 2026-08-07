@@ -1744,5 +1744,1725 @@
       "en": [],
       "fr": []
     }
+  },
+  {
+    "id": "abregions-01-virtual-field-trips-ecoregions",
+    "themeId": "alberta-natural-regions-and-ecosystems",
+    "title": {
+      "en": "360 Virtual Field Trips to Alberta's 6 Ecoregions",
+      "fr": "Visites virtuelles à 360 degrés dans les six écorégions de l’Alberta."
+    },
+    "description": {
+      "en": "In this scavenger hunt lesson, students will learn what makes each of Alberta's 6 ecoregions unique by identifying icons for geography, geology, soils, landforms, climate, plants, animals, natural resource use, and interesting facts, including species at risk.",
+      "fr": "Dans le cadre de cette chasse au trésor, les élèves apprendront ce qui rend unique chacune des six écorégions de l’Alberta en repérant les icônes liées à la géographie, à la géologie, aux sols, au relief, au climat, aux plantes, aux animaux, à l’utilisation des ressources naturelles et à des faits intéressants, y compris les espèces en péril."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Alberta's Ecoregions - 360 Virtual Field Trips Lesson Plan",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1zMQUusoEZMeOQj_JAk-anB7VGoxBaPeI/edit"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "360 Virtual Tours Scavenger Hunt Student Worksheet",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz/edit"
+        },
+        {
+          "id": "fillable-google-slides",
+          "title": "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
+        },
+        {
+          "id": "circle-student-worksheet",
+          "title": "360 Virtual Tours Scavenger Hunt Circle Student Worksheet",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0/edit?slide=id.p1#slide=id.p1"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Écorégions de l’Alberta – visites virtuelles à 360 degrés : plan de leçon",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1zMQUusoEZMeOQj_JAk-anB7VGoxBaPeI/edit"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz/edit"
+        },
+        {
+          "id": "fillable-google-slides",
+          "title": "Visites virtuelles à 360 degrés et chasse au trésor : diapositives Google à remplir",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
+        },
+        {
+          "id": "circle-student-worksheet",
+          "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève (encercler)",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0/edit?slide=id.p1#slide=id.p1"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-8",
+      "grade-9"
+    ],
+    "subjectIds": [
+      "social-studies",
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "alberta",
+        "ecoregions",
+        "virtual field trips",
+        "scavenger hunt",
+        "species at risk",
+        "geography",
+        "geology",
+        "climate",
+        "plants",
+        "animals"
+      ],
+      "fr": [
+        "alberta",
+        "écorégions",
+        "visites virtuelles",
+        "chasse au trésor",
+        "espèces en péril",
+        "géographie",
+        "géologie",
+        "climat",
+        "plantes",
+        "animaux"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Demonstrate an understanding and appreciation of how geography, climate, soils, geology, plants, and animals define a natural ecoregion.",
+        "Identify species at risk in each ecoregion."
+      ],
+      "fr": [
+        "Faire la démonstration de leur compréhension et de leur appréciation de la manière dont la géographie, le climat, les sols, la géologie, les plantes et les animaux définissent une écorégion naturelle.",
+        "Identifier les espèces en péril dans chaque écorégion."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "abregions-03-plant-animal-adaptations",
+    "themeId": "alberta-natural-regions-and-ecosystems",
+    "title": {
+      "en": "Plant and Animal Adaptations - Using the 360 Virtual Field Trips",
+      "fr": "Adaptations des plantes et des animaux – visites virtuelles à 360 degrés"
+    },
+    "description": {
+      "en": "In this lesson students will explore the plants and animals in all 6 ecoregions within Alberta, learn how they are specially adapted to living there, what human activities affect their survival and which species are at risk in each ecoregion.",
+      "fr": "Au cours de cette leçon, les élèves étudieront les plantes et les animaux dans les six écorégions en Alberta; ils apprendront comment ils sont spécialement adaptés pour vivre à cet endroit, les activités humaines qui nuisent à leur survie et les espèces qui sont en péril dans chaque écorégion."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Grade 9 Science Adaptations and the 360 Virtual Field Trips",
+          "description": "N/A",
+          "url": "https://drive.google.com/file/d/1oqRU9sDWebD92xmGi3RYhN-Ae00ACP_j/view?usp=drive_link"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Grade 9 Plant and Animal Adaptations Student Worksheet - Fillable Google Slides",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/1b_EosZ3fXr638ZeakaiqvjUYDMXGrXiwV7Yw3o04w8E"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "9e année, Sciences : Adaptations et visites virtuelles à 360 degrés",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1IKLGOqi9ukqXGjawklTxjrAGOEzbS6wg/edit"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "9e année, Adaptations des plantes et des animaux – feuille de travail de l’élève – diapositives Google à remplir",
+          "description": "N/A",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-9"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "adaptations",
+        "plants",
+        "animals",
+        "ecoregions",
+        "alberta",
+        "species at risk"
+      ],
+      "fr": [
+        "adaptations",
+        "plantes",
+        "animaux",
+        "écorégions",
+        "alberta",
+        "espèces en péril"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Students will describe how plants and animals are adapted to life in each natural ecoregion of Alberta.",
+        "Students will identify risks to species survival in each ecoregion.",
+        "Students will identify species at risk in each region."
+      ],
+      "fr": [
+        "Les élèves décriront comment les plantes et les animaux se sont adaptés à la vie dans chacune des écorégions de l’Alberta.",
+        "Les élèves identifieront les risques pour la survie des espèces dans chaque écorégion.",
+        "Les élèves identifieront les espèces en péril dans chaque région."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "abregions-04-natural-resources",
+    "themeId": "alberta-natural-regions-and-ecosystems",
+    "title": {
+      "en": "Alberta's Natural Resources",
+      "fr": "Ressources naturelles de l’Alberta"
+    },
+    "description": {
+      "en": "Students will investigate where different natural resources are located in Alberta and how they have influenced settlement, the environment and economy since 1910 to present, and how they may influence the province in the future.",
+      "fr": "Les élèves font des recherches sur l’emplacement des différentes ressources naturelles en Alberta et comment elles ont influencé le peuplement, l’environnement et l’économie, de 1910 à nos jours, et l’influence qu’elles peuvent avoir sur la province dans le futur."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Alberta's Natural Resources: Lesson Plan",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg/edit?usp=drive_link"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Alberta's Natural Resources: Student Worksheet",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/11p5vAYKphMkiPaqH_4zJ49AFQKH_WEhSB5yVTxKjAAw/edit?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Ressources naturelles de l’Alberta : plan de leçon",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1KUFyuRXXLDf0bmCnTnFo4xTqN6QxFoha/edit"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Ressources naturelles de l’Alberta : feuille de travail de l’élève",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1HVNoxTzEKVB58FFgxduCn01xek2Lde6g/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-3"
+    ],
+    "subjectIds": [
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "natural resources",
+        "alberta",
+        "settlement",
+        "economy",
+        "environment"
+      ],
+      "fr": [
+        "ressources naturelles",
+        "alberta",
+        "peuplement",
+        "économie",
+        "environnement"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Understand the difference between renewable and non-renewable resources",
+        "Explore how Alberta's geography affects the location and availability of natural resources",
+        "Analyze how natural resources have shaped Alberta's economic development and settlement patterns",
+        "Use satellite imagery and simulations to observe environmental and socio-economic changes over time",
+        "Predict and propose sustainable land use strategies for Alberta's future"
+      ],
+      "fr": [
+        "Comprendre les différences entre ressources renouvelables et non renouvelables.",
+        "Étudier quel effet la géographie de l’Alberta a sur l’emplacement et la disponibilité des ressources naturelles.",
+        "Analysez comment les ressources naturelles ont façonné le développement économique et les modèles d’établissement de l’Alberta.",
+        "Utiliser les images satellite et les simulations pour observer les changements des indicateurs environnementaux et socioéconomiques au fil du temps.",
+        "Prédire et proposer des stratégies d’utilisation durable des terres pour l’avenir de l’Alberta."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "abregions-05-alberta-natural-regions",
+    "themeId": "alberta-natural-regions-and-ecosystems",
+    "title": {
+      "en": "Alberta's Natural Regions",
+      "fr": "Régions naturelles de l’Alberta"
+    },
+    "description": {
+      "en": "In this activity, students will research and construct maps of Alberta's Natural Regions.",
+      "fr": "Dans le cadre de cette activité, les élèves font des recherches et créent des cartes des régions naturelles de l’Alberta."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Alberta's Natural Regions",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1FPPfuy7iwOp9QC0pyLNjI1ujvS1EW0JU3YV4qZO9MeE/edit?usp=drive_link"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "360 Virtual Tours Scavenger Hunt Student Worksheet",
+          "description": "N/A",
+          "url": "https://drive.google.com/file/d/1fgBduzIjfvYWjkT2Y8m71qhiWMRjEwaL/view?usp=drive_link"
+        },
+        {
+          "id": "fillable-google-slides",
+          "title": "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/1cqF8G4yz8O23Jg65PTvcoe-juJLizHjjP8vPkZY1H4k"
+        },
+        {
+          "id": "circle-student-worksheet",
+          "title": "360 Virtual Tours Scavenger Hunt Circle Student Worksheet",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/1iGXFpDscj18TBWM_f03jUxc7rGtzPWRxn6Yxvrn-Pfs"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Régions naturelles de l’Alberta",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1KWFyGht_qb3wHVTSE9zrLfotffrNw2uI/edit"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
+          "description": "N/A",
+          "url": "N/A"
+        },
+        {
+          "id": "fillable-google-slides",
+          "title": "Visites virtuelles à 360 degrés et chasse au trésor : diapositives Google à remplir",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/1FrvTy8G4cR0kKAunb0rwjshiy56Uykg4/edit?slide=id.p1#slide=id.p1"
+        },
+        {
+          "id": "circle-student-worksheet",
+          "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève (encercler)",
+          "description": "N/A",
+          "url": "N/A"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-3"
+    ],
+    "subjectIds": [
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "natural regions",
+        "alberta",
+        "maps",
+        "geography",
+        "physical regions"
+      ],
+      "fr": [
+        "régions naturelles",
+        "alberta",
+        "cartes",
+        "géographie",
+        "régions physiques"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Distinguish between Alberta's natural regions based on physical geography",
+        "Describe key natural features such as landforms, vegetation, and climate",
+        "Identify the relationship between natural resources and regional geography",
+        "Construct and annotate maps showing Alberta's physical regions"
+      ],
+      "fr": [
+        "Faire la distinction entre les régions naturelles de l’Alberta en fonction de la géographie physique.",
+        "Décrire les caractéristiques naturelles principales, comme les reliefs, la végétation et le climat.",
+        "Indiquer la relation entre les ressources naturelles et la géographie physique.",
+        "Créer et annoter des cartes montrant les régions physiques de l’Alberta."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "abregions-06-ecosystem-diversity",
+    "themeId": "alberta-natural-regions-and-ecosystems",
+    "title": {
+      "en": "Alberta's Ecosystem Diversity",
+      "fr": "Diversité des écosystèmes de l’Alberta"
+    },
+    "description": {
+      "en": "In this activity, students explore Alberta's ecosystems using 360 Virtual Tours to identify and compare abiotic and biotic components. They will analyze how ecosystem characteristics influence plant and animal diversity.",
+      "fr": "Dans le cadre de cette activité, les élèves étudient les écosystèmes de l’Alberta en effectuant des visites virtuelles à 360 degrés pour repérer et comparer les composants abiotiques et biotiques. Ils analyseront comment les caractéristiques de l’écosystème influence la diversité des plantes et des animaux."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Alberta's Ecosystems Scavenger Hunt",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Ecosystems in Alberta: Lesson Plan",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1yQJJ48YHAhWmoKr_TTpnmW4heDOxD31sXAv5ktS8izE"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Chasse au trésor dans les écosystèmes de l’Alberta",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Écosystèmes en Alberta : plan de leçon",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1dgmUyS9EOvTZmjjOuaOaxHk207d3WOe6/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "ecosystem diversity",
+        "abiotic",
+        "biotic",
+        "plants",
+        "animals",
+        "alberta"
+      ],
+      "fr": [
+        "diversité des écosystèmes",
+        "abiotique",
+        "biotique",
+        "plantes",
+        "animaux",
+        "alberta"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Compare the characteristics of two Alberta ecosystems.",
+        "Describe the role of abiotic and biotic factors in ecosystems.",
+        "Identify factors that influence plant and animal diversity.",
+        "Understand how ecosystems interact with greenhouse gases and carbon storage."
+      ],
+      "fr": [
+        "Comparer les caractéristiques de deux écosystèmes de l’Alberta.",
+        "Décrire le rôle écologique des facteurs abiotiques et biotiques dans les écosystèmes.",
+        "Trouver les facteurs qui influencent la diversité des plantes et des animaux.",
+        "Comprendre comment les écosystèmes interagissent avec les gaz à effet de serre et le stockage du carbone."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "indigenous-01e-where-is-my-home",
+    "themeId": "indigenous-voices",
+    "title": {
+      "en": "Where is my Home? Using the Indigenous Map Overlays",
+      "fr": "Où est ma maison? Utiliser les superpositions cartographiques autochtones."
+    },
+    "description": {
+      "en": "A step-by-step lesson plan for using the Indigenous Map Overlays.",
+      "fr": "Un plan de leçon étape par étape pour utiliser les superpositions cartographiques autochtones."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Where is my Home? Using the Indigenous Map Layers",
+          "description": "N/A",
+          "url": "https://drive.google.com/file/d/1FnOm7Ja6IlrK483QT2m0pPbPhoY7c5HY/view?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Où est ma maison? Utiliser les superpositions cartographiques autochtones.",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1D_ZcPRB23NF3M1BRHjbJpyPWWTWexcF8/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-4",
+      "grade-5",
+      "grade-6",
+      "grade-7",
+      "grade-8",
+      "grade-9"
+    ],
+    "subjectIds": [
+      "social-studies",
+      "indigenous-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "indigenous map overlays",
+        "home",
+        "community",
+        "treaty",
+        "reserves",
+        "settlements"
+      ],
+      "fr": [
+        "superpositions cartographiques autochtones",
+        "maison",
+        "communauté",
+        "traité",
+        "réserves",
+        "établissements"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Students will locate their home, school and community on the satellite imagery using the Indigenous map layers, see their location in relation to treaty area, Indigenous territory, traditional languages, reserves and settlements, Métis regions, and residential school locations.",
+        "Students will compare sizes of Indigenous territories to reserves and settlements."
+      ],
+      "fr": [
+        "Les élèves trouvent leur maison, leur école et leur communauté sur l’image satellite à l’aide des superpositions cartographiques autochtones pour voir leur emplacement par rapport aux régions visées par un traité, aux territoires et aux langues autochtones, aux réserves et aux établissements, aux régions métisses et aux emplacements des pensionnats.",
+        "Comparer la taille des territoires autochtones par rapport à celle des réserves et des établissements."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "indigenous-02e-exploring-collective-rights",
+    "themeId": "indigenous-voices",
+    "title": {
+      "en": "Exploring Collective Rights Using the Indigenous Voices Module in Alberta Tomorrow",
+      "fr": "Étudier les droits collectifs à l’aide du module Voix autochtones dans Alberta Tomorrow."
+    },
+    "description": {
+      "en": "A lesson plan where students learn about Indigenous Rights and Treaty 7, and explore the geography of Indigenous peoples in Alberta through the Alberta Tomorrow Indigenous Voices Module.",
+      "fr": "Un plan de leçon dans lequel les élèves apprennent les droits des Autochtones en vertu du Traité 7, et étudient la géographie des peuples autochtones en Alberta avec le module Voix autochtones d’Alberta Tomorrow."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Exploring Collective Rights: Lesson Plan",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1nMh2BVY6ZRFW0c8RjIShGn6t2QYi_ZvF/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Exploring Collective Rights: Student Worksheet",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/10cCzISaKfH5wrf7O8CoBdIYfNG0V9sF4/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Étudier les droits collectifs : plan de leçon",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1MmE7sHJaMq5gmPgNpxGjXOjK7UFx2LBy/edit"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Étudier les droits collectifs : feuille de travail de l’élève",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1CL4u8LjHDWtwxPSM3EQ_4ilHDKVF0qgr/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-9"
+    ],
+    "subjectIds": [
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "collective rights",
+        "treaty 7",
+        "indigenous rights",
+        "alberta"
+      ],
+      "fr": [
+        "droits collectifs",
+        "traité 7",
+        "droits des autochtones",
+        "alberta"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Students will explore the geography of Indigenous peoples in Alberta and learn about the relationship between the Canadian Charter of Rights and Freedoms and Indigenous Rights.",
+        "Students will critically assess how collective rights have impacted Indigenous communities and whether treaty rights are being honored."
+      ],
+      "fr": [
+        "Les élèves étudient la géographie des peuples autochtones en Alberta et apprennent la relation entre la Charte canadienne des droits et libertés et les droits des Autochtones.",
+        "Les élèves explorent d’un œil critique l’effet qu’ont eu les droits collectifs sur les communautés autochtones et ils évaluent si les droits issus de traités sont respectés."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "ab360-tours-03e-mapping-indigenous-areas",
+    "themeId": "indigenous-voices",
+    "title": {
+      "en": "Mapping Indigenous Areas",
+      "fr": "Cartographier les régions autochtones"
+    },
+    "description": {
+      "en": "Students will construct maps of traditional territories and treaty areas in Alberta using www.albertatomorrow.ca. They will begin by looking at the Stoney Nakoda people in greater detail.",
+      "fr": "Les élèves créent des cartes des territoires traditionnels et des régions visées par un traité en Alberta en se servant du simulateur à www.albertatomorrow.ca. Ils commencent par étudier en détail la nation Stoney Nakoda."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Mapping Indigenous Areas: Lesson Plan",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1Uyrqu1VyKnJFc7Y_6tZbWeXvMeHkU0zTfktRYppQlYA"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Mapping Indigenous Areas: Student Worksheet",
+          "description": "N/A",
+          "url": "https://drive.google.com/file/d/1TD5lTrUbYJPh1OxBeEULOzkZ_q1L5xXv/view?usp=drive_link"
+        },
+        {
+          "id": "answer-sheet",
+          "title": "Mapping Indigenous Areas: Answer Sheet",
+          "description": "N/A",
+          "url": "https://drive.google.com/file/d/1iv-eAK8aW24oybt-9kOSeA3h4rZengJv/view?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Cartographier les régions autochtones : plan de leçon",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/18ZRfCirFFmvnZ5-45KBM_QWpU4RuHHpU/edit"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Cartographier les régions autochtones : feuille de travail de l’élève",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1tmkUtOZkroEhYl56TmhyVM-Zmj0nfzZ0/edit#heading=h.vqtq7mb3t4ey"
+        },
+        {
+          "id": "answer-sheet",
+          "title": "Cartographier les régions autochtones : clé de correction",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1rpoEDqWvW12B7_B-Ycv73uYoHuZIABiu/edit#heading=h.7gig7j9bkhxk"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-3"
+    ],
+    "subjectIds": [
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "indigenous areas",
+        "traditional territories",
+        "treaty areas",
+        "alberta"
+      ],
+      "fr": [
+        "régions autochtones",
+        "territoires traditionnels",
+        "régions visées par un traité",
+        "alberta"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Recognize Alberta as traditional territory of many Indigenous groups since time immemorial.",
+        "Identify the 5 numbered Treaty Areas in Alberta and the reasons they were signed.",
+        "Differentiate Traditional Territories, Treaty Areas, and Métis Settlements on a map.",
+        "Use Alberta Tomorrow map layers to explore overlap between Indigenous territories.",
+        "Develop respect for Indigenous contributions to Alberta's identity and land use history."
+      ],
+      "fr": [
+        "Reconnaître que l’Alberta est le territoire traditionnel de plusieurs Premières Nations depuis des temps immémoriaux.",
+        "Trouver les cinq zones des traités numérotés en Alberta et les raisons pour lesquelles ils ont été signés.",
+        "Distinguer sur une carte les territoires traditionnels, les régions visées par un traité et les établissements métis.",
+        "Utiliser les superpositions cartographiques d’Alberta Tomorrow pour examiner les chevauchements entre les territoires autochtones.",
+        "Inciter au respect pour les contributions des peuples autochtones à l’identité de l’Alberta et à l’histoire de l’utilisation des terres dans la province."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "brw-01f-isotopes-and-climate-change",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Isotopes and Climate Change",
+      "fr": "Isotopes et changements climatiques"
+    },
+    "description": {
+      "en": "We can track climate changes by looking at what types of isotopes are in the water.",
+      "fr": "Nous pouvons étudier les changements climatiques en examinant les types d’isotopes présents dans l’eau."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Isotopes and Climate Change - Google Doc",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi/"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Isotopes et changements climatiques – document Google",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-7",
+      "grade-8",
+      "grade-9"
+    ],
+    "subjectIds": [
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "isotopes",
+        "climate change",
+        "water"
+      ],
+      "fr": [
+        "isotopes",
+        "changements climatiques",
+        "eau"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the use of isotope tracking",
+        "Investigate the consequences of climate change",
+        "Examine the negative impact of climate change"
+      ],
+      "fr": [
+        "Examiner le recours à l’analyse des isotopes.",
+        "Étudier les répercussions des changements climatiques.",
+        "Examiner l’effet négatif des changements climatiques."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "brbc-02f-glenmore-dam-water-services",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Glenmore Dam and Reservoir: Water Services",
+      "fr": "Barrage et réservoir de Glenmore : services d’approvisionnement en eau"
+    },
+    "description": {
+      "en": "In this activity you will learn about the movement and management of water within the city of Calgary, along with the history of the Glenmore Reservoir and Dam.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez des faits sur la circulation et la gestion de l’eau dans la Ville de Calgary, ainsi que l’histoire du réservoir et du barrage de Glenmore."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Glenmore Dam and Reservoir: Water Services - Google Doc",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Barrage et réservoir de Glenmore : services d’approvisionnement en eau – document Google",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "social-studies",
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "glenmore dam",
+        "water services",
+        "calgary"
+      ],
+      "fr": [
+        "barrage de glenmore",
+        "services d’eau",
+        "calgary"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Understand water movement and management in Calgary"
+      ],
+      "fr": [
+        "Comprendre la circulation et la gestion de l’eau à Calgary"
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "brbc-03f-water-quality-treatment",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Water Quality: Water Treatment",
+      "fr": "Qualité de l’eau : traitement des eaux"
+    },
+    "description": {
+      "en": "In this activity you will learn about the process of cleaning water to meet drinking standards within the City of Calgary.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez des faits sur le processus d’épuration de l’eau pour répondre aux normes sur l’eau potable de la Ville de Calgary."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Water Quality: Water Treatment - Google Doc",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Qualité de l’eau : traitement des eaux – document Google",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "water quality",
+        "water treatment",
+        "calgary"
+      ],
+      "fr": [
+        "qualité de l’eau",
+        "traitement des eaux",
+        "calgary"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Investigate the stages of water treatment"
+      ],
+      "fr": [
+        "Étudier les étapes de traitement des eaux."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "brbc-04f-constructed-wetlands-stormwater",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Constructed Wetlands and Stormwater",
+      "fr": "Marais artificiels et eau pluviale"
+    },
+    "description": {
+      "en": "In this activity you will learn about stormwater and how wetlands are constructed to manage it.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez des faits sur l’eau de pluie et sur la construction de marais artificiels pour la contenir."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Constructed Wetlands and Stormwater - Google Doc",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_/"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Marais artificiels et eau pluviale – document Google",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science",
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "wetlands",
+        "stormwater",
+        "water management"
+      ],
+      "fr": [
+        "marais",
+        "eau pluviale",
+        "gestion de l’eau"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine stormwater functions and the role of wetlands in water management and quality",
+        "Investigate the consequences of resource production, urbanization, and economic growth on wetlands and water quality",
+        "Examine the negative environmental impact of disruption of the watershed as a result of resource use"
+      ],
+      "fr": [
+        "Examiner les fonctions de l’eau pluviale et le rôle des marais dans la gestion et la qualité de l’eau.",
+        "Étudier les répercussions de la production des ressources, de l’urbanisation et de la croissance économique sur les marais et la qualité de l’eau.",
+        "Examiner les effets négatifs sur l’environnement de la perturbation des bassins hydrographiques à la suite de l’utilisation des ressources."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "brbc-05f-aquifers",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Aquifers",
+      "fr": "Aquifères"
+    },
+    "description": {
+      "en": "In this activity you will learn about the aquifer and groundwater within the Elbow River sub basin.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez des faits sur l’aquifère et l’eau souterraine dans le sous-bassin de la rivière Elbow."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Aquifers - Google Doc",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Aquifères – document Google",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "aquifers",
+        "groundwater",
+        "elbow river"
+      ],
+      "fr": [
+        "aquifères",
+        "eau souterraine",
+        "rivière elbow"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the landscape and compare them to what the geology below could look like",
+        "Investigate the consequences of resource production, urbanization, and economic growth on aquifers and groundwater"
+      ],
+      "fr": [
+        "Examiner le paysage et le comparer à ce à quoi la géologie sous-jacente pourrait ressembler.",
+        "Étudier les répercussions de la production des ressources, de l’urbanisation et de la croissance économique sur les aquifères et l’eau souterraine."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "brbc-06f-the-watershed",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "The Watershed",
+      "fr": "Le bassin hydrographique"
+    },
+    "description": {
+      "en": "In this activity you will learn about how land use changes impact how water moves through the landscape and how that changes our interactions with it.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez l’effet des changements d’utilisation des terres sur la circulation de l’eau dans le paysage et comment cela change nos interactions avec l’eau."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "The Watershed - Google Doc",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Le bassin hydrographique – document Google",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science",
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "watershed",
+        "water movement",
+        "land use"
+      ],
+      "fr": [
+        "bassin hydrographique",
+        "circulation de l’eau",
+        "utilisation des terres"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the land and spaces where water exists",
+        "Investigate the different ways that people can interact with the rivers and water",
+        "Examine the need for water in our lives"
+      ],
+      "fr": [
+        "Examiner les terres et les espaces où l’eau est présente.",
+        "Étudier les différents moyens par lesquels les gens peuvent interagir avec les rivières et l’eau.",
+        "Étudier la nécessité de l’eau dans nos vies."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "brbc-07f-hydrology-land-development",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Hydrology and Land Development",
+      "fr": "Hydrologie et aménagement du territoire"
+    },
+    "description": {
+      "en": "In this activity you will learn about how land use changes impact how water moves through the landscape and how that changes our interactions with it.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez l’effet des changements d’utilisation des terres sur la circulation de l’eau dans le paysage et comment cela change nos interactions avec l’eau."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Hydrology and Land Development - Google Doc",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Hydrologie et aménagement du territoire – document Google",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science",
+      "social-studies"
+    ],
+    "searchTerms": {
+      "en": [
+        "hydrology",
+        "land development",
+        "watershed"
+      ],
+      "fr": [
+        "hydrologie",
+        "aménagement du territoire",
+        "bassin hydrographique"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the watershed and hydrological practices",
+        "Investigate how a watershed functions"
+      ],
+      "fr": [
+        "Examiner les pratiques hydrologiques et relatives aux bassins hydrographiques.",
+        "Étudier le fonctionnement d’un bassin hydrographique."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "brbc-08f-watersheds-hydrology",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Watersheds and Hydrology",
+      "fr": "Bassins hydrographiques et hydrologie"
+    },
+    "description": {
+      "en": "In this activity you will learn about the basic functions of a watershed, and the hydrology that is involved.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez les fonctions de base d’un bassin hydrographique, et l’hydrologie que cela implique."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Watersheds and Hydrology - Google Doc",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Bassins hydrographiques et hydrologie – document Google",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "watersheds",
+        "hydrology",
+        "functions"
+      ],
+      "fr": [
+        "bassins hydrographiques",
+        "hydrologie",
+        "fonctions"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the stage of the watershed",
+        "Investigate watershed functions"
+      ],
+      "fr": [
+        "Examiner les étapes relatives au bassin hydrographique.",
+        "Étudier les fonctions d’un bassin hydrographique."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "brbc-09f-hydrology-climate-change",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Hydrology and Climate Change",
+      "fr": "Hydrologie et changements climatiques"
+    },
+    "description": {
+      "en": "In this activity you will learn about how to monitor climate change and hydrologic functions within a watershed.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez comment surveiller les changements climatiques et les fonctions hydrologiques dans un bassin hydrographique."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Hydrology and Climate Change - Google Doc",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Hydrologie et changements climatiques – document Google",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "hydrology",
+        "climate change",
+        "watershed"
+      ],
+      "fr": [
+        "hydrologie",
+        "changements climatiques",
+        "bassin hydrographique"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the effects of climate change on the water cycle and hydrology"
+      ],
+      "fr": [
+        "Examiner les effets des changements climatiques sur le cycle de l’eau et l’hydrologie."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "brbc-10f-invasive-species-control",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Invasive Species and Control",
+      "fr": "Espèces envahissantes et mesures de contrôle"
+    },
+    "description": {
+      "en": "In this activity you will learn about invasive species found in Alberta, along with methods to control them.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez des faits sur les espèces envahissantes présentes en Alberta, ainsi que sur les méthodes visant à les contrôler."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Invasive Species and Control - Google Doc",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Espèces envahissantes et mesures de contrôle – document Google",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "invasive species",
+        "control",
+        "biodiversity"
+      ],
+      "fr": [
+        "espèces envahissantes",
+        "contrôle",
+        "biodiversité"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the role of invasive, introduced, and threatened species",
+        "Investigate the methods of addressing the management of invasive species",
+        "Observe spaces that native and introduced species are seen to examine the role of biodiversity"
+      ],
+      "fr": [
+        "Examiner le rôle des espèces envahissantes, introduites et menacées.",
+        "Étudier les méthodes employées pour gérer les espèces envahissantes.",
+        "Observer les endroits où ont été vues les espèces indigènes et introduites pour étudier le rôle de la biodiversité."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "brbc-11f-native-prairies-plants",
+    "themeId": "bow-river-watershed",
+    "title": {
+      "en": "Native Prairies and Plants",
+      "fr": "Prairies et plantes indigènes"
+    },
+    "description": {
+      "en": "In this activity, you will learn about the biodiversity of the native prairies, and the many different types of functions native plants have roles in, as well as the importance of bees and other pollinators.",
+      "fr": "Dans le cadre de cette activité, vous apprendrez des faits sur la biodiversité des prairies indigènes, et sur les nombreux types différents de fonctions dans lesquelles les plantes indigènes ont des rôles à jouer, ainsi que l’importance des abeilles et des autres pollinisateurs."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Native Prairies and Plants - Google Doc",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1uTt5BFsG986N8SgW9H4nNCfXDPj5Wta7/"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Prairies et plantes indigènes – document Google",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1uTt5BFsG986N8SgW9H4nNCfXDPj5Wta7/"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6",
+      "grade-7",
+      "grade-8"
+    ],
+    "subjectIds": [
+      "science",
+      "biology"
+    ],
+    "searchTerms": {
+      "en": [
+        "native prairies",
+        "plants",
+        "pollinators"
+      ],
+      "fr": [
+        "prairies indigènes",
+        "plantes",
+        "pollinisateurs"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Examine the ecological roles of plants in the prairies",
+        "Investigate the methods of addressing threatened native species",
+        "Observe spaces that native and introduced species are seen to examine the role of biodiversity"
+      ],
+      "fr": [
+        "Étudier les rôles écologiques des plantes dans les prairies.",
+        "Étudier les méthodes employées pour protéger les espèces indigènes menacées.",
+        "Observer les endroits où ont été vues les espèces indigènes et introduites pour étudier le rôle de la biodiversité."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "energy-01-renewable-vs-nonrenewable",
+    "themeId": "energy",
+    "title": {
+      "en": "Renewable vs Non-Renewable Resources",
+      "fr": "Ressources renouvelables ou non renouvelables"
+    },
+    "description": {
+      "en": "In this activity, students will compare renewable and non-renewable energy resources, exploring how they are used across Canada and how Alberta relies on both to meet its energy needs.",
+      "fr": "Dans le cadre de cette activité, les élèves comparent les ressources énergétiques renouvelables et non renouvelables, explorent leur utilisation au Canada et étudient comment l’Alberta dépend de ces deux types de ressources pour répondre à ses besoins en énergie."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Renewable vs Non-Renewable Resources - Lesson Plan",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1QU_kIWDMITb9Zau0XcB3-e3yTgBzn8W9P2qlM1NaDa8/edit?usp=drive_link"
+        },
+        {
+          "id": "presentation-slides",
+          "title": "Renewable and Non-Renewable Sources of Energy - Presentation Slides",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/1ZeVKUKvxdKaTkf24aXG_xr29TvKWb4hX3bKAFThe-Cg/edit?usp=drive_link"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Renewable vs Non-Renewable Resources - Student Worksheet",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1v5XpJO-O9B7I94GstDyZikDhgIzeCuo_pO6LtWPTWCc/edit?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Ressources renouvelables ou non renouvelables : plan de leçon",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/16N-5cAv1mheL8ckWzDipWRYr8FlamNP_/edit"
+        },
+        {
+          "id": "presentation-slides",
+          "title": "Sources d’énergie renouvelables et non renouvelables : présentation PowerPoint",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/1kJBQH2n6TLF00_PLb1h--GYlEvwP-gD7/edit?slide=id.p1#slide=id.p1"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Ressources renouvelables ou non renouvelables : feuille de travail de l’élève",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1n1nPmf2z3hZdQk0w3OIrqwTazb7zhvXf/edit"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-5"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "renewable energy",
+        "non-renewable resources",
+        "energy use",
+        "alberta"
+      ],
+      "fr": [
+        "énergie renouvelable",
+        "ressources non renouvelables",
+        "utilisation de l’énergie",
+        "alberta"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Compare renewable and non-renewable energy resources.",
+        "Discuss the advantages and disadvantages of different energy sources.",
+        "Examine how provinces and territories fulfill energy needs.",
+        "Understand Alberta's reliance on both renewable and non-renewable energy resources."
+      ],
+      "fr": [
+        "Comparer les ressources énergétiques renouvelables et non renouvelables.",
+        "Discuter des avantages et des inconvénients des différentes sources d’énergie.",
+        "Examiner comment les provinces et les territoires satisfont leurs besoins en énergie.",
+        "Comprendre la dépendance de l’Alberta à la fois aux ressources énergétiques renouvelables et non renouvelables."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
+  },
+  {
+    "id": "energy-02-factors-affecting-use",
+    "themeId": "energy",
+    "title": {
+      "en": "Factors that Influence the type of Energy Used",
+      "fr": "Facteurs qui influencent le type d’énergie utilisée"
+    },
+    "description": {
+      "en": "In this lesson, students explore how energy choices are shaped by availability, accessibility, societal needs, economic considerations, and environmental impact. Using Alberta Tomorrow's simulation tools, students investigate past, present, and future scenarios around Alberta's energy use.",
+      "fr": "Dans le cadre de cette leçon, les élèves explorent comment les choix énergétiques sont déterminés par la disponibilité, l’accessibilité, les besoins de la société, les considérations économiques et l’impact environnemental. À l’aide des outils de simulation d’Alberta Tomorrow, les élèves étudient les scénarios passés, présents et futurs entourant l’utilisation de l’énergie en Alberta."
+    },
+    "approximateTime": {
+      "en": "60 min",
+      "fr": "60 min"
+    },
+    "files": {
+      "en": [
+        {
+          "id": "lesson-plan",
+          "title": "Factors that Influence the type of Energy Used: Lesson Plan",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1rE_PwNcHq2A9nr28g5SxS3sv3-3MJTwxoRz52nd8eJE/edit?usp=drive_link"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Factors that Influence the type of Energy Used: Student Worksheet",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1T3bvL-Gh1cWDfkHCn6PtPiaKzS457F5EHrXWGdnbAe4/edit?usp=drive_link"
+        },
+        {
+          "id": "presentation-slides",
+          "title": "Energy Resources and Climate Change in Alberta - Presentation Slides",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/1RmQYHLOms6XnWvOTz0E0GW3dK6NdT53zE8AfozExhkY/edit?usp=drive_link"
+        }
+      ],
+      "fr": [
+        {
+          "id": "lesson-plan",
+          "title": "Facteurs qui influencent le type d’énergie utilisée : plan de leçon",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1fmgBQURd1PYXInXwUZTr4sTy6ZRk-_ap/edit"
+        },
+        {
+          "id": "student-worksheet",
+          "title": "Facteurs qui influencent le type d’énergie utilisée : feuille de travail de l’élève",
+          "description": "N/A",
+          "url": "https://docs.google.com/document/d/1_d0tKmpd9cQ0qkrb1Rn2U_pUnjCHHFeA/edit"
+        },
+        {
+          "id": "presentation-slides",
+          "title": "Ressources énergétiques et changements climatiques en Alberta – présentation PowerPoint",
+          "description": "N/A",
+          "url": "https://docs.google.com/presentation/d/1Kpaehlq2ap2n6W_Q0X9lDVAh-t6zChAt/edit?slide=id.p1#slide=id.p1"
+        }
+      ]
+    },
+    "gradeIds": [
+      "grade-6"
+    ],
+    "subjectIds": [
+      "science"
+    ],
+    "searchTerms": {
+      "en": [
+        "energy use",
+        "factors",
+        "simulations",
+        "alberta"
+      ],
+      "fr": [
+        "utilisation de l’énergie",
+        "facteurs",
+        "simulations",
+        "alberta"
+      ]
+    },
+    "learningOutcomes": {
+      "en": [
+        "Investigate factors that influence the selection of energy resources.",
+        "Explain how Alberta's energy use has changed over time and may change in the future.",
+        "Distinguish between societal, economic, and environmental impacts on energy choices.",
+        "Use simulations to analyze land use impacts on energy and sustainability."
+      ],
+      "fr": [
+        "Étudier les facteurs qui influencent la sélection des ressources énergétiques.",
+        "Expliquer comment l’utilisation de l’énergie en Alberta a changé au fil du temps et pourrait encore changer dans l’avenir.",
+        "Faire la différence entre les impacts sociaux, économiques et environnementaux sur les choix énergétiques.",
+        "Utiliser les simulations pour analyser les effets de l’utilisation des terres sur l’énergie et le développement durable."
+      ]
+    },
+    "videoIds": [],
+    "relatedResources": {
+      "en": [],
+      "fr": []
+    }
   }
 ]

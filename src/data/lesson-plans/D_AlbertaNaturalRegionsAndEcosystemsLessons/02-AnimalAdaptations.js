@@ -11,4 +11,5 @@
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
 
 export const animalAdaptationsLessonPlan = {
+
 };
