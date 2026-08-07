@@ -9,6 +9,45 @@
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
+import { Language } from "../../enums/language.js";
 
 export const yourMissionVideo = {
+  id: "tutorial-03a-your-mission",
+
+  supportedLanguages: [Language.EN.id, Language.FR.id],
+
+  categoryId: VideoCategory.TUTORIALS.id,
+
+  title: {
+    en: "User Tutorial: Your Mission",
+    fr: "Votre mission"
+  },
+
+  description: {
+    en: "An overview of the mission you will accomplish using Alberta Tomorrow",
+    fr: "Un apercu de la mission que vous accomplirez a l'aide d'Alberta Tomorrow."
+  },
+
+  media: {
+    type: "youtube",
+    url: "https://www.youtube.com/watch?v=yNljbKNBI1M",
+    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialMission.jpg",
+    is360: false
+  },
+
+  searchTerms: {
+    en: [
+      "mission",
+      "objectives",
+      "learning path",
+      "tutorial"
+    ],
+
+    fr: [
+      "mission",
+      "objectifs",
+      "parcours d'apprentissage",
+      "tutoriel"
+    ]
+  },
 };

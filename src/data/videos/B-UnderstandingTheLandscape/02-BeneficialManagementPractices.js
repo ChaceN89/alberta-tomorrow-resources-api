@@ -12,25 +12,27 @@
  *
  * @notes
  * - The ID is a stable API value and should not be changed.
- * - French localization is currently awaiting translation.
  * - The current media URL is shared between locales.
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
+import { Language } from "../../enums/language.js";
 
 export const beneficialManagementPracticesVideo = {
   id: "landscape-02b-management-practices",
+
+  supportedLanguages: [Language.EN.id, Language.FR.id],
 
   categoryId: VideoCategory.LANDSCAPE.id,
 
   title: {
     en: "Beneficial Management Practices",
-    fr: ""
+    fr: "Pratiques de gestion benefiques"
   },
 
   description: {
-    en: "What are Beneficial Management Practices and how do they affect the future of Alberta? Find out what large companies, farmers, and individuals can do to minimize their effects on the environment.",
-    fr: ""
+    en: "What are Beneficial Management Practices and how do they affect the future of Alberta? Find out what large companies, farmers, and you can do to minimize the effect on the environment.",
+    fr: "Quelles sont les pratiques de gestion benefiques et quel effet ont-elles sur l'avenir de l'Alberta? Decouvrez ce que les grandes compagnies, les agriculteurs et vous pouvez faire pour reduire au minimum les effets sur l'environnement."
   },
 
   media: {
@@ -54,7 +56,17 @@ export const beneficialManagementPracticesVideo = {
       "future of Alberta"
     ],
 
-    fr: []
+    fr: [
+      "pratiques de gestion benefiques",
+      "gestion",
+      "utilisation des terres",
+      "durabilite",
+      "industrie",
+      "agriculture",
+      "agriculteurs",
+      "environnement",
+      "avenir de l'alberta"
+    ]
   },
 
 

@@ -12,25 +12,27 @@
  *
  * @notes
  * - The ID is a stable API value and should not be changed.
- * - French localization is currently awaiting translation.
  * - The current media URL is shared between locales.
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
+import { Language } from "../../enums/language.js";
 
 export const registeringForAnAccountVideo = {
   id: "tutorial-01a-register-account",
+
+  supportedLanguages: [Language.EN.id, Language.FR.id],
 
   categoryId: VideoCategory.TUTORIALS.id,
 
   title: {
     en: "User Tutorial: Registering for an Account",
-    fr: ""
+    fr: "S’inscrire pour créer un compte"
   },
 
   description: {
     en: "Watch this tutorial to see how to register for a Public, Teacher or Student Account.",
-    fr: ""
+    fr: "Regardez ce tutoriel pour voir comment créer un compte grand public, enseignant ou élève."
   },
 
   media: {
@@ -51,7 +53,15 @@ export const registeringForAnAccountVideo = {
       "student account"
     ],
 
-    fr: []
+    fr: [
+      "compte",
+      "inscription",
+      "guide utilisateur",
+      "education",
+      "compte public",
+      "compte enseignant",
+      "compte etudiant"
+    ]
   },
 
 };

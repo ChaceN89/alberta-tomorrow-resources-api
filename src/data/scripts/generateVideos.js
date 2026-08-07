@@ -40,6 +40,7 @@ import {
  * Expected source shape:
  * {
  *   id:          string
+ *   supportedLanguages: string[]
  *   categoryId:  string
  *   title:       { en, fr }
  *   description: { en, fr }
@@ -56,6 +57,8 @@ import {
 function normalizeVideo(raw) {
   return {
     id: raw.id,
+
+    supportedLanguages: normalizeArray(raw.supportedLanguages),
 
     categoryId: normalizeString(raw.categoryId),
 
@@ -74,7 +77,7 @@ function normalizeVideo(raw) {
     searchTerms: normalizeLocalizedArray(raw.searchTerms),
 
     // lessonPlanIds is injected later by addLessonPlanIds()
-    lessonPlanIds: normalizeArray(raw.lessonPlanIds),
+    // lessonPlanIds: normalizeArray(raw.lessonPlanIds), // remvoed for now- could add back in later
   };
 }
 

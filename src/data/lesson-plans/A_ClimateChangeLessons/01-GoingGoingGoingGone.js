@@ -5,7 +5,7 @@
  *
  * @author Chace Nielson
  * @created Jul 30, 2026
- * @updated Jul 30, 2026
+ * @updated Jul 31, 2026
  *
  * @dependencies
  * - LessonThemeIds.js
@@ -14,7 +14,8 @@
  *
  * @notes
  * - The ID is a stable API value and should not be changed.
- * - French localization is currently awaiting translation.
+ * - English and French resource entries use matching stable file IDs.
+ * - Google document URLs omit editing parameters and anchors.
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -28,43 +29,74 @@ export const goingGoingGoingGoneLessonPlan = {
 
   title: {
     en: "Going Going Going Gone: Climate Change and the Columbia Icefield",
-    fr: ""
+    fr: "Il recule, il recule, il disparaît – Les changements climatiques et le champ de glace Columbia"
   },
 
   description: {
     en: "Students will explore how climate change has affected Alberta's glaciers and do some calculations to determine the loss of ice on the Athabasca Glacier.",
-    fr: ""
+    fr: "Les élèves étudieront comment les glaciers de l’Alberta ont été touchés par les changements climatiques et ils feront des calculs pour déterminer la perte de glace sur le glacier Athabasca."
   },
 
   approximateTime: {
     en: "60 min",
-    fr: ""
+    fr: "60 min"
   },
 
   files: {
     en: [
       {
         id: "lesson-plan",
-        title: "Going Going Going Gone",
+        title: "Going Going Going Gone: Lesson Plan",
         description: "",
-        url: "/pdfs/lesson-plans/climateChange/GoingGoingGoingGone.pdf"
+        url: "https://docs.google.com/document/d/13jaSoGz_ilgV4SVwfopuKanJnysWxGLs7kggEQMHjqM"
+      },
+      {
+        id: "student-worksheet",
+        title: "Going Going Going Gone: Student Worksheet",
+        description: "",
+        url: "https://docs.google.com/document/d/1K0zsaIfodtZkpjgmS-KE74Rw1HmC7MJt-z7zfYgZfro"
+      },
+      {
+        id: "climate-myths-and-misconceptions-slides",
+        title: "Climate Myths and Misconceptions: Slide Show",
+        description: "",
+        url: "https://docs.google.com/presentation/d/1reQRVGi0VSEUcPAwk4SZ-NCiakFZNO3De-_0s9PehHk"
       }
     ],
 
-    fr: []
+    fr: [
+      {
+        id: "lesson-plan",
+        title: "Il recule, il recule, il disparaît : plan de leçon",
+        description: "",
+        url: "https://docs.google.com/document/d/1Q7CxkPAjDXu4vO9RBeQQFyfDMxovQbmX"
+      },
+      {
+        id: "student-worksheet",
+        title: "Il recule, il recule, il disparaît : feuille de travail de l’élève",
+        description: "",
+        url: "https://docs.google.com/document/d/15C4_1VYx-saaj54RKG7KXQ-_-e_O5jJZ"
+      },
+      {
+        id: "climate-myths-and-misconceptions-slides",
+        title: "Mythes et idées fausses sur les changements climatiques : présentation",
+        description: "",
+        url: "https://docs.google.com/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr"
+      }
+    ]
   },
 
   gradeIds: [
-    Grade.GRADE_4.id,
+    Grade.GRADE_2.id,
+    Grade.GRADE_3.id,
     Grade.GRADE_5.id,
+    Grade.GRADE_6.id,
     Grade.GRADE_7.id,
     Grade.GRADE_8.id,
-    Grade.GRADE_10.id,
-    Grade.GRADE_11.id
+    Grade.GRADE_10.id
   ],
 
   subjectIds: [
-    Subject.SOCIAL_STUDIES.id,
     Subject.SCIENCE.id,
     Subject.BIOLOGY.id,
     Subject.CTS.id
@@ -78,23 +110,44 @@ export const goingGoingGoingGoneLessonPlan = {
       "ice loss",
       "calculations",
       "water",
+      "Science 14",
+      "Science 20",
+      "Biology 20",
       "Energy Flow in Global Systems",
       "Environmental Stewardship",
       "Physical Geography of Canada"
     ],
 
-    fr: []
+    fr: [
+      "glaciers",
+      "changements climatiques",
+      "mathématiques",
+      "perte de glace",
+      "calculs",
+      "eau",
+      "Sciences 14",
+      "Sciences 20",
+      "Biologie 20",
+      "flux d’énergie dans les systèmes mondiaux",
+      "gérance de l’environnement",
+      "géographie physique du Canada"
+    ]
   },
 
   learningOutcomes: {
     en: [
-      "Understand seasonal variation in glacier mass",
-      "Understand the effect of climate change on glacier mass",
-      "Calculate loss of glacier ice on the Athabasca Glacier over the next 10 years",
-      "Determine the loss of ice volume in Rocky Mountain glaciers"
+      "Understand seasonal variation in glacier mass.",
+      "Understand the effect of climate change on glacier mass.",
+      "Calculate loss of glacier ice on the Athabasca Glacier over the next 10 years.",
+      "Determine the loss of ice volume in Rocky Mountain Glaciers."
     ],
 
-    fr: []
+    fr: [
+      "Comprendre la variation saisonnière dans la masse des glaciers.",
+      "Comprendre l’effet des changements climatiques sur la masse des glaciers.",
+      "Calculer la perte de glace sur le glacier Athabasca au cours des 10 prochaines années.",
+      "Déterminer la perte de volume de glace dans les glaciers des montagnes Rocheuses."
+    ]
   },
 
   videoIds: [
