@@ -36,14 +36,14 @@ export const glenmoreDamAndReservoirWaterServicesLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Glenmore Dam and Reservoir: Water Services - Google Doc",
         url: "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Barrage et réservoir de Glenmore : services d’approvisionnement en eau – document Google",
         url: "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
       }

@@ -36,14 +36,14 @@ export const nativePrairiesAndPlantsLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Native Prairies and Plants - Google Doc",
         url: "https://docs.google.com/document/d/1uTt5BFsG986N8SgW9H4nNCfXDPj5Wta7/"
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Prairies et plantes indigènes – document Google",
         url: "https://docs.google.com/document/d/1uTt5BFsG986N8SgW9H4nNCfXDPj5Wta7/"
       }

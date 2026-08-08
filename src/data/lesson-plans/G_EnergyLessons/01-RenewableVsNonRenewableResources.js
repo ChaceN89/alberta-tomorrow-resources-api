@@ -36,34 +36,34 @@ export const renewableVsNonRenewableResourcesLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Renewable vs Non-Renewable Resources - Lesson Plan",
         url: "https://docs.google.com/document/d/1QU_kIWDMITb9Zau0XcB3-e3yTgBzn8W9P2qlM1NaDa8/edit?usp=drive_link"
       },
       {
-        FileType: FileType.PRESENTATION_SLIDES,
+        fileType: FileType.PRESENTATION_SLIDES,
         title: "Renewable and Non-Renewable Sources of Energy - Presentation Slides",
         url: "https://docs.google.com/presentation/d/1ZeVKUKvxdKaTkf24aXG_xr29TvKWb4hX3bKAFThe-Cg/edit?usp=drive_link"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Renewable vs Non-Renewable Resources - Student Worksheet",
         url: "https://docs.google.com/document/d/1v5XpJO-O9B7I94GstDyZikDhgIzeCuo_pO6LtWPTWCc/edit?usp=drive_link"
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Ressources renouvelables ou non renouvelables : plan de leçon",
         url: "https://docs.google.com/document/d/16N-5cAv1mheL8ckWzDipWRYr8FlamNP_/edit"
       },
       {
-        FileType: FileType.PRESENTATION_SLIDES,
+        fileType: FileType.PRESENTATION_SLIDES,
         title: "Sources d’énergie renouvelables et non renouvelables : présentation PowerPoint",
         url: "https://docs.google.com/presentation/d/1kJBQH2n6TLF00_PLb1h--GYlEvwP-gD7/edit?slide=id.p1#slide=id.p1"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Ressources renouvelables ou non renouvelables : feuille de travail de l’élève",
         url: "https://docs.google.com/document/d/1n1nPmf2z3hZdQk0w3OIrqwTazb7zhvXf/edit"
       }

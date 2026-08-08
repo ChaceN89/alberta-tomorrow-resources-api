@@ -36,24 +36,24 @@ export const albertasEcosystemDiversityLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Alberta's Ecosystems Scavenger Hunt",
         url: "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Ecosystems in Alberta: Lesson Plan",
         url: "https://docs.google.com/document/d/1yQJJ48YHAhWmoKr_TTpnmW4heDOxD31sXAv5ktS8izE"
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Chasse au trésor dans les écosystèmes de l’Alberta",
         url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Écosystèmes en Alberta : plan de leçon",
         url: "https://docs.google.com/document/d/1dgmUyS9EOvTZmjjOuaOaxHk207d3WOe6/edit"
       }

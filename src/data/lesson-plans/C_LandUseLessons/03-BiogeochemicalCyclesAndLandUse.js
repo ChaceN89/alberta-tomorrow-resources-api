@@ -36,34 +36,34 @@ export const biogeochemicalCyclesAndLandUseLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Biogeochemical Cycles: Bio 20 Lesson Plan",
         url: "https://docs.google.com/document/d/18wXANYbaRv_r3vSBRlw0xNx00mF-X0KR/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Biogeochemical Cycles: Bio 20 Student Worksheet",
         url: "https://docs.google.com/document/d/1LeujOsQOvL-yAL3urmPKQSTDOXsijmjB/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       },
       {
-        FileType: FileType.ANSWER_KEY,
+        fileType: FileType.ANSWER_KEY,
         title: "Biogeochemical Cycles: Bio 20 Answer Key",
         url: "https://docs.google.com/document/d/1OsCViid43oOZrJ6WL6ohsEjPyINpGnro/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Cycles biogéochimiques : Biologie 20 - plan de leçon",
         url: "https://docs.google.com/document/d/18ewlElnzNzp6wEi7dunsnkNpDBmT_yEK/edit"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Cycles biogéochimiques : Biologie 20 - feuille de travail de l’élève",
         url: "https://docs.google.com/document/d/1pJqdjwsseUphgvDzBbtxA-WFthAQPBq0/edit"
       },
       {
-        FileType: FileType.ANSWER_KEY,
+        fileType: FileType.ANSWER_KEY,
         title: "Cycles biogéochimiques : Biologie 20 - clé de correction",
         url: "https://docs.google.com/document/d/1W-q4bGaM-eG7EmsKLFV_llxrtT3c18Qu/edit"
       }

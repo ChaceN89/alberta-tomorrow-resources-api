@@ -36,24 +36,24 @@ export const albertasNaturalResourcesLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Alberta's Natural Resources: Lesson Plan",
         url: "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg/edit?usp=drive_link"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Alberta's Natural Resources: Student Worksheet",
         url: "https://docs.google.com/document/d/11p5vAYKphMkiPaqH_4zJ49AFQKH_WEhSB5yVTxKjAAw/edit?usp=drive_link"
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Ressources naturelles de l’Alberta : plan de leçon",
         url: "https://docs.google.com/document/d/1KUFyuRXXLDf0bmCnTnFo4xTqN6QxFoha/edit"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Ressources naturelles de l’Alberta : feuille de travail de l’élève",
         url: "https://docs.google.com/document/d/1HVNoxTzEKVB58FFgxduCn01xek2Lde6g/edit"
       }

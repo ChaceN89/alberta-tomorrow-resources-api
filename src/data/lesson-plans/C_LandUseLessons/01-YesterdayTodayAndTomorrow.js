@@ -36,14 +36,14 @@ export const yesterdayTodayAndTomorrowLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Yesterday, Today and Tomorrow - Using the Alberta Tomorrow Simulator Lesson Plan and Student Worksheet",
         url: "https://docs.google.com/document/d/1Bnm4lgL7gFeSJW0DRwunmlZUOey-v6mrSTRmU6-raBM/edit?usp=drive_link"
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Hier, aujourd’hui et demain - Utiliser le simulateur d’Alberta Tomorrow : plan de leçon et feuille de travail de l’élève",
         url: "https://docs.google.com/document/d/19_h05r90eQzVl3V6TfJLKg-mTrWGmQmo/edit"
       }

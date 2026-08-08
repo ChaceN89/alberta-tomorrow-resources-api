@@ -36,17 +36,17 @@ export const introductionToGlaciersLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Introduction to Glaciers: Lesson Plan",
         url: null
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Introduction to Glaciers: Student Worksheet",
         url: null
       },
       {
-        FileType: FileType.PRESENTATION_SLIDES,
+        fileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta Slide Show",
         url: null
       }
@@ -54,17 +54,17 @@ export const introductionToGlaciersLessonPlan = {
 
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Introduction aux glaciers : plan de leçon",
         url: null
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Introduction aux glaciers : feuille de travail de l’élève",
         url: null
       },
       {
-        FileType: FileType.PRESENTATION_SLIDES,
+        fileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta : présentation PowerPoint",
         url: null
       }
@@ -147,7 +147,7 @@ export const introductionToGlaciersLessonPlan = {
 
   relatedResources: [
     {
-      FileType: FileType.OTHER_FILE_TYPE,
+      fileType: FileType.OTHER_FILE_TYPE,
       title: "U of A Ice Core Lab",
       url: "https://www.ualberta.ca/science/research-and-teaching/research/ice-core-archive/index.html"
     }

@@ -36,34 +36,34 @@ export const didIDoThatLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Did we do that? Science 7 Lesson Plan",
         url: "https://docs.google.com/document/d/1CR-RG016EQChxUjxY3X1aESpoSiSfHoq/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Did we do that? Science 7 Student Worksheet",
         url: null
       },
       {
-        FileType: FileType.ANSWER_KEY,
+        fileType: FileType.ANSWER_KEY,
         title: "Did we do that? Science 7 Answer Sheet",
         url: null
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Avons-nous fait ça? Sciences 7e année, plan de leçon",
         url: "https://docs.google.com/document/d/17gp6CAHLREMW8NS83xN7td3SWwIvlV3l/edit"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Avons-nous fait ça? Sciences 7e année, feuille de travail de l’élève",
         url: null
       },
       {
-        FileType: FileType.ANSWER_KEY,
+        fileType: FileType.ANSWER_KEY,
         title: "Avons-nous fait ça? Sciences 7e année, clé de correction",
         url: null
       }
@@ -122,7 +122,5 @@ export const didIDoThatLessonPlan = {
     "soc-06d-water-consumption"
   ],
 
-  relatedResources: {
-
-  }
+  relatedResources: []
 };

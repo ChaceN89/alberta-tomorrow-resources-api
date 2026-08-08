@@ -36,14 +36,14 @@ export const myFutureAlbertaLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "My Future Alberta: Creating a Landuse Plan for 2050: Lesson Plan and Student Worksheet",
         url: "https://docs.google.com/document/d/1m_ybmNFrgN1CYuKQUYUttrd_PDfzzsPwu8zMlEJRI24/edit?usp=drive_link"
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Mon Alberta du futur : Créer un plan d’utilisation des terres pour 2050 : plan de leçon et feuille de travail de l’élève",
         url: "https://docs.google.com/document/d/13ybEAk6XIv5r9Fkqv-5k8-CwWaF2Ybm7/edit#heading=h.nqnhio4pqyoe"
       }
@@ -96,7 +96,7 @@ export const myFutureAlbertaLessonPlan = {
 
   relatedResources: [
     {
-      FileType: FileType.OTHER_FILE_TYPE,
+      fileType: FileType.OTHER_FILE_TYPE,
       title: "Alberta Landuse Framework",
       url: "https://landuse.alberta.ca/Pages/default.aspx"
     }

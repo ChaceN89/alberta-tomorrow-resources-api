@@ -36,14 +36,14 @@ export const whereIsMyHomeLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Where is my Home? Using the Indigenous Map Layers",
         url: "https://drive.google.com/file/d/1FnOm7Ja6IlrK483QT2m0pPbPhoY7c5HY/view?usp=drive_link"
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Où est ma maison? Utiliser les superpositions cartographiques autochtones.",
         url: "https://docs.google.com/document/d/1D_ZcPRB23NF3M1BRHjbJpyPWWTWexcF8/edit"
       }

@@ -36,14 +36,14 @@ export const didWeDoThatLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Grade 4 Lesson Plan",
         url: null
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Plan de leçon de 4e année",
         url: null
       }

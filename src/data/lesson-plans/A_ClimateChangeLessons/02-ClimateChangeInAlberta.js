@@ -36,27 +36,27 @@ export const climateChangeInAlbertaLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios: Lesson Plan",
         url: null
       },
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Science 6 Climate Change in Alberta - Lesson Plan",
         url: null
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Climate Change in Alberta - Student Worksheet",
         url: null
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Energy Resources and Climate Change in Alberta - Student Worksheet",
         url: null
       },
       {
-        FileType: FileType.PRESENTATION_SLIDES,
+        fileType: FileType.PRESENTATION_SLIDES,
         title: "Climate Change: Truth and Misconceptions - Presentation Slides",
         url: null
       }
@@ -64,27 +64,27 @@ export const climateChangeInAlbertaLessonPlan = {
 
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
-        title: "N/A",
+        fileType: FileType.LESSON_PLAN,
+        title: "Changements climatiques en Alberta : étudier les scénarios climatiques Doux, Moyen et Chaud : plan de leçon",
         url: null
       },
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Sciences, 6e année, Changements climatiques en Alberta – plan de leçon",
         url: null
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Changements climatiques en Alberta – feuille de travail de l’élève",
         url: null
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Ressources énergétiques et changements climatiques – présentation PowerPoint",
         url: null
       },
       {
-        FileType: FileType.PRESENTATION_SLIDES,
+        fileType: FileType.PRESENTATION_SLIDES,
         title: "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
         url: null
       }

@@ -36,24 +36,24 @@ export const animalAdaptationsLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Grade 3 Science Adaptations and the 360 Virtual Field Trips",
         url: null
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Animal Adaptations Student Worksheet - Fillable Google Slides",
         url: null
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "N/A",
         url: null
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "N/A",
         url: null
       }

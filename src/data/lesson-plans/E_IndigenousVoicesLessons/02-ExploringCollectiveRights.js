@@ -36,24 +36,24 @@ export const exploringCollectiveRightsLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Exploring Collective Rights: Lesson Plan",
         url: "https://docs.google.com/document/d/1nMh2BVY6ZRFW0c8RjIShGn6t2QYi_ZvF/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Exploring Collective Rights: Student Worksheet",
         url: "https://docs.google.com/document/d/10cCzISaKfH5wrf7O8CoBdIYfNG0V9sF4/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Étudier les droits collectifs : plan de leçon",
         url: "https://docs.google.com/document/d/1MmE7sHJaMq5gmPgNpxGjXOjK7UFx2LBy/edit"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Étudier les droits collectifs : feuille de travail de l’élève",
         url: "https://docs.google.com/document/d/1CL4u8LjHDWtwxPSM3EQ_4ilHDKVF0qgr/edit"
       }

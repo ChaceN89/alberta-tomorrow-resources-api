@@ -45,17 +45,17 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Love it or Lose it: Alberta Glacier Edition Lesson Plan",
         url: null
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Love it or Lose it: Alberta Glacier Edition: Student Worksheet",
         url: null
       },
       {
-        FileType: FileType.PRESENTATION_SLIDES,
+        fileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta Slide Show",
         url: null
       }
@@ -63,17 +63,17 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
 
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : plan de leçon",
         url: null
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : feuille de travail de l'élève",
         url: null
       },
       {
-        FileType: FileType.PRESENTATION_SLIDES,
+        fileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta : présentation",
         url: null
       }

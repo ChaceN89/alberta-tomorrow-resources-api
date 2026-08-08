@@ -36,34 +36,34 @@ export const governmentsHaveItRoughLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Governments Have it Rough!: Lesson Plan",
         url: "https://docs.google.com/document/d/1aNPK0LmRNRv66uWmo3VaUHwx2cjW_lAI/edit"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Governments Have it Rough: Student Worksheet",
         url: null
       },
       {
-        FileType: FileType.ANSWER_KEY,
+        fileType: FileType.ANSWER_KEY,
         title: "Governments Have it Rough: Answer Key",
         url: null
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "C’est difficile pour les gouvernements! : plan de leçon",
         url: "https://docs.google.com/document/d/1x0a4-z0-FNdjN8_1OWLkeNLESI7Hx4AU/edit"
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "C’est difficile pour les gouvernements! : feuille de travail de l’élève",
         url: null
       },
       {
-        FileType: FileType.ANSWER_KEY,
+        fileType: FileType.ANSWER_KEY,
         title: "C’est difficile pour les gouvernements! : clé de correction",
         url: null
       }

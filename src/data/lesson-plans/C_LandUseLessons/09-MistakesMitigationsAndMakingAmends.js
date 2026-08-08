@@ -36,14 +36,14 @@ export const mistakesMitigationsAndMakingAmendsLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Land Based Learning Webinar Worksheet",
         url: null
       }
     ],
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "N/A",
         url: null
       }

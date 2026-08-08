@@ -42,13 +42,13 @@ import {
  *   title:           { en, fr }
  *   description:     { en, fr }
  *   approximateTime: { en, fr }
- *   files:           { en: [{ id, title, description, url }], fr: [...] }
+ *   files:           { en: [{ fileType, title, url }], fr: [...] }
  *   gradeIds:        string[]
  *   subjectIds:      string[]
  *   searchTerms:     { en: string[], fr: string[] }
  *   learningOutcomes:{ en: string[], fr: string[] }
  *   videoIds:        string[]
- *   relatedResources:{ en: [{ id, title, url }], fr: [...] }
+ *   relatedResources:[{ title, url }]
  * }
  */
 function normalizeFiles(value) {
@@ -61,10 +61,10 @@ function normalizeFiles(value) {
     "other-file-type",
   ]);
   const mapFile = (f) => {
-    const rawFileType = normalizeString(f?.FileType ?? f?.fileType ?? f?.type ?? f?.id);
+    const rawFileType = normalizeString(f?.fileType ?? f?.type ?? f?.id);
     const fileType = allowedFileTypes.has(rawFileType) ? rawFileType : "other-file-type";
     return {
-      FileType: fileType,
+      fileType: fileType,
       title: normalizeString(f?.title),
       url: normalizeString(f?.url),
     };

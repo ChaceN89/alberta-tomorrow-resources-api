@@ -39,19 +39,19 @@ import {
  *
  * Expected source shape:
  * {
- *   id:          string
- *   supportedLanguages: string[]
- *   categoryId:  string
- *   title:       { en, fr }
- *   description: { en, fr }
+ *   id:                  string
+ *   supportedLanguages:  string[]
+ *   categoryId:          string
+ *   title:               { en, fr }
+ *   description:         { en, fr }
  *   media: {
- *     type:         string   ("youtube" | "cloudfront" | …)
- *     url:          string
- *     thumbnailUrl: string
- *     is360:        boolean
+ *     type:              string   ("youtube" | "cloudfront" | …)
+ *     url:               string
+ *     thumbnailUrl:      string
+ *     is360:             boolean
  *   }
- *   searchTerms: { en: string[], fr: string[] }
- *   lessonPlanIds: string[]   (populated by the generator — not needed in source)
+ *   searchTerms:         { en: string[], fr: string[] }
+ *   lessonPlanIds:       string[]   (populated by the generator — not needed in source)
  * }
  */
 function normalizeVideo(raw) {

@@ -46,17 +46,17 @@ export const goingGoingGoingGoneLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Going Going Going Gone: Lesson Plan",
         url: null
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Going Going Going Gone: Student Worksheet",
         url: null
       },
       {
-        FileType: FileType.PRESENTATION_SLIDES,
+        fileType: FileType.PRESENTATION_SLIDES,
         title: "Climate Myths and Misconceptions: Slide Show",
         url: null
       }
@@ -64,17 +64,17 @@ export const goingGoingGoingGoneLessonPlan = {
 
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Il recule, il recule, il disparaît : plan de leçon",
         url: null
       },
       {
-        FileType: FileType.STUDENT_WORKSHEET,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Il recule, il recule, il disparaît : feuille de travail de l’élève",
         url: null
       },
       {
-        FileType: FileType.PRESENTATION_SLIDES,
+        fileType: FileType.PRESENTATION_SLIDES,
         title: "Mythes et idées fausses sur les changements climatiques : présentation",
         url: null
       }

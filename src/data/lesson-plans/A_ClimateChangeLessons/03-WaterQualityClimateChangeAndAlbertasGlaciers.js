@@ -36,17 +36,17 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
   files: {
     en: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Water Quality, Climate Change and Alberta's Glaciers",
         url: null
       },
       {
-        FileType: FileType.OTHER_FILE_TYPE,
+        fileType: FileType.OTHER_FILE_TYPE,
         title: "Webinar Worksheet",
         url: null
       },
       {
-        FileType: FileType.PRESENTATION_SLIDES,
+        fileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta (Google Slides)",
         url: null
       }
@@ -54,17 +54,17 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
 
     fr: [
       {
-        FileType: FileType.LESSON_PLAN,
+        fileType: FileType.LESSON_PLAN,
         title: "Qualité de l'eau, changements climatiques et glaciers de l'Alberta : plan de leçon",
         url: null
       },
       {
-        FileType: FileType.OTHER_FILE_TYPE,
+        fileType: FileType.OTHER_FILE_TYPE,
         title: "Feuille de travail du webinaire",
         url: null
       },
       {
-        FileType: FileType.PRESENTATION_SLIDES,
+        fileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta (diapositives Google)",
         url: null
       }
@@ -131,13 +131,10 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
     "landscape-04b-glaciers-webinar"
   ],
 
-  relatedResources: {
-    en: [
-      {
-        id: "guardians-of-the-ice",
-        title: "Guardians of the Ice",
-        url: "https://guardiansoftheice.com/the-columbia-icefield/"
-      }
-    ],
-  }
+  relatedResources: [
+    {
+      title: "Guardians of the Ice",
+      url: "https://guardiansoftheice.com/the-columbia-icefield/"
+    }
+  ],
 };
