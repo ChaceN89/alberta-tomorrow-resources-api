@@ -37,19 +37,16 @@ export const mappingIndigenousAreasLessonPlan = {
       {
         id: "lesson-plan",
         title: "Mapping Indigenous Areas: Lesson Plan",
-        description: "",
         url: "https://docs.google.com/document/d/1Uyrqu1VyKnJFc7Y_6tZbWeXvMeHkU0zTfktRYppQlYA"
       },
       {
         id: "student-worksheet",
         title: "Mapping Indigenous Areas: Student Worksheet",
-        description: "",
         url: "https://drive.google.com/file/d/1TD5lTrUbYJPh1OxBeEULOzkZ_q1L5xXv/view?usp=drive_link"
       },
       {
         id: "answer-sheet",
         title: "Mapping Indigenous Areas: Answer Sheet",
-        description: "",
         url: "https://drive.google.com/file/d/1iv-eAK8aW24oybt-9kOSeA3h4rZengJv/view?usp=drive_link"
       }
     ],
@@ -57,19 +54,16 @@ export const mappingIndigenousAreasLessonPlan = {
       {
         id: "lesson-plan",
         title: "Cartographier les régions autochtones : plan de leçon",
-        description: "",
         url: "https://docs.google.com/document/d/18ZRfCirFFmvnZ5-45KBM_QWpU4RuHHpU/edit"
       },
       {
         id: "student-worksheet",
         title: "Cartographier les régions autochtones : feuille de travail de l’élève",
-        description: "",
         url: "https://docs.google.com/document/d/1tmkUtOZkroEhYl56TmhyVM-Zmj0nfzZ0/edit#heading=h.vqtq7mb3t4ey"
       },
       {
         id: "answer-sheet",
         title: "Cartographier les régions autochtones : clé de correction",
-        description: "",
         url: "https://docs.google.com/document/d/1rpoEDqWvW12B7_B-Ycv73uYoHuZIABiu/edit#heading=h.7gig7j9bkhxk"
       }
     ]

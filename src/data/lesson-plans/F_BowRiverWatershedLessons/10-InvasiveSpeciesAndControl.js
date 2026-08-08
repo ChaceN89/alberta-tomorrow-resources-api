@@ -37,7 +37,6 @@ export const invasiveSpeciesAndControlLessonPlan = {
       {
         id: "lesson-plan",
         title: "Invasive Species and Control - Google Doc",
-        description: "",
         url: "https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/"
       }
     ],
@@ -45,7 +44,6 @@ export const invasiveSpeciesAndControlLessonPlan = {
       {
         id: "lesson-plan",
         title: "Espèces envahissantes et mesures de contrôle – document Google",
-        description: "",
         url: "https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/"
       }
     ]

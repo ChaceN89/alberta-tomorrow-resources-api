@@ -37,19 +37,16 @@ export const biogeochemicalCyclesAndLandUseLessonPlan = {
       {
         id: "lesson-plan",
         title: "Biogeochemical Cycles: Bio 20 Lesson Plan",
-        description: "",
         url: "https://docs.google.com/document/d/18wXANYbaRv_r3vSBRlw0xNx00mF-X0KR/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       },
       {
         id: "student-worksheet",
         title: "Biogeochemical Cycles: Bio 20 Student Worksheet",
-        description: "",
         url: "https://docs.google.com/document/d/1LeujOsQOvL-yAL3urmPKQSTDOXsijmjB/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       },
       {
         id: "answer-key",
         title: "Biogeochemical Cycles: Bio 20 Answer Key",
-        description: "",
         url: "https://docs.google.com/document/d/1OsCViid43oOZrJ6WL6ohsEjPyINpGnro/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       }
     ],
@@ -57,19 +54,16 @@ export const biogeochemicalCyclesAndLandUseLessonPlan = {
       {
         id: "lesson-plan",
         title: "Cycles biogéochimiques : Biologie 20 - plan de leçon",
-        description: "",
         url: "https://docs.google.com/document/d/18ewlElnzNzp6wEi7dunsnkNpDBmT_yEK/edit"
       },
       {
         id: "student-worksheet",
         title: "Cycles biogéochimiques : Biologie 20 - feuille de travail de l’élève",
-        description: "",
         url: "https://docs.google.com/document/d/1pJqdjwsseUphgvDzBbtxA-WFthAQPBq0/edit"
       },
       {
         id: "answer-key",
         title: "Cycles biogéochimiques : Biologie 20 - clé de correction",
-        description: "",
         url: "https://docs.google.com/document/d/1W-q4bGaM-eG7EmsKLFV_llxrtT3c18Qu/edit"
       }
     ]

@@ -37,13 +37,11 @@ export const iceCoreBasicsLessonPlan = {
       {
         id: "lesson-plan",
         title: "Ice Core Basics: Lesson Plan",
-        description: "",
         url: "https://docs.google.com/document/d/1ju0v6zBaJoDP6enneGbY0HAMjSeIYZK63sP3gVRHw30/edit?usp=drive_link"
       },
       {
         id: "student-worksheet",
         title: "Ice Core Basics: Student Worksheet",
-        description: "",
         url: null
       }
     ],
@@ -52,13 +50,11 @@ export const iceCoreBasicsLessonPlan = {
       {
         id: "lesson-plan",
         title: "Notions de base sur les carottes de glace : plan de leçon",
-        description: "",
         url: "https://docs.google.com/document/d/1bLE67Z_lkQd74jEWKgUM1ikKFIUMZETI/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
       },
       {
         id: "student-worksheet",
         title: "Notions de base sur les carottes de glace : feuille de travail de l'élève",
-        description: "",
         url: null
       }
     ]

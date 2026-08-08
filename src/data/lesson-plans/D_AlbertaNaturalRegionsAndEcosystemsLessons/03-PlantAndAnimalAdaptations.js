@@ -37,13 +37,11 @@ export const plantAndAnimalAdaptationsLessonPlan = {
       {
         id: "lesson-plan",
         title: "Grade 9 Science Adaptations and the 360 Virtual Field Trips",
-        description: "",
         url: "https://drive.google.com/file/d/1oqRU9sDWebD92xmGi3RYhN-Ae00ACP_j/view?usp=drive_link"
       },
       {
         id: "student-worksheet",
         title: "Grade 9 Plant and Animal Adaptations Student Worksheet - Fillable Google Slides",
-        description: "",
         url: "https://docs.google.com/presentation/d/1b_EosZ3fXr638ZeakaiqvjUYDMXGrXiwV7Yw3o04w8E"
       }
     ],
@@ -51,13 +49,11 @@ export const plantAndAnimalAdaptationsLessonPlan = {
       {
         id: "lesson-plan",
         title: "9e année, Sciences : Adaptations et visites virtuelles à 360 degrés",
-        description: "",
         url: "https://docs.google.com/document/d/1IKLGOqi9ukqXGjawklTxjrAGOEzbS6wg/edit"
       },
       {
         id: "student-worksheet",
         title: "9e année, Adaptations des plantes et des animaux – feuille de travail de l’élève – diapositives Google à remplir",
-        description: "",
         url: null
       }
     ]

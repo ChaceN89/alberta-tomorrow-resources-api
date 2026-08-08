@@ -29,7 +29,7 @@ export const didWeDoThatLessonPlan = {
 
   approximateTime: {
     en: "12 classes",
-    fr: "N/A"
+    fr: "12 cours"
   },
 
   files: {
@@ -37,15 +37,13 @@ export const didWeDoThatLessonPlan = {
       {
         id: "lesson-plan",
         title: "Grade 4 Lesson Plan",
-        description: "",
         url: null
       }
     ],
     fr: [
       {
         id: "lesson-plan",
-        title: "N/A",
-        description: "",
+        title: "Plan de leçon de 4e année",
         url: null
       }
     ]
@@ -71,7 +69,17 @@ export const didWeDoThatLessonPlan = {
       "economy",
       "ecosystem services"
     ],
-    fr: []
+    fr: [
+      "un sens du territoire",
+      "utilisation des terres",
+      "qualité de vie",
+      "faune",
+      "qualité de l’eau",
+      "consommation d’eau",
+      "Alberta",
+      "économie",
+      "services écosystémiques"
+    ]
   },
 
   learningOutcomes: {
@@ -79,7 +87,10 @@ export const didWeDoThatLessonPlan = {
       "Investigate the geography of Alberta",
       "Examine the benefits and drawbacks of land-use practices"
     ],
-    fr: []
+    fr: [
+      "Étudier la géographie de l’Alberta.",
+      "Examiner les avantages et les inconvénients des pratiques d’utilisation des terres."
+    ]
   },
 
   videoIds: [

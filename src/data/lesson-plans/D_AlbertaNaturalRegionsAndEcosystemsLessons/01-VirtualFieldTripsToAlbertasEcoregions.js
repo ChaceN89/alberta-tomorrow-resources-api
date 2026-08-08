@@ -37,25 +37,21 @@ export const virtualFieldTripsToAlbertasEcoregionsLessonPlan = {
       {
         id: "lesson-plan",
         title: "Alberta's Ecoregions - 360 Virtual Field Trips Lesson Plan",
-        description: "",
         url: "https://docs.google.com/document/d/1zMQUusoEZMeOQj_JAk-anB7VGoxBaPeI/edit"
       },
       {
         id: "student-worksheet",
         title: "360 Virtual Tours Scavenger Hunt Student Worksheet",
-        description: "",
         url: "https://docs.google.com/document/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz/edit"
       },
       {
         id: "fillable-google-slides",
         title: "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
-        description: "",
         url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
       },
       {
         id: "circle-student-worksheet",
         title: "360 Virtual Tours Scavenger Hunt Circle Student Worksheet",
-        description: "",
         url: "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0/edit?slide=id.p1#slide=id.p1"
       }
     ],
@@ -63,25 +59,21 @@ export const virtualFieldTripsToAlbertasEcoregionsLessonPlan = {
       {
         id: "lesson-plan",
         title: "Écorégions de l’Alberta – visites virtuelles à 360 degrés : plan de leçon",
-        description: "",
         url: "https://docs.google.com/document/d/1zMQUusoEZMeOQj_JAk-anB7VGoxBaPeI/edit"
       },
       {
         id: "student-worksheet",
         title: "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
-        description: "",
         url: "https://docs.google.com/document/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz/edit"
       },
       {
         id: "fillable-google-slides",
         title: "Visites virtuelles à 360 degrés et chasse au trésor : diapositives Google à remplir",
-        description: "",
         url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
       },
       {
         id: "circle-student-worksheet",
         title: "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève (encercler)",
-        description: "",
         url: "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0/edit?slide=id.p1#slide=id.p1"
       }
     ]

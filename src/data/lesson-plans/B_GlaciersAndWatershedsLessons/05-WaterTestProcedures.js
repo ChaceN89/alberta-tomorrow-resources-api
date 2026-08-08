@@ -37,13 +37,11 @@ export const waterTestProceduresLessonPlan = {
       {
         id: "water-test-procedures",
         title: "Water Test Procedures",
-        description: "",
         url: "https://drive.google.com/file/d/15I2aVVkdXZUWdPTEB7YQyk3OgvBG4SG-/view?usp=sharing"
       },
       {
         id: "glaciers-in-alberta-slides",
         title: "Glaciers in Alberta Slide Show",
-        description: "",
         url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg/edit?usp=drive_link"
       }
     ],
@@ -52,13 +50,11 @@ export const waterTestProceduresLessonPlan = {
       {
         id: "water-test-procedures",
         title: "Procédures d’analyse de l’eau",
-        description: "",
         url: "https://docs.google.com/document/d/1S0CSfCmP5sCkBeUdMuooNtXBOYhDOHch/edit"
       },
       {
         id: "glaciers-in-alberta-slides",
         title: "Les glaciers en Alberta : présentation",
-        description: "",
         url: null
       }
     ]

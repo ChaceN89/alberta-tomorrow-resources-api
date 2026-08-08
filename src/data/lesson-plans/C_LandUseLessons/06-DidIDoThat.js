@@ -18,8 +18,8 @@ export const didIDoThatLessonPlan = {
   themeId: LessonTheme.LAND_USE.id,
 
   title: {
-    en: "Did WE Do That? The Relationship Between Humans and Their Environment",
-    fr: "Avons-NOUS fait ça? Les rapports entre l’être humain et son environnement"
+    en: "Did I Do That? The Relationship Between Humans and Their Environment",
+    fr: "Ai-je fait ça? Les rapports entre l’être humain et son environnement"
   },
 
   description: {
@@ -37,19 +37,16 @@ export const didIDoThatLessonPlan = {
       {
         id: "lesson-plan",
         title: "Did we do that? Science 7 Lesson Plan",
-        description: "",
         url: "https://docs.google.com/document/d/1CR-RG016EQChxUjxY3X1aESpoSiSfHoq/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       },
       {
         id: "student-worksheet",
         title: "Did we do that? Science 7 Student Worksheet",
-        description: "",
         url: null
       },
       {
         id: "answer-sheet",
         title: "Did we do that? Science 7 Answer Sheet",
-        description: "",
         url: null
       }
     ],
@@ -57,19 +54,16 @@ export const didIDoThatLessonPlan = {
       {
         id: "lesson-plan",
         title: "Avons-nous fait ça? Sciences 7e année, plan de leçon",
-        description: "",
         url: "https://docs.google.com/document/d/17gp6CAHLREMW8NS83xN7td3SWwIvlV3l/edit"
       },
       {
         id: "student-worksheet",
         title: "Avons-nous fait ça? Sciences 7e année, feuille de travail de l’élève",
-        description: "",
         url: null
       },
       {
         id: "answer-sheet",
         title: "Avons-nous fait ça? Sciences 7e année, clé de correction",
-        description: "",
         url: null
       }
     ]

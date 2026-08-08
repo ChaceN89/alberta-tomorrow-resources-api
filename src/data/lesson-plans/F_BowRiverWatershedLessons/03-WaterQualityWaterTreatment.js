@@ -37,7 +37,6 @@ export const waterQualityWaterTreatmentLessonPlan = {
       {
         id: "lesson-plan",
         title: "Water Quality: Water Treatment - Google Doc",
-        description: "",
         url: "https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/"
       }
     ],
@@ -45,7 +44,6 @@ export const waterQualityWaterTreatmentLessonPlan = {
       {
         id: "lesson-plan",
         title: "Qualité de l’eau : traitement des eaux – document Google",
-        description: "",
         url: "https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/"
       }
     ]

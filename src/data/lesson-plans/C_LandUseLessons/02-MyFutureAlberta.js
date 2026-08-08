@@ -37,7 +37,6 @@ export const myFutureAlbertaLessonPlan = {
       {
         id: "lesson-plan-and-student-worksheet",
         title: "My Future Alberta: Creating a Landuse Plan for 2050: Lesson Plan and Student Worksheet",
-        description: "",
         url: "https://docs.google.com/document/d/1m_ybmNFrgN1CYuKQUYUttrd_PDfzzsPwu8zMlEJRI24/edit?usp=drive_link"
       }
     ],
@@ -45,7 +44,6 @@ export const myFutureAlbertaLessonPlan = {
       {
         id: "lesson-plan-and-student-worksheet",
         title: "Mon Alberta du futur : Créer un plan d’utilisation des terres pour 2050 : plan de leçon et feuille de travail de l’élève",
-        description: "",
         url: "https://docs.google.com/document/d/13ybEAk6XIv5r9Fkqv-5k8-CwWaF2Ybm7/edit#heading=h.nqnhio4pqyoe"
       }
     ]

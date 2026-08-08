@@ -19,12 +19,12 @@ export const climateChangeInAlbertaLessonPlan = {
 
   title: {
     en: "Climate Change in Alberta",
-    fr: "N/A"
+    fr: "Changements climatiques en Alberta"
   },
 
   description: {
     en: "Students will use the Alberta Tomorrow simulator to investigate different climate change scenarios and see the consequences of different futures and the benefits of using beneficial management practices.",
-    fr: "N/A"
+    fr: "Les élèves utiliseront le simulateur d’Alberta Tomorrow pour étudier différents scénarios de changements climatiques et voir les répercussions des différents avenirs et les avantages d’appliquer les pratiques de gestion bénéfiques."
   },
 
   approximateTime: {
@@ -37,31 +37,26 @@ export const climateChangeInAlbertaLessonPlan = {
       {
         id: "lesson-plan",
         title: "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios: Lesson Plan",
-        description: "",
         url: null
       },
       {
         id: "science-6-lesson-plan",
         title: "Science 6 Climate Change in Alberta - Lesson Plan",
-        description: "",
         url: null
       },
       {
         id: "student-worksheet",
         title: "Climate Change in Alberta - Student Worksheet",
-        description: "",
         url: null
       },
       {
         id: "energy-resources-student-worksheet",
         title: "Energy Resources and Climate Change in Alberta - Student Worksheet",
-        description: "",
         url: null
       },
       {
         id: "climate-truth-and-misconceptions-slides",
         title: "Climate Change: Truth and Misconceptions - Presentation Slides",
-        description: "",
         url: null
       }
     ],
@@ -70,31 +65,26 @@ export const climateChangeInAlbertaLessonPlan = {
       {
         id: "lesson-plan",
         title: "N/A",
-        description: "",
         url: null
       },
       {
         id: "science-6-lesson-plan",
-        title: "N/A",
-        description: "",
+        title: "Sciences, 6e année, Changements climatiques en Alberta – plan de leçon",
         url: null
       },
       {
         id: "student-worksheet",
-        title: "N/A",
-        description: "",
+        title: "Changements climatiques en Alberta – feuille de travail de l’élève",
         url: null
       },
       {
         id: "energy-resources-student-worksheet",
-        title: "N/A",
-        description: "",
+        title: "Ressources énergétiques et changements climatiques – présentation PowerPoint",
         url: null
       },
       {
         id: "climate-truth-and-misconceptions-slides",
-        title: "N/A",
-        description: "",
+        title: "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
         url: null
       }
     ]
@@ -168,7 +158,11 @@ export const climateChangeInAlbertaLessonPlan = {
       "Investigate the impact of climate change on Alberta's natural regions",
       "Investigate the impact of climate change on our environment and economy"
     ],
-    fr: []
+    fr: [
+      "Étudier l’effet que peuvent avoir les changements climatiques sur la terre, les plantes, les humains et les autres animaux.",
+      "Examiner les actions personnelles qui peuvent être prises pour réduire les changements climatiques.",
+      "Étudier l’effet de la réduction des gaz à effet de serre nets."
+    ]
   },
 
   videoIds: [

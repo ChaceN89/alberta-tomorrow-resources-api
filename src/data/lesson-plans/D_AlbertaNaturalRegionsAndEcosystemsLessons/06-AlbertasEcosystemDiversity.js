@@ -37,13 +37,11 @@ export const albertasEcosystemDiversityLessonPlan = {
       {
         id: "lesson-plan",
         title: "Alberta's Ecosystems Scavenger Hunt",
-        description: "",
         url: "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
       },
       {
         id: "student-worksheet",
         title: "Ecosystems in Alberta: Lesson Plan",
-        description: "",
         url: "https://docs.google.com/document/d/1yQJJ48YHAhWmoKr_TTpnmW4heDOxD31sXAv5ktS8izE"
       }
     ],
@@ -51,13 +49,11 @@ export const albertasEcosystemDiversityLessonPlan = {
       {
         id: "lesson-plan",
         title: "Chasse au trésor dans les écosystèmes de l’Alberta",
-        description: "",
         url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
       },
       {
         id: "student-worksheet",
         title: "Écosystèmes en Alberta : plan de leçon",
-        description: "",
         url: "https://docs.google.com/document/d/1dgmUyS9EOvTZmjjOuaOaxHk207d3WOe6/edit"
       }
     ]

@@ -37,19 +37,16 @@ export const introductionToGlaciersLessonPlan = {
       {
         id: "lesson-plan",
         title: "Introduction to Glaciers: Lesson Plan",
-        description: "",
         url: null
       },
       {
         id: "student-worksheet",
         title: "Introduction to Glaciers: Student Worksheet",
-        description: "",
         url: null
       },
       {
         id: "glaciers-in-alberta-slides",
         title: "Glaciers in Alberta Slide Show",
-        description: "",
         url: null
       }
     ],
@@ -58,19 +55,16 @@ export const introductionToGlaciersLessonPlan = {
       {
         id: "lesson-plan",
         title: "Introduction aux glaciers : plan de leçon",
-        description: "",
         url: null
       },
       {
         id: "student-worksheet",
         title: "Introduction aux glaciers : feuille de travail de l’élève",
-        description: "",
         url: null
       },
       {
         id: "glaciers-in-alberta-slides",
         title: "Les glaciers en Alberta : présentation PowerPoint",
-        description: "",
         url: null
       }
     ]

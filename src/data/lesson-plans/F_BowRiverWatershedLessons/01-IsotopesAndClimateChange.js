@@ -37,7 +37,6 @@ export const isotopesAndClimateChangeLessonPlan = {
       {
         id: "lesson-plan",
         title: "Isotopes and Climate Change - Google Doc",
-        description: "",
         url: "https://docs.google.com/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi/"
       }
     ],
@@ -45,7 +44,6 @@ export const isotopesAndClimateChangeLessonPlan = {
       {
         id: "lesson-plan",
         title: "Isotopes et changements climatiques – document Google",
-        description: "",
         url: "https://docs.google.com/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi/"
       }
     ]

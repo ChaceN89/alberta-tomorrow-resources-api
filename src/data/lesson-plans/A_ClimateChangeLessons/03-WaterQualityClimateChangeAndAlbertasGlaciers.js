@@ -19,12 +19,12 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
 
   title: {
     en: "Water Quality, Climate Change and Alberta's Glaciers",
-    fr: "N/A"
+    fr: "Qualité de l’eau, changements climatiques et glaciers de l’Alberta"
   },
 
   description: {
     en: "This lesson plan accompanies the webinar recording found under the video section. The webinar was held on May 27, 2020 and features four prominent scientists discussing climate change, glacier melt, water policy, and water quality in Alberta.",
-    fr: "N/A"
+    fr: "Ce plan de leçon accompagne l’enregistrement du webinaire que vous trouverez dans la section Vidéos. Le webinaire a été enregistré le 27 mai 2020 et met en vedette quatre éminents scientifiques qui discutent des changements climatiques, de la fonte des glaciers, de la réglementation des eaux et de la qualité de l’eau en Alberta."
   },
 
   approximateTime: {
@@ -37,19 +37,16 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
       {
         id: "lesson-plan",
         title: "Water Quality, Climate Change and Alberta's Glaciers",
-        description: "",
         url: null
       },
       {
         id: "webinar-worksheet",
         title: "Webinar Worksheet",
-        description: "",
         url: null
       },
       {
         id: "glaciers-in-alberta-slides",
         title: "Glaciers in Alberta (Google Slides)",
-        description: "",
         url: null
       }
     ],
@@ -57,20 +54,17 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
     fr: [
       {
         id: "lesson-plan",
-        title: "N/A",
-        description: "",
+        title: "Qualité de l'eau, changements climatiques et glaciers de l'Alberta : plan de leçon",
         url: null
       },
       {
         id: "webinar-worksheet",
-        title: "N/A",
-        description: "",
+        title: "Feuille de travail du webinaire",
         url: null
       },
       {
         id: "glaciers-in-alberta-slides",
-        title: "N/A",
-        description: "",
+        title: "Les glaciers en Alberta (diapositives Google)",
         url: null
       }
     ]
@@ -121,7 +115,15 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
       "become aware of the importance of water policy in dealing with the effects of climate change",
       "consider the impact of our activities on climate change and Alberta's glaciers"
     ],
-    fr: []
+    fr: [
+      "Apprendre des faits sur la qualité de l’eau en Alberta.",
+      "Déterminer près de quel bassin hydrographique l’élève habite.",
+      "Comprendre la terminologie de base sur les glaciers.",
+      "Décrire l’effet des changements climatiques sur les glaciers de l’Alberta.",
+      "Comprendre l’impact des feux de forêt sur les glaciers.",
+      "Prendre conscience de l’importance de la réglementation des eaux pour composer avec les effets des changements climatiques.",
+      "Examiner l’impact de nos activités sur les changements climatiques et les glaciers de l’Alberta."
+    ]
   },
 
   videoIds: [

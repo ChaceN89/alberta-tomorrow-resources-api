@@ -37,7 +37,6 @@ export const hydrologyAndLandDevelopmentLessonPlan = {
       {
         id: "lesson-plan",
         title: "Hydrology and Land Development - Google Doc",
-        description: "",
         url: "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq"
       }
     ],
@@ -45,7 +44,6 @@ export const hydrologyAndLandDevelopmentLessonPlan = {
       {
         id: "lesson-plan",
         title: "Hydrologie et aménagement du territoire – document Google",
-        description: "",
         url: "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq"
       }
     ]

@@ -37,7 +37,6 @@ export const stakeholderDebateLessonPlan = {
       {
         id: "lesson-plan",
         title: "Stakeholder Debate Lesson Plan",
-        description: "",
         url: "https://docs.google.com/document/d/1dYPccl23Ri-zunFgkDOj2ijqErP47S78/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       }
     ],
@@ -45,7 +44,6 @@ export const stakeholderDebateLessonPlan = {
       {
         id: "lesson-plan",
         title: "Débat d’intervenants : plan de leçon",
-        description: "",
         url: "https://docs.google.com/document/d/1tA21i4XtwKCopVD8L4OQ9tsDfJNgAzLT/edit"
       }
     ]

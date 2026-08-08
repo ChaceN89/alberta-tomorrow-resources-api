@@ -37,7 +37,6 @@ export const theWatershedLessonPlan = {
       {
         id: "lesson-plan",
         title: "The Watershed - Google Doc",
-        description: "",
         url: "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
       }
     ],
@@ -45,7 +44,6 @@ export const theWatershedLessonPlan = {
       {
         id: "lesson-plan",
         title: "Le bassin hydrographique – document Google",
-        description: "",
         url: "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
       }
     ]

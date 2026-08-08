@@ -37,7 +37,6 @@ export const aquifersLessonPlan = {
       {
         id: "lesson-plan",
         title: "Aquifers - Google Doc",
-        description: "",
         url: "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/"
       }
     ],
@@ -45,7 +44,6 @@ export const aquifersLessonPlan = {
       {
         id: "lesson-plan",
         title: "Aquifères – document Google",
-        description: "",
         url: "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/"
       }
     ]

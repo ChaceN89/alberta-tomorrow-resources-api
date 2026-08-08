@@ -47,19 +47,16 @@ export const goingGoingGoingGoneLessonPlan = {
       {
         id: "lesson-plan",
         title: "Going Going Going Gone: Lesson Plan",
-        description: "",
         url: null
       },
       {
         id: "student-worksheet",
         title: "Going Going Going Gone: Student Worksheet",
-        description: "",
         url: null
       },
       {
         id: "climate-myths-and-misconceptions-slides",
         title: "Climate Myths and Misconceptions: Slide Show",
-        description: "",
         url: null
       }
     ],
@@ -68,19 +65,16 @@ export const goingGoingGoingGoneLessonPlan = {
       {
         id: "lesson-plan",
         title: "Il recule, il recule, il disparaît : plan de leçon",
-        description: "",
         url: null
       },
       {
         id: "student-worksheet",
         title: "Il recule, il recule, il disparaît : feuille de travail de l’élève",
-        description: "",
         url: null
       },
       {
         id: "climate-myths-and-misconceptions-slides",
         title: "Mythes et idées fausses sur les changements climatiques : présentation",
-        description: "",
         url: null
       }
     ]

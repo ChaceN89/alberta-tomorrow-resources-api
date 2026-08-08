@@ -37,7 +37,6 @@ export const yesterdayTodayAndTomorrowLessonPlan = {
       {
         id: "lesson-plan-and-student-worksheet",
         title: "Yesterday, Today and Tomorrow - Using the Alberta Tomorrow Simulator Lesson Plan and Student Worksheet",
-        description: "",
         url: "https://docs.google.com/document/d/1Bnm4lgL7gFeSJW0DRwunmlZUOey-v6mrSTRmU6-raBM/edit?usp=drive_link"
       }
     ],
@@ -45,7 +44,6 @@ export const yesterdayTodayAndTomorrowLessonPlan = {
       {
         id: "lesson-plan-and-student-worksheet",
         title: "Hier, aujourd’hui et demain - Utiliser le simulateur d’Alberta Tomorrow : plan de leçon et feuille de travail de l’élève",
-        description: "",
         url: "https://docs.google.com/document/d/19_h05r90eQzVl3V6TfJLKg-mTrWGmQmo/edit"
       }
     ]

@@ -37,7 +37,6 @@ export const hydrologyAndClimateChangeLessonPlan = {
       {
         id: "lesson-plan",
         title: "Hydrology and Climate Change - Google Doc",
-        description: "",
         url: "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4"
       }
     ],
@@ -45,7 +44,6 @@ export const hydrologyAndClimateChangeLessonPlan = {
       {
         id: "lesson-plan",
         title: "Hydrologie et changements climatiques – document Google",
-        description: "",
         url: "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4"
       }
     ]

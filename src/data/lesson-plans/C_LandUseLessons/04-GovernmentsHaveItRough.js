@@ -37,19 +37,16 @@ export const governmentsHaveItRoughLessonPlan = {
       {
         id: "lesson-plan",
         title: "Governments Have it Rough!: Lesson Plan",
-        description: "",
         url: "https://docs.google.com/document/d/1aNPK0LmRNRv66uWmo3VaUHwx2cjW_lAI/edit"
       },
       {
         id: "student-worksheet",
         title: "Governments Have it Rough: Student Worksheet",
-        description: "",
         url: null
       },
       {
         id: "answer-key",
         title: "Governments Have it Rough: Answer Key",
-        description: "",
         url: null
       }
     ],
@@ -57,19 +54,16 @@ export const governmentsHaveItRoughLessonPlan = {
       {
         id: "lesson-plan",
         title: "C’est difficile pour les gouvernements! : plan de leçon",
-        description: "",
         url: "https://docs.google.com/document/d/1x0a4-z0-FNdjN8_1OWLkeNLESI7Hx4AU/edit"
       },
       {
         id: "student-worksheet",
         title: "C’est difficile pour les gouvernements! : feuille de travail de l’élève",
-        description: "",
         url: null
       },
       {
         id: "answer-key",
         title: "C’est difficile pour les gouvernements! : clé de correction",
-        description: "",
         url: null
       }
     ]

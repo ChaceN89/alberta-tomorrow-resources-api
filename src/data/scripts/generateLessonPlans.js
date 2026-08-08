@@ -56,7 +56,6 @@ function normalizeFiles(value) {
   const mapFile = (f) => ({
     id: normalizeString(f?.id),
     title: normalizeString(f?.title),
-    description: normalizeString(f?.description),
     url: normalizeString(f?.url),
   });
   return {

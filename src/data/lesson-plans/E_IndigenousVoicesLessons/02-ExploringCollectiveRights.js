@@ -37,13 +37,11 @@ export const exploringCollectiveRightsLessonPlan = {
       {
         id: "lesson-plan",
         title: "Exploring Collective Rights: Lesson Plan",
-        description: "",
         url: "https://docs.google.com/document/d/1nMh2BVY6ZRFW0c8RjIShGn6t2QYi_ZvF/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       },
       {
         id: "student-worksheet",
         title: "Exploring Collective Rights: Student Worksheet",
-        description: "",
         url: "https://docs.google.com/document/d/10cCzISaKfH5wrf7O8CoBdIYfNG0V9sF4/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       }
     ],
@@ -51,13 +49,11 @@ export const exploringCollectiveRightsLessonPlan = {
       {
         id: "lesson-plan",
         title: "Étudier les droits collectifs : plan de leçon",
-        description: "",
         url: "https://docs.google.com/document/d/1MmE7sHJaMq5gmPgNpxGjXOjK7UFx2LBy/edit"
       },
       {
         id: "student-worksheet",
         title: "Étudier les droits collectifs : feuille de travail de l’élève",
-        description: "",
         url: "https://docs.google.com/document/d/1CL4u8LjHDWtwxPSM3EQ_4ilHDKVF0qgr/edit"
       }
     ]

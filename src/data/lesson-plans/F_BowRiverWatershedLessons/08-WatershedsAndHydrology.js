@@ -37,7 +37,6 @@ export const watershedsAndHydrologyLessonPlan = {
       {
         id: "lesson-plan",
         title: "Watersheds and Hydrology - Google Doc",
-        description: "",
         url: "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW"
       }
     ],
@@ -45,7 +44,6 @@ export const watershedsAndHydrologyLessonPlan = {
       {
         id: "lesson-plan",
         title: "Bassins hydrographiques et hydrologie – document Google",
-        description: "",
         url: "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW"
       }
     ]

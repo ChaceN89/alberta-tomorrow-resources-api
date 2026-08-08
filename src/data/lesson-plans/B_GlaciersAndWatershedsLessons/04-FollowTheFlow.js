@@ -37,25 +37,21 @@ export const followTheFlowLessonPlan = {
       {
         id: "lesson-plan",
         title: "Follow the Flow: Lesson Plan",
-        description: "",
         url: "https://docs.google.com/document/d/1twB1ff_o9mF3ilUHyIYNV9oBfgcYPau7naA4pnK7POk/edit?usp=drive_link"
       },
       {
         id: "student-worksheet",
         title: "Follow the Flow: Student Worksheet",
-        description: "",
         url: "https://docs.google.com/document/d/1vhF9bySogY1Ie_ghov17TdJx93WA6u-j94BHeJCg2NM/edit?usp=drive_link"
       },
       {
         id: "slides",
         title: "Follow the Flow: Slide Show",
-        description: "",
         url: "https://docs.google.com/presentation/d/12OrymNcfZXL8iWEIgtktG0Lkr0QsVZbCbdvhrtMJXr0/edit?usp=drive_link"
       },
       {
         id: "glaciers-in-alberta-slides",
         title: "Glaciers in Alberta: Slide Show",
-        description: "",
         url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg/edit?usp=drive_link"
       }
     ],
@@ -64,25 +60,21 @@ export const followTheFlowLessonPlan = {
       {
         id: "lesson-plan",
         title: "Suivre le flux : plan de leçon",
-        description: "",
         url: "https://docs.google.com/document/d/1ETh1-9VemIzGnnd9eaVxbwtQ_IGlkw0g/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
       },
       {
         id: "student-worksheet",
         title: "Suivre le flux : feuille de travail de l’élève",
-        description: "",
         url: "https://docs.google.com/document/d/14nd4-44ffnWBS-bjr41M6whUkDrrCarw/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
       },
       {
         id: "slides",
         title: "Suivre le flux : présentation PowerPoint",
-        description: "",
         url: "https://docs.google.com/presentation/d/1rl9N4QY6T2q3J9QYrYFAuIO2GN5l8C_b/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
       },
       {
         id: "glaciers-in-alberta-slides",
         title: "Les glaciers en Alberta : présentation PowerPoint",
-        description: "",
         url: null
       }
     ]

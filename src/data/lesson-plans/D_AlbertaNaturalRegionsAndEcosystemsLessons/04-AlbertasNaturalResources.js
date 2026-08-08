@@ -37,13 +37,11 @@ export const albertasNaturalResourcesLessonPlan = {
       {
         id: "lesson-plan",
         title: "Alberta's Natural Resources: Lesson Plan",
-        description: "",
         url: "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg/edit?usp=drive_link"
       },
       {
         id: "student-worksheet",
         title: "Alberta's Natural Resources: Student Worksheet",
-        description: "",
         url: "https://docs.google.com/document/d/11p5vAYKphMkiPaqH_4zJ49AFQKH_WEhSB5yVTxKjAAw/edit?usp=drive_link"
       }
     ],
@@ -51,13 +49,11 @@ export const albertasNaturalResourcesLessonPlan = {
       {
         id: "lesson-plan",
         title: "Ressources naturelles de l’Alberta : plan de leçon",
-        description: "",
         url: "https://docs.google.com/document/d/1KUFyuRXXLDf0bmCnTnFo4xTqN6QxFoha/edit"
       },
       {
         id: "student-worksheet",
         title: "Ressources naturelles de l’Alberta : feuille de travail de l’élève",
-        description: "",
         url: "https://docs.google.com/document/d/1HVNoxTzEKVB58FFgxduCn01xek2Lde6g/edit"
       }
     ]

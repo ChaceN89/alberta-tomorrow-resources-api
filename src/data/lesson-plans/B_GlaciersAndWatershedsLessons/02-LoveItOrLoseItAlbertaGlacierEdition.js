@@ -46,19 +46,16 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
       {
         id: "lesson-plan",
         title: "Love it or Lose it: Alberta Glacier Edition Lesson Plan",
-        description: "",
         url: null
       },
       {
         id: "student-worksheet",
         title: "Love it or Lose it: Alberta Glacier Edition: Student Worksheet",
-        description: "",
         url: null
       },
       {
         id: "glaciers-in-alberta-slides",
         title: "Glaciers in Alberta Slide Show",
-        description: "",
         url: null
       }
     ],
@@ -67,19 +64,16 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
       {
         id: "lesson-plan",
         title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : plan de leçon",
-        description: "",
         url: null
       },
       {
         id: "student-worksheet",
         title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : feuille de travail de l'élève",
-        description: "",
         url: null
       },
       {
         id: "glaciers-in-alberta-slides",
         title: "Les glaciers en Alberta : présentation",
-        description: "",
         url: null
       }
     ]

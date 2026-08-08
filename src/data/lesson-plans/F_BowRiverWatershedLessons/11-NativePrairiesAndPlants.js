@@ -37,7 +37,6 @@ export const nativePrairiesAndPlantsLessonPlan = {
       {
         id: "lesson-plan",
         title: "Native Prairies and Plants - Google Doc",
-        description: "",
         url: "https://docs.google.com/document/d/1uTt5BFsG986N8SgW9H4nNCfXDPj5Wta7/"
       }
     ],
@@ -45,7 +44,6 @@ export const nativePrairiesAndPlantsLessonPlan = {
       {
         id: "lesson-plan",
         title: "Prairies et plantes indigènes – document Google",
-        description: "",
         url: "https://docs.google.com/document/d/1uTt5BFsG986N8SgW9H4nNCfXDPj5Wta7/"
       }
     ]

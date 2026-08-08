@@ -37,7 +37,6 @@ export const whereIsMyHomeLessonPlan = {
       {
         id: "lesson-plan",
         title: "Where is my Home? Using the Indigenous Map Layers",
-        description: "",
         url: "https://drive.google.com/file/d/1FnOm7Ja6IlrK483QT2m0pPbPhoY7c5HY/view?usp=drive_link"
       }
     ],
@@ -45,7 +44,6 @@ export const whereIsMyHomeLessonPlan = {
       {
         id: "lesson-plan",
         title: "Où est ma maison? Utiliser les superpositions cartographiques autochtones.",
-        description: "",
         url: "https://docs.google.com/document/d/1D_ZcPRB23NF3M1BRHjbJpyPWWTWexcF8/edit"
       }
     ]

@@ -37,7 +37,6 @@ export const constructedWetlandsAndStormwaterLessonPlan = {
       {
         id: "lesson-plan",
         title: "Constructed Wetlands and Stormwater - Google Doc",
-        description: "",
         url: "https://docs.google.com/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_/"
       }
     ],
@@ -45,7 +44,6 @@ export const constructedWetlandsAndStormwaterLessonPlan = {
       {
         id: "lesson-plan",
         title: "Marais artificiels et eau pluviale – document Google",
-        description: "",
         url: "https://docs.google.com/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_/"
       }
     ]
