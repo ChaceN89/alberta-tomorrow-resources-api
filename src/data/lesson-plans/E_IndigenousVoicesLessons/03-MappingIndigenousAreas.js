@@ -14,7 +14,7 @@ import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
 export const mappingIndigenousAreasLessonPlan = {
-  id: "ab360-tours-03e-mapping-indigenous-areas",
+  id: "indigenous-03e-mapping-indigenous-areas",
 
   themeId: LessonTheme.INDIGENOUS_VOICES.id,
 

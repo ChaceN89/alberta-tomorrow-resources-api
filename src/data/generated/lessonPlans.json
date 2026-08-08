@@ -1763,7 +1763,7 @@
     "relatedResources": []
   },
   {
-    "id": "abregions-01-virtual-field-trips-ecoregions",
+    "id": "abregions-01d-virtual-field-trips-ecoregions",
     "themeId": "alberta-natural-regions-and-ecosystems",
     "title": {
       "en": "360 Virtual Field Trips to Alberta's 6 Ecoregions",
@@ -1873,7 +1873,7 @@
     "relatedResources": []
   },
   {
-    "id": "abregions-02-animal-adaptations",
+    "id": "abregions-02d-animal-adaptations",
     "themeId": "alberta-natural-regions-and-ecosystems",
     "title": {
       "en": "Animal Adaptations - Using the 360 Virtual Field Trips",
@@ -1941,7 +1941,7 @@
     "relatedResources": []
   },
   {
-    "id": "abregions-03-plant-animal-adaptations",
+    "id": "abregions-03d-plant-animal-adaptations",
     "themeId": "alberta-natural-regions-and-ecosystems",
     "title": {
       "en": "Plant and Animal Adaptations - Using the 360 Virtual Field Trips",
@@ -2021,7 +2021,7 @@
     "relatedResources": []
   },
   {
-    "id": "abregions-04-natural-resources",
+    "id": "abregions-04d-natural-resources",
     "themeId": "alberta-natural-regions-and-ecosystems",
     "title": {
       "en": "Alberta's Natural Resources",
@@ -2103,7 +2103,7 @@
     "relatedResources": []
   },
   {
-    "id": "abregions-05-alberta-natural-regions",
+    "id": "abregions-05d-alberta-natural-regions",
     "themeId": "alberta-natural-regions-and-ecosystems",
     "title": {
       "en": "Alberta's Natural Regions",
@@ -2203,7 +2203,7 @@
     "relatedResources": []
   },
   {
-    "id": "abregions-06-ecosystem-diversity",
+    "id": "abregions-06d-ecosystem-diversity",
     "themeId": "alberta-natural-regions-and-ecosystems",
     "title": {
       "en": "Alberta's Ecosystem Diversity",
@@ -2433,7 +2433,7 @@
     "relatedResources": []
   },
   {
-    "id": "ab360-tours-03e-mapping-indigenous-areas",
+    "id": "indigenous-03e-mapping-indigenous-areas",
     "themeId": "indigenous-voices",
     "title": {
       "en": "Mapping Indigenous Areas",
@@ -2523,7 +2523,7 @@
     "relatedResources": []
   },
   {
-    "id": "brw-01f-isotopes-and-climate-change",
+    "id": "brbc-01f-isotopes-and-climate-change",
     "themeId": "bow-river-watershed",
     "title": {
       "en": "Isotopes and Climate Change",
@@ -3238,7 +3238,7 @@
     "relatedResources": []
   },
   {
-    "id": "energy-01-renewable-vs-nonrenewable",
+    "id": "energy-01g-renewable-vs-nonrenewable",
     "themeId": "energy",
     "title": {
       "en": "Renewable vs Non-Renewable Resources",
@@ -3326,7 +3326,7 @@
     "relatedResources": []
   },
   {
-    "id": "energy-02-factors-affecting-use",
+    "id": "energy-02g-factors-affecting-use",
     "themeId": "energy",
     "title": {
       "en": "Factors that Influence the type of Energy Used",

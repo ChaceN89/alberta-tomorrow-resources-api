@@ -14,7 +14,7 @@ import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
 export const virtualFieldTripsToAlbertasEcoregionsLessonPlan = {
-  id: "abregions-01-virtual-field-trips-ecoregions",
+  id: "abregions-01d-virtual-field-trips-ecoregions",
 
   themeId: LessonTheme.ALBERTA_NATURAL_REGIONS.id,
 

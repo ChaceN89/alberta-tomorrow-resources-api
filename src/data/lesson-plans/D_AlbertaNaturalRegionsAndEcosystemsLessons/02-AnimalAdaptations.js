@@ -14,7 +14,7 @@ import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
 export const animalAdaptationsLessonPlan = {
-  id: "abregions-02-animal-adaptations",
+  id: "abregions-02d-animal-adaptations",
 
   themeId: LessonTheme.ALBERTA_NATURAL_REGIONS.id,
 

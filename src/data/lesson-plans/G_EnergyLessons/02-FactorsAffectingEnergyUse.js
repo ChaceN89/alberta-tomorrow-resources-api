@@ -14,7 +14,7 @@ import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
 export const factorsAffectingEnergyUseLessonPlan = {
-  id: "energy-02-factors-affecting-use",
+  id: "energy-02g-factors-affecting-use",
 
   themeId: LessonTheme.ENERGY.id,
 

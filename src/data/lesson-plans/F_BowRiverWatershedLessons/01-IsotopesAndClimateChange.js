@@ -14,7 +14,7 @@ import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
 export const isotopesAndClimateChangeLessonPlan = {
-  id: "brw-01f-isotopes-and-climate-change",
+  id: "brbc-01f-isotopes-and-climate-change",
 
   themeId: LessonTheme.BOW_RIVER_WATERSHED.id,
 

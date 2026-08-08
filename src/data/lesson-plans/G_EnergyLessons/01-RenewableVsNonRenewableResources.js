@@ -14,7 +14,7 @@ import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
 export const renewableVsNonRenewableResourcesLessonPlan = {
-  id: "energy-01-renewable-vs-nonrenewable",
+  id: "energy-01g-renewable-vs-nonrenewable",
 
   themeId: LessonTheme.ENERGY.id,
 
