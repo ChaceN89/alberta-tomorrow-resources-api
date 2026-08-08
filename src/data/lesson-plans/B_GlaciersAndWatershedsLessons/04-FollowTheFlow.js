@@ -117,10 +117,10 @@ export const followTheFlowLessonPlan = {
     ],
     fr: [
       "bassin hydrographique",
-      "qualite de l’eau",
+      "qualité de l’eau",
       "produits chimiques persistants",
       "changements climatiques",
-      "champ de glace columbia"
+      "champ de glace Columbia"
     ]
   },
 

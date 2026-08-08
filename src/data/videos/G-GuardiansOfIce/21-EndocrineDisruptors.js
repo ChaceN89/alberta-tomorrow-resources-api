@@ -19,13 +19,13 @@ export const endocrineDisruptorsVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Dr. Ali Criscitiello talks about melting glaciers and what this has to do with Endocrine Disruptors.",
-    fr: "Ali Criscitiello, Ph. D., parle de la fonte des glaciers et de ce que cela a à voir avec les perturbateurs endocriniens."
+    en: "Endocrine Disruptors",
+    fr: "Perturbateurs endocriniens"
   },
 
   description: {
     en: "Dr. Ali Criscitiello talks about melting glaciers and what this has to do with Endocrine Disruptors.",
-    fr: "N/A"
+    fr: "Ali Criscitiello, Ph. D., parle de la fonte des glaciers et de ce que cela a à voir avec les perturbateurs endocriniens."
   },
 
   media: {
@@ -36,7 +36,7 @@ export const endocrineDisruptorsVideo = {
   },
 
   searchTerms: {
-    en: ["ali","criscitiello","talks","about","melting","glaciers","has","endocrine"],
-    fr: ["ali","criscitiello","parle","fonte","des","glaciers","que","cela"]
+    en: ["ali", "criscitiello", "talks", "about", "melting", "glaciers", "has", "endocrine"],
+    fr: ["ali", "criscitiello", "parle", "fonte", "des", "glaciers", "que", "cela"]
   },
 };

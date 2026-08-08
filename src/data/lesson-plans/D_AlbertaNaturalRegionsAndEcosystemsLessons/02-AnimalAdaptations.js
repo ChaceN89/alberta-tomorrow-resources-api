@@ -74,7 +74,7 @@ export const animalAdaptationsLessonPlan = {
       "alberta",
       "ecoregions"
     ],
-    fr: ["animal adaptations", "Alberta", "écorégions"]
+    fr: ["adaptations animales", "Alberta", "écorégions"]
   },
 
   learningOutcomes: {

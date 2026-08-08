@@ -75,7 +75,7 @@ export const mistakesMitigationsAndMakingAmendsLessonPlan = {
       "repair",
       "environment"
     ],
-    fr: ["utilisation des terres", "mitigation", "repair", "environment"]
+    fr: ["utilisation des terres", "atténuation", "réparation", "environnement"]
   },
 
   learningOutcomes: {

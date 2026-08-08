@@ -108,7 +108,7 @@ export const introductionToGlaciersLessonPlan = {
       "alberta",
       "glaciologue",
       "vocabulaire",
-      "activites humaines",
+      "activités humaines",
       "eau"
     ]
   },

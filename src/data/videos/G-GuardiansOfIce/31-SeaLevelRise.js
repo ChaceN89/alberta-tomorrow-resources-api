@@ -19,13 +19,13 @@ export const seaLevelRiseVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Dr. Ali Criscitiello discusses how glaciers contribute to sea level rise.",
-    fr: "Ali Criscitiello, Ph. D., explique comment les glaciers contribuent à l’élévation du niveau des mers."
+    en: "Sea level rise",
+    fr: "Élévation du niveau des mers"
   },
 
   description: {
     en: "Dr. Ali Criscitiello discusses how glaciers contribute to sea level rise.",
-    fr: "N/A"
+    fr: "Ali Criscitiello, Ph. D., explique comment les glaciers contribuent à l’élévation du niveau des mers."
   },
 
   media: {
@@ -36,7 +36,7 @@ export const seaLevelRiseVideo = {
   },
 
   searchTerms: {
-    en: ["ali","criscitiello","discusses","glaciers","contribute","sea","level","rise"],
-    fr: ["ali","criscitiello","explique","comment","les","glaciers","contribuent","elevation"]
+    en: ["ali", "criscitiello", "discusses", "glaciers", "contribute", "sea", "level", "rise"],
+    fr: ["ali", "criscitiello", "explique", "comment", "les", "glaciers", "contribuent", "elevation"]
   },
 };

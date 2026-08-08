@@ -75,7 +75,7 @@ export const whereIsMyHomeLessonPlan = {
     ],
     fr: [
       "superpositions cartographiques autochtones",
-      "maison",
+      "territoire",
       "communauté",
       "traité",
       "réserves",

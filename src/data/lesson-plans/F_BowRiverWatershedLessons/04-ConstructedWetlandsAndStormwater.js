@@ -68,7 +68,7 @@ export const constructedWetlandsAndStormwaterLessonPlan = {
       "water management"
     ],
     fr: [
-      "marais",
+      "zones humides",
       "eau pluviale",
       "gestion de l’eau"
     ]

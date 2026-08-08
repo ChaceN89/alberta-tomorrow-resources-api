@@ -103,7 +103,7 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
       "ddt",
       "albedo"
     ],
-    fr: ["eau", "qualité de l’eau", "consommation d’eau", "glaciers", "glacier melt", "changements climatiques", "ice coring", "feux de forêt", "réglementation des eaux", "produits chimiques persistants", "CFC", "DDT", "albédo"]
+    fr: ["eau", "qualité de l’eau", "consommation d’eau", "glaciers", "fonte des glaciers", "changements climatiques", "carottage glaciaire", "feux de forêt", "réglementation des eaux", "produits chimiques persistants", "CFC", "DDT", "albédo"]
   },
 
   learningOutcomes: {

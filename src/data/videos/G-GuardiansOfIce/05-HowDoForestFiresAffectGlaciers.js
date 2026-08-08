@@ -19,13 +19,13 @@ export const howDoForestFiresAffectGlaciersVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Any kind of dirt that you find on the surface is going to accelerate melting.",
-    fr: "Toute forme de saleté ou de débris présente à la surface va accélérer la fonte."
+    en: "How do Forest Fires Affect Glaciers",
+    fr: "Comment les feux de forêt affectent-ils les glaciers"
   },
 
   description: {
     en: "Listen to Peter Lemieux talk about how summer forest fires affect the glaciers.",
-    fr: "N/A"
+    fr: "Écoutez Peter Lemieux expliquer comment les feux de forêt l’été agissent sur les glaciers."
   },
 
   media: {
@@ -36,7 +36,7 @@ export const howDoForestFiresAffectGlaciersVideo = {
   },
 
   searchTerms: {
-    en: ["any","kind","dirt","you","find","surface","going","accelerate"],
-    fr: ["toute","forme","salete","debris","presente","surface","accelerer","fonte"]
+    en: ["any", "kind", "dirt", "you", "find", "surface", "going", "accelerate"],
+    fr: ["toute", "forme", "salete", "debris", "presente", "surface", "accelerer", "fonte"]
   },
 };

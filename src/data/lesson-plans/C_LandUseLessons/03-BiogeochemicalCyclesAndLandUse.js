@@ -89,7 +89,7 @@ export const biogeochemicalCyclesAndLandUseLessonPlan = {
     fr: [
       "cycles biogéochimiques",
       "éléments nutritifs",
-      "atténuation",
+      "eutrophisation",
       "utilisation des terres"
     ]
   },
