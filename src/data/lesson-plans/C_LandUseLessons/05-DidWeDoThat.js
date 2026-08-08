@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,14 +36,14 @@ export const didWeDoThatLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Grade 4 Lesson Plan",
         url: null
       }
     ],
     fr: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Plan de leçon de 4e année",
         url: null
       }
@@ -108,8 +109,5 @@ export const didWeDoThatLessonPlan = {
     "soc-06d-water-consumption"
   ],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 };

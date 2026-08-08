@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,14 +36,14 @@ export const stakeholderDebateLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Stakeholder Debate Lesson Plan",
         url: "https://docs.google.com/document/d/1dYPccl23Ri-zunFgkDOj2ijqErP47S78/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       }
     ],
     fr: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Débat d’intervenants : plan de leçon",
         url: "https://docs.google.com/document/d/1tA21i4XtwKCopVD8L4OQ9tsDfJNgAzLT/edit"
       }
@@ -99,8 +100,5 @@ export const stakeholderDebateLessonPlan = {
 
   videoIds: [],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 };

@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,14 +36,14 @@ export const watershedsAndHydrologyLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Watersheds and Hydrology - Google Doc",
         url: "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW"
       }
     ],
     fr: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Bassins hydrographiques et hydrologie – document Google",
         url: "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW"
       }
@@ -85,8 +86,5 @@ export const watershedsAndHydrologyLessonPlan = {
 
   videoIds: [],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 };

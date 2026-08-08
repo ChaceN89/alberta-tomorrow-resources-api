@@ -20,12 +20,12 @@ export const waterQualityClimateChangeAndAlbertasGlaciersWebinarVideo = {
 
   title: {
     en: "Water Quality, Climate Change and Alberta's Glaciers Webinar",
-    fr: ""
+    fr: "Qualité de l’eau, changements climatiques et glaciers de l’Alberta : webinaire"
   },
 
   description: {
     en: "This webinar was held on May 27, 2020 and features 4 prominent scientists talking about climate change and how it will affect glaciers, glacier melt, water policy and our water quality.",
-    fr: ""
+    fr: "Ce webinaire a eu lieu le 27 mai 2020 et met en vedette 4 scientifiques de renom qui parlent des changements climatiques et de la façon dont ils affecteront les glaciers, la fonte des glaciers, la politique de l’eau et la qualité de notre eau."
   },
 
   media: {

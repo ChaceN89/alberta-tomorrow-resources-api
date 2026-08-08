@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,12 +36,12 @@ export const waterTestProceduresLessonPlan = {
   files: {
     en: [
       {
-        id: "water-test-procedures",
+        FileType: FileType.OTHER_FILE_TYPE,
         title: "Water Test Procedures",
         url: "https://drive.google.com/file/d/15I2aVVkdXZUWdPTEB7YQyk3OgvBG4SG-/view?usp=sharing"
       },
       {
-        id: "glaciers-in-alberta-slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta Slide Show",
         url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg/edit?usp=drive_link"
       }
@@ -48,12 +49,12 @@ export const waterTestProceduresLessonPlan = {
 
     fr: [
       {
-        id: "water-test-procedures",
+        FileType: FileType.OTHER_FILE_TYPE,
         title: "Procédures d’analyse de l’eau",
         url: "https://docs.google.com/document/d/1S0CSfCmP5sCkBeUdMuooNtXBOYhDOHch/edit"
       },
       {
-        id: "glaciers-in-alberta-slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta : présentation",
         url: null
       }
@@ -87,7 +88,7 @@ export const waterTestProceduresLessonPlan = {
       "Wetlands",
       "Watershed"
     ],
-    fr: []
+    fr: ["Sciences 14", "Biologie 20", "eau", "qualité de l’eau", "consommation d’eau", "glaciers", "zones humides", "bassin versant"]
   },
 
   learningOutcomes: {
@@ -97,8 +98,5 @@ export const waterTestProceduresLessonPlan = {
 
   videoIds: [],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 };

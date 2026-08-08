@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,14 +36,14 @@ export const yesterdayTodayAndTomorrowLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan-and-student-worksheet",
+        FileType: FileType.LESSON_PLAN,
         title: "Yesterday, Today and Tomorrow - Using the Alberta Tomorrow Simulator Lesson Plan and Student Worksheet",
         url: "https://docs.google.com/document/d/1Bnm4lgL7gFeSJW0DRwunmlZUOey-v6mrSTRmU6-raBM/edit?usp=drive_link"
       }
     ],
     fr: [
       {
-        id: "lesson-plan-and-student-worksheet",
+        FileType: FileType.LESSON_PLAN,
         title: "Hier, aujourd’hui et demain - Utiliser le simulateur d’Alberta Tomorrow : plan de leçon et feuille de travail de l’élève",
         url: "https://docs.google.com/document/d/19_h05r90eQzVl3V6TfJLKg-mTrWGmQmo/edit"
       }
@@ -100,8 +101,5 @@ export const yesterdayTodayAndTomorrowLessonPlan = {
 
   videoIds: [],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 };

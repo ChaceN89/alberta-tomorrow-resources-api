@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,34 +36,34 @@ export const mappingIndigenousAreasLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Mapping Indigenous Areas: Lesson Plan",
         url: "https://docs.google.com/document/d/1Uyrqu1VyKnJFc7Y_6tZbWeXvMeHkU0zTfktRYppQlYA"
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Mapping Indigenous Areas: Student Worksheet",
         url: "https://drive.google.com/file/d/1TD5lTrUbYJPh1OxBeEULOzkZ_q1L5xXv/view?usp=drive_link"
       },
       {
-        id: "answer-sheet",
+        FileType: FileType.ANSWER_KEY,
         title: "Mapping Indigenous Areas: Answer Sheet",
         url: "https://drive.google.com/file/d/1iv-eAK8aW24oybt-9kOSeA3h4rZengJv/view?usp=drive_link"
       }
     ],
     fr: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Cartographier les régions autochtones : plan de leçon",
         url: "https://docs.google.com/document/d/18ZRfCirFFmvnZ5-45KBM_QWpU4RuHHpU/edit"
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Cartographier les régions autochtones : feuille de travail de l’élève",
         url: "https://docs.google.com/document/d/1tmkUtOZkroEhYl56TmhyVM-Zmj0nfzZ0/edit#heading=h.vqtq7mb3t4ey"
       },
       {
-        id: "answer-sheet",
+        FileType: FileType.ANSWER_KEY,
         title: "Cartographier les régions autochtones : clé de correction",
         url: "https://docs.google.com/document/d/1rpoEDqWvW12B7_B-Ycv73uYoHuZIABiu/edit#heading=h.7gig7j9bkhxk"
       }
@@ -111,8 +112,5 @@ export const mappingIndigenousAreasLessonPlan = {
 
   videoIds: [],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 };

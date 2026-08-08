@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,14 +36,14 @@ export const landUseFieldTripLessonPlan = {
   files: {
     en: [
       {
-        id: "field-trip-guide",
+        FileType: FileType.OTHER_FILE_TYPE,
         title: "Landuse Field Trip",
         url: "https://docs.google.com/document/d/1SpC6AztxVAMg5Zf7DmUwN8wQ-Tll5m73/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
       }
     ],
     fr: [
       {
-        id: "field-trip-guide",
+        FileType: FileType.OTHER_FILE_TYPE,
         title: "Sortie éducative liée à l’utilisation des terres",
         url: "https://docs.google.com/document/d/188mTIwQakxOh1shXP96viDfY2BZBMfYJ/edit"
       }
@@ -94,8 +95,5 @@ export const landUseFieldTripLessonPlan = {
 
   videoIds: [],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 };

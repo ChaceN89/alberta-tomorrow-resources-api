@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,14 +36,14 @@ export const myFutureAlbertaLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan-and-student-worksheet",
+        FileType: FileType.LESSON_PLAN,
         title: "My Future Alberta: Creating a Landuse Plan for 2050: Lesson Plan and Student Worksheet",
         url: "https://docs.google.com/document/d/1m_ybmNFrgN1CYuKQUYUttrd_PDfzzsPwu8zMlEJRI24/edit?usp=drive_link"
       }
     ],
     fr: [
       {
-        id: "lesson-plan-and-student-worksheet",
+        FileType: FileType.LESSON_PLAN,
         title: "Mon Alberta du futur : Créer un plan d’utilisation des terres pour 2050 : plan de leçon et feuille de travail de l’élève",
         url: "https://docs.google.com/document/d/13ybEAk6XIv5r9Fkqv-5k8-CwWaF2Ybm7/edit#heading=h.nqnhio4pqyoe"
       }
@@ -93,14 +94,11 @@ export const myFutureAlbertaLessonPlan = {
 
   videoIds: [],
 
-  relatedResources: {
-    en: [
-      {
-        id: "alberta-landuse-framework",
-        title: "Alberta Landuse Framework",
-        url: "https://landuse.alberta.ca/Pages/default.aspx"
-      }
-    ],
-    fr: []
-  }
+  relatedResources: [
+    {
+      FileType: FileType.OTHER_FILE_TYPE,
+      title: "Alberta Landuse Framework",
+      url: "https://landuse.alberta.ca/Pages/default.aspx"
+    }
+  ]
 };

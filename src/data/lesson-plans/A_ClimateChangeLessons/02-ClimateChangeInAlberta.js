@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,27 +36,27 @@ export const climateChangeInAlbertaLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios: Lesson Plan",
         url: null
       },
       {
-        id: "science-6-lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Science 6 Climate Change in Alberta - Lesson Plan",
         url: null
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Climate Change in Alberta - Student Worksheet",
         url: null
       },
       {
-        id: "energy-resources-student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Energy Resources and Climate Change in Alberta - Student Worksheet",
         url: null
       },
       {
-        id: "climate-truth-and-misconceptions-slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Climate Change: Truth and Misconceptions - Presentation Slides",
         url: null
       }
@@ -63,27 +64,27 @@ export const climateChangeInAlbertaLessonPlan = {
 
     fr: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "N/A",
         url: null
       },
       {
-        id: "science-6-lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Sciences, 6e année, Changements climatiques en Alberta – plan de leçon",
         url: null
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Changements climatiques en Alberta – feuille de travail de l’élève",
         url: null
       },
       {
-        id: "energy-resources-student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Ressources énergétiques et changements climatiques – présentation PowerPoint",
         url: null
       },
       {
-        id: "climate-truth-and-misconceptions-slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
         url: null
       }
@@ -149,7 +150,7 @@ export const climateChangeInAlbertaLessonPlan = {
       "historical change",
       "industrial activity"
     ],
-    fr: []
+    fr: ["Sciences 14", "Biologie 20", "un sens du territoire", "Wetterritoire Ecosystems", "Trees and Forests", "Interactions and Ecosystems", "Fresheau and Saltwater Ecosystems", "Government Decision Making", "chimie environnementale", "mondialisation", "Energy and Matter in Chemical Change", "la Terre en évolution", "Energy and Matter Exchange in the Biosphere", "utilisation des terres", "faune", "scénarios climatiques", "RCPs", "paysages naturels", "écosystèmes changeants", "qualité de l’eau", "consommation d’eau", "Alberta", "économie", "services écosystémiques", "pratiques de gestion bénéfiques", "maintien du statu quo", "GES", "changements climatiques", "stockage biologique du carbone", "foresterie", "production de pétrole et de gaz", "agriculture", "PIB", "population humaine", "santé des poissons", "avenir", "planification de l’utilisation des terres", "changement historique", "activité industrielle"]
   },
 
   learningOutcomes: {
@@ -169,8 +170,5 @@ export const climateChangeInAlbertaLessonPlan = {
     "landscape-01b-climate-change"
   ],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 };

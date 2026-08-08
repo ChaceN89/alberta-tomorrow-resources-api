@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,22 +36,22 @@ export const followTheFlowLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Follow the Flow: Lesson Plan",
         url: "https://docs.google.com/document/d/1twB1ff_o9mF3ilUHyIYNV9oBfgcYPau7naA4pnK7POk/edit?usp=drive_link"
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Follow the Flow: Student Worksheet",
         url: "https://docs.google.com/document/d/1vhF9bySogY1Ie_ghov17TdJx93WA6u-j94BHeJCg2NM/edit?usp=drive_link"
       },
       {
-        id: "slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Follow the Flow: Slide Show",
         url: "https://docs.google.com/presentation/d/12OrymNcfZXL8iWEIgtktG0Lkr0QsVZbCbdvhrtMJXr0/edit?usp=drive_link"
       },
       {
-        id: "glaciers-in-alberta-slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta: Slide Show",
         url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg/edit?usp=drive_link"
       }
@@ -58,22 +59,22 @@ export const followTheFlowLessonPlan = {
 
     fr: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Suivre le flux : plan de leçon",
         url: "https://docs.google.com/document/d/1ETh1-9VemIzGnnd9eaVxbwtQ_IGlkw0g/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Suivre le flux : feuille de travail de l’élève",
         url: "https://docs.google.com/document/d/14nd4-44ffnWBS-bjr41M6whUkDrrCarw/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
       },
       {
-        id: "slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Suivre le flux : présentation PowerPoint",
         url: "https://docs.google.com/presentation/d/1rl9N4QY6T2q3J9QYrYFAuIO2GN5l8C_b/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
       },
       {
-        id: "glaciers-in-alberta-slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta : présentation PowerPoint",
         url: null
       }
@@ -146,8 +147,5 @@ export const followTheFlowLessonPlan = {
     "goi-05g-how-do-forest-fires-affect-glaciers"
   ],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 };

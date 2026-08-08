@@ -53,11 +53,22 @@ import {
  */
 function normalizeFiles(value) {
   if (!value || typeof value !== "object") return { en: [], fr: [] };
-  const mapFile = (f) => ({
-    id: normalizeString(f?.id),
-    title: normalizeString(f?.title),
-    url: normalizeString(f?.url),
-  });
+  const allowedFileTypes = new Set([
+    "lesson-plan",
+    "answer-key",
+    "student-worksheet",
+    "presentation-slides",
+    "other-file-type",
+  ]);
+  const mapFile = (f) => {
+    const rawFileType = normalizeString(f?.FileType ?? f?.fileType ?? f?.type ?? f?.id);
+    const fileType = allowedFileTypes.has(rawFileType) ? rawFileType : "other-file-type";
+    return {
+      FileType: fileType,
+      title: normalizeString(f?.title),
+      url: normalizeString(f?.url),
+    };
+  };
   return {
     en: Array.isArray(value.en) ? value.en.map(mapFile) : [],
     fr: Array.isArray(value.fr) ? value.fr.map(mapFile) : [],
@@ -65,16 +76,23 @@ function normalizeFiles(value) {
 }
 
 function normalizeRelatedResources(value) {
-  if (!value || typeof value !== "object") return { en: [], fr: [] };
-  const mapResource = (r) => ({
-    id: normalizeString(r?.id),
+  if (!value) return [];
+  if (!Array.isArray(value)) {
+    if (typeof value === "object") {
+      const entries = Array.isArray(value.en) ? value.en : [];
+      return entries.map((r) => ({
+        id: normalizeString(r?.id),
+        title: normalizeString(r?.title),
+        url: normalizeString(r?.url),
+      }));
+    }
+    return [];
+  }
+
+  return value.map((r) => ({
     title: normalizeString(r?.title),
     url: normalizeString(r?.url),
-  });
-  return {
-    en: Array.isArray(value.en) ? value.en.map(mapResource) : [],
-    fr: Array.isArray(value.fr) ? value.fr.map(mapResource) : [],
-  };
+  }));
 }
 
 function normalizeLessonPlan(raw) {

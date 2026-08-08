@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,14 +36,14 @@ export const mistakesMitigationsAndMakingAmendsLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Land Based Learning Webinar Worksheet",
         url: null
       }
     ],
     fr: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "N/A",
         url: null
       }
@@ -74,7 +75,7 @@ export const mistakesMitigationsAndMakingAmendsLessonPlan = {
       "repair",
       "environment"
     ],
-    fr: []
+    fr: ["utilisation des terres", "mitigation", "repair", "environment"]
   },
 
   learningOutcomes: {
@@ -86,8 +87,5 @@ export const mistakesMitigationsAndMakingAmendsLessonPlan = {
 
   videoIds: [],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 };

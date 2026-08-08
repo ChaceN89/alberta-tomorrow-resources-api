@@ -17,34 +17,34 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Going Going Going Gone: Lesson Plan",
           "url": "N/A"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Going Going Going Gone: Student Worksheet",
           "url": "N/A"
         },
         {
-          "id": "climate-myths-and-misconceptions-slides",
+          "FileType": "presentation-slides",
           "title": "Climate Myths and Misconceptions: Slide Show",
           "url": "N/A"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Il recule, il recule, il disparaît : plan de leçon",
           "url": "N/A"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Il recule, il recule, il disparaît : feuille de travail de l’élève",
           "url": "N/A"
         },
         {
-          "id": "climate-myths-and-misconceptions-slides",
+          "FileType": "presentation-slides",
           "title": "Mythes et idées fausses sur les changements climatiques : présentation",
           "url": "N/A"
         }
@@ -115,10 +115,7 @@
       "goi-22g-forest-fires-and-glaciers",
       "oth-01z-oxygen-isotopes"
     ],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "climate-02a-scenarios",
@@ -138,54 +135,54 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios: Lesson Plan",
           "url": "N/A"
         },
         {
-          "id": "science-6-lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Science 6 Climate Change in Alberta - Lesson Plan",
           "url": "N/A"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Climate Change in Alberta - Student Worksheet",
           "url": "N/A"
         },
         {
-          "id": "energy-resources-student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Energy Resources and Climate Change in Alberta - Student Worksheet",
           "url": "N/A"
         },
         {
-          "id": "climate-truth-and-misconceptions-slides",
+          "FileType": "presentation-slides",
           "title": "Climate Change: Truth and Misconceptions - Presentation Slides",
           "url": "N/A"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "N/A",
           "url": "N/A"
         },
         {
-          "id": "science-6-lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Sciences, 6e année, Changements climatiques en Alberta – plan de leçon",
           "url": "N/A"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Changements climatiques en Alberta – feuille de travail de l’élève",
           "url": "N/A"
         },
         {
-          "id": "energy-resources-student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Ressources énergétiques et changements climatiques – présentation PowerPoint",
           "url": "N/A"
         },
         {
-          "id": "climate-truth-and-misconceptions-slides",
+          "FileType": "presentation-slides",
           "title": "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
           "url": "N/A"
         }
@@ -248,7 +245,47 @@
         "historical change",
         "industrial activity"
       ],
-      "fr": []
+      "fr": [
+        "Sciences 14",
+        "Biologie 20",
+        "un sens du territoire",
+        "Wetterritoire Ecosystems",
+        "Trees and Forests",
+        "Interactions and Ecosystems",
+        "Fresheau and Saltwater Ecosystems",
+        "Government Decision Making",
+        "chimie environnementale",
+        "mondialisation",
+        "Energy and Matter in Chemical Change",
+        "la Terre en évolution",
+        "Energy and Matter Exchange in the Biosphere",
+        "utilisation des terres",
+        "faune",
+        "scénarios climatiques",
+        "RCPs",
+        "paysages naturels",
+        "écosystèmes changeants",
+        "qualité de l’eau",
+        "consommation d’eau",
+        "Alberta",
+        "économie",
+        "services écosystémiques",
+        "pratiques de gestion bénéfiques",
+        "maintien du statu quo",
+        "GES",
+        "changements climatiques",
+        "stockage biologique du carbone",
+        "foresterie",
+        "production de pétrole et de gaz",
+        "agriculture",
+        "PIB",
+        "population humaine",
+        "santé des poissons",
+        "avenir",
+        "planification de l’utilisation des terres",
+        "changement historique",
+        "activité industrielle"
+      ]
     },
     "learningOutcomes": {
       "en": [
@@ -265,10 +302,7 @@
     "videoIds": [
       "landscape-01b-climate-change"
     ],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "climate-03a-water-quality-glaciers",
@@ -288,34 +322,34 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Water Quality, Climate Change and Alberta's Glaciers",
           "url": "N/A"
         },
         {
-          "id": "webinar-worksheet",
+          "FileType": "other-file-type",
           "title": "Webinar Worksheet",
           "url": "N/A"
         },
         {
-          "id": "glaciers-in-alberta-slides",
+          "FileType": "presentation-slides",
           "title": "Glaciers in Alberta (Google Slides)",
           "url": "N/A"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Qualité de l'eau, changements climatiques et glaciers de l'Alberta : plan de leçon",
           "url": "N/A"
         },
         {
-          "id": "webinar-worksheet",
+          "FileType": "other-file-type",
           "title": "Feuille de travail du webinaire",
           "url": "N/A"
         },
         {
-          "id": "glaciers-in-alberta-slides",
+          "FileType": "presentation-slides",
           "title": "Les glaciers en Alberta (diapositives Google)",
           "url": "N/A"
         }
@@ -351,7 +385,21 @@
         "ddt",
         "albedo"
       ],
-      "fr": []
+      "fr": [
+        "eau",
+        "qualité de l’eau",
+        "consommation d’eau",
+        "glaciers",
+        "glacier melt",
+        "changements climatiques",
+        "ice coring",
+        "feux de forêt",
+        "réglementation des eaux",
+        "produits chimiques persistants",
+        "CFC",
+        "DDT",
+        "albédo"
+      ]
     },
     "learningOutcomes": {
       "en": [
@@ -376,16 +424,13 @@
     "videoIds": [
       "landscape-04b-glaciers-webinar"
     ],
-    "relatedResources": {
-      "en": [
-        {
-          "id": "guardians-of-the-ice",
-          "title": "Guardians of the Ice",
-          "url": "https://guardiansoftheice.com/the-columbia-icefield/"
-        }
-      ],
-      "fr": []
-    }
+    "relatedResources": [
+      {
+        "id": "guardians-of-the-ice",
+        "title": "Guardians of the Ice",
+        "url": "https://guardiansoftheice.com/the-columbia-icefield/"
+      }
+    ]
   },
   {
     "id": "glaciers-01b-intro-to-glaciers",
@@ -405,34 +450,34 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Introduction to Glaciers: Lesson Plan",
           "url": "N/A"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Introduction to Glaciers: Student Worksheet",
           "url": "N/A"
         },
         {
-          "id": "glaciers-in-alberta-slides",
+          "FileType": "presentation-slides",
           "title": "Glaciers in Alberta Slide Show",
           "url": "N/A"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Introduction aux glaciers : plan de leçon",
           "url": "N/A"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Introduction aux glaciers : feuille de travail de l’élève",
           "url": "N/A"
         },
         {
-          "id": "glaciers-in-alberta-slides",
+          "FileType": "presentation-slides",
           "title": "Les glaciers en Alberta : présentation PowerPoint",
           "url": "N/A"
         }
@@ -507,16 +552,12 @@
       "goi-24g-growth-and-attrition",
       "goi-19g-why-should-we-protect-glaciers"
     ],
-    "relatedResources": {
-      "en": [
-        {
-          "id": "uofa-ice-core-lab",
-          "title": "U of A Ice Core Lab",
-          "url": "https://www.ualberta.ca/science/research-and-teaching/research/ice-core-archive/index.html"
-        }
-      ],
-      "fr": []
-    }
+    "relatedResources": [
+      {
+        "title": "U of A Ice Core Lab",
+        "url": "https://www.ualberta.ca/science/research-and-teaching/research/ice-core-archive/index.html"
+      }
+    ]
   },
   {
     "id": "glaciers-02b-love-it-or-lose-it",
@@ -536,34 +577,34 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Love it or Lose it: Alberta Glacier Edition Lesson Plan",
           "url": "N/A"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Love it or Lose it: Alberta Glacier Edition: Student Worksheet",
           "url": "N/A"
         },
         {
-          "id": "glaciers-in-alberta-slides",
+          "FileType": "presentation-slides",
           "title": "Glaciers in Alberta Slide Show",
           "url": "N/A"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Aimez-les ou perdez-les : les glaciers de l'Alberta : plan de leçon",
           "url": "N/A"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Aimez-les ou perdez-les : les glaciers de l'Alberta : feuille de travail de l'élève",
           "url": "N/A"
         },
         {
-          "id": "glaciers-in-alberta-slides",
+          "FileType": "presentation-slides",
           "title": "Les glaciers en Alberta : présentation",
           "url": "N/A"
         }
@@ -631,32 +672,16 @@
       "goi-01g-are-people-affecting-the-glaciers",
       "goi-33g-what-can-we-do-to-protect-alberta"
     ],
-    "relatedResources": {
-      "en": [
-        {
-          "id": "mountain-legacy-project",
-          "title": "Mountain Legacy Project",
-          "url": "http://mountainlegacy.ca/"
-        },
-        {
-          "id": "guardians-of-the-ice",
-          "title": "Guardians of the Ice",
-          "url": "https://guardiansoftheice.com/the-columbia-icefield/"
-        }
-      ],
-      "fr": [
-        {
-          "id": "mountain-legacy-project",
-          "title": "N/A",
-          "url": "http://mountainlegacy.ca/"
-        },
-        {
-          "id": "guardians-of-the-ice",
-          "title": "N/A",
-          "url": "https://guardiansoftheice.com/the-columbia-icefield/"
-        }
-      ]
-    }
+    "relatedResources": [
+      {
+        "title": "Mountain Legacy Project",
+        "url": "http://mountainlegacy.ca/"
+      },
+      {
+        "title": "Guardians of the Ice",
+        "url": "https://guardiansoftheice.com/the-columbia-icefield/"
+      }
+    ]
   },
   {
     "id": "glaciers-03b-ice-core-basics",
@@ -676,24 +701,24 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Ice Core Basics: Lesson Plan",
           "url": "https://docs.google.com/document/d/1ju0v6zBaJoDP6enneGbY0HAMjSeIYZK63sP3gVRHw30/edit?usp=drive_link"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Ice Core Basics: Student Worksheet",
           "url": "N/A"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Notions de base sur les carottes de glace : plan de leçon",
           "url": "https://docs.google.com/document/d/1bLE67Z_lkQd74jEWKgUM1ikKFIUMZETI/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Notions de base sur les carottes de glace : feuille de travail de l'élève",
           "url": "N/A"
         }
@@ -760,10 +785,7 @@
       "goi-26g-how-do-chemicals-that-were-trapped",
       "goi-21g-endocrine-disruptors"
     ],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "glaciers-04b-follow-the-flow",
@@ -783,44 +805,44 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Follow the Flow: Lesson Plan",
           "url": "https://docs.google.com/document/d/1twB1ff_o9mF3ilUHyIYNV9oBfgcYPau7naA4pnK7POk/edit?usp=drive_link"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Follow the Flow: Student Worksheet",
           "url": "https://docs.google.com/document/d/1vhF9bySogY1Ie_ghov17TdJx93WA6u-j94BHeJCg2NM/edit?usp=drive_link"
         },
         {
-          "id": "slides",
+          "FileType": "presentation-slides",
           "title": "Follow the Flow: Slide Show",
           "url": "https://docs.google.com/presentation/d/12OrymNcfZXL8iWEIgtktG0Lkr0QsVZbCbdvhrtMJXr0/edit?usp=drive_link"
         },
         {
-          "id": "glaciers-in-alberta-slides",
+          "FileType": "presentation-slides",
           "title": "Glaciers in Alberta: Slide Show",
           "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg/edit?usp=drive_link"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Suivre le flux : plan de leçon",
           "url": "https://docs.google.com/document/d/1ETh1-9VemIzGnnd9eaVxbwtQ_IGlkw0g/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Suivre le flux : feuille de travail de l’élève",
           "url": "https://docs.google.com/document/d/14nd4-44ffnWBS-bjr41M6whUkDrrCarw/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
         },
         {
-          "id": "slides",
+          "FileType": "presentation-slides",
           "title": "Suivre le flux : présentation PowerPoint",
           "url": "https://docs.google.com/presentation/d/1rl9N4QY6T2q3J9QYrYFAuIO2GN5l8C_b/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
         },
         {
-          "id": "glaciers-in-alberta-slides",
+          "FileType": "presentation-slides",
           "title": "Les glaciers en Alberta : présentation PowerPoint",
           "url": "N/A"
         }
@@ -887,10 +909,7 @@
       "goi-29g-persistent-chemicals-in-alberta",
       "goi-05g-how-do-forest-fires-affect-glaciers"
     ],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "glaciers-05b-water-test-procedures",
@@ -910,24 +929,24 @@
     "files": {
       "en": [
         {
-          "id": "water-test-procedures",
+          "FileType": "other-file-type",
           "title": "Water Test Procedures",
           "url": "https://drive.google.com/file/d/15I2aVVkdXZUWdPTEB7YQyk3OgvBG4SG-/view?usp=sharing"
         },
         {
-          "id": "glaciers-in-alberta-slides",
+          "FileType": "presentation-slides",
           "title": "Glaciers in Alberta Slide Show",
           "url": "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg/edit?usp=drive_link"
         }
       ],
       "fr": [
         {
-          "id": "water-test-procedures",
+          "FileType": "other-file-type",
           "title": "Procédures d’analyse de l’eau",
           "url": "https://docs.google.com/document/d/1S0CSfCmP5sCkBeUdMuooNtXBOYhDOHch/edit"
         },
         {
-          "id": "glaciers-in-alberta-slides",
+          "FileType": "presentation-slides",
           "title": "Les glaciers en Alberta : présentation",
           "url": "N/A"
         }
@@ -958,17 +977,23 @@
         "Wetlands",
         "Watershed"
       ],
-      "fr": []
+      "fr": [
+        "Sciences 14",
+        "Biologie 20",
+        "eau",
+        "qualité de l’eau",
+        "consommation d’eau",
+        "glaciers",
+        "zones humides",
+        "bassin versant"
+      ]
     },
     "learningOutcomes": {
       "en": [],
       "fr": []
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "landuse-01c-yesterday-today-tomorrow",
@@ -988,14 +1013,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan-and-student-worksheet",
+          "FileType": "lesson-plan",
           "title": "Yesterday, Today and Tomorrow - Using the Alberta Tomorrow Simulator Lesson Plan and Student Worksheet",
           "url": "https://docs.google.com/document/d/1Bnm4lgL7gFeSJW0DRwunmlZUOey-v6mrSTRmU6-raBM/edit?usp=drive_link"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan-and-student-worksheet",
+          "FileType": "lesson-plan",
           "title": "Hier, aujourd’hui et demain - Utiliser le simulateur d’Alberta Tomorrow : plan de leçon et feuille de travail de l’élève",
           "url": "https://docs.google.com/document/d/19_h05r90eQzVl3V6TfJLKg-mTrWGmQmo/edit"
         }
@@ -1047,10 +1072,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "landuse-02c-my-future-alberta",
@@ -1070,14 +1092,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan-and-student-worksheet",
+          "FileType": "lesson-plan",
           "title": "My Future Alberta: Creating a Landuse Plan for 2050: Lesson Plan and Student Worksheet",
           "url": "https://docs.google.com/document/d/1m_ybmNFrgN1CYuKQUYUttrd_PDfzzsPwu8zMlEJRI24/edit?usp=drive_link"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan-and-student-worksheet",
+          "FileType": "lesson-plan",
           "title": "Mon Alberta du futur : Créer un plan d’utilisation des terres pour 2050 : plan de leçon et feuille de travail de l’élève",
           "url": "https://docs.google.com/document/d/13ybEAk6XIv5r9Fkqv-5k8-CwWaF2Ybm7/edit#heading=h.nqnhio4pqyoe"
         }
@@ -1122,16 +1144,12 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [
-        {
-          "id": "alberta-landuse-framework",
-          "title": "Alberta Landuse Framework",
-          "url": "https://landuse.alberta.ca/Pages/default.aspx"
-        }
-      ],
-      "fr": []
-    }
+    "relatedResources": [
+      {
+        "title": "Alberta Landuse Framework",
+        "url": "https://landuse.alberta.ca/Pages/default.aspx"
+      }
+    ]
   },
   {
     "id": "landuse-03c-biogeochemical-cycles",
@@ -1151,34 +1169,34 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Biogeochemical Cycles: Bio 20 Lesson Plan",
           "url": "https://docs.google.com/document/d/18wXANYbaRv_r3vSBRlw0xNx00mF-X0KR/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Biogeochemical Cycles: Bio 20 Student Worksheet",
           "url": "https://docs.google.com/document/d/1LeujOsQOvL-yAL3urmPKQSTDOXsijmjB/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
         },
         {
-          "id": "answer-key",
+          "FileType": "answer-key",
           "title": "Biogeochemical Cycles: Bio 20 Answer Key",
           "url": "https://docs.google.com/document/d/1OsCViid43oOZrJ6WL6ohsEjPyINpGnro/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Cycles biogéochimiques : Biologie 20 - plan de leçon",
           "url": "https://docs.google.com/document/d/18ewlElnzNzp6wEi7dunsnkNpDBmT_yEK/edit"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Cycles biogéochimiques : Biologie 20 - feuille de travail de l’élève",
           "url": "https://docs.google.com/document/d/1pJqdjwsseUphgvDzBbtxA-WFthAQPBq0/edit"
         },
         {
-          "id": "answer-key",
+          "FileType": "answer-key",
           "title": "Cycles biogéochimiques : Biologie 20 - clé de correction",
           "url": "https://docs.google.com/document/d/1W-q4bGaM-eG7EmsKLFV_llxrtT3c18Qu/edit"
         }
@@ -1233,10 +1251,7 @@
       "soc-05d-agriculture-production",
       "soc-06d-water-consumption"
     ],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "landuse-04c-governments-have-it-rough",
@@ -1256,34 +1271,34 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Governments Have it Rough!: Lesson Plan",
           "url": "https://docs.google.com/document/d/1aNPK0LmRNRv66uWmo3VaUHwx2cjW_lAI/edit"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Governments Have it Rough: Student Worksheet",
           "url": "N/A"
         },
         {
-          "id": "answer-key",
+          "FileType": "answer-key",
           "title": "Governments Have it Rough: Answer Key",
           "url": "N/A"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "C’est difficile pour les gouvernements! : plan de leçon",
           "url": "https://docs.google.com/document/d/1x0a4-z0-FNdjN8_1OWLkeNLESI7Hx4AU/edit"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "C’est difficile pour les gouvernements! : feuille de travail de l’élève",
           "url": "N/A"
         },
         {
-          "id": "answer-key",
+          "FileType": "answer-key",
           "title": "C’est difficile pour les gouvernements! : clé de correction",
           "url": "N/A"
         }
@@ -1337,10 +1352,7 @@
       "soc-05d-agriculture-production",
       "soc-06d-water-consumption"
     ],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "landuse-05c-did-we-do-that",
@@ -1360,14 +1372,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Grade 4 Lesson Plan",
           "url": "N/A"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Plan de leçon de 4e année",
           "url": "N/A"
         }
@@ -1427,10 +1439,7 @@
       "soc-05d-agriculture-production",
       "soc-06d-water-consumption"
     ],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "landuse-06c-did-i-do-that",
@@ -1450,34 +1459,34 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Did we do that? Science 7 Lesson Plan",
           "url": "https://docs.google.com/document/d/1CR-RG016EQChxUjxY3X1aESpoSiSfHoq/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Did we do that? Science 7 Student Worksheet",
           "url": "N/A"
         },
         {
-          "id": "answer-sheet",
+          "FileType": "answer-key",
           "title": "Did we do that? Science 7 Answer Sheet",
           "url": "N/A"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Avons-nous fait ça? Sciences 7e année, plan de leçon",
           "url": "https://docs.google.com/document/d/17gp6CAHLREMW8NS83xN7td3SWwIvlV3l/edit"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Avons-nous fait ça? Sciences 7e année, feuille de travail de l’élève",
           "url": "N/A"
         },
         {
-          "id": "answer-sheet",
+          "FileType": "answer-key",
           "title": "Avons-nous fait ça? Sciences 7e année, clé de correction",
           "url": "N/A"
         }
@@ -1530,10 +1539,7 @@
       "soc-05d-agriculture-production",
       "soc-06d-water-consumption"
     ],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "landuse-07c-landuse-field-trip",
@@ -1553,14 +1559,14 @@
     "files": {
       "en": [
         {
-          "id": "field-trip-guide",
+          "FileType": "other-file-type",
           "title": "Landuse Field Trip",
           "url": "https://docs.google.com/document/d/1SpC6AztxVAMg5Zf7DmUwN8wQ-Tll5m73/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
         }
       ],
       "fr": [
         {
-          "id": "field-trip-guide",
+          "FileType": "other-file-type",
           "title": "Sortie éducative liée à l’utilisation des terres",
           "url": "https://docs.google.com/document/d/188mTIwQakxOh1shXP96viDfY2BZBMfYJ/edit"
         }
@@ -1606,10 +1612,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "landuse-08c-stakeholder-debate",
@@ -1629,14 +1632,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Stakeholder Debate Lesson Plan",
           "url": "https://docs.google.com/document/d/1dYPccl23Ri-zunFgkDOj2ijqErP47S78/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Débat d’intervenants : plan de leçon",
           "url": "https://docs.google.com/document/d/1tA21i4XtwKCopVD8L4OQ9tsDfJNgAzLT/edit"
         }
@@ -1687,10 +1690,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "landuse-09c-mistakes-mitigations-and-making-amends",
@@ -1710,14 +1710,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Land Based Learning Webinar Worksheet",
           "url": "N/A"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "N/A",
           "url": "N/A"
         }
@@ -1746,7 +1746,12 @@
         "repair",
         "environment"
       ],
-      "fr": []
+      "fr": [
+        "utilisation des terres",
+        "mitigation",
+        "repair",
+        "environment"
+      ]
     },
     "learningOutcomes": {
       "en": [
@@ -1755,10 +1760,7 @@
       "fr": []
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "abregions-01-virtual-field-trips-ecoregions",
@@ -1778,44 +1780,44 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Alberta's Ecoregions - 360 Virtual Field Trips Lesson Plan",
           "url": "https://docs.google.com/document/d/1zMQUusoEZMeOQj_JAk-anB7VGoxBaPeI/edit"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "360 Virtual Tours Scavenger Hunt Student Worksheet",
           "url": "https://docs.google.com/document/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz/edit"
         },
         {
-          "id": "fillable-google-slides",
+          "FileType": "presentation-slides",
           "title": "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
           "url": "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
         },
         {
-          "id": "circle-student-worksheet",
+          "FileType": "student-worksheet",
           "title": "360 Virtual Tours Scavenger Hunt Circle Student Worksheet",
           "url": "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0/edit?slide=id.p1#slide=id.p1"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Écorégions de l’Alberta – visites virtuelles à 360 degrés : plan de leçon",
           "url": "https://docs.google.com/document/d/1zMQUusoEZMeOQj_JAk-anB7VGoxBaPeI/edit"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
           "url": "https://docs.google.com/document/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz/edit"
         },
         {
-          "id": "fillable-google-slides",
+          "FileType": "presentation-slides",
           "title": "Visites virtuelles à 360 degrés et chasse au trésor : diapositives Google à remplir",
           "url": "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
         },
         {
-          "id": "circle-student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève (encercler)",
           "url": "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0/edit?slide=id.p1#slide=id.p1"
         }
@@ -1868,10 +1870,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "abregions-02-animal-adaptations",
@@ -1891,24 +1890,24 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Grade 3 Science Adaptations and the 360 Virtual Field Trips",
           "url": "N/A"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Animal Adaptations Student Worksheet - Fillable Google Slides",
           "url": "N/A"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "N/A",
           "url": "N/A"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "N/A",
           "url": "N/A"
         }
@@ -1926,7 +1925,11 @@
         "alberta",
         "ecoregions"
       ],
-      "fr": []
+      "fr": [
+        "animal adaptations",
+        "Alberta",
+        "écorégions"
+      ]
     },
     "learningOutcomes": {
       "en": [
@@ -1935,10 +1938,7 @@
       "fr": []
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "abregions-03-plant-animal-adaptations",
@@ -1958,24 +1958,24 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Grade 9 Science Adaptations and the 360 Virtual Field Trips",
           "url": "https://drive.google.com/file/d/1oqRU9sDWebD92xmGi3RYhN-Ae00ACP_j/view?usp=drive_link"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Grade 9 Plant and Animal Adaptations Student Worksheet - Fillable Google Slides",
           "url": "https://docs.google.com/presentation/d/1b_EosZ3fXr638ZeakaiqvjUYDMXGrXiwV7Yw3o04w8E"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "9e année, Sciences : Adaptations et visites virtuelles à 360 degrés",
           "url": "https://docs.google.com/document/d/1IKLGOqi9ukqXGjawklTxjrAGOEzbS6wg/edit"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "9e année, Adaptations des plantes et des animaux – feuille de travail de l’élève – diapositives Google à remplir",
           "url": "N/A"
         }
@@ -2018,10 +2018,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "abregions-04-natural-resources",
@@ -2041,24 +2038,24 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Alberta's Natural Resources: Lesson Plan",
           "url": "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg/edit?usp=drive_link"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Alberta's Natural Resources: Student Worksheet",
           "url": "https://docs.google.com/document/d/11p5vAYKphMkiPaqH_4zJ49AFQKH_WEhSB5yVTxKjAAw/edit?usp=drive_link"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Ressources naturelles de l’Alberta : plan de leçon",
           "url": "https://docs.google.com/document/d/1KUFyuRXXLDf0bmCnTnFo4xTqN6QxFoha/edit"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Ressources naturelles de l’Alberta : feuille de travail de l’élève",
           "url": "https://docs.google.com/document/d/1HVNoxTzEKVB58FFgxduCn01xek2Lde6g/edit"
         }
@@ -2103,10 +2100,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "abregions-05-alberta-natural-regions",
@@ -2126,44 +2120,44 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Alberta's Natural Regions",
           "url": "https://docs.google.com/document/d/1FPPfuy7iwOp9QC0pyLNjI1ujvS1EW0JU3YV4qZO9MeE/edit?usp=drive_link"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "360 Virtual Tours Scavenger Hunt Student Worksheet",
           "url": "https://drive.google.com/file/d/1fgBduzIjfvYWjkT2Y8m71qhiWMRjEwaL/view?usp=drive_link"
         },
         {
-          "id": "fillable-google-slides",
+          "FileType": "presentation-slides",
           "title": "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
           "url": "https://docs.google.com/presentation/d/1cqF8G4yz8O23Jg65PTvcoe-juJLizHjjP8vPkZY1H4k"
         },
         {
-          "id": "circle-student-worksheet",
+          "FileType": "student-worksheet",
           "title": "360 Virtual Tours Scavenger Hunt Circle Student Worksheet",
           "url": "https://docs.google.com/presentation/d/1iGXFpDscj18TBWM_f03jUxc7rGtzPWRxn6Yxvrn-Pfs"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Régions naturelles de l’Alberta",
           "url": "https://docs.google.com/document/d/1KWFyGht_qb3wHVTSE9zrLfotffrNw2uI/edit"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
           "url": "N/A"
         },
         {
-          "id": "fillable-google-slides",
+          "FileType": "presentation-slides",
           "title": "Visites virtuelles à 360 degrés et chasse au trésor : diapositives Google à remplir",
           "url": "https://docs.google.com/presentation/d/1FrvTy8G4cR0kKAunb0rwjshiy56Uykg4/edit?slide=id.p1#slide=id.p1"
         },
         {
-          "id": "circle-student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève (encercler)",
           "url": "N/A"
         }
@@ -2206,10 +2200,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "abregions-06-ecosystem-diversity",
@@ -2229,24 +2220,24 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Alberta's Ecosystems Scavenger Hunt",
           "url": "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Ecosystems in Alberta: Lesson Plan",
           "url": "https://docs.google.com/document/d/1yQJJ48YHAhWmoKr_TTpnmW4heDOxD31sXAv5ktS8izE"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Chasse au trésor dans les écosystèmes de l’Alberta",
           "url": "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Écosystèmes en Alberta : plan de leçon",
           "url": "https://docs.google.com/document/d/1dgmUyS9EOvTZmjjOuaOaxHk207d3WOe6/edit"
         }
@@ -2291,10 +2282,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "indigenous-01e-where-is-my-home",
@@ -2314,14 +2302,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Where is my Home? Using the Indigenous Map Layers",
           "url": "https://drive.google.com/file/d/1FnOm7Ja6IlrK483QT2m0pPbPhoY7c5HY/view?usp=drive_link"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Où est ma maison? Utiliser les superpositions cartographiques autochtones.",
           "url": "https://docs.google.com/document/d/1D_ZcPRB23NF3M1BRHjbJpyPWWTWexcF8/edit"
         }
@@ -2368,10 +2356,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "indigenous-02e-exploring-collective-rights",
@@ -2391,24 +2376,24 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Exploring Collective Rights: Lesson Plan",
           "url": "https://docs.google.com/document/d/1nMh2BVY6ZRFW0c8RjIShGn6t2QYi_ZvF/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Exploring Collective Rights: Student Worksheet",
           "url": "https://docs.google.com/document/d/10cCzISaKfH5wrf7O8CoBdIYfNG0V9sF4/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Étudier les droits collectifs : plan de leçon",
           "url": "https://docs.google.com/document/d/1MmE7sHJaMq5gmPgNpxGjXOjK7UFx2LBy/edit"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Étudier les droits collectifs : feuille de travail de l’élève",
           "url": "https://docs.google.com/document/d/1CL4u8LjHDWtwxPSM3EQ_4ilHDKVF0qgr/edit"
         }
@@ -2445,10 +2430,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "ab360-tours-03e-mapping-indigenous-areas",
@@ -2468,34 +2450,34 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Mapping Indigenous Areas: Lesson Plan",
           "url": "https://docs.google.com/document/d/1Uyrqu1VyKnJFc7Y_6tZbWeXvMeHkU0zTfktRYppQlYA"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Mapping Indigenous Areas: Student Worksheet",
           "url": "https://drive.google.com/file/d/1TD5lTrUbYJPh1OxBeEULOzkZ_q1L5xXv/view?usp=drive_link"
         },
         {
-          "id": "answer-sheet",
+          "FileType": "answer-key",
           "title": "Mapping Indigenous Areas: Answer Sheet",
           "url": "https://drive.google.com/file/d/1iv-eAK8aW24oybt-9kOSeA3h4rZengJv/view?usp=drive_link"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Cartographier les régions autochtones : plan de leçon",
           "url": "https://docs.google.com/document/d/18ZRfCirFFmvnZ5-45KBM_QWpU4RuHHpU/edit"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Cartographier les régions autochtones : feuille de travail de l’élève",
           "url": "https://docs.google.com/document/d/1tmkUtOZkroEhYl56TmhyVM-Zmj0nfzZ0/edit#heading=h.vqtq7mb3t4ey"
         },
         {
-          "id": "answer-sheet",
+          "FileType": "answer-key",
           "title": "Cartographier les régions autochtones : clé de correction",
           "url": "https://docs.google.com/document/d/1rpoEDqWvW12B7_B-Ycv73uYoHuZIABiu/edit#heading=h.7gig7j9bkhxk"
         }
@@ -2538,10 +2520,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "brw-01f-isotopes-and-climate-change",
@@ -2561,14 +2540,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Isotopes and Climate Change - Google Doc",
           "url": "https://docs.google.com/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi/"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Isotopes et changements climatiques – document Google",
           "url": "https://docs.google.com/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi/"
         }
@@ -2608,10 +2587,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "brbc-02f-glenmore-dam-water-services",
@@ -2631,14 +2607,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Glenmore Dam and Reservoir: Water Services - Google Doc",
           "url": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Barrage et réservoir de Glenmore : services d’approvisionnement en eau – document Google",
           "url": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
         }
@@ -2674,10 +2650,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "brbc-03f-water-quality-treatment",
@@ -2697,14 +2670,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Water Quality: Water Treatment - Google Doc",
           "url": "https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Qualité de l’eau : traitement des eaux – document Google",
           "url": "https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/"
         }
@@ -2739,10 +2712,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "brbc-04f-constructed-wetlands-stormwater",
@@ -2762,14 +2732,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Constructed Wetlands and Stormwater - Google Doc",
           "url": "https://docs.google.com/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_/"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Marais artificiels et eau pluviale – document Google",
           "url": "https://docs.google.com/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_/"
         }
@@ -2809,10 +2779,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "brbc-05f-aquifers",
@@ -2832,14 +2799,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Aquifers - Google Doc",
           "url": "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Aquifères – document Google",
           "url": "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/"
         }
@@ -2876,10 +2843,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "brbc-06f-the-watershed",
@@ -2899,14 +2863,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "The Watershed - Google Doc",
           "url": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Le bassin hydrographique – document Google",
           "url": "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
         }
@@ -2946,10 +2910,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "brbc-07f-hydrology-land-development",
@@ -2969,14 +2930,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Hydrology and Land Development - Google Doc",
           "url": "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Hydrologie et aménagement du territoire – document Google",
           "url": "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq"
         }
@@ -3014,10 +2975,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "brbc-08f-watersheds-hydrology",
@@ -3037,14 +2995,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Watersheds and Hydrology - Google Doc",
           "url": "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Bassins hydrographiques et hydrologie – document Google",
           "url": "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW"
         }
@@ -3081,10 +3039,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "brbc-09f-hydrology-climate-change",
@@ -3104,14 +3059,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Hydrology and Climate Change - Google Doc",
           "url": "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Hydrologie et changements climatiques – document Google",
           "url": "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4"
         }
@@ -3146,10 +3101,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "brbc-10f-invasive-species-control",
@@ -3169,14 +3121,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Invasive Species and Control - Google Doc",
           "url": "https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Espèces envahissantes et mesures de contrôle – document Google",
           "url": "https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/"
         }
@@ -3216,10 +3168,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "brbc-11f-native-prairies-plants",
@@ -3239,14 +3188,14 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Native Prairies and Plants - Google Doc",
           "url": "https://docs.google.com/document/d/1uTt5BFsG986N8SgW9H4nNCfXDPj5Wta7/"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Prairies et plantes indigènes – document Google",
           "url": "https://docs.google.com/document/d/1uTt5BFsG986N8SgW9H4nNCfXDPj5Wta7/"
         }
@@ -3286,10 +3235,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "energy-01-renewable-vs-nonrenewable",
@@ -3309,34 +3255,34 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Renewable vs Non-Renewable Resources - Lesson Plan",
           "url": "https://docs.google.com/document/d/1QU_kIWDMITb9Zau0XcB3-e3yTgBzn8W9P2qlM1NaDa8/edit?usp=drive_link"
         },
         {
-          "id": "presentation-slides",
+          "FileType": "presentation-slides",
           "title": "Renewable and Non-Renewable Sources of Energy - Presentation Slides",
           "url": "https://docs.google.com/presentation/d/1ZeVKUKvxdKaTkf24aXG_xr29TvKWb4hX3bKAFThe-Cg/edit?usp=drive_link"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Renewable vs Non-Renewable Resources - Student Worksheet",
           "url": "https://docs.google.com/document/d/1v5XpJO-O9B7I94GstDyZikDhgIzeCuo_pO6LtWPTWCc/edit?usp=drive_link"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Ressources renouvelables ou non renouvelables : plan de leçon",
           "url": "https://docs.google.com/document/d/16N-5cAv1mheL8ckWzDipWRYr8FlamNP_/edit"
         },
         {
-          "id": "presentation-slides",
+          "FileType": "presentation-slides",
           "title": "Sources d’énergie renouvelables et non renouvelables : présentation PowerPoint",
           "url": "https://docs.google.com/presentation/d/1kJBQH2n6TLF00_PLb1h--GYlEvwP-gD7/edit?slide=id.p1#slide=id.p1"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Ressources renouvelables ou non renouvelables : feuille de travail de l’élève",
           "url": "https://docs.google.com/document/d/1n1nPmf2z3hZdQk0w3OIrqwTazb7zhvXf/edit"
         }
@@ -3377,10 +3323,7 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   },
   {
     "id": "energy-02-factors-affecting-use",
@@ -3400,34 +3343,34 @@
     "files": {
       "en": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Factors that Influence the type of Energy Used: Lesson Plan",
           "url": "https://docs.google.com/document/d/1rE_PwNcHq2A9nr28g5SxS3sv3-3MJTwxoRz52nd8eJE/edit?usp=drive_link"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Factors that Influence the type of Energy Used: Student Worksheet",
           "url": "https://docs.google.com/document/d/1T3bvL-Gh1cWDfkHCn6PtPiaKzS457F5EHrXWGdnbAe4/edit?usp=drive_link"
         },
         {
-          "id": "presentation-slides",
+          "FileType": "presentation-slides",
           "title": "Energy Resources and Climate Change in Alberta - Presentation Slides",
           "url": "https://docs.google.com/presentation/d/1RmQYHLOms6XnWvOTz0E0GW3dK6NdT53zE8AfozExhkY/edit?usp=drive_link"
         }
       ],
       "fr": [
         {
-          "id": "lesson-plan",
+          "FileType": "lesson-plan",
           "title": "Facteurs qui influencent le type d’énergie utilisée : plan de leçon",
           "url": "https://docs.google.com/document/d/1fmgBQURd1PYXInXwUZTr4sTy6ZRk-_ap/edit"
         },
         {
-          "id": "student-worksheet",
+          "FileType": "student-worksheet",
           "title": "Facteurs qui influencent le type d’énergie utilisée : feuille de travail de l’élève",
           "url": "https://docs.google.com/document/d/1_d0tKmpd9cQ0qkrb1Rn2U_pUnjCHHFeA/edit"
         },
         {
-          "id": "presentation-slides",
+          "FileType": "presentation-slides",
           "title": "Ressources énergétiques et changements climatiques en Alberta – présentation PowerPoint",
           "url": "https://docs.google.com/presentation/d/1Kpaehlq2ap2n6W_Q0X9lDVAh-t6zChAt/edit?slide=id.p1#slide=id.p1"
         }
@@ -3468,9 +3411,6 @@
       ]
     },
     "videoIds": [],
-    "relatedResources": {
-      "en": [],
-      "fr": []
-    }
+    "relatedResources": []
   }
 ]

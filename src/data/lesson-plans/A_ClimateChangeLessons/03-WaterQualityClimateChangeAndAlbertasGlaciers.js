@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,17 +36,17 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Water Quality, Climate Change and Alberta's Glaciers",
         url: null
       },
       {
-        id: "webinar-worksheet",
+        FileType: FileType.OTHER_FILE_TYPE,
         title: "Webinar Worksheet",
         url: null
       },
       {
-        id: "glaciers-in-alberta-slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta (Google Slides)",
         url: null
       }
@@ -53,17 +54,17 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
 
     fr: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Qualité de l'eau, changements climatiques et glaciers de l'Alberta : plan de leçon",
         url: null
       },
       {
-        id: "webinar-worksheet",
+        FileType: FileType.OTHER_FILE_TYPE,
         title: "Feuille de travail du webinaire",
         url: null
       },
       {
-        id: "glaciers-in-alberta-slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta (diapositives Google)",
         url: null
       }
@@ -102,7 +103,7 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
       "ddt",
       "albedo"
     ],
-    fr: []
+    fr: ["eau", "qualité de l’eau", "consommation d’eau", "glaciers", "glacier melt", "changements climatiques", "ice coring", "feux de forêt", "réglementation des eaux", "produits chimiques persistants", "CFC", "DDT", "albédo"]
   },
 
   learningOutcomes: {
@@ -138,6 +139,5 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
         url: "https://guardiansoftheice.com/the-columbia-icefield/"
       }
     ],
-    fr: []
   }
 };

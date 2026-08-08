@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,34 +36,34 @@ export const governmentsHaveItRoughLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Governments Have it Rough!: Lesson Plan",
         url: "https://docs.google.com/document/d/1aNPK0LmRNRv66uWmo3VaUHwx2cjW_lAI/edit"
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Governments Have it Rough: Student Worksheet",
         url: null
       },
       {
-        id: "answer-key",
+        FileType: FileType.ANSWER_KEY,
         title: "Governments Have it Rough: Answer Key",
         url: null
       }
     ],
     fr: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "C’est difficile pour les gouvernements! : plan de leçon",
         url: "https://docs.google.com/document/d/1x0a4-z0-FNdjN8_1OWLkeNLESI7Hx4AU/edit"
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "C’est difficile pour les gouvernements! : feuille de travail de l’élève",
         url: null
       },
       {
-        id: "answer-key",
+        FileType: FileType.ANSWER_KEY,
         title: "C’est difficile pour les gouvernements! : clé de correction",
         url: null
       }
@@ -122,8 +123,5 @@ export const governmentsHaveItRoughLessonPlan = {
     "soc-06d-water-consumption"
   ],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 };

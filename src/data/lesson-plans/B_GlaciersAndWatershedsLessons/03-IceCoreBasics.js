@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,12 +36,12 @@ export const iceCoreBasicsLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Ice Core Basics: Lesson Plan",
         url: "https://docs.google.com/document/d/1ju0v6zBaJoDP6enneGbY0HAMjSeIYZK63sP3gVRHw30/edit?usp=drive_link"
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Ice Core Basics: Student Worksheet",
         url: null
       }
@@ -48,12 +49,12 @@ export const iceCoreBasicsLessonPlan = {
 
     fr: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Notions de base sur les carottes de glace : plan de leçon",
         url: "https://docs.google.com/document/d/1bLE67Z_lkQd74jEWKgUM1ikKFIUMZETI/edit?usp=drive_link&ouid=118054107326564428963&rtpof=true&sd=true"
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Notions de base sur les carottes de glace : feuille de travail de l'élève",
         url: null
       }
@@ -126,8 +127,5 @@ export const iceCoreBasicsLessonPlan = {
     "goi-21g-endocrine-disruptors"
   ],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 };

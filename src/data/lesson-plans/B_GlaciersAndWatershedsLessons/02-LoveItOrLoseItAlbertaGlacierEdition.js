@@ -18,6 +18,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -44,17 +45,17 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Love it or Lose it: Alberta Glacier Edition Lesson Plan",
         url: null
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Love it or Lose it: Alberta Glacier Edition: Student Worksheet",
         url: null
       },
       {
-        id: "glaciers-in-alberta-slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta Slide Show",
         url: null
       }
@@ -62,17 +63,17 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
 
     fr: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : plan de leçon",
         url: null
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : feuille de travail de l'élève",
         url: null
       },
       {
-        id: "glaciers-in-alberta-slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta : présentation",
         url: null
       }
@@ -148,31 +149,17 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
     "goi-33g-what-can-we-do-to-protect-alberta"
   ],
 
-  relatedResources: {
-    en: [
-      {
-        id: "mountain-legacy-project",
-        title: "Mountain Legacy Project",
-        url: "http://mountainlegacy.ca/"
-      },
-      {
-        id: "guardians-of-the-ice",
-        title: "Guardians of the Ice",
-        url: "https://guardiansoftheice.com/the-columbia-icefield/"
-      }
-    ],
+  relatedResources: [
+    {
+      id: "mountain-legacy-project",
+      title: "Mountain Legacy Project",
+      url: "http://mountainlegacy.ca/"
+    },
+    {
+      id: "guardians-of-the-ice",
+      title: "Guardians of the Ice",
+      url: "https://guardiansoftheice.com/the-columbia-icefield/"
+    }
+  ],
 
-    fr: [
-      {
-        id: "mountain-legacy-project",
-        title: "N/A",
-        url: "http://mountainlegacy.ca/"
-      },
-      {
-        id: "guardians-of-the-ice",
-        title: "N/A",
-        url: "https://guardiansoftheice.com/the-columbia-icefield/"
-      }
-    ]
-  }
 };

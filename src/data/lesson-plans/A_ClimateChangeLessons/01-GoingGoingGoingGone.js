@@ -19,6 +19,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -45,17 +46,17 @@ export const goingGoingGoingGoneLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Going Going Going Gone: Lesson Plan",
         url: null
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Going Going Going Gone: Student Worksheet",
         url: null
       },
       {
-        id: "climate-myths-and-misconceptions-slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Climate Myths and Misconceptions: Slide Show",
         url: null
       }
@@ -63,17 +64,17 @@ export const goingGoingGoingGoneLessonPlan = {
 
     fr: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Il recule, il recule, il disparaît : plan de leçon",
         url: null
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Il recule, il recule, il disparaît : feuille de travail de l’élève",
         url: null
       },
       {
-        id: "climate-myths-and-misconceptions-slides",
+        FileType: FileType.PRESENTATION_SLIDES,
         title: "Mythes et idées fausses sur les changements climatiques : présentation",
         url: null
       }
@@ -152,8 +153,5 @@ export const goingGoingGoingGoneLessonPlan = {
     "oth-01z-oxygen-isotopes"
   ],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 };

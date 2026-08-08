@@ -9,6 +9,7 @@
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
@@ -35,24 +36,24 @@ export const animalAdaptationsLessonPlan = {
   files: {
     en: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "Grade 3 Science Adaptations and the 360 Virtual Field Trips",
         url: null
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "Animal Adaptations Student Worksheet - Fillable Google Slides",
         url: null
       }
     ],
     fr: [
       {
-        id: "lesson-plan",
+        FileType: FileType.LESSON_PLAN,
         title: "N/A",
         url: null
       },
       {
-        id: "student-worksheet",
+        FileType: FileType.STUDENT_WORKSHEET,
         title: "N/A",
         url: null
       }
@@ -73,7 +74,7 @@ export const animalAdaptationsLessonPlan = {
       "alberta",
       "ecoregions"
     ],
-    fr: []
+    fr: ["animal adaptations", "Alberta", "écorégions"]
   },
 
   learningOutcomes: {
@@ -85,8 +86,5 @@ export const animalAdaptationsLessonPlan = {
 
   videoIds: [],
 
-  relatedResources: {
-    en: [],
-    fr: []
-  }
+  relatedResources: []
 }
