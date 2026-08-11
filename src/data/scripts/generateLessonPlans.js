@@ -96,12 +96,19 @@ function normalizeRelatedResources(value) {
 }
 
 function normalizeLessonPlan(raw) {
+  const title = normalizeLocalizedString(raw.title);
+
+  // If French title is missing, reuse the English title with a clear placeholder.
+  if (title.fr === "N/A" && title.en !== "N/A") {
+    title.fr = `${title.en} (French Coming soon)`;
+  }
+
   return {
     id: raw.id,
 
     themeId: normalizeString(raw.themeId),
 
-    title: normalizeLocalizedString(raw.title),
+    title,
 
     description: normalizeLocalizedString(raw.description),
 

@@ -20,7 +20,7 @@ export const persistentChemicalsInAlbertaGlaciersVideo = {
 
   title: {
     en: "Persistent Chemicals in Alberta Glaciers",
-    fr: "Produits chimiques persistants dans les glaciers de l’Alberta \nAli Criscitiello, Ph. D., explique ce que sont les produits chimiques persistants et le danger que représente leur rejet dans l’environnement après avoir été emprisonnés dans les glaciers de l’Alberta.\n"
+    fr: "Produits chimiques persistants dans les glaciers de l’Alberta"
   },
 
   description: {
@@ -36,7 +36,7 @@ export const persistentChemicalsInAlbertaGlaciersVideo = {
   },
 
   searchTerms: {
-    en: ["persistent","chemical","something","doesn","break","down","environment","abglaciers"],
-    fr: ["produit","chimique","persistant","est","une","substance","qui","degrade"]
+    en: ["persistent", "chemical", "something", "doesn", "break", "down", "environment", "abglaciers"],
+    fr: ["produit", "chimique", "persistant", "est", "une", "substance", "qui", "degrade"]
   },
 };
