@@ -19,13 +19,13 @@ export const historicalSimulationVideo = {
   categoryId: VideoCategory.TUTORIALS.id,
 
   title: {
-    en: "User Tutorial: Running a Historical Simulation in Alberta Tomorrow",
-    fr: "Executer un scenario historique dans Alberta Tomorrow"
+    en: "Running a Historical Simulation in Alberta Tomorrow",
+    fr: "Exécuter un scénario historique dans Alberta Tomorrow"
   },
 
   description: {
     en: "Watch this video to find out how your study area has changed since 1910!",
-    fr: "Regardez cette video pour comprendre l'evolution de votre zone d'etude depuis 1910!"
+    fr: "Regardez cette vidéo pour comprendre l’évolution de votre zone d’étude depuis 1910!"
   },
 
   media: {

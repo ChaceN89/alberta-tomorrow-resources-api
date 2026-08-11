@@ -24,7 +24,7 @@ export const accessToLandSibbaldFlatsVideo = {
 	},
 
 	description: {
-		en: "Listen to Elders talk about the  importance of the Sibbald Flats for hunting, collecting berries and traditional uses and the incompatibility with some other land uses.",
+		en: "Listen to Elders talk about the importance of the Sibbald Flats for hunting, collecting berries and traditional uses and the incompatibility with some other land uses.",
 		fr: "Écoutez les aînés parler de l’importance des Sibbald Flats pour la chasse, la cueillette de petits fruits et les utilisations traditionnelles, et de l’incompatibilité avec certaines autres utilisations du territoire."
 	},
 

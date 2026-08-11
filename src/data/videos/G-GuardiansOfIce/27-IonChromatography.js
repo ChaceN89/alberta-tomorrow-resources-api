@@ -19,13 +19,13 @@ export const ionChromatographyVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "This is an Ion Chromatograph.",
-    fr: "Il s’agit d’un chromatographe ionique."
+    en: "Ion chromatograph",
+    fr: "Chromatographe d’échange d’ions\nAli Criscitiello, Ph. D., parle du chromatographe d’échange d’ions et de ce que cela nous indique sur les glaciers.\n"
   },
 
   description: {
     en: "Dr. Ali Criscitiello talks about the Ion Chromatograph and what it tells us about the glaciers.",
-    fr: "Nous l’appelons simplement un IC."
+    fr: "Ali Criscitiello, Ph. D., parle du chromatographe d’échange d’ions et de ce que cela nous indique sur les glaciers."
   },
 
   media: {

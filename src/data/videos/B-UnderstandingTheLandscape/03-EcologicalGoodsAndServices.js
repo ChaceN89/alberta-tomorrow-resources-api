@@ -20,12 +20,12 @@ export const ecologicalGoodsAndServicesVideo = {
 
   title: {
     en: "Ecological Goods and Services",
-    fr: "Biens et services ecologiques"
+    fr: "Biens et services écologiques"
   },
 
   description: {
     en: "An introduction to ecological goods and services.",
-    fr: "Une introduction aux biens et services ecologiques."
+    fr: "Une introduction aux biens et services écologiques."
   },
 
   media: {

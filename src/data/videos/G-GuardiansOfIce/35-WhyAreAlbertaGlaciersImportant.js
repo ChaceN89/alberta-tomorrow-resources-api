@@ -19,13 +19,13 @@ export const whyAreAlbertaGlaciersImportantVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Glaciers are important for tons of different reasons.",
-    fr: "Les glaciers sont importants pour de très nombreuses raisons."
+    en: "Why are Alberta glaciers important?",
+    fr: "Pourquoi les glaciers de l’Alberta sont-ils importants?"
   },
 
   description: {
-    en: "Dr. Ali Criscitiello discuss the importance of Alberta Glaciers.",
-    fr: "Ils sont importants sur le plan environnemental, mais aussi pour les êtres humains, car les glaciers ont un impact direct sur leur vie."
+    en: "Dr. Ali Criscitiello discusses the importance of Alberta Glaciers.",
+    fr: "Ali Criscitiello, Ph. D., parle de l’importance des glaciers de l’Alberta."
   },
 
   media: {

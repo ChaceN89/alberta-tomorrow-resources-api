@@ -20,12 +20,12 @@ export const hydrocarbonProductionVideo = {
 
   title: {
     en: "Hydrocarbon Production",
-    fr: "Production d'hydrocarbures"
+    fr: "Production d’hydrocarbures"
   },
 
   description: {
     en: "Hydrocarbon production includes natural gas, oil, bitumen, and coal. Learn how energy production affects land use and the economy.",
-    fr: "La production d'hydrocarbures comprend le gaz naturel, le petrole, le bitume et le charbon. Apprenez l'effet de la production d'energie sur l'utilisation des terres et l'economie."
+    fr: "La production d’hydrocarbures comprend le gaz naturel, le pétrole, le bitume et le charbon. Apprenez l’effet de la production d’énergie sur l’utilisation des terres et l’économie."
   },
 
   media: {

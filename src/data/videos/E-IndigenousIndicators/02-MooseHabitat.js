@@ -20,12 +20,12 @@ export const mooseHabitatVideo = {
 
   title: {
     en: "Moose Habitat",
-    fr: "Habitat de l'orignal"
+    fr: "Habitat de l’orignal"
   },
 
   description: {
     en: "Moose Habitat is reduced by industrial development and proximity to human activity. This video explores how habitat value is calculated in Alberta Tomorrow.",
-    fr: "L'habitat de l'orignal est reduit par le developpement industriel et la proximite avec les activites humaines. Cette video explore comment la valeur de l'habitat est calculee dans Alberta Tomorrow."
+    fr: "L’habitat de l’orignal est réduit par le développement industriel et la proximité avec les activités humaines. Cette vidéo explore comment la valeur de l’habitat est calculée dans Alberta Tomorrow."
   },
 
   media: {

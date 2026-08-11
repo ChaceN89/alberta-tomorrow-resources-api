@@ -19,13 +19,13 @@ export const yourMissionVideo = {
   categoryId: VideoCategory.TUTORIALS.id,
 
   title: {
-    en: "User Tutorial: Your Mission",
+    en: "Your Mission",
     fr: "Votre mission"
   },
 
   description: {
     en: "An overview of the mission you will accomplish using Alberta Tomorrow",
-    fr: "Un apercu de la mission que vous accomplirez a l'aide d'Alberta Tomorrow."
+    fr: "Un aperçu de la mission que vous accomplirez à l’aide d’Alberta Tomorrow."
   },
 
   media: {

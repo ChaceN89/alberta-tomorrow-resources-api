@@ -30,8 +30,8 @@ export const whatWillLandLookLikeInTheFutureVideo = {
 
 	media: {
 		type: "youtube",
-		url: "https://youtu.be/UpJUo8M5Bck?si=PHyuoBHHtza4vsmy",
-		thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/695381a7-7628-4818-990f-89d3211aa303/thumbnails/What%20Will%20Land%20Look%20Like%20in%20Future_tumb.0000000.jpg",
+		url: "https://youtu.be/EKJ4X0QhZmY?si=9FO7qzKUxNbzs-8y",
+		thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/b37b2a2b-8c73-4eed-b62c-e2f6a0fd1bcd/thumbnails/What%20will%20the%20land%20look%20like%20in%20the%20future_tumb.0000000.jpg",
 		is360: false
 	},
 

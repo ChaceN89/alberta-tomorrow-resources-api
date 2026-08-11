@@ -19,13 +19,13 @@ export const createAndShareReportVideo = {
   categoryId: VideoCategory.TUTORIALS.id,
 
   title: {
-    en: "User Tutorial: Creating and Sharing a Report in Alberta Tomorrow",
-    fr: "Creer et partager un rapport dans Alberta Tomorrow"
+    en: "Creating and Sharing a Report in Alberta Tomorrow",
+    fr: "Créer et partager un rapport dans Alberta Tomorrow"
   },
 
   description: {
     en: "This short tutorial video will show you how to create and share a report in the simulator.",
-    fr: "Ce court tutoriel vous montre comment creer et partager un rapport dans le simulateur."
+    fr: "Ce court tutoriel vous montre comment créer et partager un rapport dans le simulateur."
   },
 
   media: {

@@ -19,13 +19,13 @@ export const createLandUseScenarioVideo = {
   categoryId: VideoCategory.TUTORIALS.id,
 
   title: {
-    en: "User Tutorial: How to Create your own Land Use Scenarios",
-    fr: "Comment creer vos propres scenarios d'utilisation des terres"
+    en: "How to Create your own Land Use Scenarios",
+    fr: "Comment créer vos propres scénarios d’utilisation des terres "
   },
 
   description: {
     en: "This video will show you how to select your watershed study area, set goals, make changes on the map, and run your scenario.",
-    fr: "Cette video vous montre comment choisir le bassin hydrographique de votre zone d'etude, etablir des objectifs, apporter des changements sur la carte et executer votre scenario."
+    fr: "Cette vidéo vous montre comment choisir le bassin hydrographique de votre zone d’étude, établir des objectifs, apporter des changements sur la carte et exécuter votre scénario."
   },
 
   media: {

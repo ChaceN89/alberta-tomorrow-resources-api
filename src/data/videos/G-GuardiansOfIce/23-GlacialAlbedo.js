@@ -19,13 +19,13 @@ export const glacialAlbedoVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "So as glaciers shrink or as glacier surfaces become dirtier both of these impact overal albedo.",
-    fr: "À mesure que les glaciers rétrécissent ou que leur surface devient plus sale, ces deux phénomènes influencent l’albédo global."
+    en: "Glacial Albedo",
+    fr: "Albédo glacial"
   },
 
   description: {
     en: "Dr. Ali Criscitiello discusses what Albedo is and how it relates to Alberta glaciers.",
-    fr: "Ces deux processus contribuent donc à rendre la surface de la Terre moins réfléchissante."
+    fr: "Ali Criscitiello, Ph. D., explique ce qu’est l’albédo et son lien avec les glaciers de l’Alberta."
   },
 
   media: {

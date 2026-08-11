@@ -19,13 +19,13 @@ export const createBusinessAsUsualScenarioVideo = {
   categoryId: VideoCategory.TUTORIALS.id,
 
   title: {
-    en: "User Tutorial: How to Create a Business as Usual (BAU) Scenario",
-    fr: "Comment creer un scenario de maintien du statu quo"
+    en: "How to Create a Business as Usual (BAU) Scenario",
+    fr: "Comment créer un scénario de « maintien du statu quo » "
   },
 
   description: {
     en: "A BAU scenario gives you a glimpse of a possible future, one that carries current trends in landuse into the future.",
-    fr: "Un scenario de maintien du statu quo vous donne un apercu de ce a quoi pourrait ressembler l'avenir; ce scenario projette les tendances actuelles en matiere d'utilisation des terres dans l'avenir."
+    fr: "Un scénario de « maintien du statu quo » vous donne un aperçu de ce à quoi pourrait ressembler l’avenir; ce scénario projette les tendances actuelles en matière d’utilisation des terres dans l’avenir."
   },
 
   media: {

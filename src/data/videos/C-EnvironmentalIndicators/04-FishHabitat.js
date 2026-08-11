@@ -25,7 +25,7 @@ export const fishHabitatVideo = {
 
   description: {
     en: "Discover how land use affects fish community health, from native trout populations to the impacts of angling and habitat disturbance.",
-    fr: "Decouvrez comment les utilisations des terres nuisent a la sante des communautes de poissons, des populations de truites indigenes aux impacts de la peche sportive et de la perturbation de l'habitat."
+    fr: "Découvrez comment les utilisations des terres nuisent à la santé des communautés de poissons, des populations de truites indigènes aux impacts de la pêche sportive et de la perturbation de l’habitat."
   },
 
   media: {

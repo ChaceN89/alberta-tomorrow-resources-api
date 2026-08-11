@@ -20,12 +20,12 @@ export const grossDomesticProductVideo = {
 
   title: {
     en: "Gross Domestic Product",
-    fr: "Produit interieur brut"
+    fr: "Produit intérieur brut"
   },
 
   description: {
     en: "GDP is based on land use for oil and gas, forestry, and agriculture. Learn how economic development influences Alberta's GDP.",
-    fr: "Le PIB repose sur l'utilisation des terres dediees a la production de petrole et de gaz, a la foresterie et a l'agriculture. Apprenez comment le developpement economique influence le PIB de l'Alberta."
+    fr: "Le PIB repose sur l’utilisation des terres dédiées à la production de pétrole et de gaz, à la foresterie et à l’agriculture. Apprenez comment le développement économique influence le PIB de l’Alberta."
   },
 
   media: {

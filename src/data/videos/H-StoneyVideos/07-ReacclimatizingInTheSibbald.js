@@ -19,7 +19,7 @@ export const reacclimatizingInTheSibbaldVideo = {
 	categoryId: VideoCategory.STONEY_VOICES.id,
 
 	title: {
-		en: "Reclimatizing in the Sibbald",
+		en: "Reacclimatizing in the Sibbald",
 		fr: "Se réacclimater dans la région de Sibbald"
 	},
 
@@ -30,7 +30,7 @@ export const reacclimatizingInTheSibbaldVideo = {
 
 	media: {
 		type: "youtube",
-		url: "https://youtu.be/PYuxiSw06jM?si=ZT9Il2CxUSq80vc7",
+		url: "https://www.youtube.com/watch?v=XQv_Gy_gpWo",
 		thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/b88daa80-37fc-4079-869a-7f9f5a0fdb96/thumbnails/Reclimatizing_tumb.0000000.jpg",
 		is360: false
 	},

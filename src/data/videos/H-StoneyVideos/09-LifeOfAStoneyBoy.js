@@ -19,7 +19,7 @@ export const lifeOfAStoneyBoyVideo = {
 	categoryId: VideoCategory.STONEY_VOICES.id,
 
 	title: {
-		en: "Life Of A Stoney Boy",
+		en: "Life of a Stoney Boy",
 		fr: "La vie d’un jeune garçon de la nation Stoney"
 	},
 

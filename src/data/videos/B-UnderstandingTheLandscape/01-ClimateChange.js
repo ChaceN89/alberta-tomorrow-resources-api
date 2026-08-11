@@ -25,7 +25,7 @@ export const climateChangeVideo = {
 
   description: {
     en: "How will Alberta be affected by Climate Change? What's the difference between Climate Change and Global Warming?",
-    fr: "Comment l'Alberta sera-t-elle touchee par les changements climatiques? Quelle est la difference entre changements climatiques et rechauffement planetaire?"
+    fr: "Comment l’Alberta sera-t-elle touchée par les changements climatiques? Quelle est la différence entre changements climatiques et réchauffement planétaire?"
   },
 
   media: {

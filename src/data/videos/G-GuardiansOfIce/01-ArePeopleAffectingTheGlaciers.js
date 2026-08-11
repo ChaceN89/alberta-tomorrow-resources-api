@@ -19,13 +19,13 @@ export const arePeopleAffectingTheGlaciersVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Well it might affect it in some small way but what I often tend to say instead.",
-    fr: "Eh bien, cela peut avoir un certain effet, mais probablement très limité. Ce que je réponds généralement, c’est plutôt…"
+    en: "Are People Affecting the Glaciers?",
+    fr: "Les gens nuisent-ils aux glaciers?"
   },
 
   description: {
     en: "Listen to Peter Lemieux talk about how people are affecting the glaciers.",
-    fr: "Ce ne sont pas tant les personnes qui marchent sur ce glacier-ci qui ont un impact, mais plutôt les quelque 7 milliards d’habitants de la planète qui exercent une influence considérable ici, comme sur les glaciers du monde entier."
+    fr: "Écoutez Peter Lemieux parler de l’effet des gens sur les glaciers."
   },
 
   media: {

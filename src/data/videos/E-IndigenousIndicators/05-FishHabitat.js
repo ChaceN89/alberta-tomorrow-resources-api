@@ -25,7 +25,7 @@ export const fishHabitatVideo = {
 
   description: {
     en: "Healthy fish habitat means diverse native species and fewer disturbances. This video highlights habitat importance to Indigenous communities.",
-    fr: "Un habitat du poisson en sante se definit par des especes indigenes diversifiees et moins de perturbations. Cette video souligne l'importance de l'habitat pour les communautes autochtones."
+    fr: "Un habitat du poisson en santé se définit par des espèces indigènes diversifiées et moins de perturbations. Cette vidéo souligne l’importance de l’habitat pour les communautés autochtones."
   },
 
   media: {

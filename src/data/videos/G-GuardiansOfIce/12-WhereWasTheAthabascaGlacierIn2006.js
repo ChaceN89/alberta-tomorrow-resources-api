@@ -19,13 +19,13 @@ export const whereWasTheAthabascaGlacierIn2006Video = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Why don't we go over and take a look at these two boulders.",
-    fr: "Pourquoi ne pas aller voir ces deux rochers de plus près ?"
+    en: "Where was the Athabasca glacier in 2006?",
+    fr: "Où se situait le glacier Athabasca en 2006?"
   },
 
   description: {
     en: "Listen to Peter Lemieux talk about how far the glacier has receded since 2006 and how he knows!",
-    fr: "Parce qu’en 2006, j’ai trouvé ces rochers à côté du glacier et je me suis dit que ce serait un bon point de repère."
+    fr: "Écoutez Peter Lemieux expliquer à quel point le glacier a reculé depuis 2006 et comment il le sait!"
   },
 
   media: {

@@ -19,13 +19,13 @@ export const whereDoWeFindGlaciersVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "We find glaciers across all Alberta.",
-    fr: "On trouve des glaciers partout en Alberta."
+    en: "Where do we find glaciers?",
+    fr: "Où trouvons-nous les glaciers?"
   },
 
   description: {
     en: "Dr. Ali Criscitiello discusses where we find glaciers.",
-    fr: "Principalement dans un corridor orienté du nord au sud qui commence juste à l’ouest d’ici, dans la région d’Edmonton."
+    fr: "Ali Criscitiello, Ph. D., explique où se trouvent les glaciers."
   },
 
   media: {

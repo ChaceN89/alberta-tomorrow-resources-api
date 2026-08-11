@@ -24,7 +24,7 @@ export const comeWithUsToTheAthabascaGlacierVideo = {
   },
 
   description: {
-    en: "Walk with us the the Athabasca Glacier on the Columbia Icefield.",
+    en: "Walk with us the Athabasca Glacier on the Columbia Icefield.",
     fr: "Venez marcher avec nous au glacier Athabasca sur le champ de glace Columbia."
   },
 

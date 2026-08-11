@@ -25,7 +25,7 @@ export const agriculturalProductionVideo = {
 
   description: {
     en: "Learn how using the landscape for agriculture contributes to food production and economic development in Alberta.",
-    fr: "Apprenez comment l'utilisation des terres pour l'agriculture contribue a la production d'aliments et au developpement economique en Alberta."
+    fr: "Apprenez comment l’utilisation des terres pour l’agriculture contribue à la production d’aliments et au développement économique en Alberta."
   },
 
   media: {

@@ -19,13 +19,13 @@ export const whereWillTheGlacierBeIn30YearsVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Whats your prediction?",
-    fr: "Quelle est votre prédiction ?"
+    en: "Where will the glacier be in 30 years?",
+    fr: "Où se trouvera le glacier dans 30 ans?"
   },
 
   description: {
     en: "Listen to Peter Lemieux as he discussed where the Athabasca Glacier may be in 30 years.",
-    fr: "Selon vous, où se trouvera cette glace glaciaire dans 10, 20, 30 ou 40 ans ?"
+    fr: "Écoutez Peter Lemieux expliquer où pourrait se situer le glacier Athabasca dans 30 ans."
   },
 
   media: {

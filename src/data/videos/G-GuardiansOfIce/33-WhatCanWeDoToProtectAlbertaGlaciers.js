@@ -19,13 +19,13 @@ export const whatCanWeDoToProtectAlbertaGlaciersVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Well sometimes it seems lika a far away problem that one person can't impact.",
-    fr: "Eh bien, parfois, cela semble être un problème lointain et une seule personne ne peut pas avoir d’impact."
+    en: "What can we do to protect Alberta glaciers?",
+    fr: "Que pouvons-nous faire pour protéger les glaciers de l’Alberta?"
   },
 
   description: {
     en: "Dr. Ali Criscitiello talks about what we can do to protect Alberta glaciers.",
-    fr: "Mais je ne pense pas que ce soit vrai."
+    fr: "Ali Criscitiello, Ph. D., explique ce que nous pouvons faire pour protéger les glaciers de l’Alberta."
   },
 
   media: {

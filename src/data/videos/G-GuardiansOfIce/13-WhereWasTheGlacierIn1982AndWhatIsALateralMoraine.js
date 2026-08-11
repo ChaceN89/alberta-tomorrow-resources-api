@@ -19,13 +19,13 @@ export const whereWasTheGlacierIn1982AndWhatIsALateralMoraineVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Yeah, exactly.",
-    fr: "Oui, exactement."
+    en: "Where was the glacier in 1982 and what is a lateral moraine?",
+    fr: "Où était le glacier en 1982 et qu’est-ce qu’une moraine latérale?"
   },
 
   description: {
     en: "Listen to Peter Lemieux as he discusses where the Athabasca glacier was in 1982.",
-    fr: "Si vous regardez de l’autre côté de la vallée, vous pouvez voir jusqu’où s’étendait le glacier au milieu du XIXᵉ siècle."
+    fr: "Écoutez Peter Lemieux expliquer où se situait le glacier Athabasca en 1982."
   },
 
   media: {

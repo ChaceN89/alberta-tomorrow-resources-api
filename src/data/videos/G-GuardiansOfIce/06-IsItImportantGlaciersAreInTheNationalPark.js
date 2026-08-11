@@ -19,13 +19,13 @@ export const isItImportantGlaciersAreInTheNationalParkVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "All of these uses of the land are great and essential.",
-    fr: "Toutes ces utilisations du territoire sont importantes et essentielles."
+    en: "Is it important glaciers are in the national park?",
+    fr: "Est-ce important que les glaciers soient dans les parcs nationaux?"
   },
 
   description: {
     en: "Listen to Peter Lemieux discuss why it's important to have glaciers protected in National Parks.",
-    fr: "C’est parfois une bonne chose qu’une partie du territoire soit simplement laissée à l’état naturel, et un parc national est justement conçu pour protéger ces lieux afin que tout le monde puisse en profiter et les apprécier."
+    fr: "Écoutez Peter Lemieux expliquer pourquoi il est important que les glaciers soient protégés à l’intérieur des parcs nationaux."
   },
 
   media: {

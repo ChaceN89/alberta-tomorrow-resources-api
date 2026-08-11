@@ -20,7 +20,7 @@ export const howDoForestFiresAffectGlaciersVideo = {
 
   title: {
     en: "How do Forest Fires Affect Glaciers",
-    fr: "Comment les feux de forêt affectent-ils les glaciers"
+    fr: "Comment les feux de forêt agissent sur les glaciers"
   },
 
   description: {

@@ -19,13 +19,13 @@ export const forestFiresAndGlaciersVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "It does a couple of things.",
-    fr: "Cela a plusieurs effets."
+    en: "Forest Fires and Glaciers",
+    fr: "Feux de forêt et glaciers"
   },
 
   description: {
     en: "Dr. Ali Criscitiello discusses the effects of forest fires on Alberta Glaciers.",
-    fr: "Le premier effet, et le plus évident, est qu’il transforme cette magnifique surface blanche et immaculée, très réfléchissante, en une surface plus sombre qui absorbe davantage d’énergie."
+    fr: "Ali Criscitiello, Ph. D., parle des effets des feux de forêt sur les glaciers de l’Alberta."
   },
 
   media: {

@@ -19,13 +19,13 @@ export const whereDoesWaterFromTheSnowDomeGoVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "They both flow up to the Arctic Ocean via the MacKenzie River.",
-    fr: "Toutes deux se jettent dans l’océan Arctique par l’intermédiaire du fleuve Mackenzie."
+    en: "Where does water from the Snow Dome go?",
+    fr: "Où va l’eau venant de Snow Dome?"
   },
 
   description: {
     en: "Listen to Peter Lemieux as he discusses where water from Snow Dome ends up.",
-    fr: "C’est l’une des rivières qui traverse pratiquement tout le pays."
+    fr: "Écoutez Peter Lemieux parler d’où finit l’eau qui vient de Snow Dome."
   },
 
   media: {

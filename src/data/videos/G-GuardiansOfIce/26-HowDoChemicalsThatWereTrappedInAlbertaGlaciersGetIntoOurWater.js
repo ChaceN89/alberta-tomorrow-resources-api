@@ -19,13 +19,13 @@ export const howDoChemicalsThatWereTrappedInAlbertaGlaciersGetIntoOurWaterVideo 
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Well in this case, where glaciers are receiving these chemicals.",
-    fr: "Dans ce cas-ci, les glaciers reçoivent ces substances chimiques."
+    en: "How do chemicals that were trapped in Alberta glaciers get into our water?",
+    fr: "Comment les produits chimiques emprisonnés dans les glaciers de l’Alberta se retrouvent-ils dans notre eau?"
   },
 
   description: {
     en: "Dr. Ali Criscitiello discusses how chemicals, once trapped in frozen ice, will get into our water supply, even some that were banned years ago!",
-    fr: "Même les produits chimiques qui ont été interdits il y a longtemps sont encore présents et piégés dans la glace."
+    fr: "Ali Criscitiello, Ph. D., explique comment les produits chimiques, autrefois emprisonnés dans la glace, se retrouvent dans notre approvisionnement en eau, même certains qui ont été interdits bien des années auparavant!"
   },
 
   media: {

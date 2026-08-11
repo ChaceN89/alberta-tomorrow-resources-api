@@ -25,7 +25,7 @@ export const grizzlyHabitatVideo = {
 
   description: {
     en: "Learn how forest development and human activity affect the suitability of grizzly bear habitat across Alberta.",
-    fr: "Apprenez comment le developpement forestier et les activites humaines nuisent a l'habitat convenant au grizzli partout en Alberta."
+    fr: "Apprenez comment le développement forestier et les activités humaines nuisent à l’habitat convenant au grizzli partout en Alberta."
   },
 
   media: {

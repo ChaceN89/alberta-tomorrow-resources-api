@@ -19,13 +19,13 @@ export const growthAndAttritionVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "The main factors are the amount of snowfall in the winter, rain in the summer.",
-    fr: "Les principaux facteurs sont la quantité de neige reçue pendant l’hiver et la quantité de pluie reçue pendant l’été."
+    en: "Growth and Attrition",
+    fr: "Progression et retrait des glaciers"
   },
 
   description: {
     en: "Listen to Dr. Ali Criscitiello discuss growth and attrition of Alberta Glaciers",
-    fr: "En résumé, les deux principaux facteurs sont la quantité de précipitations et la température."
+    fr: "Écoutez Ali Criscitiello, Ph. D., expliquer la progression et le retrait des glaciers de l’Alberta."
   },
 
   media: {

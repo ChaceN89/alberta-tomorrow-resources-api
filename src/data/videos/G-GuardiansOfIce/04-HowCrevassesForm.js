@@ -19,13 +19,13 @@ export const howCrevassesFormVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "You know so you get tremendous volumes of water coming off here.",
-    fr: "Vous savez, des volumes d’eau énormes s’écoulent d’ici chaque année."
+    en: "How Crevasses Form",
+    fr: "Comment les crevasses se forment-elles?"
   },
 
   description: {
     en: "Listen to Peter Lemieux talk about how crevasses form in glaciers.",
-    fr: "La fonte se produit principalement à la surface, mais l’eau de fonte s’écoule ensuite vers le bas."
+    fr: "Écoutez Peter Lemieux expliquer comment les crevasses se forment dans les glaciers."
   },
 
   media: {

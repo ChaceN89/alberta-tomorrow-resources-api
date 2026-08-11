@@ -19,13 +19,13 @@ export const glaciersMoveVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "It's higher, it's colder, more precipitation falls up there, more of it falls as snow.",
-    fr: "Là-haut, l’altitude est plus élevée, il fait plus froid, les précipitations sont plus abondantes et une plus grande partie de celles-ci tombe sous forme de neige."
+    en: "Glaciers Move",
+    fr: "Déplacement des glaciers"
   },
 
   description: {
     en: "Listen to Peter Lemieux talk about how glaciers move.",
-    fr: "Si vous avez déjà fait une boule de neige, vous avez en fait pris des cristaux de neige et les avez comprimés les uns contre les autres."
+    fr: "Écoutez Peter Lemieux expliquer comment les glaciers se déplacent."
   },
 
   media: {

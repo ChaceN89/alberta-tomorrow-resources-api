@@ -19,13 +19,13 @@ export const whyShouldWeProtectGlaciersVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "You know in Canada but all around the world we value fresh water more and more.",
-    fr: "Au Canada, comme partout dans le monde, nous accordons une importance de plus en plus importante à l’eau douce."
+    en: "Why should we protect glaciers?",
+    fr: "Pourquoi devrions-nous protéger les glaciers?"
   },
 
   description: {
     en: "Watch as Peter Lemieux discusses why it is so important to protect our glaciers.",
-    fr: "Mais je pense qu’il y a plus que cela en jeu ici."
+    fr: "Écoutez Peter Lemieux expliquer pourquoi il est si important de protéger nos glaciers."
   },
 
   media: {

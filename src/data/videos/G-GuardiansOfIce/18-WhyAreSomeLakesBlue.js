@@ -19,13 +19,13 @@ export const whyAreSomeLakesBlueVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "The water's so silky.",
-    fr: "L’eau est si soyeuse."
+    en: "Why are some lakes blue?",
+    fr: "Pourquoi certains lacs sont-ils bleus?"
   },
 
   description: {
     en: "What this video as Peter Lemieux discusses why some glacier lakes are blue.",
-    fr: "Cela est dû au mouvement de la glace."
+    fr: "Regardez cette vidéo dans laquelle Peter Lemieux explique pourquoi certains lacs glaciaires sont bleus."
   },
 
   media: {

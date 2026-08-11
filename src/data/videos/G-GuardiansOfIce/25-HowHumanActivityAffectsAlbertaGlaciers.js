@@ -19,13 +19,13 @@ export const howHumanActivityAffectsAlbertaGlaciersVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "There's two main ways.",
-    fr: "Il y a deux principales façons."
+    en: "How human activity affects Alberta glaciers",
+    fr: "Effets des activités humaines sur les glaciers de l’Alberta"
   },
 
   description: {
     en: "Dr. Ali Criscitiello talks about how human activity affects Alberta Glaciers.",
-    fr: "La première est liée aux émissions de gaz à effet de serre et à leurs effets sur le changement climatique."
+    fr: "Ali Criscitiello, Ph. D., explique les effets des activités humaines sur les glaciers de l’Alberta."
   },
 
   media: {

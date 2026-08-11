@@ -25,7 +25,7 @@ export const humanPopulationVideo = {
 
   description: {
     en: "Maximum population growth is assumed to be a doubling of the population. Learn more about Alberta's projected population and land use impacts.",
-    fr: "On presume que la croissance maximale de la population representerait le double de la population actuelle. Apprenez-en davantage au sujet des impacts prevus causes par la population et l'utilisation des terres en Alberta."
+    fr: "On présume que la croissance maximale de la population représenterait le double de la population actuelle. Apprenez-en davantage au sujet des impacts prévus causés par la population et l’utilisation des terres en Alberta."
   },
 
   media: {

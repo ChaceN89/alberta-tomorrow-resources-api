@@ -24,7 +24,7 @@ export const cementFactoryVideo = {
 	},
 
 	description: {
-		en: "The Cement factory has been around for a long time.  Listen to Elder Lawrence talk about how Exshaw got it's name and  the impact of the plant on the Stoney people.",
+		en: "The Cement factory has been around for a long time. Listen to Elder Lawrence talk about how Exshaw got it's name and the impact of the plant on the Stoney people.",
 		fr: "La cimenterie existe depuis très longtemps. Écoutez l’aîné Lawrence expliquer ce qui a valu son nom à Exshaw et l’impact de l’usine sur la nation Stoney."
 	},
 

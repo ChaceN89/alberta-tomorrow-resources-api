@@ -19,13 +19,13 @@ export const watershedGreatDivideWhereDoesWaterFromTheColumbiaIcefieldGoVideo = 
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "It can truly be continental.",
-    fr: "Elle peut véritablement s’étendre à l’échelle d’un continent."
+    en: "Watershed Great Divide - Where does water from the Columbia Icefield go?",
+    fr: "Ligne continentale de partage des eaux – où l’eau du champ de glace Columbia finit-elle?"
   },
 
   description: {
     en: "Dr. Ali Criscitiello talks about meltwater from the Columbia Icefield and where it eventually ends up.",
-    fr: "L’eau provenant d’un glacier des Rocheuses Canadiennes, selon le versant de la ligne de partage des eaux où elle s’écoule, peut suivre des parcours très différents."
+    fr: "Ali Criscitiello, Ph. D., parle de l’eau de fonte du champ de glace Columbia et de l’endroit où elle finit."
   },
 
   media: {

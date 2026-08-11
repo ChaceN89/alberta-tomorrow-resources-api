@@ -19,13 +19,13 @@ export const seasonalChangeOnTheGlacierAndCryoconiteVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Upwards of a metre or more of snow on the ice, but by mid June most of that has gone.",
-    fr: "Au mois de mai, on y trouve souvent plus d’un mètre de neige sur la glace, mais vers la mi-juin, la majeure partie de cette neige a disparu."
+    en: "Seasonal change on the glacier and cryconite",
+    fr: "Changement saisonnier sur le glacer et cryonite"
   },
 
   description: {
     en: "Listen to Peter Lemieux talk about seasonal changes on the glacier.",
-    fr: "Cela laisse derrière une surface relativement lisse."
+    fr: "Écoutez Peter Lemieux expliquer les changements saisonniers sur le glacier."
   },
 
   media: {

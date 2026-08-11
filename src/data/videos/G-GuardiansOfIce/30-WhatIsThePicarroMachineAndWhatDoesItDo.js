@@ -19,13 +19,13 @@ export const whatIsThePicarroMachineAndWhatDoesItDoVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "This Picarro is an oxygen isotope analyzer.",
-    fr: "Cet appareil Picarro est un analyseur isotopique de l’oxygène."
+    en: "What is the Picarro Machine and what does it do?",
+    fr: "Qu’est-ce que l’instrument Piccaro et que mesure-t-il?"
   },
 
   description: {
     en: "Dr. Ali Criscitiello of the Canadian Ice Core Lab discusses some of the technology she uses to study Alberta glaciers.",
-    fr: "Ce qu’il fait, c’est qu’il mesure principalement les deux principaux isotopes de l’oxygène, à savoir l’oxygène-16 et l’oxygène-18."
+    fr: "La glaciologue Ali Criscitiello, Ph. D., du Laboratoire canadien des carottes de glace (CICL) parle des technologies qu’elle utilise pour étudier les glaciers de l’Alberta."
   },
 
   media: {

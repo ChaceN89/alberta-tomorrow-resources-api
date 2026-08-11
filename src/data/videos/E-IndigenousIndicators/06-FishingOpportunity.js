@@ -20,12 +20,12 @@ export const fishingOpportunityVideo = {
 
   title: {
     en: "Fishing Opportunity",
-    fr: "Possibilites de peche"
+    fr: "Possibilités de pêche"
   },
 
   description: {
     en: "Fishing Opportunity combines TLU Access and Fish Habitat to indicate access to successful fishing activities for Indigenous peoples.",
-    fr: "Les possibilites de peches combinent l'acces aux UTT et l'habitat du poisson pour indiquer l'acces aux activites de peche fructueuse pour les peuples autochtones."
+    fr: "Les possibilités de pêches combinent l’accès aux UTT et l’habitat du poisson pour indiquer l’accès aux activités de pêche fructueuse pour les peuples autochtones."
   },
 
   media: {

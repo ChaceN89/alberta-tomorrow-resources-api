@@ -19,13 +19,13 @@ export const measuringIsotopesVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "This machine measures the heavy and light isotopes of oxygen, oxygen18 and oxygen16.",
-    fr: "Cette machine mesure les deux principaux isotopes de l’oxygène : l’oxygène-18, qui est l’isotope lourd, et l’oxygène-16, qui est l’isotope léger."
+    en: "Measuring Isotopes",
+    fr: "Mesurer les isotopes"
   },
 
   description: {
-    en: "Dr. Ali Criscitiello discusses how her equipment measures oxygen isotopes in Alberta glaciers and what this tells us .",
-    fr: "La mesure de ces isotopes dans les carottes de glace est importante parce que le rapport entre l’oxygène-18 et l’oxygène-16 nous permet de reconstituer les températures passées."
+    en: "Dr. Ali Criscitiello discusses how her equipment measures oxygen isotopes in Alberta glaciers and what this tells us.",
+    fr: "Ali Criscitiello, Ph. D., explique comment son équipement mesure les isotopes de l’oxygène présents dans les glaciers de l’Alberta et ce qu’ils nous indiquent."
   },
 
   media: {

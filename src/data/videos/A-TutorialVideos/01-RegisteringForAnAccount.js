@@ -26,7 +26,7 @@ export const registeringForAnAccountVideo = {
   categoryId: VideoCategory.TUTORIALS.id,
 
   title: {
-    en: "User Tutorial: Registering for an Account",
+    en: "Registering for an Account",
     fr: "S’inscrire pour créer un compte"
   },
 

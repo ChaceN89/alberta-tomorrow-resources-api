@@ -19,12 +19,12 @@ export const introducingAlbertaTomorrows360VirtualFieldTripsVideo = {
   categoryId: VideoCategory.OTHER.id,
 
   title: {
-    en: "Introducing Alberta Tomorrow’s 360 Virtual Field Trips",
+    en: "Introducing Alberta Tomorrow's 360 Virtual Field Trips",
     fr: "Présentation des visites virtuelles à 360 degrés d’Alberta Tomorrow"
   },
 
   description: {
-    en: "The time has finally come! Check out the 360 Virtual Field Trips to Alberta's Ecoregions!  1 for each ecoregion exploring the plants, animals, geology, landforms, climate, land uses and species at risk! Register for your Alberta Tomorrow account at www.albertatomorrow.ca to gain access TODAY!",
+    en: "The time has finally come! Check out the 360 Virtual Field Trips to Alberta's Ecoregions! 1 for each ecoregion exploring the plants, animals, geology, landforms, climate, land uses and species at risk! Register for your Alberta Tomorrow account at www.albertatomorrow.ca to gain access TODAY!",
     fr: "Le moment est enfin arrivé! Effectuez les visites virtuelles à 360 degrés dans les écorégions de l’Alberta! Une pour chaque écorégion : explorez les plantes, les animaux, la géologie, les reliefs, le climat, l’utilisation des terres et les espèces en péril! Pour accéder aux visites, créez votre compte d’Alberta Tomorrow à www.albertatomorrow.ca DÈS AUJOURD’HUI!"
   },
 

@@ -20,12 +20,12 @@ export const waterQualityVideo = {
 
   title: {
     en: "Water Quality",
-    fr: "Qualite de l'eau"
+    fr: "Qualité de l’eau"
   },
 
   description: {
     en: "Phosphorus runoff and land conversion reduce water quality. Learn how Indigenous communities are impacted and how this indicator is measured.",
-    fr: "L'ecoulement de phosphore et la conversion des terres diminuent la qualite de l'eau. Apprenez quel est l'impact sur les communautes autochtones et comment se mesure cet indicateur."
+    fr: "L’écoulement de phosphore et la conversion des terres diminuent la qualité de l’eau. Apprenez quel est l’impact sur les communautés autochtones et comment se mesure cet indicateur."
   },
 
   media: {

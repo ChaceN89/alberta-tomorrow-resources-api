@@ -19,13 +19,13 @@ export const everyYearItsFurtherToGetToWorkVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Now you can see just how much we've lost.",
-    fr: "Aujourd’hui, vous pouvez constater à quel point nous avons perdu de glace."
+    en: "Every year its further to get to work",
+    fr: "Chaque année, c’est plus loin pour se rendre au travail"
   },
 
   description: {
     en: "Listen to Peter Lemieux talk about the receding of the Athabasca Glacier.",
-    fr: "Chaque année que je reviens, je dois parcourir une plus grande distance pour me rendre à mon lieu de travail."
+    fr: "Écoutez Peter Lemieux parler du recul du glacier Athabasca."
   },
 
   media: {

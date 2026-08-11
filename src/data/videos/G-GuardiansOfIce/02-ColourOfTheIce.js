@@ -19,13 +19,13 @@ export const colourOfTheIceVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "We have'nt seen a lot of really deep blue or more beautiful blue like ice blue colours.",
-    fr: "Nous n’avons pas encore vu beaucoup de cette glace d’un bleu profond, ce magnifique bleu caractéristique des glaciers."
+    en: "Colour of the ice",
+    fr: "La couleur de la glace"
   },
 
   description: {
     en: "Listen to Peter Lemieux talk about why glacier ice is sometimes blue.",
-    fr: "Dans l'ensemble, ce que vous voyez ici est une glace qui contient encore beaucoup d’air et de poussières emprisonnés à l’intérieur."
+    fr: "Écoutez Peter Lemieux expliquer pourquoi la glace des glaciers est parfois bleue."
   },
 
   media: {

@@ -24,7 +24,7 @@ export const creatorStoryVideo = {
 	},
 
 	description: {
-		en: "According to the Stoney, Jasper down to the US is their land.  This is where creator put them.",
+		en: "According to the Stoney, Jasper down to the US is their land. This is where creator put them.",
 		fr: "Selon les Stoney, leur territoire va de Jasper jusqu’aux États-Unis. C’est la terre sur laquelle le Créateur les a placés."
 	},
 

@@ -19,13 +19,13 @@ export const createObservationVideo = {
   categoryId: VideoCategory.TUTORIALS.id,
 
   title: {
-    en: "User Tutorial: How to Create an Observation in the Simulator",
-    fr: "Comment creer une observation dans le simulateur"
+    en: "How to Create an Observation in the Simulator",
+    fr: "Comment créer une observation dans le simulateur"
   },
 
   description: {
     en: "This tutorial walks you through how to create your own observation in the simulator that you and all registered users can see.",
-    fr: "Ce tutoriel vous guide dans la creation de votre propre observation dans le simulateur, une observation que vous et tous les utilisateurs enregistres peuvent voir."
+    fr: "Ce tutoriel vous guide dans la création de votre propre observation dans le simulateur, une observation que vous et tous les utilisateurs enregistrés peuvent voir."
   },
 
   media: {

@@ -19,13 +19,13 @@ export const whereDoGlaciersFormVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "If you were to go across the valley you are not going to find anything over there.",
-    fr: "Si vous traversiez la vallée, vous ne trouveriez plus rien là-bas."
+    en: "Where do glaciers form?",
+    fr: "Où se forment les glaciers?"
   },
 
   description: {
     en: "Listen to Peter Lemieux discuss where glaciers form in the Rocky Mountains.",
-    fr: "Cela dépend en grande partie, tout d’abord, de l’altitude et de la quantité de précipitations qui tombent."
+    fr: "Écoutez Peter Lemieux expliquer où les glaciers se forment dans les montagnes Rocheuses."
   },
 
   media: {

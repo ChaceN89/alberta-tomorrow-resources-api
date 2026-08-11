@@ -19,13 +19,13 @@ export const howMuchGlacialIceAreWeLosingVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "and what we use these pipes for,",
-    fr: "Et voici à quoi servent ces poteaux"
+    en: "How much glacial ice are we losing?",
+    fr: "Combien de glace des glaciers perdons-nous?"
   },
 
   description: {
-    en: "Watch as Peter Lemieux discusses how much ice the Athabasca Glacier is losing in one season an how he knows this.",
-    fr: "qui sont d’ailleurs emprisonnées dans la glace"
+    en: "Watch as Peter Lemieux discusses how much ice the Athabasca Glacier is losing in one season and how he knows this.",
+    fr: "Écoutez Peter Lemieux expliquer combien de glace perd le glacier Athabasca en une saison, et comment il le sait."
   },
 
   media: {

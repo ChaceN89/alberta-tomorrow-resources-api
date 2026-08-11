@@ -19,13 +19,13 @@ export const howBigIsTheAthabascaGlacierVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "This is a shot of the Athabasca glacier.",
-    fr: "Voici une vue du glacier Athabasca."
+    en: "How big is the Athabasca Glacier",
+    fr: "Quelle est la taille du glacier Athabasca?"
   },
 
   description: {
     en: "Listen to Peter Lemieux talk about the size of the Athabasca Glacier.",
-    fr: "Nous nous trouvons ici, à l’extrémité inférieure du glacier, et ce que nous pouvons voir par temps clair — et en partie aujourd’hui — s’étend jusqu’au fond de la vallée, à la lisière du Columbia Icefield."
+    fr: "Écoutez Peter Lemieux parler de la taille du glacier Athabasca."
   },
 
   media: {

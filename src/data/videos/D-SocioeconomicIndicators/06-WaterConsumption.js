@@ -20,17 +20,17 @@ export const waterConsumptionVideo = {
 
   title: {
     en: "Water Consumption",
-    fr: "Consommation d'eau"
+    fr: "Consommation d’eau"
   },
 
   description: {
     en: "Learn how agricultural, settlement, and industrial use affect water consumption and how best practices can reduce demand.",
-    fr: "Apprenez l'effet sur la consommation d'eau de l'agriculture, du peuplement et de l'utilisation des terres pour l'industrie, et comment les bonnes pratiques peuvent reduire la demande en eau."
+    fr: "Apprenez l’effet sur la consommation d’eau de l’agriculture, du peuplement et de l’utilisation des terres pour l’industrie, et comment les bonnes pratiques peuvent réduire la demande en eau."
   },
 
   media: {
     type: "youtube",
-    url: "https://www.youtube.com/watch?v=YcibG9eybbc",
+    url: "https://www.youtube.com/watch?v=WAIlkgtDTVk",
     cloudFrontUrl: "https://d2qcvmovr4fv.cloudfront.net/out/v1/15cffe272bc44d51a21fda366d42a26d/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
     thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/a42e73bb-ede0-415a-b12b-a873782a69a1/thumbnails/Water Consumption v3_H264_tumb.0000039.jpg",
     is360: false

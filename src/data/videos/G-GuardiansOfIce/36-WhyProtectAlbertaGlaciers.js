@@ -19,13 +19,13 @@ export const whyProtectAlbertaGlaciersVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Maybe one of the most important reasons that I can think of, is that glaciers impact people very directly.",
-    fr: "L’une des raisons les plus importantes auxquelles je peux penser est que les glaciers ont un impact très direct sur la vie des gens."
+    en: "Why protect Alberta glaciers?",
+    fr: "Pourquoi protéger les glaciers de l’Alberta?"
   },
 
   description: {
     en: "Dr. Ali Criscitiello discusses why it is important to protect Alberta Glaciers.",
-    fr: "Par exemple, nos réserves d’eau potable qui dépendent des glaciers, comme celles liées au Columbia Icefield."
+    fr: "Ali Criscitiello, Ph. D., explique pourquoi il est important de protéger les glaciers de l’Alberta."
   },
 
   media: {

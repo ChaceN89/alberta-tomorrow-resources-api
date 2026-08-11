@@ -20,12 +20,12 @@ export const huntingOpportunityVideo = {
 
   title: {
     en: "Hunting Opportunity",
-    fr: "Possibilites de chasse"
+    fr: "Possibilités de chasse"
   },
 
   description: {
     en: "This video explains the Hunting Opportunity indicator, combining TLU Access and Moose Habitat to reflect Indigenous hunting access.",
-    fr: "Cette video explique l'indicateur Possibilites de chasse, une combinaison de l'acces aux UTT et de l'habitat de l'orignal qui represente l'acces a la chasse pour les Autochtones."
+    fr: "Cette vidéo explique l’indicateur Possibilités de chasse, une combinaison de l’accès aux UTT et de l’habitat de l’orignal qui représente l’accès à la chasse pour les Autochtones."
   },
 
   media: {

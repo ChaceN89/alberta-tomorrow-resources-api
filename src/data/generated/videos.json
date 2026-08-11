@@ -7,7 +7,7 @@
     ],
     "categoryId": "simulator-tutorials",
     "title": {
-      "en": "User Tutorial: Registering for an Account",
+      "en": "Registering for an Account",
       "fr": "S’inscrire pour créer un compte"
     },
     "description": {
@@ -51,12 +51,12 @@
     ],
     "categoryId": "simulator-tutorials",
     "title": {
-      "en": "User Tutorial: An overview of the AT simulator and features",
-      "fr": "Un apercu du simulateur d'AT et des fonctions"
+      "en": "An overview of the AT simulator and features",
+      "fr": "Un aperçu du simulateur d’AT et des fonctions"
     },
     "description": {
       "en": "Watch this tutorial to see the different features of the Alberta Tomorrow Simulator.",
-      "fr": "Regardez ce tutoriel pour voir les differentes fonctions du simulateur d'Alberta Tomorrow."
+      "fr": "Regardez ce tutoriel pour voir les différentes fonctions du simulateur d’Alberta Tomorrow. "
     },
     "media": {
       "type": "youtube",
@@ -91,12 +91,12 @@
     ],
     "categoryId": "simulator-tutorials",
     "title": {
-      "en": "User Tutorial: Your Mission",
+      "en": "Your Mission",
       "fr": "Votre mission"
     },
     "description": {
       "en": "An overview of the mission you will accomplish using Alberta Tomorrow",
-      "fr": "Un apercu de la mission que vous accomplirez a l'aide d'Alberta Tomorrow."
+      "fr": "Un aperçu de la mission que vous accomplirez à l’aide d’Alberta Tomorrow."
     },
     "media": {
       "type": "youtube",
@@ -129,12 +129,12 @@
     ],
     "categoryId": "simulator-tutorials",
     "title": {
-      "en": "User Tutorial: Running a Historical Simulation in Alberta Tomorrow",
-      "fr": "Executer un scenario historique dans Alberta Tomorrow"
+      "en": "Running a Historical Simulation in Alberta Tomorrow",
+      "fr": "Exécuter un scénario historique dans Alberta Tomorrow"
     },
     "description": {
       "en": "Watch this video to find out how your study area has changed since 1910!",
-      "fr": "Regardez cette video pour comprendre l'evolution de votre zone d'etude depuis 1910!"
+      "fr": "Regardez cette vidéo pour comprendre l’évolution de votre zone d’étude depuis 1910!"
     },
     "media": {
       "type": "youtube",
@@ -167,12 +167,12 @@
     ],
     "categoryId": "simulator-tutorials",
     "title": {
-      "en": "User Tutorial: How to Create a Business as Usual (BAU) Scenario",
-      "fr": "Comment creer un scenario de maintien du statu quo"
+      "en": "How to Create a Business as Usual (BAU) Scenario",
+      "fr": "Comment créer un scénario de « maintien du statu quo » "
     },
     "description": {
       "en": "A BAU scenario gives you a glimpse of a possible future, one that carries current trends in landuse into the future.",
-      "fr": "Un scenario de maintien du statu quo vous donne un apercu de ce a quoi pourrait ressembler l'avenir; ce scenario projette les tendances actuelles en matiere d'utilisation des terres dans l'avenir."
+      "fr": "Un scénario de « maintien du statu quo » vous donne un aperçu de ce à quoi pourrait ressembler l’avenir; ce scénario projette les tendances actuelles en matière d’utilisation des terres dans l’avenir."
     },
     "media": {
       "type": "youtube",
@@ -205,12 +205,12 @@
     ],
     "categoryId": "simulator-tutorials",
     "title": {
-      "en": "User Tutorial: How to Create your own Land Use Scenarios",
-      "fr": "Comment creer vos propres scenarios d'utilisation des terres"
+      "en": "How to Create your own Land Use Scenarios",
+      "fr": "Comment créer vos propres scénarios d’utilisation des terres "
     },
     "description": {
       "en": "This video will show you how to select your watershed study area, set goals, make changes on the map, and run your scenario.",
-      "fr": "Cette video vous montre comment choisir le bassin hydrographique de votre zone d'etude, etablir des objectifs, apporter des changements sur la carte et executer votre scenario."
+      "fr": "Cette vidéo vous montre comment choisir le bassin hydrographique de votre zone d’étude, établir des objectifs, apporter des changements sur la carte et exécuter votre scénario."
     },
     "media": {
       "type": "youtube",
@@ -243,12 +243,12 @@
     ],
     "categoryId": "simulator-tutorials",
     "title": {
-      "en": "User Tutorial: How to Create an Observation in the Simulator",
-      "fr": "Comment creer une observation dans le simulateur"
+      "en": "How to Create an Observation in the Simulator",
+      "fr": "Comment créer une observation dans le simulateur"
     },
     "description": {
       "en": "This tutorial walks you through how to create your own observation in the simulator that you and all registered users can see.",
-      "fr": "Ce tutoriel vous guide dans la creation de votre propre observation dans le simulateur, une observation que vous et tous les utilisateurs enregistres peuvent voir."
+      "fr": "Ce tutoriel vous guide dans la création de votre propre observation dans le simulateur, une observation que vous et tous les utilisateurs enregistrés peuvent voir."
     },
     "media": {
       "type": "youtube",
@@ -279,12 +279,12 @@
     ],
     "categoryId": "simulator-tutorials",
     "title": {
-      "en": "User Tutorial: Investigating Climate Change Scenarios in Alberta Tomorrow",
-      "fr": "Etudier les scenarios climatiques dans Alberta Tomorrow"
+      "en": "Investigating Climate Change Scenarios in Alberta Tomorrow",
+      "fr": "Étudier les scénarios climatiques dans Alberta Tomorrow"
     },
     "description": {
       "en": "See how you can view changes that may occur due to climate change with Mild, Medium or Hot Climate Change Scenarios.",
-      "fr": "Voyez comment vous pouvez voir les changements qui pourraient survenir en raison des changements climatiques avec les scenarios climatiques Doux, Moyen et Chaud."
+      "fr": "Voyez comment vous pouvez voir les changements qui pourraient survenir en raison des changements climatiques avec les scénarios climatiques Doux, Moyen et Chaud."
     },
     "media": {
       "type": "youtube",
@@ -317,12 +317,12 @@
     ],
     "categoryId": "simulator-tutorials",
     "title": {
-      "en": "User Tutorial: Creating and Sharing a Report in Alberta Tomorrow",
-      "fr": "Creer et partager un rapport dans Alberta Tomorrow"
+      "en": "Creating and Sharing a Report in Alberta Tomorrow",
+      "fr": "Créer et partager un rapport dans Alberta Tomorrow"
     },
     "description": {
       "en": "This short tutorial video will show you how to create and share a report in the simulator.",
-      "fr": "Ce court tutoriel vous montre comment creer et partager un rapport dans le simulateur."
+      "fr": "Ce court tutoriel vous montre comment créer et partager un rapport dans le simulateur."
     },
     "media": {
       "type": "youtube",
@@ -360,7 +360,7 @@
     },
     "description": {
       "en": "How will Alberta be affected by Climate Change? What's the difference between Climate Change and Global Warming?",
-      "fr": "Comment l'Alberta sera-t-elle touchee par les changements climatiques? Quelle est la difference entre changements climatiques et rechauffement planetaire?"
+      "fr": "Comment l’Alberta sera-t-elle touchée par les changements climatiques? Quelle est la différence entre changements climatiques et réchauffement planétaire?"
     },
     "media": {
       "type": "youtube",
@@ -401,11 +401,11 @@
     "categoryId": "understanding-the-landscape",
     "title": {
       "en": "Beneficial Management Practices",
-      "fr": "Pratiques de gestion benefiques"
+      "fr": "Pratiques de gestion bénéfiques"
     },
     "description": {
       "en": "What are Beneficial Management Practices and how do they affect the future of Alberta? Find out what large companies, farmers, and you can do to minimize the effect on the environment.",
-      "fr": "Quelles sont les pratiques de gestion benefiques et quel effet ont-elles sur l'avenir de l'Alberta? Decouvrez ce que les grandes compagnies, les agriculteurs et vous pouvez faire pour reduire au minimum les effets sur l'environnement."
+      "fr": "Quelles sont les pratiques de gestion bénéfiques et quel effet ont-elles sur l’avenir de l’Alberta? Découvrez ce que les grandes compagnies, les agriculteurs et vous pouvez faire pour réduire au minimum les effets sur l’environnement."
     },
     "media": {
       "type": "youtube",
@@ -449,11 +449,11 @@
     "categoryId": "understanding-the-landscape",
     "title": {
       "en": "Ecological Goods and Services",
-      "fr": "Biens et services ecologiques"
+      "fr": "Biens et services écologiques"
     },
     "description": {
       "en": "An introduction to ecological goods and services.",
-      "fr": "Une introduction aux biens et services ecologiques."
+      "fr": "Une introduction aux biens et services écologiques."
     },
     "media": {
       "type": "youtube",
@@ -578,7 +578,7 @@
     },
     "description": {
       "en": "Explore how caribou habitat is impacted by human development and how best practices can reduce disturbances in their environment.",
-      "fr": "Voyez l'effet du developpement humain sur l'habitat du caribou et comment les bonnes pratiques peuvent reduire les perturbations dans leur environnement."
+      "fr": "Voyez l’effet du développement humain sur l’habitat du caribou et comment les bonnes pratiques peuvent réduire les perturbations dans leur environnement. "
     },
     "media": {
       "type": "youtube",
@@ -625,7 +625,7 @@
     },
     "description": {
       "en": "Learn how forest development and human activity affect the suitability of grizzly bear habitat across Alberta.",
-      "fr": "Apprenez comment le developpement forestier et les activites humaines nuisent a l'habitat convenant au grizzli partout en Alberta."
+      "fr": "Apprenez comment le développement forestier et les activités humaines nuisent à l’habitat convenant au grizzli partout en Alberta."
     },
     "media": {
       "type": "youtube",
@@ -670,7 +670,7 @@
     },
     "description": {
       "en": "Discover how land use affects fish community health, from native trout populations to the impacts of angling and habitat disturbance.",
-      "fr": "Decouvrez comment les utilisations des terres nuisent a la sante des communautes de poissons, des populations de truites indigenes aux impacts de la peche sportive et de la perturbation de l'habitat."
+      "fr": "Découvrez comment les utilisations des terres nuisent à la santé des communautés de poissons, des populations de truites indigènes aux impacts de la pêche sportive et de la perturbation de l’habitat."
     },
     "media": {
       "type": "youtube",
@@ -711,11 +711,11 @@
     "categoryId": "environmental-indicators",
     "title": {
       "en": "Water Quality",
-      "fr": "Qualite de l'eau"
+      "fr": "Qualité de l’eau"
     },
     "description": {
       "en": "Explore how phosphorus runoff from agriculture and settlement impacts aquatic ecosystems and how best practices can improve water quality.",
-      "fr": "Voyez comment l'ecoulement de phosphore cause par l'agriculture et le peuplement nuit aux ecosystemes aquatiques et comment les bonnes pratiques peuvent ameliorer la qualite de l'eau."
+      "fr": "Voyez comment l’écoulement de phosphore causé par l’agriculture et le peuplement nuit aux écosystèmes aquatiques et comment les bonnes pratiques peuvent améliorer la qualité de l’eau."
     },
     "media": {
       "type": "youtube",
@@ -755,11 +755,11 @@
     "categoryId": "environmental-indicators",
     "title": {
       "en": "Greenhouse Gasses",
-      "fr": "Gaz a effet de serre"
+      "fr": "Gaz à effet de serre"
     },
     "description": {
       "en": "Understand how greenhouse gas emissions are linked to population and resource production, and how best practices can cut emissions.",
-      "fr": "Comprenez comment les emissions de gaz a effet de serre sont liees a la population et a la production de ressources, et comment les bonnes pratiques peuvent reduire ces emissions."
+      "fr": "Comprenez comment les émissions de gaz à effet de serre sont liées à la population et à la production de ressources, et comment les bonnes pratiques peuvent réduire ces émissions."
     },
     "media": {
       "type": "youtube",
@@ -813,7 +813,7 @@
     },
     "description": {
       "en": "Maximum population growth is assumed to be a doubling of the population. Learn more about Alberta's projected population and land use impacts.",
-      "fr": "On presume que la croissance maximale de la population representerait le double de la population actuelle. Apprenez-en davantage au sujet des impacts prevus causes par la population et l'utilisation des terres en Alberta."
+      "fr": "On présume que la croissance maximale de la population représenterait le double de la population actuelle. Apprenez-en davantage au sujet des impacts prévus causés par la population et l’utilisation des terres en Alberta."
     },
     "media": {
       "type": "youtube",
@@ -852,11 +852,11 @@
     "categoryId": "socio-economic-indicators",
     "title": {
       "en": "Gross Domestic Product",
-      "fr": "Produit interieur brut"
+      "fr": "Produit intérieur brut"
     },
     "description": {
       "en": "GDP is based on land use for oil and gas, forestry, and agriculture. Learn how economic development influences Alberta's GDP.",
-      "fr": "Le PIB repose sur l'utilisation des terres dediees a la production de petrole et de gaz, a la foresterie et a l'agriculture. Apprenez comment le developpement economique influence le PIB de l'Alberta."
+      "fr": "Le PIB repose sur l’utilisation des terres dédiées à la production de pétrole et de gaz, à la foresterie et à l’agriculture. Apprenez comment le développement économique influence le PIB de l’Alberta."
     },
     "media": {
       "type": "youtube",
@@ -893,11 +893,11 @@
     "categoryId": "socio-economic-indicators",
     "title": {
       "en": "Hydrocarbon Production",
-      "fr": "Production d'hydrocarbures"
+      "fr": "Production d’hydrocarbures"
     },
     "description": {
       "en": "Hydrocarbon production includes natural gas, oil, bitumen, and coal. Learn how energy production affects land use and the economy.",
-      "fr": "La production d'hydrocarbures comprend le gaz naturel, le petrole, le bitume et le charbon. Apprenez l'effet de la production d'energie sur l'utilisation des terres et l'economie."
+      "fr": "La production d’hydrocarbures comprend le gaz naturel, le pétrole, le bitume et le charbon. Apprenez l’effet de la production d’énergie sur l’utilisation des terres et l’économie."
     },
     "media": {
       "type": "youtube",
@@ -936,11 +936,11 @@
     "categoryId": "socio-economic-indicators",
     "title": {
       "en": "Timber Production",
-      "fr": "Production de bois d'oeuvre"
+      "fr": "Production de bois d’œuvre"
     },
     "description": {
       "en": "A value of 100% means all forested land is used for timber. Explore how forestry contributes to the economy and affects land use.",
-      "fr": "Une valeur de 100 % indique que toute la superficie qui est boisee sert a la production de bois d'oeuvre. Apprenez comment la foresterie contribue a l'economie et son effet sur l'utilisation des terres."
+      "fr": "Une valeur de 100 % indique que toute la superficie qui est boisée sert à la production de bois d’œuvre. Apprenez comment la foresterie contribue à l’économie et son effet sur l’utilisation des terres."
     },
     "media": {
       "type": "youtube",
@@ -983,7 +983,7 @@
     },
     "description": {
       "en": "Learn how using the landscape for agriculture contributes to food production and economic development in Alberta.",
-      "fr": "Apprenez comment l'utilisation des terres pour l'agriculture contribue a la production d'aliments et au developpement economique en Alberta."
+      "fr": "Apprenez comment l’utilisation des terres pour l’agriculture contribue à la production d’aliments et au développement économique en Alberta."
     },
     "media": {
       "type": "youtube",
@@ -1022,15 +1022,15 @@
     "categoryId": "socio-economic-indicators",
     "title": {
       "en": "Water Consumption",
-      "fr": "Consommation d'eau"
+      "fr": "Consommation d’eau"
     },
     "description": {
       "en": "Learn how agricultural, settlement, and industrial use affect water consumption and how best practices can reduce demand.",
-      "fr": "Apprenez l'effet sur la consommation d'eau de l'agriculture, du peuplement et de l'utilisation des terres pour l'industrie, et comment les bonnes pratiques peuvent reduire la demande en eau."
+      "fr": "Apprenez l’effet sur la consommation d’eau de l’agriculture, du peuplement et de l’utilisation des terres pour l’industrie, et comment les bonnes pratiques peuvent réduire la demande en eau."
     },
     "media": {
       "type": "youtube",
-      "url": "https://www.youtube.com/watch?v=YcibG9eybbc",
+      "url": "https://www.youtube.com/watch?v=WAIlkgtDTVk",
       "cloudFrontUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/15cffe272bc44d51a21fda366d42a26d/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/a42e73bb-ede0-415a-b12b-a873782a69a1/thumbnails/Water Consumption v3_H264_tumb.0000039.jpg",
       "is360": false
@@ -1066,11 +1066,11 @@
     "categoryId": "indigenous-indicators",
     "title": {
       "en": "TLU Access",
-      "fr": "Acces a l'UTT"
+      "fr": "Accès à l’UTT"
     },
     "description": {
       "en": "Traditional Land Use Access (TLU Access) measures land accessibility for Indigenous peoples engaging in traditional practices. It reflects accessible natural areas not within protected zones.",
-      "fr": "L'acces a l'utilisation des terres traditionnelles (UTT) mesure l'accessibilite aux terres pour les Autochtones pour entreprendre des activites liees aux utilisations traditionnelles. Elle tient compte des regions naturelles accessibles situees a l'exterieur des aires protegees."
+      "fr": "L’accès à l’utilisation des terres traditionnelles (UTT) mesure l’accessibilité aux terres pour les Autochtones pour entreprendre des activités liées aux utilisations traditionnelles. Elle tient compte des régions naturelles accessibles situées à l’extérieur des aires protégées."
     },
     "media": {
       "type": "youtube",
@@ -1104,11 +1104,11 @@
     "categoryId": "indigenous-indicators",
     "title": {
       "en": "Moose Habitat",
-      "fr": "Habitat de l'orignal"
+      "fr": "Habitat de l’orignal"
     },
     "description": {
       "en": "Moose Habitat is reduced by industrial development and proximity to human activity. This video explores how habitat value is calculated in Alberta Tomorrow.",
-      "fr": "L'habitat de l'orignal est reduit par le developpement industriel et la proximite avec les activites humaines. Cette video explore comment la valeur de l'habitat est calculee dans Alberta Tomorrow."
+      "fr": "L’habitat de l’orignal est réduit par le développement industriel et la proximité avec les activités humaines. Cette vidéo explore comment la valeur de l’habitat est calculée dans Alberta Tomorrow."
     },
     "media": {
       "type": "youtube",
@@ -1142,11 +1142,11 @@
     "categoryId": "indigenous-indicators",
     "title": {
       "en": "Hunting Opportunity",
-      "fr": "Possibilites de chasse"
+      "fr": "Possibilités de chasse"
     },
     "description": {
       "en": "This video explains the Hunting Opportunity indicator, combining TLU Access and Moose Habitat to reflect Indigenous hunting access.",
-      "fr": "Cette video explique l'indicateur Possibilites de chasse, une combinaison de l'acces aux UTT et de l'habitat de l'orignal qui represente l'acces a la chasse pour les Autochtones."
+      "fr": "Cette vidéo explique l’indicateur Possibilités de chasse, une combinaison de l’accès aux UTT et de l’habitat de l’orignal qui représente l’accès à la chasse pour les Autochtones."
     },
     "media": {
       "type": "youtube",
@@ -1180,11 +1180,11 @@
     "categoryId": "indigenous-indicators",
     "title": {
       "en": "Water Quality",
-      "fr": "Qualite de l'eau"
+      "fr": "Qualité de l’eau"
     },
     "description": {
       "en": "Phosphorus runoff and land conversion reduce water quality. Learn how Indigenous communities are impacted and how this indicator is measured.",
-      "fr": "L'ecoulement de phosphore et la conversion des terres diminuent la qualite de l'eau. Apprenez quel est l'impact sur les communautes autochtones et comment se mesure cet indicateur."
+      "fr": "L’écoulement de phosphore et la conversion des terres diminuent la qualité de l’eau. Apprenez quel est l’impact sur les communautés autochtones et comment se mesure cet indicateur."
     },
     "media": {
       "type": "youtube",
@@ -1222,7 +1222,7 @@
     },
     "description": {
       "en": "Healthy fish habitat means diverse native species and fewer disturbances. This video highlights habitat importance to Indigenous communities.",
-      "fr": "Un habitat du poisson en sante se definit par des especes indigenes diversifiees et moins de perturbations. Cette video souligne l'importance de l'habitat pour les communautes autochtones."
+      "fr": "Un habitat du poisson en santé se définit par des espèces indigènes diversifiées et moins de perturbations. Cette vidéo souligne l’importance de l’habitat pour les communautés autochtones."
     },
     "media": {
       "type": "youtube",
@@ -1256,11 +1256,11 @@
     "categoryId": "indigenous-indicators",
     "title": {
       "en": "Fishing Opportunity",
-      "fr": "Possibilites de peche"
+      "fr": "Possibilités de pêche"
     },
     "description": {
       "en": "Fishing Opportunity combines TLU Access and Fish Habitat to indicate access to successful fishing activities for Indigenous peoples.",
-      "fr": "Les possibilites de peches combinent l'acces aux UTT et l'habitat du poisson pour indiquer l'acces aux activites de peche fructueuse pour les peuples autochtones."
+      "fr": "Les possibilités de pêches combinent l’accès aux UTT et l’habitat du poisson pour indiquer l’accès aux activités de pêche fructueuse pour les peuples autochtones."
     },
     "media": {
       "type": "youtube",
@@ -1674,12 +1674,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "Well it might affect it in some small way but what I often tend to say instead.",
-      "fr": "Eh bien, cela peut avoir un certain effet, mais probablement très limité. Ce que je réponds généralement, c’est plutôt…"
+      "en": "Are People Affecting the Glaciers?",
+      "fr": "Les gens nuisent-ils aux glaciers?"
     },
     "description": {
       "en": "Listen to Peter Lemieux talk about how people are affecting the glaciers.",
-      "fr": "Ce ne sont pas tant les personnes qui marchent sur ce glacier-ci qui ont un impact, mais plutôt les quelque 7 milliards d’habitants de la planète qui exercent une influence considérable ici, comme sur les glaciers du monde entier."
+      "fr": "Écoutez Peter Lemieux parler de l’effet des gens sur les glaciers."
     },
     "media": {
       "type": "youtube",
@@ -1723,12 +1723,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "We have'nt seen a lot of really deep blue or more beautiful blue like ice blue colours.",
-      "fr": "Nous n’avons pas encore vu beaucoup de cette glace d’un bleu profond, ce magnifique bleu caractéristique des glaciers."
+      "en": "Colour of the ice",
+      "fr": "La couleur de la glace"
     },
     "description": {
       "en": "Listen to Peter Lemieux talk about why glacier ice is sometimes blue.",
-      "fr": "Dans l'ensemble, ce que vous voyez ici est une glace qui contient encore beaucoup d’air et de poussières emprisonnés à l’intérieur."
+      "fr": "Écoutez Peter Lemieux expliquer pourquoi la glace des glaciers est parfois bleue."
     },
     "media": {
       "type": "youtube",
@@ -1771,12 +1771,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "It's higher, it's colder, more precipitation falls up there, more of it falls as snow.",
-      "fr": "Là-haut, l’altitude est plus élevée, il fait plus froid, les précipitations sont plus abondantes et une plus grande partie de celles-ci tombe sous forme de neige."
+      "en": "Glaciers Move",
+      "fr": "Déplacement des glaciers"
     },
     "description": {
       "en": "Listen to Peter Lemieux talk about how glaciers move.",
-      "fr": "Si vous avez déjà fait une boule de neige, vous avez en fait pris des cristaux de neige et les avez comprimés les uns contre les autres."
+      "fr": "Écoutez Peter Lemieux expliquer comment les glaciers se déplacent."
     },
     "media": {
       "type": "youtube",
@@ -1817,12 +1817,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "You know so you get tremendous volumes of water coming off here.",
-      "fr": "Vous savez, des volumes d’eau énormes s’écoulent d’ici chaque année."
+      "en": "How Crevasses Form",
+      "fr": "Comment les crevasses se forment-elles?"
     },
     "description": {
       "en": "Listen to Peter Lemieux talk about how crevasses form in glaciers.",
-      "fr": "La fonte se produit principalement à la surface, mais l’eau de fonte s’écoule ensuite vers le bas."
+      "fr": "Écoutez Peter Lemieux expliquer comment les crevasses se forment dans les glaciers."
     },
     "media": {
       "type": "youtube",
@@ -1866,7 +1866,7 @@
     "categoryId": "glacier-series",
     "title": {
       "en": "How do Forest Fires Affect Glaciers",
-      "fr": "Comment les feux de forêt affectent-ils les glaciers"
+      "fr": "Comment les feux de forêt agissent sur les glaciers"
     },
     "description": {
       "en": "Listen to Peter Lemieux talk about how summer forest fires affect the glaciers.",
@@ -1913,12 +1913,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "All of these uses of the land are great and essential.",
-      "fr": "Toutes ces utilisations du territoire sont importantes et essentielles."
+      "en": "Is it important glaciers are in the national park?",
+      "fr": "Est-ce important que les glaciers soient dans les parcs nationaux?"
     },
     "description": {
       "en": "Listen to Peter Lemieux discuss why it's important to have glaciers protected in National Parks.",
-      "fr": "C’est parfois une bonne chose qu’une partie du territoire soit simplement laissée à l’état naturel, et un parc national est justement conçu pour protéger ces lieux afin que tout le monde puisse en profiter et les apprécier."
+      "fr": "Écoutez Peter Lemieux expliquer pourquoi il est important que les glaciers soient protégés à l’intérieur des parcs nationaux."
     },
     "media": {
       "type": "youtube",
@@ -1958,12 +1958,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "Upwards of a metre or more of snow on the ice, but by mid June most of that has gone.",
-      "fr": "Au mois de mai, on y trouve souvent plus d’un mètre de neige sur la glace, mais vers la mi-juin, la majeure partie de cette neige a disparu."
+      "en": "Seasonal change on the glacier and cryconite",
+      "fr": "Changement saisonnier sur le glacer et cryonite"
     },
     "description": {
       "en": "Listen to Peter Lemieux talk about seasonal changes on the glacier.",
-      "fr": "Cela laisse derrière une surface relativement lisse."
+      "fr": "Écoutez Peter Lemieux expliquer les changements saisonniers sur le glacier."
     },
     "media": {
       "type": "youtube",
@@ -2006,12 +2006,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "Striations.",
-      "fr": "Des stries glaciaires."
+      "en": "Striations on the Rocks",
+      "fr": "Stries sur les roches"
     },
     "description": {
       "en": "Listen to Peter Lemieux talk about how glaciers can cause striations on rocks as they move.",
-      "fr": "Alors, pensez-vous que c’est la glace qui a fait cela ?"
+      "fr": "Écoutez Peter Lemieux expliquer comment les glaciers peuvent causer des stries sur les roches quand ils se déplacent."
     },
     "media": {
       "type": "youtube",
@@ -2045,12 +2045,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "Nice area?",
-      "fr": "Bel endroit, n’est-ce pas ?"
+      "en": "What is a Moraine",
+      "fr": "Qu’est-ce qu’une moraine?"
     },
     "description": {
       "en": "Listen to Peter Lemieux discuss the different types of glacial moraine.",
-      "fr": "Ça ressemble un peu à un chantier de construction, tu ne trouves pas ?"
+      "fr": "Écoutez Peter Lemieux expliquer les différents types de moraine glaciaire."
     },
     "media": {
       "type": "youtube",
@@ -2086,12 +2086,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "If you were to go across the valley you are not going to find anything over there.",
-      "fr": "Si vous traversiez la vallée, vous ne trouveriez plus rien là-bas."
+      "en": "Where do glaciers form?",
+      "fr": "Où se forment les glaciers?"
     },
     "description": {
       "en": "Listen to Peter Lemieux discuss where glaciers form in the Rocky Mountains.",
-      "fr": "Cela dépend en grande partie, tout d’abord, de l’altitude et de la quantité de précipitations qui tombent."
+      "fr": "Écoutez Peter Lemieux expliquer où les glaciers se forment dans les montagnes Rocheuses."
     },
     "media": {
       "type": "youtube",
@@ -2133,12 +2133,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "They both flow up to the Arctic Ocean via the MacKenzie River.",
-      "fr": "Toutes deux se jettent dans l’océan Arctique par l’intermédiaire du fleuve Mackenzie."
+      "en": "Where does water from the Snow Dome go?",
+      "fr": "Où va l’eau venant de Snow Dome?"
     },
     "description": {
       "en": "Listen to Peter Lemieux as he discusses where water from Snow Dome ends up.",
-      "fr": "C’est l’une des rivières qui traverse pratiquement tout le pays."
+      "fr": "Écoutez Peter Lemieux parler d’où finit l’eau qui vient de Snow Dome."
     },
     "media": {
       "type": "youtube",
@@ -2181,12 +2181,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "Why don't we go over and take a look at these two boulders.",
-      "fr": "Pourquoi ne pas aller voir ces deux rochers de plus près ?"
+      "en": "Where was the Athabasca glacier in 2006?",
+      "fr": "Où se situait le glacier Athabasca en 2006?"
     },
     "description": {
       "en": "Listen to Peter Lemieux talk about how far the glacier has receded since 2006 and how he knows!",
-      "fr": "Parce qu’en 2006, j’ai trouvé ces rochers à côté du glacier et je me suis dit que ce serait un bon point de repère."
+      "fr": "Écoutez Peter Lemieux expliquer à quel point le glacier a reculé depuis 2006 et comment il le sait!"
     },
     "media": {
       "type": "youtube",
@@ -2229,12 +2229,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "Yeah, exactly.",
-      "fr": "Oui, exactement."
+      "en": "Where was the glacier in 1982 and what is a lateral moraine?",
+      "fr": "Où était le glacier en 1982 et qu’est-ce qu’une moraine latérale?"
     },
     "description": {
       "en": "Listen to Peter Lemieux as he discusses where the Athabasca glacier was in 1982.",
-      "fr": "Si vous regardez de l’autre côté de la vallée, vous pouvez voir jusqu’où s’étendait le glacier au milieu du XIXᵉ siècle."
+      "fr": "Écoutez Peter Lemieux expliquer où se situait le glacier Athabasca en 1982."
     },
     "media": {
       "type": "youtube",
@@ -2268,12 +2268,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "Whats your prediction?",
-      "fr": "Quelle est votre prédiction ?"
+      "en": "Where will the glacier be in 30 years?",
+      "fr": "Où se trouvera le glacier dans 30 ans?"
     },
     "description": {
       "en": "Listen to Peter Lemieux as he discussed where the Athabasca Glacier may be in 30 years.",
-      "fr": "Selon vous, où se trouvera cette glace glaciaire dans 10, 20, 30 ou 40 ans ?"
+      "fr": "Écoutez Peter Lemieux expliquer où pourrait se situer le glacier Athabasca dans 30 ans."
     },
     "media": {
       "type": "youtube",
@@ -2314,7 +2314,7 @@
       "fr": "Venez avec nous jusqu’au glacier Athabasca"
     },
     "description": {
-      "en": "Walk with us the the Athabasca Glacier on the Columbia Icefield.",
+      "en": "Walk with us the Athabasca Glacier on the Columbia Icefield.",
       "fr": "Venez marcher avec nous au glacier Athabasca sur le champ de glace Columbia."
     },
     "media": {
@@ -2352,12 +2352,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "First of all, there's slipage between the ice and the bedrock.",
-      "fr": "Tout d’abord, il existe un glissement entre la glace et le sous-sol rocheux."
+      "en": "How Glaciers Move",
+      "fr": "Comment les glaciers se déplacent-ils?"
     },
     "description": {
       "en": "Peter Lemieux discusses how Glaciers move.",
-      "fr": "Un glacier plus chaud, sous lequel circule de l’eau de fonte, se déplacera généralement un peu plus rapidement qu’un glacier froid dont la base est gelée."
+      "fr": "Peter Lemieux explique comment les glaciers se déplacent."
     },
     "media": {
       "type": "youtube",
@@ -2400,12 +2400,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "and what we use these pipes for,",
-      "fr": "Et voici à quoi servent ces poteaux"
+      "en": "How much glacial ice are we losing?",
+      "fr": "Combien de glace des glaciers perdons-nous?"
     },
     "description": {
-      "en": "Watch as Peter Lemieux discusses how much ice the Athabasca Glacier is losing in one season an how he knows this.",
-      "fr": "qui sont d’ailleurs emprisonnées dans la glace"
+      "en": "Watch as Peter Lemieux discusses how much ice the Athabasca Glacier is losing in one season and how he knows this.",
+      "fr": "Écoutez Peter Lemieux expliquer combien de glace perd le glacier Athabasca en une saison, et comment il le sait."
     },
     "media": {
       "type": "youtube",
@@ -2441,12 +2441,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "The water's so silky.",
-      "fr": "L’eau est si soyeuse."
+      "en": "Why are some lakes blue?",
+      "fr": "Pourquoi certains lacs sont-ils bleus?"
     },
     "description": {
       "en": "What this video as Peter Lemieux discusses why some glacier lakes are blue.",
-      "fr": "Cela est dû au mouvement de la glace."
+      "fr": "Regardez cette vidéo dans laquelle Peter Lemieux explique pourquoi certains lacs glaciaires sont bleus."
     },
     "media": {
       "type": "youtube",
@@ -2479,12 +2479,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "You know in Canada but all around the world we value fresh water more and more.",
-      "fr": "Au Canada, comme partout dans le monde, nous accordons une importance de plus en plus importante à l’eau douce."
+      "en": "Why should we protect glaciers?",
+      "fr": "Pourquoi devrions-nous protéger les glaciers?"
     },
     "description": {
       "en": "Watch as Peter Lemieux discusses why it is so important to protect our glaciers.",
-      "fr": "Mais je pense qu’il y a plus que cela en jeu ici."
+      "fr": "Écoutez Peter Lemieux expliquer pourquoi il est si important de protéger nos glaciers."
     },
     "media": {
       "type": "youtube",
@@ -2616,12 +2616,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "It does a couple of things.",
-      "fr": "Cela a plusieurs effets."
+      "en": "Forest Fires and Glaciers",
+      "fr": "Feux de forêt et glaciers"
     },
     "description": {
       "en": "Dr. Ali Criscitiello discusses the effects of forest fires on Alberta Glaciers.",
-      "fr": "Le premier effet, et le plus évident, est qu’il transforme cette magnifique surface blanche et immaculée, très réfléchissante, en une surface plus sombre qui absorbe davantage d’énergie."
+      "fr": "Ali Criscitiello, Ph. D., parle des effets des feux de forêt sur les glaciers de l’Alberta."
     },
     "media": {
       "type": "youtube",
@@ -2656,12 +2656,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "So as glaciers shrink or as glacier surfaces become dirtier both of these impact overal albedo.",
-      "fr": "À mesure que les glaciers rétrécissent ou que leur surface devient plus sale, ces deux phénomènes influencent l’albédo global."
+      "en": "Glacial Albedo",
+      "fr": "Albédo glacial"
     },
     "description": {
       "en": "Dr. Ali Criscitiello discusses what Albedo is and how it relates to Alberta glaciers.",
-      "fr": "Ces deux processus contribuent donc à rendre la surface de la Terre moins réfléchissante."
+      "fr": "Ali Criscitiello, Ph. D., explique ce qu’est l’albédo et son lien avec les glaciers de l’Alberta."
     },
     "media": {
       "type": "youtube",
@@ -2702,12 +2702,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "The main factors are the amount of snowfall in the winter, rain in the summer.",
-      "fr": "Les principaux facteurs sont la quantité de neige reçue pendant l’hiver et la quantité de pluie reçue pendant l’été."
+      "en": "Growth and Attrition",
+      "fr": "Progression et retrait des glaciers"
     },
     "description": {
       "en": "Listen to Dr. Ali Criscitiello discuss growth and attrition of Alberta Glaciers",
-      "fr": "En résumé, les deux principaux facteurs sont la quantité de précipitations et la température."
+      "fr": "Écoutez Ali Criscitiello, Ph. D., expliquer la progression et le retrait des glaciers de l’Alberta."
     },
     "media": {
       "type": "youtube",
@@ -2751,12 +2751,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "There's two main ways.",
-      "fr": "Il y a deux principales façons."
+      "en": "How human activity affects Alberta glaciers",
+      "fr": "Effets des activités humaines sur les glaciers de l’Alberta"
     },
     "description": {
       "en": "Dr. Ali Criscitiello talks about how human activity affects Alberta Glaciers.",
-      "fr": "La première est liée aux émissions de gaz à effet de serre et à leurs effets sur le changement climatique."
+      "fr": "Ali Criscitiello, Ph. D., explique les effets des activités humaines sur les glaciers de l’Alberta."
     },
     "media": {
       "type": "youtube",
@@ -2791,12 +2791,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "Well in this case, where glaciers are receiving these chemicals.",
-      "fr": "Dans ce cas-ci, les glaciers reçoivent ces substances chimiques."
+      "en": "How do chemicals that were trapped in Alberta glaciers get into our water?",
+      "fr": "Comment les produits chimiques emprisonnés dans les glaciers de l’Alberta se retrouvent-ils dans notre eau?"
     },
     "description": {
       "en": "Dr. Ali Criscitiello discusses how chemicals, once trapped in frozen ice, will get into our water supply, even some that were banned years ago!",
-      "fr": "Même les produits chimiques qui ont été interdits il y a longtemps sont encore présents et piégés dans la glace."
+      "fr": "Ali Criscitiello, Ph. D., explique comment les produits chimiques, autrefois emprisonnés dans la glace, se retrouvent dans notre approvisionnement en eau, même certains qui ont été interdits bien des années auparavant!"
     },
     "media": {
       "type": "youtube",
@@ -2840,12 +2840,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "This is an Ion Chromatograph.",
-      "fr": "Il s’agit d’un chromatographe ionique."
+      "en": "Ion chromatograph",
+      "fr": "Chromatographe d’échange d’ions\nAli Criscitiello, Ph. D., parle du chromatographe d’échange d’ions et de ce que cela nous indique sur les glaciers.\n"
     },
     "description": {
       "en": "Dr. Ali Criscitiello talks about the Ion Chromatograph and what it tells us about the glaciers.",
-      "fr": "Nous l’appelons simplement un IC."
+      "fr": "Ali Criscitiello, Ph. D., parle du chromatographe d’échange d’ions et de ce que cela nous indique sur les glaciers."
     },
     "media": {
       "type": "youtube",
@@ -2880,12 +2880,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "This machine measures the heavy and light isotopes of oxygen, oxygen18 and oxygen16.",
-      "fr": "Cette machine mesure les deux principaux isotopes de l’oxygène : l’oxygène-18, qui est l’isotope lourd, et l’oxygène-16, qui est l’isotope léger."
+      "en": "Measuring Isotopes",
+      "fr": "Mesurer les isotopes"
     },
     "description": {
-      "en": "Dr. Ali Criscitiello discusses how her equipment measures oxygen isotopes in Alberta glaciers and what this tells us .",
-      "fr": "La mesure de ces isotopes dans les carottes de glace est importante parce que le rapport entre l’oxygène-18 et l’oxygène-16 nous permet de reconstituer les températures passées."
+      "en": "Dr. Ali Criscitiello discusses how her equipment measures oxygen isotopes in Alberta glaciers and what this tells us.",
+      "fr": "Ali Criscitiello, Ph. D., explique comment son équipement mesure les isotopes de l’oxygène présents dans les glaciers de l’Alberta et ce qu’ils nous indiquent."
     },
     "media": {
       "type": "youtube",
@@ -2928,12 +2928,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "A persistent chemical is something that doesn't break down in the environment.",
-      "fr": "Un produit chimique persistant est une substance qui se dégrade très lentement dans l’environnement."
+      "en": "Persistent Chemicals in Alberta Glaciers",
+      "fr": "Produits chimiques persistants dans les glaciers de l’Alberta \nAli Criscitiello, Ph. D., explique ce que sont les produits chimiques persistants et le danger que représente leur rejet dans l’environnement après avoir été emprisonnés dans les glaciers de l’Alberta.\n"
     },
     "description": {
       "en": "Dr. Ali Criscitiello discusses what persistent chemicals are and the danger of them being released after being trapped in Alberta glacier ice.",
-      "fr": "Plus nous en introduisons dans l’environnement, plus il s’y accumule simplement."
+      "fr": "Ali Criscitiello, Ph. D., explique ce que sont les produits chimiques persistants et le danger que représente leur rejet dans l’environnement après avoir été emprisonnés dans les glaciers de l’Alberta."
     },
     "media": {
       "type": "youtube",
@@ -2976,12 +2976,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "This Picarro is an oxygen isotope analyzer.",
-      "fr": "Cet appareil Picarro est un analyseur isotopique de l’oxygène."
+      "en": "What is the Picarro Machine and what does it do?",
+      "fr": "Qu’est-ce que l’instrument Piccaro et que mesure-t-il?"
     },
     "description": {
       "en": "Dr. Ali Criscitiello of the Canadian Ice Core Lab discusses some of the technology she uses to study Alberta glaciers.",
-      "fr": "Ce qu’il fait, c’est qu’il mesure principalement les deux principaux isotopes de l’oxygène, à savoir l’oxygène-16 et l’oxygène-18."
+      "fr": "La glaciologue Ali Criscitiello, Ph. D., du Laboratoire canadien des carottes de glace (CICL) parle des technologies qu’elle utilise pour étudier les glaciers de l’Alberta."
     },
     "media": {
       "type": "youtube",
@@ -3068,12 +3068,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "It can truly be continental.",
-      "fr": "Elle peut véritablement s’étendre à l’échelle d’un continent."
+      "en": "Watershed Great Divide - Where does water from the Columbia Icefield go?",
+      "fr": "Ligne continentale de partage des eaux – où l’eau du champ de glace Columbia finit-elle?"
     },
     "description": {
       "en": "Dr. Ali Criscitiello talks about meltwater from the Columbia Icefield and where it eventually ends up.",
-      "fr": "L’eau provenant d’un glacier des Rocheuses Canadiennes, selon le versant de la ligne de partage des eaux où elle s’écoule, peut suivre des parcours très différents."
+      "fr": "Ali Criscitiello, Ph. D., parle de l’eau de fonte du champ de glace Columbia et de l’endroit où elle finit."
     },
     "media": {
       "type": "youtube",
@@ -3112,12 +3112,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "Well sometimes it seems lika a far away problem that one person can't impact.",
-      "fr": "Eh bien, parfois, cela semble être un problème lointain et une seule personne ne peut pas avoir d’impact."
+      "en": "What can we do to protect Alberta glaciers?",
+      "fr": "Que pouvons-nous faire pour protéger les glaciers de l’Alberta?"
     },
     "description": {
       "en": "Dr. Ali Criscitiello talks about what we can do to protect Alberta glaciers.",
-      "fr": "Mais je ne pense pas que ce soit vrai."
+      "fr": "Ali Criscitiello, Ph. D., explique ce que nous pouvons faire pour protéger les glaciers de l’Alberta."
     },
     "media": {
       "type": "youtube",
@@ -3160,12 +3160,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "We find glaciers across all Alberta.",
-      "fr": "On trouve des glaciers partout en Alberta."
+      "en": "Where do we find glaciers?",
+      "fr": "Où trouvons-nous les glaciers?"
     },
     "description": {
       "en": "Dr. Ali Criscitiello discusses where we find glaciers.",
-      "fr": "Principalement dans un corridor orienté du nord au sud qui commence juste à l’ouest d’ici, dans la région d’Edmonton."
+      "fr": "Ali Criscitiello, Ph. D., explique où se trouvent les glaciers."
     },
     "media": {
       "type": "youtube",
@@ -3203,12 +3203,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "Glaciers are important for tons of different reasons.",
-      "fr": "Les glaciers sont importants pour de très nombreuses raisons."
+      "en": "Why are Alberta glaciers important?",
+      "fr": "Pourquoi les glaciers de l’Alberta sont-ils importants?"
     },
     "description": {
-      "en": "Dr. Ali Criscitiello discuss the importance of Alberta Glaciers.",
-      "fr": "Ils sont importants sur le plan environnemental, mais aussi pour les êtres humains, car les glaciers ont un impact direct sur leur vie."
+      "en": "Dr. Ali Criscitiello discusses the importance of Alberta Glaciers.",
+      "fr": "Ali Criscitiello, Ph. D., parle de l’importance des glaciers de l’Alberta."
     },
     "media": {
       "type": "youtube",
@@ -3251,12 +3251,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "Maybe one of the most important reasons that I can think of, is that glaciers impact people very directly.",
-      "fr": "L’une des raisons les plus importantes auxquelles je peux penser est que les glaciers ont un impact très direct sur la vie des gens."
+      "en": "Why protect Alberta glaciers?",
+      "fr": "Pourquoi protéger les glaciers de l’Alberta?"
     },
     "description": {
       "en": "Dr. Ali Criscitiello discusses why it is important to protect Alberta Glaciers.",
-      "fr": "Par exemple, nos réserves d’eau potable qui dépendent des glaciers, comme celles liées au Columbia Icefield."
+      "fr": "Ali Criscitiello, Ph. D., explique pourquoi il est important de protéger les glaciers de l’Alberta."
     },
     "media": {
       "type": "youtube",
@@ -3505,12 +3505,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "This is a shot of the Athabasca glacier.",
-      "fr": "Voici une vue du glacier Athabasca."
+      "en": "How big is the Athabasca Glacier",
+      "fr": "Quelle est la taille du glacier Athabasca?"
     },
     "description": {
       "en": "Listen to Peter Lemieux talk about the size of the Athabasca Glacier.",
-      "fr": "Nous nous trouvons ici, à l’extrémité inférieure du glacier, et ce que nous pouvons voir par temps clair — et en partie aujourd’hui — s’étend jusqu’au fond de la vallée, à la lisière du Columbia Icefield."
+      "fr": "Écoutez Peter Lemieux parler de la taille du glacier Athabasca."
     },
     "media": {
       "type": "youtube",
@@ -3548,12 +3548,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "Now you can see just how much we've lost.",
-      "fr": "Aujourd’hui, vous pouvez constater à quel point nous avons perdu de glace."
+      "en": "Every year its further to get to work",
+      "fr": "Chaque année, c’est plus loin pour se rendre au travail"
     },
     "description": {
       "en": "Listen to Peter Lemieux talk about the receding of the Athabasca Glacier.",
-      "fr": "Chaque année que je reviens, je dois parcourir une plus grande distance pour me rendre à mon lieu de travail."
+      "fr": "Écoutez Peter Lemieux parler du recul du glacier Athabasca."
     },
     "media": {
       "type": "youtube",
@@ -3596,12 +3596,12 @@
     ],
     "categoryId": "glacier-series",
     "title": {
-      "en": "I am an ice core scientist and I got interested in ice cores and ice in general and glaciers.",
-      "fr": "Je suis scientifique spécialisée dans les carottes de glace, et je me suis intéressée aux carottes de glace, à la glace en général ainsi qu’aux glaciers."
+      "en": "Dr. Criscitiello and her research",
+      "fr": "Ali Criscitiello, Ph. D., et ses travaux de recherche"
     },
     "description": {
       "en": "Dr. Ali Criscitiello talks about how she got interested in studying glaciers and what she does at the Canadian Ice Core Lab.",
-      "fr": "Quand j’étais toute petite, j’étais déjà très fascinée, même lorsque j’étais à l’école primaire en grandissant en Nouvelle-Angleterre."
+      "fr": "Ali Criscitiello explique comment elle en est venue à s’intéresser à l’étude des glaciers et ce qu’elle fait au Laboratoire canadien des carottes de glace."
     },
     "media": {
       "type": "youtube",
@@ -3693,7 +3693,7 @@
       "fr": "Cimenterie"
     },
     "description": {
-      "en": "The Cement factory has been around for a long time.  Listen to Elder Lawrence talk about how Exshaw got it's name and  the impact of the plant on the Stoney people.",
+      "en": "The Cement factory has been around for a long time. Listen to Elder Lawrence talk about how Exshaw got it's name and the impact of the plant on the Stoney people.",
       "fr": "La cimenterie existe depuis très longtemps. Écoutez l’aîné Lawrence expliquer ce qui a valu son nom à Exshaw et l’impact de l’usine sur la nation Stoney."
     },
     "media": {
@@ -3881,7 +3881,7 @@
       "fr": "Histoire du Créateur"
     },
     "description": {
-      "en": "According to the Stoney, Jasper down to the US is their land.  This is where creator put them.",
+      "en": "According to the Stoney, Jasper down to the US is their land. This is where creator put them.",
       "fr": "Selon les Stoney, leur territoire va de Jasper jusqu’aux États-Unis. C’est la terre sur laquelle le Créateur les a placés."
     },
     "media": {
@@ -3924,7 +3924,7 @@
     ],
     "categoryId": "stoney-voices",
     "title": {
-      "en": "Reclimatizing in the Sibbald",
+      "en": "Reacclimatizing in the Sibbald",
       "fr": "Se réacclimater dans la région de Sibbald"
     },
     "description": {
@@ -3933,7 +3933,7 @@
     },
     "media": {
       "type": "youtube",
-      "url": "https://youtu.be/PYuxiSw06jM?si=ZT9Il2CxUSq80vc7",
+      "url": "https://www.youtube.com/watch?v=XQv_Gy_gpWo",
       "cloudFrontUrl": "N/A",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/b88daa80-37fc-4079-869a-7f9f5a0fdb96/thumbnails/Reclimatizing_tumb.0000000.jpg",
       "is360": false
@@ -4018,7 +4018,7 @@
     ],
     "categoryId": "stoney-voices",
     "title": {
-      "en": "Life Of A Stoney Boy",
+      "en": "Life of a Stoney Boy",
       "fr": "La vie d’un jeune garçon de la nation Stoney"
     },
     "description": {
@@ -4307,9 +4307,9 @@
     },
     "media": {
       "type": "youtube",
-      "url": "https://youtu.be/UpJUo8M5Bck?si=PHyuoBHHtza4vsmy",
+      "url": "https://youtu.be/EKJ4X0QhZmY?si=9FO7qzKUxNbzs-8y",
       "cloudFrontUrl": "N/A",
-      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/695381a7-7628-4818-990f-89d3211aa303/thumbnails/What%20Will%20Land%20Look%20Like%20in%20Future_tumb.0000000.jpg",
+      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/b37b2a2b-8c73-4eed-b62c-e2f6a0fd1bcd/thumbnails/What%20will%20the%20land%20look%20like%20in%20the%20future_tumb.0000000.jpg",
       "is360": false
     },
     "searchTerms": {
@@ -4863,7 +4863,7 @@
       "fr": "Accès aux terres - Sibbald Flats"
     },
     "description": {
-      "en": "Listen to Elders talk about the  importance of the Sibbald Flats for hunting, collecting berries and traditional uses and the incompatibility with some other land uses.",
+      "en": "Listen to Elders talk about the importance of the Sibbald Flats for hunting, collecting berries and traditional uses and the incompatibility with some other land uses.",
       "fr": "Écoutez les aînés parler de l’importance des Sibbald Flats pour la chasse, la cueillette de petits fruits et les utilisations traditionnelles, et de l’incompatibilité avec certaines autres utilisations du territoire."
     },
     "media": {
@@ -5369,11 +5369,11 @@
     ],
     "categoryId": "other",
     "title": {
-      "en": "Introducing Alberta Tomorrow’s 360 Virtual Field Trips",
+      "en": "Introducing Alberta Tomorrow's 360 Virtual Field Trips",
       "fr": "Présentation des visites virtuelles à 360 degrés d’Alberta Tomorrow"
     },
     "description": {
-      "en": "The time has finally come! Check out the 360 Virtual Field Trips to Alberta's Ecoregions!  1 for each ecoregion exploring the plants, animals, geology, landforms, climate, land uses and species at risk! Register for your Alberta Tomorrow account at www.albertatomorrow.ca to gain access TODAY!",
+      "en": "The time has finally come! Check out the 360 Virtual Field Trips to Alberta's Ecoregions! 1 for each ecoregion exploring the plants, animals, geology, landforms, climate, land uses and species at risk! Register for your Alberta Tomorrow account at www.albertatomorrow.ca to gain access TODAY!",
       "fr": "Le moment est enfin arrivé! Effectuez les visites virtuelles à 360 degrés dans les écorégions de l’Alberta! Une pour chaque écorégion : explorez les plantes, les animaux, la géologie, les reliefs, le climat, l’utilisation des terres et les espèces en péril! Pour accéder aux visites, créez votre compte d’Alberta Tomorrow à www.albertatomorrow.ca DÈS AUJOURD’HUI!"
     },
     "media": {

@@ -19,13 +19,13 @@ export const howGlaciersMoveVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "First of all, there's slipage between the ice and the bedrock.",
-    fr: "Tout d’abord, il existe un glissement entre la glace et le sous-sol rocheux."
+    en: "How Glaciers Move",
+    fr: "Comment les glaciers se déplacent-ils?"
   },
 
   description: {
     en: "Peter Lemieux discusses how Glaciers move.",
-    fr: "Un glacier plus chaud, sous lequel circule de l’eau de fonte, se déplacera généralement un peu plus rapidement qu’un glacier froid dont la base est gelée."
+    fr: "Peter Lemieux explique comment les glaciers se déplacent."
   },
 
   media: {

@@ -19,13 +19,13 @@ export const simulatorOverviewVideo = {
   categoryId: VideoCategory.TUTORIALS.id,
 
   title: {
-    en: "User Tutorial: An overview of the AT simulator and features",
-    fr: "Un apercu du simulateur d'AT et des fonctions"
+    en: "An overview of the AT simulator and features",
+    fr: "Un aperçu du simulateur d’AT et des fonctions"
   },
 
   description: {
     en: "Watch this tutorial to see the different features of the Alberta Tomorrow Simulator.",
-    fr: "Regardez ce tutoriel pour voir les differentes fonctions du simulateur d'Alberta Tomorrow."
+    fr: "Regardez ce tutoriel pour voir les différentes fonctions du simulateur d’Alberta Tomorrow. "
   },
 
   media: {

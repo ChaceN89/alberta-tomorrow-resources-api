@@ -20,12 +20,12 @@ export const tluAccessVideo = {
 
   title: {
     en: "TLU Access",
-    fr: "Acces a l'UTT"
+    fr: "Accès à l’UTT"
   },
 
   description: {
     en: "Traditional Land Use Access (TLU Access) measures land accessibility for Indigenous peoples engaging in traditional practices. It reflects accessible natural areas not within protected zones.",
-    fr: "L'acces a l'utilisation des terres traditionnelles (UTT) mesure l'accessibilite aux terres pour les Autochtones pour entreprendre des activites liees aux utilisations traditionnelles. Elle tient compte des regions naturelles accessibles situees a l'exterieur des aires protegees."
+    fr: "L’accès à l’utilisation des terres traditionnelles (UTT) mesure l’accessibilité aux terres pour les Autochtones pour entreprendre des activités liées aux utilisations traditionnelles. Elle tient compte des régions naturelles accessibles situées à l’extérieur des aires protégées."
   },
 
   media: {

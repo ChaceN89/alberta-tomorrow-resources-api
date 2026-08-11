@@ -20,12 +20,12 @@ export const greenhouseGasesVideo = {
 
   title: {
     en: "Greenhouse Gasses",
-    fr: "Gaz a effet de serre"
+    fr: "Gaz à effet de serre"
   },
 
   description: {
     en: "Understand how greenhouse gas emissions are linked to population and resource production, and how best practices can cut emissions.",
-    fr: "Comprenez comment les emissions de gaz a effet de serre sont liees a la population et a la production de ressources, et comment les bonnes pratiques peuvent reduire ces emissions."
+    fr: "Comprenez comment les émissions de gaz à effet de serre sont liées à la population et à la production de ressources, et comment les bonnes pratiques peuvent réduire ces émissions."
   },
 
   media: {

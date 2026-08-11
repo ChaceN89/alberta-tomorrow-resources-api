@@ -20,12 +20,12 @@ export const timberProductionVideo = {
 
   title: {
     en: "Timber Production",
-    fr: "Production de bois d'oeuvre"
+    fr: "Production de bois d’œuvre"
   },
 
   description: {
     en: "A value of 100% means all forested land is used for timber. Explore how forestry contributes to the economy and affects land use.",
-    fr: "Une valeur de 100 % indique que toute la superficie qui est boisee sert a la production de bois d'oeuvre. Apprenez comment la foresterie contribue a l'economie et son effet sur l'utilisation des terres."
+    fr: "Une valeur de 100 % indique que toute la superficie qui est boisée sert à la production de bois d’œuvre. Apprenez comment la foresterie contribue à l’économie et son effet sur l’utilisation des terres."
   },
 
   media: {

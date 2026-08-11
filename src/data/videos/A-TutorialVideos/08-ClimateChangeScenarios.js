@@ -19,13 +19,13 @@ export const climateChangeScenariosVideo = {
   categoryId: VideoCategory.TUTORIALS.id,
 
   title: {
-    en: "User Tutorial: Investigating Climate Change Scenarios in Alberta Tomorrow",
-    fr: "Etudier les scenarios climatiques dans Alberta Tomorrow"
+    en: "Investigating Climate Change Scenarios in Alberta Tomorrow",
+    fr: "Étudier les scénarios climatiques dans Alberta Tomorrow"
   },
 
   description: {
     en: "See how you can view changes that may occur due to climate change with Mild, Medium or Hot Climate Change Scenarios.",
-    fr: "Voyez comment vous pouvez voir les changements qui pourraient survenir en raison des changements climatiques avec les scenarios climatiques Doux, Moyen et Chaud."
+    fr: "Voyez comment vous pouvez voir les changements qui pourraient survenir en raison des changements climatiques avec les scénarios climatiques Doux, Moyen et Chaud."
   },
 
   media: {

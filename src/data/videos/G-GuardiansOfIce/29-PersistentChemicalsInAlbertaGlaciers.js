@@ -19,13 +19,13 @@ export const persistentChemicalsInAlbertaGlaciersVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "A persistent chemical is something that doesn't break down in the environment.",
-    fr: "Un produit chimique persistant est une substance qui se dégrade très lentement dans l’environnement."
+    en: "Persistent Chemicals in Alberta Glaciers",
+    fr: "Produits chimiques persistants dans les glaciers de l’Alberta \nAli Criscitiello, Ph. D., explique ce que sont les produits chimiques persistants et le danger que représente leur rejet dans l’environnement après avoir été emprisonnés dans les glaciers de l’Alberta.\n"
   },
 
   description: {
     en: "Dr. Ali Criscitiello discusses what persistent chemicals are and the danger of them being released after being trapped in Alberta glacier ice.",
-    fr: "Plus nous en introduisons dans l’environnement, plus il s’y accumule simplement."
+    fr: "Ali Criscitiello, Ph. D., explique ce que sont les produits chimiques persistants et le danger que représente leur rejet dans l’environnement après avoir été emprisonnés dans les glaciers de l’Alberta."
   },
 
   media: {

@@ -20,12 +20,12 @@ export const waterQualityVideo = {
 
   title: {
     en: "Water Quality",
-    fr: "Qualite de l'eau"
+    fr: "Qualité de l’eau"
   },
 
   description: {
     en: "Explore how phosphorus runoff from agriculture and settlement impacts aquatic ecosystems and how best practices can improve water quality.",
-    fr: "Voyez comment l'ecoulement de phosphore cause par l'agriculture et le peuplement nuit aux ecosystemes aquatiques et comment les bonnes pratiques peuvent ameliorer la qualite de l'eau."
+    fr: "Voyez comment l’écoulement de phosphore causé par l’agriculture et le peuplement nuit aux écosystèmes aquatiques et comment les bonnes pratiques peuvent améliorer la qualité de l’eau."
   },
 
   media: {

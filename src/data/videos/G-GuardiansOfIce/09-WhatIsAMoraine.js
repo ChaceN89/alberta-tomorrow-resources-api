@@ -19,13 +19,13 @@ export const whatIsAMoraineVideo = {
   categoryId: VideoCategory.GLACIER_SERIES.id,
 
   title: {
-    en: "Nice area?",
-    fr: "Bel endroit, n’est-ce pas ?"
+    en: "What is a Moraine",
+    fr: "Qu’est-ce qu’une moraine?"
   },
 
   description: {
     en: "Listen to Peter Lemieux discuss the different types of glacial moraine.",
-    fr: "Ça ressemble un peu à un chantier de construction, tu ne trouves pas ?"
+    fr: "Écoutez Peter Lemieux expliquer les différents types de moraine glaciaire."
   },
 
   media: {

@@ -25,7 +25,7 @@ export const caribouHabitatVideo = {
 
   description: {
     en: "Explore how caribou habitat is impacted by human development and how best practices can reduce disturbances in their environment.",
-    fr: "Voyez l'effet du developpement humain sur l'habitat du caribou et comment les bonnes pratiques peuvent reduire les perturbations dans leur environnement."
+    fr: "Voyez l’effet du développement humain sur l’habitat du caribou et comment les bonnes pratiques peuvent réduire les perturbations dans leur environnement. "
   },
 
   media: {
