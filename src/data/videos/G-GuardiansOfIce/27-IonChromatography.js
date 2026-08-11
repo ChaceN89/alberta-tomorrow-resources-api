@@ -12,7 +12,7 @@ import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
 
 export const ionChromatographyVideo = {
-  id: "goi-27g-ion-chromatrography",
+  id: "goi-27g-ion-chromatography",
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -36,7 +36,7 @@ export const ionChromatographyVideo = {
   },
 
   searchTerms: {
-    en: ["ion","chromatograph","abglaciers","climatechange","abwater"],
-    fr: ["agit","chromatographe","ionique"]
+    en: ["ion", "chromatograph", "abglaciers", "climatechange", "abwater"],
+    fr: ["agit", "chromatographe", "ionique"]
   },
 };

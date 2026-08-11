@@ -747,14 +747,14 @@
     ]
   },
   {
-    "id": "env-06c-greenhouse-gasses",
+    "id": "env-06c-greenhouse-gases",
     "supportedLanguages": [
       "en",
       "fr"
     ],
     "categoryId": "environmental-indicators",
     "title": {
-      "en": "Greenhouse Gasses",
+      "en": "Greenhouse Gases",
       "fr": "Gaz à effet de serre"
     },
     "description": {
@@ -1572,7 +1572,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "brbc-010f-native-prairies",
+    "id": "brbc-10f-native-prairies",
     "supportedLanguages": [
       "en"
     ],
@@ -1603,7 +1603,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "brbc-011f-invasive-species",
+    "id": "brbc-11f-invasive-species",
     "supportedLanguages": [
       "en"
     ],
@@ -1634,7 +1634,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "brbc-012f-isotopes-climate",
+    "id": "brbc-12f-isotopes-climate",
     "supportedLanguages": [
       "en"
     ],
@@ -2833,7 +2833,7 @@
     ]
   },
   {
-    "id": "goi-27g-ion-chromatrography",
+    "id": "goi-27g-ion-chromatography",
     "supportedLanguages": [
       "en",
       "fr"
@@ -3917,7 +3917,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-07h-reclimatizing",
+    "id": "stoney-07h-reacclimatizing",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4011,7 +4011,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-09h-life-of-a-stoney-0boy",
+    "id": "stoney-09h-life-of-a-stoney-boy",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4058,7 +4058,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-010h-bringing-back-the-bison",
+    "id": "stoney-10h-bringing-back-the-bison",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4103,7 +4103,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-011h-yamnuska-meaning",
+    "id": "stoney-11h-yamnuska-meaning",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4150,7 +4150,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-012h-cougar-story",
+    "id": "stoney-12h-cougar-story",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4197,7 +4197,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-013h-food-and-camp",
+    "id": "stoney-13h-food-and-camp",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4244,7 +4244,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-014h-concept-of-time",
+    "id": "stoney-14h-concept-of-time",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4291,7 +4291,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-015h-what-will-land-look-like",
+    "id": "stoney-15h-what-will-land-look-like",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4336,7 +4336,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-016h-great-depression",
+    "id": "stoney-16h-great-depression",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4383,7 +4383,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-017h-water-now-and-future",
+    "id": "stoney-17h-water-now-and-future",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4430,7 +4430,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-018h-stoney-0voice-at-table",
+    "id": "stoney-18h-stoney-voice-at-table",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4477,7 +4477,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-019h-fishing-on-the-bow",
+    "id": "stoney-19h-fishing-on-the-bow",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4524,7 +4524,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-020h-tornado",
+    "id": "stoney-20h-tornado",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4571,7 +4571,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-021h-using-the-land",
+    "id": "stoney-21h-using-the-land",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4618,7 +4618,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-022h-moose-story",
+    "id": "stoney-22h-moose-story",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4664,7 +4664,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-023h-land-use-and-wildlife",
+    "id": "stoney-23h-land-use-and-wildlife",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4711,7 +4711,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-024h-protected-areas",
+    "id": "stoney-24h-protected-areas",
     "supportedLanguages": [
       "en",
       "fr"
@@ -4852,7 +4852,7 @@
     "lessonPlanIds": []
   },
   {
-    "id": "stoney-027h-access-to-land",
+    "id": "stoney-27h-access-to-land",
     "supportedLanguages": [
       "en",
       "fr"

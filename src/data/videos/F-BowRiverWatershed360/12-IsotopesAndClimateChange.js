@@ -12,8 +12,10 @@ import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
 
 export const isotopesAndClimateChangeVideo = {
-  id: "brbc-012f-isotopes-climate",
+  id: "brbc-12f-isotopes-climate",
+
   supportedLanguages: [Language.EN.id],
+
   categoryId: VideoCategory.BOW_RIVER_360.id,
 
   title: {

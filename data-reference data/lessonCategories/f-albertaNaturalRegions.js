@@ -276,12 +276,12 @@ export const AlbertNaturalRegions = [
       {
         title: "Alberta's Ecosystems Scavenger Hunt",
         description: "",
-        link: "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE" 
+        link: "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
       },
       {
         title: "Ecosystems in Alberta",
         description: "",
-        link: "https://docs.google.com/document/d/1yQJJ48YHAhWmoKr_TTpnmW4heDOxD31sXAv5ktS8izE" 
+        link: "https://docs.google.com/document/d/1yQJJ48YHAhWmoKr_TTpnmW4heDOxD31sXAv5ktS8izE"
       }
     ],
     grades: [Grade.GRADE_6],
@@ -299,7 +299,7 @@ export const AlbertNaturalRegions = [
     videos: [
       "env-01c-natural-landscapes",
       "env-02c-caribou-habitat",
-      "env-06c-greenhouse-gasses",
+      "env-06c-greenhouse-gases",
       "landscape-01b-climate-change"
     ],
     relatedUrls: []

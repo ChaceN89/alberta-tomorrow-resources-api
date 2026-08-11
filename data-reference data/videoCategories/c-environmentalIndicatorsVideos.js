@@ -14,7 +14,7 @@ export const environmentalIndicatorsVideos = [
   { // video 1 - Natural Landscapes
     id: "env-01c-natural-landscapes",
     title: "Natural Landscapes",
-    description: 
+    description:
       "Prior to Alberta's European Settlement, 100% of the landscape was considered natural. Learn more about Alberta's natural landscapes and how best practices can reduce the footprint of development.",
     category: VideoCategory.ENVIRONMENTAL_INDICATORS,
     tools: [AssociatedTool.SIMULATOR],
@@ -30,7 +30,7 @@ export const environmentalIndicatorsVideos = [
   { // video 2 - Caribou Habitat
     id: "env-02c-caribou-habitat",
     title: "Caribou Habitat",
-    description: 
+    description:
       "Explore how caribou habitat is impacted by human development and how best practices can reduce disturbances in their environment.",
     category: VideoCategory.ENVIRONMENTAL_INDICATORS,
     tools: [AssociatedTool.SIMULATOR, AssociatedTool.WILDLIFE_TOMORROW],
@@ -46,7 +46,7 @@ export const environmentalIndicatorsVideos = [
   { // video 3 - Grizzly Habitat
     id: "env-03c-grizzly-habitat",
     title: "Grizzly Habitat",
-    description: 
+    description:
       "Learn how forest development and human activity affect the suitability of grizzly bear habitat across Alberta.",
     category: VideoCategory.ENVIRONMENTAL_INDICATORS,
     tools: [AssociatedTool.SIMULATOR, AssociatedTool.WILDLIFE_TOMORROW],
@@ -62,7 +62,7 @@ export const environmentalIndicatorsVideos = [
   { // video 4 - Fish Habitat
     id: "env-04c-fish-habitat",
     title: "Fish Habitat",
-    description: 
+    description:
       "Discover how land use affects fish community health, from native trout populations to the impacts of angling and habitat disturbance.",
     category: VideoCategory.ENVIRONMENTAL_INDICATORS,
     tools: [AssociatedTool.SIMULATOR, AssociatedTool.WILDLIFE_TOMORROW],
@@ -78,7 +78,7 @@ export const environmentalIndicatorsVideos = [
   { // video 5 - Water Quality
     id: "env-05c-water-quality",
     title: "Water Quality",
-    description: 
+    description:
       "Explore how phosphorus runoff from agriculture and settlement impacts aquatic ecosystems and how best practices can improve water quality.",
     category: VideoCategory.ENVIRONMENTAL_INDICATORS,
     tools: [AssociatedTool.SIMULATOR],
@@ -91,10 +91,10 @@ export const environmentalIndicatorsVideos = [
     },
     hashtags: ["abwater", "waterquality", "eutrophication", "landuse"]
   },
-  { // video 6 - Greenhouse Gasses
-    id: "env-06c-greenhouse-gasses",
-    title: "Greenhouse Gasses",
-    description: 
+  { // video 6 - Greenhouse Gases
+    id: "env-06c-greenhouse-gases",
+    title: "Greenhouse Gases",
+    description:
       "Understand how greenhouse gas emissions are linked to population and resource production, and how best practices can cut emissions.",
     category: VideoCategory.ENVIRONMENTAL_INDICATORS,
     tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],

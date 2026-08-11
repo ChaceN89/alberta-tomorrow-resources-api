@@ -12,14 +12,14 @@ import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
 
 export const greenhouseGasesVideo = {
-  id: "env-06c-greenhouse-gasses",
+  id: "env-06c-greenhouse-gases",
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
   categoryId: VideoCategory.ENVIRONMENTAL_INDICATORS.id,
 
   title: {
-    en: "Greenhouse Gasses",
+    en: "Greenhouse Gases",
     fr: "Gaz à effet de serre"
   },
 

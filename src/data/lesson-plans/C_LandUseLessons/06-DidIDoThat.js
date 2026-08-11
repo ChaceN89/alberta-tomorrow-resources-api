@@ -113,7 +113,7 @@ export const didIDoThatLessonPlan = {
     "env-03c-grizzly-habitat",
     "env-04c-fish-habitat",
     "env-05c-water-quality",
-    "env-06c-greenhouse-gasses",
+    "env-06c-greenhouse-gases",
     "soc-01d-human-population",
     "soc-02d-gdp",
     "soc-03d-hydrocarbon-production",

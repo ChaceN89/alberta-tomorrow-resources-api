@@ -16,7 +16,7 @@
  */
 
 
-import {Theme, Grade, Subject, AssociatedTool} from "../enums/lessonPlanEnums.js";
+import { Theme, Grade, Subject, AssociatedTool } from "../enums/lessonPlanEnums.js";
 
 export const ClimateLessons = [
   { // Lesson 1 - Going Going Going Gone: Climate Change and the Columbia Icefield
@@ -25,7 +25,7 @@ export const ClimateLessons = [
     provider: { name: "Alberta Tomorrow", link: "https://www.albertatomorrow.ca" },
     theme: Theme.CLIMATE_CHANGE,
     tools: [AssociatedTool.SIMULATOR],
-    description: 
+    description:
       "Students will explore how climate change has affected Alberta's glaciers and do some calculations to determine the loss of ice on the Athabasca Glacier.",
     approximateTime: "60 min",
     files: [
@@ -41,7 +41,7 @@ export const ClimateLessons = [
       Subject.SOCIAL_STUDIES, Subject.SCIENCE, Subject.BIOLOGY, Subject.CTS
     ],
     tags: [
-      "glaciers", "climate change", "math", "ice loss", "calculations", "water", 
+      "glaciers", "climate change", "math", "ice loss", "calculations", "water",
       "Energy Flow in Global Systems", "Environmental Stewardship", "Physical Geography of Canada"
     ],
     learningOutcomes: [
@@ -51,7 +51,7 @@ export const ClimateLessons = [
       "determine the loss of ice volume in Rocky Mountain Glaciers"
     ],
     videos: [
-      "env-06c-greenhouse-gasses",  // Greenhouse Gases
+      "env-06c-greenhouse-gases",  // Greenhouse Gases
       "landscape-01b-climate-change", // Climate Change
       "goi-35g-why-are-alberta-glaciers-important", // Is it important glaciers are in the national parks?
       "goi-22g-forest-fires-and-glaciers", // Forest fires and glaciers
@@ -77,17 +77,17 @@ export const ClimateLessons = [
         title: "Science 6 Climate Change in Alberta - Lesson Plan",
         link: "https://docs.google.com/document/d/1j1reZMpUG8hr2aTxRFKGKUIrWKubjc6LBPs9YorcJQQ/"
       },
-      { 
+      {
         title: "Climate Change in Alberta - Student Worksheet",
         description: "",
         link: "https://docs.google.com/presentation/d/1iAiOWchQmyjHwoXPpempjHKD6y0xKxl9_vORNbfE4jw"
       },
-      { 
+      {
         title: "Energy Resources and Climate Change in Alberta - Student Worksheet",
         description: "",
         link: "https://docs.google.com/document/d/1pL06qekV3WdnjSxIFHvFefVdAmgLEgvRCsrqvzzbaPM/"
       },
-      { 
+      {
         title: "Climate Change:  Truth and Misconceptions - Presentation Slides",
         description: "",
         link: "https://docs.google.com/presentation/d/1k56_dQvhzLsiWqFujAotFC8Ifl4HSmXaBM3Oc_JY4YA/edit?pli=1&slide=id.g3d0207c412d_0_0#slide=id.g3d0207c412d_0_0"
@@ -173,5 +173,5 @@ export const ClimateLessons = [
       }
     ]
   }
-  
+
 ];

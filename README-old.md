@@ -273,7 +273,7 @@ GET /api/stats/filters
     title: "Going Going Going Gone",
     link: "/pdfs/lesson-plans/climateChange/..."
   }],
-  videos: ["env-06c-greenhouse-gasses", "landscape-01b-climate-change"],
+  videos: ["env-06c-greenhouse-gases", "landscape-01b-climate-change"],
   learningOutcomes: ["understand seasonal variation...", "..."],
   tags: ["glaciers", "climate change", "math"],
   relatedUrls: []

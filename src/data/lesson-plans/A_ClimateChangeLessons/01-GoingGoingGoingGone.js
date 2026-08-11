@@ -146,7 +146,7 @@ export const goingGoingGoingGoneLessonPlan = {
   },
 
   videoIds: [
-    "env-06c-greenhouse-gasses",
+    "env-06c-greenhouse-gases",
     "landscape-01b-climate-change",
     "goi-35g-why-are-alberta-glaciers-important",
     "goi-22g-forest-fires-and-glaciers",

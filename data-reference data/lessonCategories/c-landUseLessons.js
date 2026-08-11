@@ -121,7 +121,7 @@ export const LandUseLessons = [
       "env-03c-grizzly-habitat",        // Grizzly Habitat
       "env-04c-fish-habitat",           // Fish Habitat
       "env-05c-water-quality",          // Water Quality
-      "env-06c-greenhouse-gasses",      // Greenhouse Gasses
+      "env-06c-greenhouse-gases",      // Greenhouse Gasses
       "soc-01d-human-population",       // Human Population
       "soc-02d-gdp",                    // Gross Domestic Product
       "soc-03d-hydrocarbon-production", // Hydrocarbon Production
@@ -163,7 +163,7 @@ export const LandUseLessons = [
       "env-03c-grizzly-habitat",        // Grizzly Habitat
       "env-04c-fish-habitat",           // Fish Habitat
       "env-05c-water-quality",          // Water Quality
-      "env-06c-greenhouse-gasses",      // Greenhouse Gasses
+      "env-06c-greenhouse-gases",      // Greenhouse Gasses
       "soc-01d-human-population",       // Human Population
       "soc-02d-gdp",                    // Gross Domestic Product
       "soc-03d-hydrocarbon-production", // Hydrocarbon Production
@@ -208,7 +208,7 @@ export const LandUseLessons = [
       "env-03c-grizzly-habitat",
       "env-04c-fish-habitat",
       "env-05c-water-quality",
-      "env-06c-greenhouse-gasses",
+      "env-06c-greenhouse-gases",
       "soc-01d-human-population",
       "soc-02d-gdp",
       "soc-03d-hydrocarbon-production",
@@ -253,7 +253,7 @@ export const LandUseLessons = [
       "env-03c-grizzly-habitat",
       "env-04c-fish-habitat",
       "env-05c-water-quality",
-      "env-06c-greenhouse-gasses",
+      "env-06c-greenhouse-gases",
       "soc-01d-human-population",
       "soc-02d-gdp",
       "soc-03d-hydrocarbon-production",
@@ -371,5 +371,5 @@ export const LandUseLessons = [
     videos: [],
     relatedUrls: []
   }
-  
+
 ];

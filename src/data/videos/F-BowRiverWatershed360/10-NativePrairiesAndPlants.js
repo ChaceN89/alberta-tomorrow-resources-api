@@ -12,7 +12,7 @@ import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
 
 export const nativePrairiesAndPlantsVideo = {
-  id: "brbc-010f-native-prairies",
+  id: "brbc-10f-native-prairies",
 
   supportedLanguages: [Language.EN.id],
 

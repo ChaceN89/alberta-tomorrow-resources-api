@@ -122,7 +122,7 @@ export const iceCoreBasicsLessonPlan = {
     "env-05c-water-quality",
     "goi-30g-what-is-the-picarro-machine",
     "goi-28g-measuring-isotopes",
-    "goi-27g-ion-chromatrography",
+    "goi-27g-ion-chromatography",
     "goi-26g-how-do-chemicals-that-were-trapped",
     "goi-21g-endocrine-disruptors"
   ],

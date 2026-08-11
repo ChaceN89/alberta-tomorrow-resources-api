@@ -12,7 +12,7 @@ import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
 
 export const invasiveSpeciesAndControlVideo = {
-  id: "brbc-011f-invasive-species",
+  id: "brbc-11f-invasive-species",
 
   supportedLanguages: [Language.EN.id],
 
