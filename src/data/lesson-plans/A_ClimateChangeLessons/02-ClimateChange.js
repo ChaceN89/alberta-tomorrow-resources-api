@@ -1,5 +1,5 @@
 /**
- * @file 02-ClimateChangeInAlberta.js
+ * @file 02-ClimateChangeMildMedHot.js
  * @module Data/LessonPlans/ClimateChange
  * @desc Contains localized metadata and lesson plan information for the Climate Change in Alberta lesson.
  *
@@ -13,8 +13,8 @@ import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
-export const climateChangeInAlbertaLessonPlan = {
-  id: "climate-02a-scenarios",
+export const climateChangeMildMedHotLessonPlan = {
+  id: "climate-02a-mild-med-hot-scenarios",
 
   themeId: LessonTheme.CLIMATE_CHANGE.id,
 
@@ -38,17 +38,17 @@ export const climateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios: Lesson Plan",
-        url: null
+        url: "https://docs.google.com/document/d/1kymo9-CGBx6pPJtg5JnaGtfxYDVF_yGGFTJGeLc-ul4"
       },
       {
         fileType: FileType.LESSON_PLAN,
         title: "Science 6 Climate Change in Alberta - Lesson Plan",
-        url: null
+        url: "https://docs.google.com/document/d/1j1reZMpUG8hr2aTxRFKGKUIrWKubjc6LBPs9YorcJQQ"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Climate Change in Alberta - Student Worksheet",
-        url: null
+        url: "https://docs.google.com/document/d/1pL06qekV3WdnjSxIFHvFefVdAmgLEgvRCsrqvzzbaPM"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -58,7 +58,7 @@ export const climateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Climate Change: Truth and Misconceptions - Presentation Slides",
-        url: null
+        url: "https://docs.google.com/presentation/d/1reQRVGi0VSEUcPAwk4SZ-NCiakFZNO3De-_0s9PehHk"
       }
     ],
 
@@ -66,17 +66,17 @@ export const climateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Changements climatiques en Alberta : étudier les scénarios climatiques Doux, Moyen et Chaud : plan de leçon",
-        url: null
+        url: "https://docs.google.com/document/d/1mzr-jLVldiHcQmJdBxeQKTclW3nEChuA"
       },
       {
         fileType: FileType.LESSON_PLAN,
         title: "Sciences, 6e année, Changements climatiques en Alberta – plan de leçon",
-        url: null
+        url: "https://docs.google.com/document/d/1foXxyndlaQ1SCCIg34hnse3Cmd0o4L0q"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Changements climatiques en Alberta – feuille de travail de l’élève",
-        url: null
+        url: "https://docs.google.com/document/d/1o-ZVm2iDaavBgXvBg0zEArZjEU4npiFq"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -86,7 +86,7 @@ export const climateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
-        url: null
+        url: "https://docs.google.com/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr"
       }
     ]
   },

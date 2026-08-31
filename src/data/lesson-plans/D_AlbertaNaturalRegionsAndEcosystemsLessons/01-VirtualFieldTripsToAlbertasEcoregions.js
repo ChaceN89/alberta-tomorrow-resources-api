@@ -48,34 +48,34 @@ export const virtualFieldTripsToAlbertasEcoregionsLessonPlan = {
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
-        url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
+        url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "360 Virtual Tours Scavenger Hunt Circle Student Worksheet",
-        url: "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0/edit?slide=id.p1#slide=id.p1"
+        url: "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0"
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Écorégions de l’Alberta – visites virtuelles à 360 degrés : plan de leçon",
-        url: "https://docs.google.com/document/d/1zMQUusoEZMeOQj_JAk-anB7VGoxBaPeI/edit"
+        url: "https://docs.google.com/document/d/1zMQUusoEZMeOQj_JAk-anB7VGoxBaPeI"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz/edit"
+        url: "https://docs.google.com/document/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : diapositives Google à remplir",
-        url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
+        url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève (encercler)",
-        url: "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0/edit?slide=id.p1#slide=id.p1"
+        url: "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0"
       }
     ]
   },

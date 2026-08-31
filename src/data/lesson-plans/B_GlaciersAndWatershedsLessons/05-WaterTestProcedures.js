@@ -38,12 +38,12 @@ export const waterTestProceduresLessonPlan = {
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Water Test Procedures",
-        url: "https://drive.google.com/file/d/15I2aVVkdXZUWdPTEB7YQyk3OgvBG4SG-/view?usp=sharing"
+        url: "https://drive.google.com/file/d/15I2aVVkdXZUWdPTEB7YQyk3OgvBG4SG-"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta Slide Show",
-        url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg/edit?usp=drive_link"
+        url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
       }
     ],
 
@@ -51,12 +51,12 @@ export const waterTestProceduresLessonPlan = {
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Procédures d’analyse de l’eau",
-        url: "https://docs.google.com/document/d/1S0CSfCmP5sCkBeUdMuooNtXBOYhDOHch/edit"
+        url: "https://docs.google.com/document/d/1S0CSfCmP5sCkBeUdMuooNtXBOYhDOHch"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta : présentation",
-        url: null
+        url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
       }
     ]
   },

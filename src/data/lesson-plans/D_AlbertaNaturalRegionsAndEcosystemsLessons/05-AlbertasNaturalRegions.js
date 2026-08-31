@@ -38,7 +38,7 @@ export const albertasNaturalRegionsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Alberta's Natural Regions",
-        url: "https://docs.google.com/document/d/1FPPfuy7iwOp9QC0pyLNjI1ujvS1EW0JU3YV4qZO9MeE/edit?usp=drive_link"
+        url: "https://docs.google.com/document/d/1FPPfuy7iwOp9QC0pyLNjI1ujvS1EW0JU3YV4qZO9MeE"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -70,7 +70,7 @@ export const albertasNaturalRegionsLessonPlan = {
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : diapositives Google à remplir",
-        url: "https://docs.google.com/presentation/d/1FrvTy8G4cR0kKAunb0rwjshiy56Uykg4/edit?slide=id.p1#slide=id.p1"
+        url: "https://docs.google.com/presentation/d/1FrvTy8G4cR0kKAunb0rwjshiy56Uykg4"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,

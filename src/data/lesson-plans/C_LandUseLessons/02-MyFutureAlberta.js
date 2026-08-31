@@ -38,7 +38,7 @@ export const myFutureAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "My Future Alberta: Creating a Landuse Plan for 2050: Lesson Plan and Student Worksheet",
-        url: "https://docs.google.com/document/d/1m_ybmNFrgN1CYuKQUYUttrd_PDfzzsPwu8zMlEJRI24/edit?usp=drive_link"
+        url: "https://docs.google.com/document/d/1m_ybmNFrgN1CYuKQUYUttrd_PDfzzsPwu8zMlEJRI24"
       }
     ],
     fr: [

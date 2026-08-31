@@ -38,17 +38,17 @@ export const introductionToGlaciersLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Introduction to Glaciers: Lesson Plan",
-        url: null
+        url: "https://docs.google.com/document/d/1BhngX8O-1MOSlBE5swn4425hgK7VOJKld0yfxHoY8wQ"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Introduction to Glaciers: Student Worksheet",
-        url: null
+        url: "https://docs.google.com/document/d/10YdcGJPaI3TbOVcfOeck9XqizLjeG2Jv3gY2tTBlG4M"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta Slide Show",
-        url: null
+        url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
       }
     ],
 
@@ -56,17 +56,17 @@ export const introductionToGlaciersLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Introduction aux glaciers : plan de leçon",
-        url: null
+        url: "https://docs.google.com/document/d/1t5RbxeDS77jtxcVcN-qFLA7QYu02X1ZZ"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Introduction aux glaciers : feuille de travail de l’élève",
-        url: null
+        url: "https://docs.google.com/document/d/1zhM9URFB-AOdjrRl3N3fz7E6eoiSHOrY"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta : présentation PowerPoint",
-        url: null
+        url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
       }
     ]
   },

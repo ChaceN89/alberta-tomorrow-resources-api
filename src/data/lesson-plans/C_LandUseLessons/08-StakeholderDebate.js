@@ -38,14 +38,14 @@ export const stakeholderDebateLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Stakeholder Debate Lesson Plan",
-        url: "https://docs.google.com/document/d/1dYPccl23Ri-zunFgkDOj2ijqErP47S78/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        url: "https://docs.google.com/document/d/1dYPccl23Ri-zunFgkDOj2ijqErP47S78"
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Débat d’intervenants : plan de leçon",
-        url: "https://docs.google.com/document/d/1tA21i4XtwKCopVD8L4OQ9tsDfJNgAzLT/edit"
+        url: "https://docs.google.com/document/d/1tA21i4XtwKCopVD8L4OQ9tsDfJNgAzLT"
       }
     ]
   },

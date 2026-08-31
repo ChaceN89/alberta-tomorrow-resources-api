@@ -38,7 +38,7 @@ export const didIDoThatLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Did we do that? Science 7 Lesson Plan",
-        url: "https://docs.google.com/document/d/1CR-RG016EQChxUjxY3X1aESpoSiSfHoq/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        url: "https://docs.google.com/document/d/1CR-RG016EQChxUjxY3X1aESpoSiSfHoq"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -55,7 +55,7 @@ export const didIDoThatLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Avons-nous fait ça? Sciences 7e année, plan de leçon",
-        url: "https://docs.google.com/document/d/17gp6CAHLREMW8NS83xN7td3SWwIvlV3l/edit"
+        url: "https://docs.google.com/document/d/17gp6CAHLREMW8NS83xN7td3SWwIvlV3l"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,

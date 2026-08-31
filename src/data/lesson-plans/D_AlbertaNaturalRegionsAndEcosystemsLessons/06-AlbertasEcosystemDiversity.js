@@ -50,7 +50,7 @@ export const albertasEcosystemDiversityLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Chasse au trésor dans les écosystèmes de l’Alberta",
-        url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS/edit?slide=id.p1#slide=id.p1"
+        url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,

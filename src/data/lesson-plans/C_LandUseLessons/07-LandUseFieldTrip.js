@@ -38,14 +38,14 @@ export const landUseFieldTripLessonPlan = {
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Landuse Field Trip",
-        url: "https://docs.google.com/document/d/1SpC6AztxVAMg5Zf7DmUwN8wQ-Tll5m73/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        url: "https://docs.google.com/document/d/1SpC6AztxVAMg5Zf7DmUwN8wQ-Tll5m73"
       }
     ],
     fr: [
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Sortie éducative liée à l’utilisation des terres",
-        url: "https://docs.google.com/document/d/188mTIwQakxOh1shXP96viDfY2BZBMfYJ/edit"
+        url: "https://docs.google.com/document/d/188mTIwQakxOh1shXP96viDfY2BZBMfYJ"
       }
     ]
   },

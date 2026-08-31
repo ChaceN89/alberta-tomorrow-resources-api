@@ -38,12 +38,12 @@ export const exploringCollectiveRightsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Exploring Collective Rights: Lesson Plan",
-        url: "https://docs.google.com/document/d/1nMh2BVY6ZRFW0c8RjIShGn6t2QYi_ZvF/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        url: "https://docs.google.com/document/d/1nMh2BVY6ZRFW0c8RjIShGn6t2QYi_ZvF"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Exploring Collective Rights: Student Worksheet",
-        url: "https://docs.google.com/document/d/10cCzISaKfH5wrf7O8CoBdIYfNG0V9sF4/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        url: "https://docs.google.com/document/d/10cCzISaKfH5wrf7O8CoBdIYfNG0V9sF4"
       }
     ],
     fr: [

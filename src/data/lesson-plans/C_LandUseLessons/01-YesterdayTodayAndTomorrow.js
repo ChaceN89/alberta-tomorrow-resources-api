@@ -38,7 +38,7 @@ export const yesterdayTodayAndTomorrowLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Yesterday, Today and Tomorrow - Using the Alberta Tomorrow Simulator Lesson Plan and Student Worksheet",
-        url: "https://docs.google.com/document/d/1Bnm4lgL7gFeSJW0DRwunmlZUOey-v6mrSTRmU6-raBM/edit?usp=drive_link"
+        url: "https://docs.google.com/document/d/1Bnm4lgL7gFeSJW0DRwunmlZUOey-v6mrSTRmU6-raBM"
       }
     ],
     fr: [

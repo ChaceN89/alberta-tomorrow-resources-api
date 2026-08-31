@@ -1,5 +1,5 @@
 /**
- * @file 03-WaterQualityClimateChangeAndAlbertasGlaciers.js
+ * @file 03-WaterQualityClimateChangeAndGlaciers.js
  * @module Data/LessonPlans/ClimateChange
  * @desc Contains localized metadata and lesson plan information for the Water Quality, Climate Change and Alberta's Glaciers lesson.
  *
@@ -14,7 +14,7 @@ import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
 export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
-  id: "climate-03a-water-quality-glaciers",
+  id: "climate-03a-water-quality-alberta-glaciers",
 
   themeId: LessonTheme.CLIMATE_CHANGE.id,
 
@@ -38,17 +38,17 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Water Quality, Climate Change and Alberta's Glaciers",
-        url: null
+        url: "https://docs.google.com/document/d/132Q-l-fFcXQTFWDIgiB0j8w76_GhO-QwUxNykI2kivE"
       },
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Webinar Worksheet",
-        url: null
+        url: "https://docs.google.com/document/d/1uHjqQk2WEWdBCJVrMcMaCo1O_sB91EZ0_SXHnAokWa0"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta (Google Slides)",
-        url: null
+        url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
       }
     ],
 
@@ -56,17 +56,17 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Qualité de l'eau, changements climatiques et glaciers de l'Alberta : plan de leçon",
-        url: null
+        url: "https://docs.google.com/document/d/1iD8IG_y0pr7nc08-04pvEwi4IIAU1W1Y"
       },
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Feuille de travail du webinaire",
-        url: null
+        url: "https://docs.google.com/document/d/1rTMgLM8H2LJzydtd2v0x_7-ofV3q6scm"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta (diapositives Google)",
-        url: null
+        url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
       }
     ]
   },

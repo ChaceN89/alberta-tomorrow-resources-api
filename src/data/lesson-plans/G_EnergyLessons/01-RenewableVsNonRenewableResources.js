@@ -38,17 +38,17 @@ export const renewableVsNonRenewableResourcesLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Renewable vs Non-Renewable Resources - Lesson Plan",
-        url: "https://docs.google.com/document/d/1QU_kIWDMITb9Zau0XcB3-e3yTgBzn8W9P2qlM1NaDa8/edit?usp=drive_link"
+        url: "https://docs.google.com/document/d/1QU_kIWDMITb9Zau0XcB3-e3yTgBzn8W9P2qlM1NaDa8"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Renewable and Non-Renewable Sources of Energy - Presentation Slides",
-        url: "https://docs.google.com/presentation/d/1ZeVKUKvxdKaTkf24aXG_xr29TvKWb4hX3bKAFThe-Cg/edit?usp=drive_link"
+        url: "https://docs.google.com/presentation/d/1ZeVKUKvxdKaTkf24aXG_xr29TvKWb4hX3bKAFThe-Cg"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Renewable vs Non-Renewable Resources - Student Worksheet",
-        url: "https://docs.google.com/document/d/1v5XpJO-O9B7I94GstDyZikDhgIzeCuo_pO6LtWPTWCc/edit?usp=drive_link"
+        url: "https://docs.google.com/document/d/1v5XpJO-O9B7I94GstDyZikDhgIzeCuo_pO6LtWPTWCc"
       }
     ],
     fr: [
@@ -60,7 +60,7 @@ export const renewableVsNonRenewableResourcesLessonPlan = {
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Sources d’énergie renouvelables et non renouvelables : présentation PowerPoint",
-        url: "https://docs.google.com/presentation/d/1kJBQH2n6TLF00_PLb1h--GYlEvwP-gD7/edit?slide=id.p1#slide=id.p1"
+        url: "https://docs.google.com/presentation/d/1kJBQH2n6TLF00_PLb1h--GYlEvwP-gD7"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,

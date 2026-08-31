@@ -24,7 +24,7 @@ import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
 export const goingGoingGoingGoneLessonPlan = {
-  id: "climate-01a-going-going-gone",
+  id: "climate-01a-going-going-going-gone",
 
   themeId: LessonTheme.CLIMATE_CHANGE.id,
 
@@ -48,17 +48,17 @@ export const goingGoingGoingGoneLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Going Going Going Gone: Lesson Plan",
-        url: null
+        url: "https://docs.google.com/document/d/13jaSoGz_ilgV4SVwfopuKanJnysWxGLs7kggEQMHjqM"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Going Going Going Gone: Student Worksheet",
-        url: null
+        url: "https://docs.google.com/document/d/1K0zsaIfodtZkpjgmS-KE74Rw1HmC7MJt-z7zfYgZfro"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Climate Myths and Misconceptions: Slide Show",
-        url: null
+        url: "https://docs.google.com/presentation/d/1reQRVGi0VSEUcPAwk4SZ-NCiakFZNO3De-_0s9PehHk"
       }
     ],
 
@@ -66,17 +66,17 @@ export const goingGoingGoingGoneLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Il recule, il recule, il disparaît : plan de leçon",
-        url: null
+        url: "https://docs.google.com/document/d/1Q7CxkPAjDXu4vO9RBeQQFyfDMxovQbmX"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Il recule, il recule, il disparaît : feuille de travail de l’élève",
-        url: null
+        url: "https://docs.google.com/document/d/15C4_1VYx-saaj54RKG7KXQ-_-e_O5jJZ"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Mythes et idées fausses sur les changements climatiques : présentation",
-        url: null
+        url: "https://docs.google.com/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr"
       }
     ]
   },

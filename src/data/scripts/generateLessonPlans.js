@@ -130,6 +130,54 @@ function normalizeLessonPlan(raw) {
   };
 }
 
+function logMissingLessonDataWarnings(normalized, raw, filePath) {
+  const warnings = [];
+  const optionalWarnings = [];
+
+  if (normalized.title.en === "N/A") warnings.push("missing English title");
+  if (normalized.title.fr === "N/A") warnings.push("missing French title");
+  if (normalized.description.en === "N/A") warnings.push("missing English description");
+  if (normalized.description.fr === "N/A") warnings.push("missing French description");
+  if (normalized.approximateTime.en === "N/A") optionalWarnings.push("missing English approximate time");
+  if (normalized.approximateTime.fr === "N/A") optionalWarnings.push("missing French approximate time");
+  if (normalized.gradeIds.length === 0) warnings.push("empty gradeIds");
+  if (normalized.subjectIds.length === 0) warnings.push("empty subjectIds");
+  if (normalized.searchTerms.en.length === 0 && normalized.searchTerms.fr.length === 0) warnings.push("empty searchTerms");
+  if (normalized.learningOutcomes.en.length === 0 && normalized.learningOutcomes.fr.length === 0) warnings.push("empty learningOutcomes");
+
+  const missingFileUrls = [];
+  for (const [lang, entries] of Object.entries(normalized.files)) {
+    if (!Array.isArray(entries)) continue;
+    entries.forEach((entry, index) => {
+      if (!entry || !entry.title || !entry.url || entry.url === "N/A") {
+        missingFileUrls.push(`${lang}[${index}] ${entry?.title || "unnamed file"}`);
+      }
+    });
+  }
+
+  const warningEntries = [];
+  warnings.forEach((warning) => warningEntries.push({ text: warning, color: C.yellow, indent: 0 }));
+
+  if (missingFileUrls.length > 0) {
+    warningEntries.push({ text: "missing file urls:", color: C.yellow, indent: 0 });
+    const value = missingFileUrls.slice(0, 5);
+    const extraCount = missingFileUrls.length - value.length;
+    value.forEach((url) => warningEntries.push({ text: url, color: C.yellow, indent: 1, bullet: true }));
+    if (extraCount > 0) warningEntries.push({ text: `... (${extraCount} more)`, color: C.yellow, indent: 1, bullet: true });
+  }
+
+  optionalWarnings.forEach((warning) => warningEntries.push({ text: warning, color: C.blue, indent: 0, bullet: false }));
+
+  if (warningEntries.length > 0) {
+    console.warn(`    ${C.yellow}⚠${C.reset} ${C.yellow}${raw.id}${C.reset} ${C.gray}— ${shortPath(filePath)}${C.reset}`);
+    warningEntries.forEach(({ text, color, indent, bullet }) => {
+      const pad = " ".repeat(6 + (indent * 4));
+      const prefix = bullet ? "- " : "- ";
+      console.warn(`${pad}${color}${prefix}${text}${C.reset}`);
+    });
+  }
+}
+
 // ─── Loader ───────────────────────────────────────────────────────────────────
 
 async function loadLessonPlans(directory) {
@@ -175,9 +223,10 @@ async function loadLessonPlans(directory) {
 
     if (GenerationOptions.verbose) {
       const videoCount = normalized.videoIds.length;
-      const fileCount = normalized.files.en.length;
+      const fileCount = normalized.files.en.length + normalized.files.fr.length;
       console.log(`  ${C.green}\u2713${C.reset} ${C.green}${C.bold}${raw.id}${C.reset} ${C.gray}\u2014 ${shortPath(filePath)}${C.reset} | ${C.cyan}${videoCount} video ref(s)${C.reset} | ${C.green}${fileCount} file(s)${C.reset}`);
       if (normalized.title.fr === "N/A") console.log(`    ${C.yellow}- missing French${C.reset}`);
+      logMissingLessonDataWarnings(normalized, raw, filePath);
     }
   }
 

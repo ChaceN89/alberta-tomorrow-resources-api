@@ -47,17 +47,17 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Love it or Lose it: Alberta Glacier Edition Lesson Plan",
-        url: null
+        url: "https://docs.google.com/document/d/1wciu6M4l3dNJLLW0z5dpUKWJB0wVV2F6cHxUSk9cqw4"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Love it or Lose it: Alberta Glacier Edition: Student Worksheet",
-        url: null
+        url: "https://docs.google.com/document/d/1kOBV1PHx1rqMW2yESy1_YBgP_FebODrUCyaBCsYCwGA"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta Slide Show",
-        url: null
+        url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
       }
     ],
 
@@ -65,17 +65,17 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : plan de leçon",
-        url: null
+        url: "https://docs.google.com/document/d/17NHaM7QHmIYSiQ4HY8-2kD9uHE5ZdIp2"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : feuille de travail de l'élève",
-        url: null
+        url: "https://docs.google.com/document/d/1LHCp6s3m7axm0n9b4mCsJ4t8x0TLydlY"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta : présentation",
-        url: null
+        url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
       }
     ]
   },

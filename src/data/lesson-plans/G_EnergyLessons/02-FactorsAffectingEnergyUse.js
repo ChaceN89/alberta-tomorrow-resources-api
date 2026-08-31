@@ -38,34 +38,34 @@ export const factorsAffectingEnergyUseLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Factors that Influence the type of Energy Used: Lesson Plan",
-        url: "https://docs.google.com/document/d/1rE_PwNcHq2A9nr28g5SxS3sv3-3MJTwxoRz52nd8eJE/edit?usp=drive_link"
+        url: "https://docs.google.com/document/d/1rE_PwNcHq2A9nr28g5SxS3sv3-3MJTwxoRz52nd8eJE"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Factors that Influence the type of Energy Used: Student Worksheet",
-        url: "https://docs.google.com/document/d/1T3bvL-Gh1cWDfkHCn6PtPiaKzS457F5EHrXWGdnbAe4/edit?usp=drive_link"
+        url: "https://docs.google.com/document/d/1T3bvL-Gh1cWDfkHCn6PtPiaKzS457F5EHrXWGdnbAe4"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Energy Resources and Climate Change in Alberta - Presentation Slides",
-        url: "https://docs.google.com/presentation/d/1RmQYHLOms6XnWvOTz0E0GW3dK6NdT53zE8AfozExhkY/edit?usp=drive_link"
+        url: "https://docs.google.com/presentation/d/1RmQYHLOms6XnWvOTz0E0GW3dK6NdT53zE8AfozExhkY"
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Facteurs qui influencent le type d’énergie utilisée : plan de leçon",
-        url: "https://docs.google.com/document/d/1fmgBQURd1PYXInXwUZTr4sTy6ZRk-_ap/edit"
+        url: "https://docs.google.com/document/d/1fmgBQURd1PYXInXwUZTr4sTy6ZRk-_ap"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Facteurs qui influencent le type d’énergie utilisée : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1_d0tKmpd9cQ0qkrb1Rn2U_pUnjCHHFeA/edit"
+        url: "https://docs.google.com/document/d/1_d0tKmpd9cQ0qkrb1Rn2U_pUnjCHHFeA"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Ressources énergétiques et changements climatiques en Alberta – présentation PowerPoint",
-        url: "https://docs.google.com/presentation/d/1Kpaehlq2ap2n6W_Q0X9lDVAh-t6zChAt/edit?slide=id.p1#slide=id.p1"
+        url: "https://docs.google.com/presentation/d/1Kpaehlq2ap2n6W_Q0X9lDVAh-t6zChAt"
       }
     ]
   },

@@ -38,17 +38,17 @@ export const biogeochemicalCyclesAndLandUseLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Biogeochemical Cycles: Bio 20 Lesson Plan",
-        url: "https://docs.google.com/document/d/18wXANYbaRv_r3vSBRlw0xNx00mF-X0KR/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        url: "https://docs.google.com/document/d/18wXANYbaRv_r3vSBRlw0xNx00mF-X0KR"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Biogeochemical Cycles: Bio 20 Student Worksheet",
-        url: "https://docs.google.com/document/d/1LeujOsQOvL-yAL3urmPKQSTDOXsijmjB/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        url: "https://docs.google.com/document/d/1LeujOsQOvL-yAL3urmPKQSTDOXsijmjB"
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Biogeochemical Cycles: Bio 20 Answer Key",
-        url: "https://docs.google.com/document/d/1OsCViid43oOZrJ6WL6ohsEjPyINpGnro/edit?usp=drive_link&ouid=107808106052250146136&rtpof=true&sd=true"
+        url: "https://docs.google.com/document/d/1OsCViid43oOZrJ6WL6ohsEjPyINpGnro"
       }
     ],
     fr: [
