@@ -45,7 +45,7 @@ export const yesterdayTodayAndTomorrowLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Hier, aujourd’hui et demain - Utiliser le simulateur d’Alberta Tomorrow : plan de leçon et feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/19_h05r90eQzVl3V6TfJLKg-mTrWGmQmo/edit"
+        url: "https://docs.google.com/document/d/19_h05r90eQzVl3V6TfJLKg-mTrWGmQmo"
       }
     ]
   },

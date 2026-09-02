@@ -38,14 +38,14 @@ export const theWatershedLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "The Watershed - Google Doc",
-        url: "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
+        url: null
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Le bassin hydrographique – document Google",
-        url: "https://docs.google.com/document/d/1X8bXoEl8IDyHjAtW5nSc5mtB-jVN8DU0/"
+        url: null
       }
     ]
   },

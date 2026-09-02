@@ -13,8 +13,8 @@ import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
-export const climateChangeMildMedHotLessonPlan = {
-  id: "climate-02a-mild-med-hot-scenarios",
+export const climateChangeInvestigationLessonPlan = {
+  id: "climate-02a-investigating-climate-change",
 
   themeId: LessonTheme.CLIMATE_CHANGE.id,
 

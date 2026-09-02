@@ -30,7 +30,7 @@ export const animalAdaptationsLessonPlan = {
 
   approximateTime: {
     en: "60 min",
-    fr: "N/A"
+    fr: ""
   },
 
   files: {
@@ -38,7 +38,7 @@ export const animalAdaptationsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Grade 3 Science Adaptations and the 360 Virtual Field Trips",
-        url: null
+        url: "/pdfs/lesson-plans/naturalRegions360/Grade3ScienceAdaptationsandthe360VirtualFieldTrips.pdf"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,

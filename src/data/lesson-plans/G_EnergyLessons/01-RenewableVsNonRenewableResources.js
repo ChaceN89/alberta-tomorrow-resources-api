@@ -3,6 +3,7 @@
  * @module Data/LessonPlans/Energy
  * @desc Contains localized metadata and lesson plan information for the Renewable vs Non-Renewable Resources lesson.
  *
+ * 
  * @author Chace Nielson
  * @created Aug 07, 2026
  * @updated Aug 07, 2026

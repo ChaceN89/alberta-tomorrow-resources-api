@@ -38,7 +38,7 @@ export const plantAndAnimalAdaptationsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Grade 9 Science Adaptations and the 360 Virtual Field Trips",
-        url: "https://drive.google.com/file/d/1oqRU9sDWebD92xmGi3RYhN-Ae00ACP_j/view?usp=drive_link"
+        url: "https://drive.google.com/file/d/1oqRU9sDWebD92xmGi3RYhN-Ae00ACP_j"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -50,7 +50,7 @@ export const plantAndAnimalAdaptationsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "9e année, Sciences : Adaptations et visites virtuelles à 360 degrés",
-        url: "https://docs.google.com/document/d/1IKLGOqi9ukqXGjawklTxjrAGOEzbS6wg/edit"
+        url: "https://docs.google.com/document/d/1IKLGOqi9ukqXGjawklTxjrAGOEzbS6wg"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -102,5 +102,11 @@ export const plantAndAnimalAdaptationsLessonPlan = {
 
   videoIds: [],
 
-  relatedResources: []
+  relatedResources: [
+    {
+      title: "A Framework for Alberta's Parks",
+      url: "https://www.albertaparks.ca/media/6256258/natural-regionssubregions-of-alberta-aframework-for-albertas-parksbooklet.pdf"
+    }
+
+  ]
 };

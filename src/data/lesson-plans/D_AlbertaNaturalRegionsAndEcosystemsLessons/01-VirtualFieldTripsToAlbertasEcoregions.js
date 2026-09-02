@@ -38,22 +38,22 @@ export const virtualFieldTripsToAlbertasEcoregionsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Alberta's Ecoregions - 360 Virtual Field Trips Lesson Plan",
-        url: "https://docs.google.com/document/d/1zMQUusoEZMeOQj_JAk-anB7VGoxBaPeI/edit"
+        url: "https://drive.google.com/file/d/1X42InkOi6uEhKu195eCj29Xstk6gGHGi"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "360 Virtual Tours Scavenger Hunt Student Worksheet",
-        url: "https://docs.google.com/document/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz/edit"
+        url: "https://drive.google.com/file/d/1fgBduzIjfvYWjkT2Y8m71qhiWMRjEwaL"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
-        url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS"
+        url: "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "360 Virtual Tours Scavenger Hunt Circle Student Worksheet",
-        url: "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0"
+        url: "https://drive.google.com/file/d/1VQg8Gzp-yw2QrZ0gDl56iIjSiwpdoe8f"
       }
     ],
     fr: [

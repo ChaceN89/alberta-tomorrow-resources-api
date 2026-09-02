@@ -43,7 +43,7 @@ export const albertasNaturalRegionsLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "360 Virtual Tours Scavenger Hunt Student Worksheet",
-        url: "https://drive.google.com/file/d/1fgBduzIjfvYWjkT2Y8m71qhiWMRjEwaL/view?usp=drive_link"
+        url: "https://drive.google.com/file/d/1fgBduzIjfvYWjkT2Y8m71qhiWMRjEwaL"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -60,7 +60,7 @@ export const albertasNaturalRegionsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Régions naturelles de l’Alberta",
-        url: "https://docs.google.com/document/d/1KWFyGht_qb3wHVTSE9zrLfotffrNw2uI/edit"
+        url: "https://docs.google.com/document/d/1KWFyGht_qb3wHVTSE9zrLfotffrNw2uI"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,

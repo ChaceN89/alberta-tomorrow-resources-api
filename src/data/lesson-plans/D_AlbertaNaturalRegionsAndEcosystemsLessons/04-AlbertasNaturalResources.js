@@ -50,12 +50,12 @@ export const albertasNaturalResourcesLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Ressources naturelles de l’Alberta : plan de leçon",
-        url: "https://docs.google.com/document/d/1KUFyuRXXLDf0bmCnTnFo4xTqN6QxFoha/edit"
+        url: "https://docs.google.com/document/d/1KUFyuRXXLDf0bmCnTnFo4xTqN6QxFoha"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Ressources naturelles de l’Alberta : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1HVNoxTzEKVB58FFgxduCn01xek2Lde6g/edit"
+        url: "https://docs.google.com/document/d/1HVNoxTzEKVB58FFgxduCn01xek2Lde6g"
       }
     ]
   },
