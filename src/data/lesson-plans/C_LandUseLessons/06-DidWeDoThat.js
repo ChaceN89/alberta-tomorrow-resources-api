@@ -1,7 +1,7 @@
 /**
- * @file 06-DidIDoThat.js
+ * @file 06-DidWeDoThat.js
  * @module Data/LessonPlans/LandUse
- * @desc Contains localized metadata and lesson plan information for the Did I Do That lesson.
+ * @desc Contains localized metadata and lesson plan information for the Did We Do That lesson.
  *
  * @author Chace Nielson
  * @created Jul 30, 2026
@@ -13,14 +13,14 @@ import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
-export const didIDoThatLessonPlan = {
-  id: "landuse-06c-did-i-do-that",
+export const didWeDoThatLessonPlan = {
+  id: "landuse-06c-did-we-do-that",
 
   themeId: LessonTheme.LAND_USE.id,
 
   title: {
-    en: "Did I Do That? The Relationship Between Humans and Their Environment",
-    fr: "Ai-je fait ça? Les rapports entre l’être humain et son environnement"
+    en: "Did WE Do That? The Relationship Between Humans and Their Environment",
+    fr: "Avons-nous fait ça? Les rapports entre l’être humain et son environnement"
   },
 
   description: {
@@ -43,12 +43,12 @@ export const didIDoThatLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Did we do that? Science 7 Student Worksheet",
-        url: null
+        url: "https://docs.google.com/document/d/19KxH-EaPWmDlqsE60XstzBlFCwTwSM8k"
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Did we do that? Science 7 Answer Sheet",
-        url: null
+        url: "https://docs.google.com/document/d/1FvtNf8WHVkLKo25ubjZknQ8DiM5QnfPY"
       }
     ],
     fr: [
@@ -60,12 +60,12 @@ export const didIDoThatLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Avons-nous fait ça? Sciences 7e année, feuille de travail de l’élève",
-        url: null
+        url: "https://docs.google.com/document/d/1Lomq2mi_lvGGUIN2xBeP7IDJ9wE97dM-"
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Avons-nous fait ça? Sciences 7e année, clé de correction",
-        url: null
+        url: "https://docs.google.com/document/d/1yHLiOPXEtkyQMZNmc6DOUI0cyJuDgLhZ"
       }
     ]
   },

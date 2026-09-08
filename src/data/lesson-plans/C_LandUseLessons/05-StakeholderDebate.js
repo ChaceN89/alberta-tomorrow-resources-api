@@ -14,7 +14,7 @@ import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
 export const stakeholderDebateLessonPlan = {
-  id: "landuse-08c-stakeholder-debate",
+  id: "landuse-05c-stakeholder-debate",
 
   themeId: LessonTheme.LAND_USE.id,
 

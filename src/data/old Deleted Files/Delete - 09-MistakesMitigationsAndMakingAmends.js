@@ -8,10 +8,10 @@
  * @updated Aug 07, 2026
  */
 
-import { LessonTheme } from "../../enums/LessonThemeIds.js";
-import { FileType } from "../../enums/fileTypes.js";
-import { Grade } from "../../enums/gradeIds.js";
-import { Subject } from "../../enums/subjectIds.js";
+import { LessonTheme } from "../enums/LessonThemeIds.js";
+import { FileType } from "../enums/fileTypes.js";
+import { Grade } from "../enums/gradeIds.js";
+import { Subject } from "../enums/subjectIds.js";
 
 export const mistakesMitigationsAndMakingAmendsLessonPlan = {
   id: "landuse-09c-mistakes-mitigations-and-making-amends",

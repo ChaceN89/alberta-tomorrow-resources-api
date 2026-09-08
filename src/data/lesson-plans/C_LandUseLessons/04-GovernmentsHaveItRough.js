@@ -38,34 +38,34 @@ export const governmentsHaveItRoughLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Governments Have it Rough!: Lesson Plan",
-        url: "https://docs.google.com/document/d/1aNPK0LmRNRv66uWmo3VaUHwx2cjW_lAI/edit"
+        url: "https://docs.google.com/document/d/1aNPK0LmRNRv66uWmo3VaUHwx2cjW_lAI"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Governments Have it Rough: Student Worksheet",
-        url: null
+        url: "https://docs.google.com/document/d/11H-NnD8zzI7BCLU7fPeKvzeL0o_zJoVh"
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Governments Have it Rough: Answer Key",
-        url: null
+        url: "https://docs.google.com/document/d/17keBX7XHnluSLVzg9NDtJZUppjR_uo6s"
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "C’est difficile pour les gouvernements! : plan de leçon",
-        url: "https://docs.google.com/document/d/1x0a4-z0-FNdjN8_1OWLkeNLESI7Hx4AU/edit"
+        url: "https://docs.google.com/document/d/1x0a4-z0-FNdjN8_1OWLkeNLESI7Hx4AU"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "C’est difficile pour les gouvernements! : feuille de travail de l’élève",
-        url: null
+        url: "https://docs.google.com/document/d/1OA13N3cipJ3OqQT6SR_L3SSsQ1QUnoyb"
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "C’est difficile pour les gouvernements! : clé de correction",
-        url: null
+        url: "https://docs.google.com/document/d/15S5_EEWeuLmi4-yepippSg_yGpugEjnE"
       }
     ]
   },
