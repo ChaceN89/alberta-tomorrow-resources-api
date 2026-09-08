@@ -1,5 +1,5 @@
 /**
- * @file 02-ClimateChangeMildMedHot.js
+ * @file 02-ClimateChangeInAlbertaMildMedHot.js
  * @module Data/LessonPlans/ClimateChange
  * @desc Contains localized metadata and lesson plan information for the Climate Change in Alberta lesson.
  *
@@ -13,14 +13,14 @@ import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
-export const climateChangeInvestigationLessonPlan = {
-  id: "climate-02a-investigating-climate-change",
+export const climateChangeInAlbertaLessonPlan = {
+  id: "climate-02-climate-change-in-alberta-mild-med-hot",
 
   themeId: LessonTheme.CLIMATE_CHANGE.id,
 
   title: {
-    en: "Climate Change in Alberta",
-    fr: "Changements climatiques en Alberta"
+    en: "Climate Change in Alberta: Investigating Mild Med Hot Climate Scenarios",
+    fr: "Changements climatiques en Alberta : étudier les scénarios climatiques doux, moyens et chauds"
   },
 
   description: {
@@ -29,8 +29,8 @@ export const climateChangeInvestigationLessonPlan = {
   },
 
   approximateTime: {
-    en: "N/A",
-    fr: "N/A"
+    en: "90 min",
+    fr: "90 min"
   },
 
   files: {
@@ -41,19 +41,9 @@ export const climateChangeInvestigationLessonPlan = {
         url: "https://docs.google.com/document/d/1kymo9-CGBx6pPJtg5JnaGtfxYDVF_yGGFTJGeLc-ul4"
       },
       {
-        fileType: FileType.LESSON_PLAN,
-        title: "Science 6 Climate Change in Alberta - Lesson Plan",
-        url: "https://docs.google.com/document/d/1j1reZMpUG8hr2aTxRFKGKUIrWKubjc6LBPs9YorcJQQ"
-      },
-      {
         fileType: FileType.STUDENT_WORKSHEET,
-        title: "Climate Change in Alberta - Student Worksheet",
-        url: "https://docs.google.com/document/d/1pL06qekV3WdnjSxIFHvFefVdAmgLEgvRCsrqvzzbaPM"
-      },
-      {
-        fileType: FileType.STUDENT_WORKSHEET,
-        title: "Energy Resources and Climate Change in Alberta - Student Worksheet",
-        url: null
+        title: "Climate Change in Alberta: Using the Alberta Tomorrow Simulator: Investigating Mild, Medium and Hot Scenarios Student Worksheet",
+        url: "https://docs.google.com/document/d/11HWj4NpysAj7OpfOnATllkD-x4TVCevlpOZLTDhbZhU"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -65,23 +55,13 @@ export const climateChangeInvestigationLessonPlan = {
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
-        title: "Changements climatiques en Alberta : étudier les scénarios climatiques Doux, Moyen et Chaud : plan de leçon",
+        title: "Changements climatiques en Alberta : étudier les scénarios climatiques Doux, Moyen et Chaud : plan de leçon",
         url: "https://docs.google.com/document/d/1mzr-jLVldiHcQmJdBxeQKTclW3nEChuA"
       },
       {
-        fileType: FileType.LESSON_PLAN,
-        title: "Sciences, 6e année, Changements climatiques en Alberta – plan de leçon",
-        url: "https://docs.google.com/document/d/1foXxyndlaQ1SCCIg34hnse3Cmd0o4L0q"
-      },
-      {
         fileType: FileType.STUDENT_WORKSHEET,
-        title: "Changements climatiques en Alberta – feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1o-ZVm2iDaavBgXvBg0zEArZjEU4npiFq"
-      },
-      {
-        fileType: FileType.STUDENT_WORKSHEET,
-        title: "Ressources énergétiques et changements climatiques – présentation PowerPoint",
-        url: null
+        title: "Changements climatiques en Alberta : utiliser le simulateur d’Alberta Tomorrow : feuille de travail sur les scénarios doux, moyens et chauds",
+        url: "https://docs.google.com/document/d/1W1cEJAggaNk5jpMf0KrTp8RKRK40d2Yg"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -105,7 +85,9 @@ export const climateChangeInvestigationLessonPlan = {
   subjectIds: [
     Subject.SOCIAL_STUDIES.id,
     Subject.SCIENCE.id,
-    Subject.BIOLOGY.id
+    Subject.BIOLOGY.id,
+    Subject.CTS.id,
+    Subject.OUTDOOR_EDUCATION.id
   ],
 
   searchTerms: {
@@ -160,9 +142,9 @@ export const climateChangeInvestigationLessonPlan = {
       "Investigate the impact of climate change on our environment and economy"
     ],
     fr: [
-      "Étudier l’effet que peuvent avoir les changements climatiques sur la terre, les plantes, les humains et les autres animaux.",
-      "Examiner les actions personnelles qui peuvent être prises pour réduire les changements climatiques.",
-      "Étudier l’effet de la réduction des gaz à effet de serre nets."
+      "Étudier les effets des changements climatiques sur les précipitations et le climat en Alberta.",
+      "Étudier les effets des changements climatiques sur les régions naturelles de l’Alberta.",
+      "Étudier les effets des changements climatiques sur notre environnement et notre économie."
     ]
   },
 

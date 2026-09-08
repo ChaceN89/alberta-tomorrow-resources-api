@@ -1,5 +1,5 @@
 /**
- * @file 03-WaterQualityClimateChangeAndGlaciers.js
+ * @file 03-WaterQualityClimateChangeAndAlbertasGlaciersWebinar.js
  * @module Data/LessonPlans/ClimateChange
  * @desc Contains localized metadata and lesson plan information for the Water Quality, Climate Change and Alberta's Glaciers lesson.
  *
@@ -13,8 +13,8 @@ import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
-export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
-  id: "climate-03a-water-quality-alberta-glaciers",
+export const waterQualityClimateChangeAndAlbertasGlaciersWebinarLessonPlan = {
+  id: "climate-03-water-quality-climate-change-and-albertas-glaciers",
 
   themeId: LessonTheme.CLIMATE_CHANGE.id,
 
@@ -66,7 +66,7 @@ export const waterQualityClimateChangeAndAlbertasGlaciersLessonPlan = {
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta (diapositives Google)",
-        url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
+        url: "https://docs.google.com/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li"
       }
     ]
   },

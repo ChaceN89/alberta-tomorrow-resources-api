@@ -1,5 +1,5 @@
 /**
- * @file 01-GoingGoingGoingGone.js
+ * @file 01-GoingGoingGoingGoneClimateChange.js
  * @module Data/LessonPlans/ClimateChange
  * @desc Contains localized metadata and lesson plan information for the Going Going Going Gone: Climate Change and the Columbia Icefield lesson.
  *
@@ -13,18 +13,18 @@
  * - subjectIds.js
  *
  * @notes
- * - The ID is a stable API value and should not be changed.
+ * - IDs follow the climate-XX-* convention for the climate change lesson sequence.
  * - English and French resource entries use matching stable file IDs.
  * - Google document URLs omit editing parameters and anchors.
  */
 
-import { LessonTheme } from "../../enums/LessonThemeIds.js";
 import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
+import { LessonTheme } from "../../enums/LessonThemeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
-export const goingGoingGoingGoneLessonPlan = {
-  id: "climate-01a-going-going-going-gone",
+export const goingGoingGoingGoneClimateChangeLessonPlan = {
+  id: "climate-01-going-going-going-gone",
 
   themeId: LessonTheme.CLIMATE_CHANGE.id,
 
@@ -94,7 +94,8 @@ export const goingGoingGoingGoneLessonPlan = {
   subjectIds: [
     Subject.SCIENCE.id,
     Subject.BIOLOGY.id,
-    Subject.CTS.id
+    Subject.CTS.id,
+    Subject.OUTDOOR_EDUCATION.id
   ],
 
   searchTerms: {
