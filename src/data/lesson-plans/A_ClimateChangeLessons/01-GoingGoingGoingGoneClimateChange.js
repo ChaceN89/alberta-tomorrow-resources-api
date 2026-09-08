@@ -57,7 +57,7 @@ export const goingGoingGoingGoneClimateChangeLessonPlan = {
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
-        title: "Climate Myths and Misconceptions: Slide Show",
+        title: "Climate Change: Truth and Misconceptions - Presentation Slides",
         url: "https://docs.google.com/presentation/d/1reQRVGi0VSEUcPAwk4SZ-NCiakFZNO3De-_0s9PehHk"
       }
     ],
@@ -75,7 +75,7 @@ export const goingGoingGoingGoneClimateChangeLessonPlan = {
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
-        title: "Mythes et idées fausses sur les changements climatiques : présentation",
+        title: "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
         url: "https://docs.google.com/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr"
       }
     ]

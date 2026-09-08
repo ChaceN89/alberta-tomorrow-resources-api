@@ -47,7 +47,7 @@ export const science6ClimateChangeInAlbertaLessonPlan = {
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
-        title: "Energy and Climate Change Presentation Slides (Sc 6)",
+        title: "Energy Resources and Climate Change in Alberta - Presentation Slides",
         url: "https://docs.google.com/presentation/d/1RmQYHLOms6XnWvOTz0E0GW3dK6NdT53zE8AfozExhkY"
       },
       {
@@ -70,12 +70,12 @@ export const science6ClimateChangeInAlbertaLessonPlan = {
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
-        title: "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
+        title: "Ressources énergétiques et changements climatiques en Alberta – présentation PowerPoint",
         url: "https://docs.google.com/presentation/d/1Kpaehlq2ap2n6W_Q0X9lDVAh-t6zChAt"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
-        title: "Mythes et idées fausses sur les changements climatiques : présentation",
+        title: "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
         url: "https://docs.google.com/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr"
       }
     ]

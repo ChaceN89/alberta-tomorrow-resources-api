@@ -37,7 +37,7 @@ export const albertasEcosystemDiversityLessonPlan = {
     en: [
       {
         fileType: FileType.LESSON_PLAN,
-        title: "Alberta's Ecosystems Scavenger Hunt",
+        title: "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
         url: "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
       },
       {
@@ -49,7 +49,7 @@ export const albertasEcosystemDiversityLessonPlan = {
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
-        title: "Chasse au trésor dans les écosystèmes de l’Alberta",
+        title: "Visites virtuelles à 360 degrés et chasse au trésor : diapositives Google à remplir",
         url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS"
       },
       {

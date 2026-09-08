@@ -47,7 +47,7 @@ export const waterQualityClimateChangeAndAlbertasGlaciersWebinarLessonPlan = {
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
-        title: "Glaciers in Alberta (Google Slides)",
+        title: "Glaciers in Alberta: Slide Show",
         url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
       }
     ],
@@ -65,7 +65,7 @@ export const waterQualityClimateChangeAndAlbertasGlaciersWebinarLessonPlan = {
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
-        title: "Les glaciers en Alberta (diapositives Google)",
+        title: "Les glaciers en Alberta : présentation PowerPoint",
         url: "https://docs.google.com/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li"
       }
     ]

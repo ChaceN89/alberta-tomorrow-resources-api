@@ -47,7 +47,7 @@ export const introductionToGlaciersLessonPlan = {
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
-        title: "Glaciers in Alberta Slide Show",
+        title: "Glaciers in Alberta: Slide Show",
         url: "https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg"
       }
     ],
