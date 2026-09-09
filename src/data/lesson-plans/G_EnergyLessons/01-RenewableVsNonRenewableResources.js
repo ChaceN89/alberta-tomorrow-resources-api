@@ -56,7 +56,7 @@ export const renewableVsNonRenewableResourcesLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Ressources renouvelables ou non renouvelables : plan de leçon",
-        url: "https://docs.google.com/document/d/16N-5cAv1mheL8ckWzDipWRYr8FlamNP_/edit"
+        url: "https://docs.google.com/document/d/16N-5cAv1mheL8ckWzDipWRYr8FlamNP_"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -66,7 +66,7 @@ export const renewableVsNonRenewableResourcesLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Ressources renouvelables ou non renouvelables : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1n1nPmf2z3hZdQk0w3OIrqwTazb7zhvXf/edit"
+        url: "https://docs.google.com/document/d/1n1nPmf2z3hZdQk0w3OIrqwTazb7zhvXf"
       }
     ]
   },

@@ -49,7 +49,7 @@ export const albertasEcosystemDiversityLessonPlan = {
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
-        title: "Visites virtuelles à 360 degrés et chasse au trésor : diapositives Google à remplir",
+        title: "Chasse au trésor dans les écosystèmes de l’Alberta",
         url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS"
       },
       {
