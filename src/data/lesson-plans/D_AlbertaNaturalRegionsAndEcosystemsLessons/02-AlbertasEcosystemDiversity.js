@@ -1,5 +1,6 @@
 /**
- * @file 06-AlbertasEcosystemDiversity.js
+ * @file 02
+ * -AlbertasEcosystemDiversity.js
  * @module Data/LessonPlans/AlbertaNaturalRegions
  * @desc Contains localized metadata and lesson plan information for the Alberta's Ecosystem Diversity lesson.
  *
@@ -14,7 +15,7 @@ import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
 export const albertasEcosystemDiversityLessonPlan = {
-  id: "abregions-06d-ecosystem-diversity",
+  id: "abregions-02d-ecosystem-diversity",
 
   themeId: LessonTheme.ALBERTA_NATURAL_REGIONS.id,
 

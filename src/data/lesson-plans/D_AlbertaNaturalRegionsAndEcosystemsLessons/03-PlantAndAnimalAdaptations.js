@@ -58,6 +58,7 @@ export const plantAndAnimalAdaptationsLessonPlan = {
         url: null
       }
     ]
+
   },
 
   gradeIds: [
