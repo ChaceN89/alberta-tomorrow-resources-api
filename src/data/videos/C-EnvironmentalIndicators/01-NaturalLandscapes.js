@@ -24,8 +24,8 @@ export const naturalLandscapesVideo = {
   },
 
   description: {
-    en: "Prior to Alberta's European Settlement, 100% of the landscape was considered natural. Learn more about Alberta's natural landscapes and how best practices can reduce the footprint of development.",
-    fr: "Avant la colonisation europeenne de l'Alberta, 100 % du paysage etait considere comme naturel. Apprenez-en davantage sur les paysages naturels de l'Alberta et sur la facon dont les bonnes pratiques peuvent reduire l'empreinte du developpement."
+    en: "Explore Alberta’s natural regions and their diverse ecosystems, from grasslands and boreal forests to mountains and wetlands.",
+    fr: "Découvrez les régions naturelles de l’Alberta dans cette vidéo. Apprenez-en davantage sur les caractéristiques de chaque région ainsi que sur les types d’utilisation des terres dans chacune d’elles."
   },
 
   media: {

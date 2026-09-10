@@ -14,7 +14,7 @@ export const socioEconomicIndicatorsVideos = [
   { // video 1 - Human Population
     id: "soc-01d-human-population",
     title: "Human Population",
-    description: 
+    description:
       "Maximum population growth is assumed to be a doubling of the population. Learn more about Alberta's projected population and land use impacts.",
     category: VideoCategory.SOCIO_ECONOMIC_INDICATORS,
     tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],
@@ -30,7 +30,7 @@ export const socioEconomicIndicatorsVideos = [
   { // video 2 - Gross Domestic Product
     id: "soc-02d-gdp",
     title: "Gross Domestic Product",
-    description: 
+    description:
       "GDP is based on land use for oil and gas, forestry, and agriculture. Learn how economic development influences Alberta's GDP.",
     category: VideoCategory.SOCIO_ECONOMIC_INDICATORS,
     tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],
@@ -44,9 +44,9 @@ export const socioEconomicIndicatorsVideos = [
     hashtags: ["abgdp", "abeconomy", "landuse"]
   },
   { // video 3 - Hydrocarbon Production
-    id: "soc-03d-hydrocarbon-production",
+    id: "soc-03d-oil-and-gas-production",
     title: "Hydrocarbon Production",
-    description: 
+    description:
       "Hydrocarbon production includes natural gas, oil, bitumen, and coal. Learn how energy production affects land use and the economy.",
     category: VideoCategory.SOCIO_ECONOMIC_INDICATORS,
     tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],
@@ -60,9 +60,10 @@ export const socioEconomicIndicatorsVideos = [
     hashtags: ["aboilandgas", "hydrocarbons", "landuse", "abeconomy"]
   },
   { // video 4 - Timber Production
-    id: "soc-04d-timber-production",
+    id: "soc-04d-forestry
+",
     title: "Timber Production",
-    description: 
+    description:
       "A value of 100% means all forested land is used for timber. Explore how forestry contributes to the economy and affects land use.",
     category: VideoCategory.SOCIO_ECONOMIC_INDICATORS,
     tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],
@@ -78,7 +79,7 @@ export const socioEconomicIndicatorsVideos = [
   { // video 5 - Agricultural Production
     id: "soc-05d-agriculture-production",
     title: "Agricultural Production",
-    description: 
+    description:
       "Learn how using the landscape for agriculture contributes to food production and economic development in Alberta.",
     category: VideoCategory.SOCIO_ECONOMIC_INDICATORS,
     tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],
@@ -94,7 +95,7 @@ export const socioEconomicIndicatorsVideos = [
   { // video 6 - Water Consumption
     id: "soc-06d-water-consumption",
     title: "Water Consumption",
-    description: 
+    description:
       "Learn how agricultural, settlement, and industrial use affect water consumption and how best practices can reduce demand.",
     category: VideoCategory.SOCIO_ECONOMIC_INDICATORS,
     tools: [AssociatedTool.SIMULATOR, AssociatedTool.ENERGY_TOMORROW],

@@ -29,8 +29,8 @@ export const waterTestProceduresLessonPlan = {
   },
 
   approximateTime: {
-    en: "N/A",
-    fr: "N/A"
+    en: "90–120 minutes",
+    fr: "90 à 120 minutes"
   },
 
   files: {
@@ -92,8 +92,16 @@ export const waterTestProceduresLessonPlan = {
   },
 
   learningOutcomes: {
-    en: [],
-    fr: []
+    en: [
+      "Follow procedures to test water for turbidity, nitrates, and dissolved oxygen, using equipment and handling reagents appropriately.",
+      "Record and interpret results using conversion charts, colour comparisons, and titration readings.",
+      "Explain how glaciers contribute to downstream water supplies."
+    ],
+    fr: [
+      "Suivre les procédures d’analyse de la turbidité, des nitrates et de l’oxygène dissous dans l’eau, en utilisant le matériel et en manipulant les réactifs de manière appropriée.",
+      "Consigner et interpréter les résultats à l’aide de tableaux de conversion, de comparaisons de couleurs et de mesures de titrage.",
+      "Expliquer comment les glaciers contribuent à l’approvisionnement en eau en aval."
+    ]
   },
 
   videoIds: [],

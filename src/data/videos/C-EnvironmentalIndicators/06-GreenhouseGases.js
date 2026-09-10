@@ -19,13 +19,13 @@ export const greenhouseGasesVideo = {
   categoryId: VideoCategory.ENVIRONMENTAL_INDICATORS.id,
 
   title: {
-    en: "Greenhouse Gases",
-    fr: "Gaz à effet de serre"
+    en: "Greenhouse Gases and Biotic Carbon Storage",
+    fr: "Gaz à effet de serre et stockage du carbone biotique"
   },
 
   description: {
-    en: "Understand how greenhouse gas emissions are linked to population and resource production, and how best practices can cut emissions.",
-    fr: "Comprenez comment les émissions de gaz à effet de serre sont liées à la population et à la production de ressources, et comment les bonnes pratiques peuvent réduire ces émissions."
+    en: "What are greenhouse gases (GHGs), and where do they come from? Explore the carbon cycle and how carbon is stored in living organisms. Understand how greenhouse gas emissions are linked to population and resource production, and how best practices can reduce emissions.",
+    fr: "Que sont les gaz à effet de serre (GES) et d’où viennent-ils? Explorez le cycle du carbone et la façon dont le carbone est stocké dans les organismes vivants. Découvrez comment les émissions de gaz à effet de serre sont liées à la population et à la production de ressources, et comment les bonnes pratiques peuvent réduire ces émissions."
   },
 
   media: {

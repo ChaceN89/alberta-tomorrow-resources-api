@@ -216,8 +216,9 @@ export const AlbertNaturalRegions = [
     ],
     videos: [
       "soc-02d-gdp",
-      "soc-03d-hydrocarbon-production",
-      "soc-04d-timber-production",
+      "soc-03d-oil-and-gas-production",
+      "soc-04d-forestry
+",
       "soc-05d-agriculture-production",
       "landscape-02b-management-practices"
     ],

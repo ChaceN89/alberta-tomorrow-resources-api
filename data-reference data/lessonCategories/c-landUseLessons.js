@@ -124,8 +124,8 @@ export const LandUseLessons = [
       "env-06c-greenhouse-gases",      // Greenhouse Gasses
       "soc-01d-human-population",       // Human Population
       "soc-02d-gdp",                    // Gross Domestic Product
-      "soc-03d-hydrocarbon-production", // Hydrocarbon Production
-      "soc-04d-timber-production",      // Timber Production
+      "soc-03d-oil-and-gas-production", // Hydrocarbon Production
+      "soc-04d-forestry",              // Timber Production
       "soc-05d-agriculture-production", // Agricultural Production
       "soc-06d-water-consumption",     // Water Consumption
     ],
@@ -166,8 +166,8 @@ export const LandUseLessons = [
       "env-06c-greenhouse-gases",      // Greenhouse Gasses
       "soc-01d-human-population",       // Human Population
       "soc-02d-gdp",                    // Gross Domestic Product
-      "soc-03d-hydrocarbon-production", // Hydrocarbon Production
-      "soc-04d-timber-production",      // Timber Production
+      "soc-03d-oil-and-gas-production", // Hydrocarbon Production
+      "soc-04d-forestry",              // Timber Production
       "soc-05d-agriculture-production", // Agricultural Production
       "soc-06d-water-consumption",     // Water Consumption
     ],
@@ -211,8 +211,8 @@ export const LandUseLessons = [
       "env-06c-greenhouse-gases",
       "soc-01d-human-population",
       "soc-02d-gdp",
-      "soc-03d-hydrocarbon-production",
-      "soc-04d-timber-production",
+      "soc-03d-oil-and-gas-production",
+      "soc-04d-forestry",
       "soc-05d-agriculture-production",
       "soc-06d-water-consumption"
     ],
@@ -256,8 +256,8 @@ export const LandUseLessons = [
       "env-06c-greenhouse-gases",
       "soc-01d-human-population",
       "soc-02d-gdp",
-      "soc-03d-hydrocarbon-production",
-      "soc-04d-timber-production",
+      "soc-03d-oil-and-gas-production",
+      "soc-04d-forestry",
       "soc-05d-agriculture-production",
       "soc-06d-water-consumption"
     ],

@@ -121,7 +121,7 @@ export const science6ClimateChangeInAlbertaLessonPlan = {
 
   videoIds: [
     "landscape-01b-climate-change",
-    "soc-03d-hydrocarbon-production"
+    "soc-03d-oil-and-gas-production"
   ],
 
   relatedResources: []
