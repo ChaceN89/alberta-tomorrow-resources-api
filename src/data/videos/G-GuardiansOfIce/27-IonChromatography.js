@@ -1,11 +1,11 @@
 /**
  * @file 27-IonChromatography.js
  * @module Data/Videos/GuardiansOfIce
- * @desc Contains localized metadata and media information for the This is an Ion Chromatograph. video.
+ * @desc Contains localized metadata and media information for the Ion Chromatograph video.
  *
  * @author Chace Nielson
  * @created Jul 30, 2026
- * @updated Aug 07, 2026
+ * @updated Sep 10, 2026
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +20,12 @@ export const ionChromatographyVideo = {
 
   title: {
     en: "Ion chromatograph",
-    fr: "Chromatographe d’échange d’ions\nAli Criscitiello, Ph. D., parle du chromatographe d’échange d’ions et de ce que cela nous indique sur les glaciers.\n"
+    fr: "Chromatographe d’ions"
   },
 
   description: {
-    en: "Dr. Ali Criscitiello talks about the Ion Chromatograph and what it tells us about the glaciers.",
-    fr: "Ali Criscitiello, Ph. D., parle du chromatographe d’échange d’ions et de ce que cela nous indique sur les glaciers."
+    en: "Dr. Ali Criscitiello talks about the ion chromatograph and what it tells us about glaciers.",
+    fr: "Ali Criscitiello, Ph. D., parle du chromatographe d’ions et de ce qu’il nous apprend sur les glaciers."
   },
 
   media: {
@@ -36,7 +36,22 @@ export const ionChromatographyVideo = {
   },
 
   searchTerms: {
-    en: ["ion", "chromatograph", "abglaciers", "climatechange", "abwater"],
-    fr: ["agit", "chromatographe", "ionique"]
+    en: [
+      "ions",
+      "ion chromatograph",
+      "ion chromatography",
+      "alberta glaciers",
+      "climate change",
+      "water"
+    ],
+
+    fr: [
+      "ions",
+      "chromatographe d’ions",
+      "chromatographie ionique",
+      "glaciers de l’alberta",
+      "changements climatiques",
+      "eau"
+    ]
   },
 };
