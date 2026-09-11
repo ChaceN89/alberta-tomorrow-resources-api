@@ -1,5 +1,5 @@
 /**
- * @file 28-Introductions.js
+ * @file 0-Introductions.js
  * @module Data/Videos/StoneyVideos
  * @desc Contains localized metadata and media information for the Introductions video.
  *
@@ -12,7 +12,7 @@ import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
 
 export const introductionsVideo = {
-  id: "stoney-28h-introductions",
+  id: "stoney-00h-introductions",
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 

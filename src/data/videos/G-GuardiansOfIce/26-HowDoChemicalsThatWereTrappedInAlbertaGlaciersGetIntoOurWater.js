@@ -20,7 +20,7 @@ export const howDoChemicalsThatWereTrappedInAlbertaGlaciersGetIntoOurWaterVideo 
 
   title: {
     en: "How do chemicals that were trapped in Alberta glaciers get into our water?",
-    fr: "Comment les produits chimiques emprisonnés dans les glaciers de l’Alberta se retrouvent-ils dans notre eau?"
+    fr: "Comment les polluants des glaciers de l’Alberta se retrouvent-ils dans notre eau?"
   },
 
   description: {
@@ -36,7 +36,7 @@ export const howDoChemicalsThatWereTrappedInAlbertaGlaciersGetIntoOurWaterVideo 
   },
 
   searchTerms: {
-    en: ["well","case","glaciers","receiving","these","chemicals","abglaciers","climatechange"],
-    fr: ["dans","cas","les","glaciers","recoivent","ces","substances","chimiques"]
+    en: ["well", "case", "glaciers", "receiving", "these", "chemicals", "abglaciers", "climatechange"],
+    fr: ["dans", "cas", "les", "glaciers", "recoivent", "ces", "substances", "chimiques"]
   },
 };
