@@ -20,7 +20,7 @@ export const lifeOfAStoneyBoyVideo = {
 
   title: {
     en: "Life of a Stoney Boy",
-    fr: "La vie d’un jeune garçon de la nation Stoney"
+    fr: "la vie d’un jeune garçon de la nation Stoney"
   },
 
   description: {

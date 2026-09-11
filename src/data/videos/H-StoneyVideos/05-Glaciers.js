@@ -12,50 +12,50 @@ import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
 
 export const glaciersVideo = {
-	id: "stoney-05h-glaciers",
+  id: "stoney-05h-glaciers",
 
-	supportedLanguages: [Language.EN.id, Language.FR.id],
+  supportedLanguages: [Language.EN.id, Language.FR.id],
 
-	categoryId: VideoCategory.STONEY_VOICES.id,
+  categoryId: VideoCategory.STONEY_VOICES.id,
 
-	title: {
-		en: "Glaciers",
-		fr: "Glaciers"
-	},
+  title: {
+    en: "A Perspective on Glaciers",
+    fr: "Un regard sur les glaciers"
+  },
 
-	description: {
-		en: "Elder Margaret talks about her experience on the Columbia Ice field and what she thinks should be done.",
-		fr: "L’aînée Margaret raconte son expérience sur le champ de glace Columbia et explique ce qu’on devrait faire selon elle."
-	},
+  description: {
+    en: "Elder Margaret talks about her experience on the Columbia Ice field and what she thinks should be done.",
+    fr: "L’aînée Margaret raconte son expérience sur le champ de glace Columbia et explique ce qu’on devrait faire selon elle."
+  },
 
-	media: {
-		type: "youtube",
-		url: "https://youtu.be/IxZgkmJnYrw?si=2haLY-beyIpsZQ5W",
-		thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/88e5ec8f-5109-493e-a3ba-94c10f630a08/thumbnails/Glaciers_tumb.0000000.jpg",
-		is360: false
-	},
+  media: {
+    type: "youtube",
+    url: "https://youtu.be/IxZgkmJnYrw?si=2haLY-beyIpsZQ5W",
+    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/88e5ec8f-5109-493e-a3ba-94c10f630a08/thumbnails/Glaciers_tumb.0000000.jpg",
+    is360: false
+  },
 
-	searchTerms: {
-		en: [
-		  "indigenousstories",
-		  "stoneynakoda",
-		  "indigenouslanduse",
-		  "morley",
-		  "landuse",
-		  "abwater",
-		  "alberta",
-		  "stoneyvoices",
-		  "traditionallanduse"
-		],
-		fr: [
-		  "glaciers",
-		  "ainee",
-		  "margaret",
-		  "raconte",
-		  "son",
-		  "experience",
-		  "champ",
-		  "glace"
-		]
-	}
+  searchTerms: {
+    en: [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ],
+    fr: [
+      "glaciers",
+      "ainee",
+      "margaret",
+      "raconte",
+      "son",
+      "experience",
+      "champ",
+      "glace"
+    ]
+  }
 };

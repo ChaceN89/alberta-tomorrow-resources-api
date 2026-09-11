@@ -24,8 +24,8 @@ export const mooseStoryVideo = {
   },
 
   description: {
-    en: "Moose in Stoney Territory. Are there as many now as there were in the past?",
-    fr: "L’orignal sur le territoire des Stoney. Y en a-t-il autant qu’il y en avait autrefois?"
+    en: "Moose Habitat is reduced by industrial development and proximity to human activity. This video explores how habitat value is calculated in Alberta Tomorrow.",
+    fr: "L’habitat de l’orignal est réduit par le développement industriel et la proximité des activités humaines. Cette vidéo explique comment la valeur de l’habitat est calculée dans Alberta Tomorrow."
   },
 
   media: {

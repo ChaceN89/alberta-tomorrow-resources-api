@@ -19,8 +19,8 @@ export const conceptOfTimeVideo = {
   categoryId: VideoCategory.STONEY_VOICES.id,
 
   title: {
-    en: "Concept of Time",
-    fr: "Concept du temps"
+    en: "The Concept of Time",
+    fr: "Le concept du temps"
   },
 
   description: {

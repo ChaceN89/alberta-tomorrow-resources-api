@@ -19,8 +19,8 @@ export const introductionsVideo = {
   categoryId: VideoCategory.STONEY_VOICES.id,
 
   title: {
-    en: "Introductions",
-    fr: "Présentations"
+    en: "Introductions: Meet our Elders",
+    fr: "Présentations: Rencontrez nos aînés"
   },
 
   description: {

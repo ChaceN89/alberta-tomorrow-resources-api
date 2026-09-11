@@ -24,8 +24,8 @@ export const usingTheLandVideo = {
   },
 
   description: {
-    en: "Listen to Elders talk about how the Stoney people used the land.",
-    fr: "Écoutez les aînés parler de l’utilisation que faisaient les Stoney du territoire."
+    en: "Listen to Stoney Elders discuss gathering food and medicines, hunting, and passing on cultural knowledge through camps on the land. Learn how recreation and cattle grazing affect these traditional practices.",
+    fr: "Écoutez les aînés de la nation Stoney parler de la cueillette de nourriture et de plantes médicinales, de la chasse et de la transmission des savoirs culturels lors de camps sur le territoire. Découvrez comment les activités récréatives et le pâturage du bétail influencent ces pratiques traditionnelles."
   },
 
   media: {

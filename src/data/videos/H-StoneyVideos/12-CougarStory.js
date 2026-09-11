@@ -19,8 +19,8 @@ export const cougarStoryVideo = {
   categoryId: VideoCategory.STONEY_VOICES.id,
 
   title: {
-    en: "Cougar Story",
-    fr: "Histoire de la montagne Cougar"
+    en: "The Cougars of Cougar Mountain",
+    fr: "Les couguars de la montagne Cougar"
   },
 
   description: {

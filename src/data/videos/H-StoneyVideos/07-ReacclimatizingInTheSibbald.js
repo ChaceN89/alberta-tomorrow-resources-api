@@ -19,7 +19,7 @@ export const reacclimatizingInTheSibbaldVideo = {
   categoryId: VideoCategory.STONEY_VOICES.id,
 
   title: {
-    en: "Reacclimatizing in the Sibbald",
+    en: "Reacclimatizing in the Sibbald Area",
     fr: "Se réacclimater dans la région de Sibbald"
   },
 

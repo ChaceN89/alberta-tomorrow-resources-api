@@ -19,12 +19,12 @@ export const yamnuskaMeaningVideo = {
   categoryId: VideoCategory.STONEY_VOICES.id,
 
   title: {
-    en: "Yamnuska Meaning",
-    fr: "Signification de Yamnuska"
+    en: "How did Mount Yamnuska get its name?",
+    fr: "Comment le mont Yamnuska a-t-il reçu son nom?"
   },
 
   description: {
-    en: "Lean how this iconic mountain in the Alberta Rocky Mountains got it's name.",
+    en: "Learn how this iconic mountain in the Alberta Rocky Mountains got its name.",
     fr: "Apprenez comment cette montagne iconique des montagnes Rocheuses de l’Alberta s’est valu son nom."
   },
 

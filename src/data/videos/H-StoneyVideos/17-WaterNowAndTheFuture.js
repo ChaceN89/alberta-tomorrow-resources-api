@@ -19,8 +19,8 @@ export const waterNowAndTheFutureVideo = {
   categoryId: VideoCategory.STONEY_VOICES.id,
 
   title: {
-    en: "Water - Now and The Future",
-    fr: "Eau – aujourd’hui et dans le futur"
+    en: "Water — For Now and for the Future",
+    fr: "L’eau — pour aujourd’hui et pour l’avenir"
   },
 
   description: {

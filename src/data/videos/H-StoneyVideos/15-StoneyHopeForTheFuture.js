@@ -21,8 +21,8 @@ export const stoneyHopeForTheFutureVideo = {
   categoryId: VideoCategory.STONEY_VOICES.id,
 
   title: {
-    en: "Stoney Hope for the Future",
-    fr: "Les espoirs de la nation Stoney pour l’avenir"
+    en: "Hope for the Future",
+    fr: "L’espoir pour l’avenir"
   },
 
   description: {

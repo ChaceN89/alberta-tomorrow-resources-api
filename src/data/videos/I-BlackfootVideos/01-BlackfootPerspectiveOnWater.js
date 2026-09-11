@@ -14,18 +14,18 @@ import { Language } from "../../enums/language.js";
 export const blackfootPerspectiveOnWaterVideo = {
   id: "bfv-01i-blackfoot-perspective-on-water",
 
-  supportedLanguages: [Language.EN.id],
+  supportedLanguages: [Language.EN.id, Language.FR.id],
 
   categoryId: VideoCategory.BLACKFOOT_VOICES.id,
 
   title: {
     en: "A Blackfoot Perspective on Water",
-    fr: "N/A"
+    fr: "Un regard des Pieds-Noirs sur l’eau"
   },
 
   description: {
     en: "A video sharing the Blackfoot perspective on water and its significance in Indigenous culture and the environment.",
-    fr: "N/A"
+    fr: "Une vidéo présentant le point de vue des Pieds-Noirs sur l’eau et son importance dans la culture autochtone et l’environnement."
   },
 
   media: {
@@ -44,6 +44,14 @@ export const blackfootPerspectiveOnWaterVideo = {
       "culture",
       "land-stewardship"
     ],
-    fr: []
+    fr: [
+      "pieds-noirs",
+      "blackfoot",
+      "voix-autochtones",
+      "savoirs-ecologiques-traditionnels",
+      "eau",
+      "culture",
+      "gestion-du-territoire"
+    ]
   }
 };
