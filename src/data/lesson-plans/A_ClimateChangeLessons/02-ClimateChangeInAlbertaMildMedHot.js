@@ -19,8 +19,8 @@ export const climateChangeInAlbertaLessonPlan = {
   themeId: LessonTheme.CLIMATE_CHANGE.id,
 
   title: {
-    en: "Climate Change in Alberta: Investigating Mild Med Hot Climate Scenarios",
-    fr: "Changements climatiques en Alberta : étudier les scénarios climatiques doux, moyens et chauds"
+    en: "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios",
+    fr: "Changements climatiques en Alberta : étude des scénarios climatiques doux, moyens et chauds"
   },
 
   description: {

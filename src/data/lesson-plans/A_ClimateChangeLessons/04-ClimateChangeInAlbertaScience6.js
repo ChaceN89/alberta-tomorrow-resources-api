@@ -24,8 +24,8 @@ export const science6ClimateChangeInAlbertaLessonPlan = {
   },
 
   description: {
-    en: "In this activity, students will look at climate change and how it is impacting Alberta.",
-    fr: "Dans cette activité, les élèves examineront les changements climatiques et la façon dont ils touchent l’Alberta."
+    en: "Students explore how climate change is affecting Alberta by analyzing historical temperature and precipitation trends, comparing mild and hot future scenarios, and testing land-use and management choices in the Alberta Tomorrow simulator to evaluate impacts on ecosystems, greenhouse gases, and communities.",
+    fr: "Les élèves explorent les effets des changements climatiques en Alberta en analysant les tendances historiques de température et de précipitations, en comparant des scénarios futurs modéré et chaud, et en testant des choix d’aménagement du territoire et de pratiques de gestion dans le simulateur Alberta Tomorrow afin d’évaluer les impacts sur les écosystèmes, les gaz à effet de serre et les communautés."
   },
 
   approximateTime: {

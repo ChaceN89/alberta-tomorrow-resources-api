@@ -23,6 +23,7 @@ export const albertasNaturalRegionsLessonPlan = {
     fr: "Régions naturelles de l’Alberta"
   },
 
+
   description: {
     en: "In this activity, students will research and construct maps of Alberta's Natural Regions.",
     fr: "Dans le cadre de cette activité, les élèves font des recherches et créent des cartes des régions naturelles de l’Alberta."
@@ -66,7 +67,7 @@ export const albertasNaturalRegionsLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
-        url: null
+        url: "https://drive.google.com/file/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -76,7 +77,7 @@ export const albertasNaturalRegionsLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève (encercler)",
-        url: null
+        url: "https://drive.google.com/file/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0"
       }
     ]
   },

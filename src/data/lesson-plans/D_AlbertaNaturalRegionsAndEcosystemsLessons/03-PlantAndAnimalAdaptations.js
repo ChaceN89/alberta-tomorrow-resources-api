@@ -33,7 +33,6 @@ export const plantAndAnimalAdaptationsLessonPlan = {
     fr: "60 min"
   },
 
-
   files: {
     en: [
       {
@@ -56,7 +55,8 @@ export const plantAndAnimalAdaptationsLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "9e année, Adaptations des plantes et des animaux – feuille de travail de l’élève – diapositives Google à remplir",
-        url: null
+        url: "https://docs.google.com/presentation/d/1b_EosZ3fXr638ZeakaiqvjUYDMXGrXiwV7Yw3o04w8E" // note here about same as the English version - since this is the one document that isnt' translated
+
       }
     ]
 
