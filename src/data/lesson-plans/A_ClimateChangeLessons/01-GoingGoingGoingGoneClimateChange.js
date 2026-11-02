@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 31, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  *
  * @dependencies
  * - LessonThemeIds.js
@@ -48,12 +49,12 @@ export const goingGoingGoingGoneClimateChangeLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Going Going Going Gone: Lesson Plan",
-        url: "https://docs.google.com/document/d/13jaSoGz_ilgV4SVwfopuKanJnysWxGLs7kggEQMHjqM"
+        url: "https://docs.google.com/document/d/15qASYCif_kc-O_SiHLeJ2kiOvgMGQKP67lFBy4S12yw/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Going Going Going Gone: Student Worksheet",
-        url: "https://docs.google.com/document/d/1K0zsaIfodtZkpjgmS-KE74Rw1HmC7MJt-z7zfYgZfro"
+        url: "https://docs.google.com/document/d/1kBBQg6A3spHvJTk_EY8KlOV5jrXwpU9jEyPK_rW2ges/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -66,12 +67,12 @@ export const goingGoingGoingGoneClimateChangeLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Il recule, il recule, il disparaît : plan de leçon",
-        url: "https://docs.google.com/document/d/1Q7CxkPAjDXu4vO9RBeQQFyfDMxovQbmX"
+        url: "https://docs.google.com/document/d/1dKDeiQrZtuHi-hviP-o3QpE7bg8t7RWV0LJjIRcs59Q/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Il recule, il recule, il disparaît : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/15C4_1VYx-saaj54RKG7KXQ-_-e_O5jJZ"
+        url: "https://docs.google.com/document/d/1rZWhfvHwCP0WjLErp-mCvxomhBNeZdTHBs3Y9mULbLg/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

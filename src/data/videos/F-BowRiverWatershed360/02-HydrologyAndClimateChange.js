@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 30, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const hydrologyAndClimateChangeVideo = {
 
   title: {
     en: "Hydrology and Climate Change",
-    fr: ""
+    fr: "Hydrologie et changements climatiques"
   },
 
   description: {
     en: "Tricia Stadnyk talks about how a watershed can affect the climate it is in, and in turn, how the climate then affects the landscape. Go from the headwaters through to the prairies as she talks about precipitation and more.",
-    fr: ""
+    fr: "Tricia Stadnyk explique comment un bassin versant peut influencer le climat de sa région et, à son tour, comment le climat influence le paysage. Suivez le parcours des sources jusqu’aux Prairies tandis qu’elle parle des précipitations et d’autres sujets."
   },
 
   lessonPlans: [
@@ -44,6 +45,6 @@ export const hydrologyAndClimateChangeVideo = {
 
   searchTerms: {
     en: ["water", "watershed", "monitoring", "climate", "hydrology"],
-    fr: []
+    fr: ["eau", "bassin versant", "surveillance", "climat", "hydrologie"]
   },
 };

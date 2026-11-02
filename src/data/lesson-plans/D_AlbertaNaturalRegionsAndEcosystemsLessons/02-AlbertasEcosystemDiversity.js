@@ -7,6 +7,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated English/French lesson-plan URLs
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,25 +39,25 @@ export const albertasEcosystemDiversityLessonPlan = {
     en: [
       {
         fileType: FileType.LESSON_PLAN,
-        title: "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
-        url: "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
+        title: "Ecosystems in Alberta: Lesson Plan",
+        url: "https://docs.google.com/document/d/1GWB1yWcrgStwDGfjLjrYDBitg7oXBcb7Z-VUcSGFFFM/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
-        title: "Ecosystems in Alberta: Lesson Plan",
-        url: "https://docs.google.com/document/d/1yQJJ48YHAhWmoKr_TTpnmW4heDOxD31sXAv5ktS8izE"
+        title: "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
+        url: "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE"
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
-        title: "Chasse au trésor dans les écosystèmes de l’Alberta",
-        url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS"
+        title: "Écosystèmes en Alberta : plan de leçon",
+        url: "https://docs.google.com/document/d/1GFr1Jz7EOqUl4CE9-Rr6ihL0piyh74QNA6XhNCV6M8M/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
-        title: "Écosystèmes en Alberta : plan de leçon",
-        url: "https://docs.google.com/document/d/1dgmUyS9EOvTZmjjOuaOaxHk207d3WOe6/edit"
+        title: "Chasse au trésor dans les écosystèmes de l’Alberta",
+        url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS"
       }
     ]
   },

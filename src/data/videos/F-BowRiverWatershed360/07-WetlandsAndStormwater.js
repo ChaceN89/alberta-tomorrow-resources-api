@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 30, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const wetlandsAndStormwaterVideo = {
 
   title: {
     en: "Wetlands and Stormwater",
-    fr: ""
+    fr: "Milieux humides et eaux pluviales"
   },
 
   description: {
     en: "Take a walk around the constructed wetlands in North Glenmore park with Liliana Bozic as she explains the uses of wetlands for storage and stormwater. Learn how water quality is affected by wetlands, and how land development changes, and seasons affect them.",
-    fr: ""
+    fr: "Visitez les milieux humides aménagés du parc North Glenmore avec Liliana Bozic, qui explique comment ils servent au stockage de l’eau et à la gestion des eaux pluviales. Découvrez leur influence sur la qualité de l’eau, ainsi que les effets de l’aménagement du territoire et des saisons."
   },
 
   lessonPlans: [
@@ -44,6 +45,6 @@ export const wetlandsAndStormwaterVideo = {
 
   searchTerms: {
     en: ["water", "watershed", "monitoring", "storm"],
-    fr: []
+    fr: ["eau", "bassin versant", "surveillance", "eaux pluviales", "milieux humides"]
   },
 };

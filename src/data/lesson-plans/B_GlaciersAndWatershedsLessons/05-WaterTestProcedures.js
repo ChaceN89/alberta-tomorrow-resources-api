@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,7 +39,7 @@ export const waterTestProceduresLessonPlan = {
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Water Test Procedures",
-        url: "https://drive.google.com/file/d/15I2aVVkdXZUWdPTEB7YQyk3OgvBG4SG-"
+        url: "https://docs.google.com/document/d/1Q2g-nVZG0baudgqc1rcnBLc5f3ULJKNDOQxG7AcGYhQ/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -51,7 +52,7 @@ export const waterTestProceduresLessonPlan = {
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Procédures d’analyse de l’eau",
-        url: "https://docs.google.com/document/d/1S0CSfCmP5sCkBeUdMuooNtXBOYhDOHch"
+        url: "https://docs.google.com/document/d/1wy_mU3dHGB-o2sr0huKwkOqBl_KkTEpgSIZGkrd4UFU/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

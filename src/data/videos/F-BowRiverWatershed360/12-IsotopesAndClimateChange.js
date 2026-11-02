@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 30, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const isotopesAndClimateChangeVideo = {
 
   title: {
     en: "Isotopes and Climate Change",
-    fr: ""
+    fr: "Isotopes et changements climatiques"
   },
 
   description: {
     en: "Learn about how isotopes can be used to monitor climate change and hydrologic functions within a watershed.",
-    fr: ""
+    fr: "Découvrez comment les isotopes permettent de surveiller les changements climatiques et les processus hydrologiques au sein d’un bassin versant."
   },
 
   lessonPlans: [
@@ -44,6 +45,6 @@ export const isotopesAndClimateChangeVideo = {
 
   searchTerms: {
     en: ["water", "watershed", "monitoring", "isotopes", "climate"],
-    fr: []
+    fr: ["eau", "bassin versant", "surveillance", "isotopes", "climat"]
   },
 };

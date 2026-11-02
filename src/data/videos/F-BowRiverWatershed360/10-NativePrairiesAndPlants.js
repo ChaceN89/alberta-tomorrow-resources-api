@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 30, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const nativePrairiesAndPlantsVideo = {
 
   title: {
     en: "Native Prairies and Plants",
-    fr: ""
+    fr: "Prairies naturelles et plantes indigènes"
   },
 
   description: {
     en: "As Megan Evans and Erin Anderson talk about the importance of prairies and their native plants, explore several grassland landscapes within the Bow River Basin.",
-    fr: ""
+    fr: "Megan Evans et Erin Anderson expliquent l’importance des prairies et de leurs plantes indigènes. Explorez plusieurs paysages de prairies du bassin de la rivière Bow."
   },
 
   lessonPlans: [
@@ -44,6 +45,6 @@ export const nativePrairiesAndPlantsVideo = {
 
   searchTerms: {
     en: ["water", "watershed", "monitoring"],
-    fr: []
+    fr: ["eau", "bassin versant", "surveillance", "prairies", "plantes indigènes"]
   },
 };

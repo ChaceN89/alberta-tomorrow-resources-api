@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated English/French lesson-plan URLs
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -40,7 +41,7 @@ export const albertasNaturalRegionsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Alberta's Natural Regions",
-        url: "https://docs.google.com/document/d/1FPPfuy7iwOp9QC0pyLNjI1ujvS1EW0JU3YV4qZO9MeE"
+        url: "https://docs.google.com/document/d/1WH7W7SBn_UjYTJtAW9IsRdMWwnY95e-MZpydWW3vINY"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -62,7 +63,7 @@ export const albertasNaturalRegionsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Régions naturelles de l’Alberta",
-        url: "https://docs.google.com/document/d/1KWFyGht_qb3wHVTSE9zrLfotffrNw2uI"
+        url: "https://docs.google.com/document/d/1HxmejJCoHTjUgrICzgRYVvsfWoDA75UjO9zrAEkSPSM"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,

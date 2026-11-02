@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated English/French lesson-plan and student-worksheet URLs
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,24 +39,24 @@ export const albertasNaturalResourcesLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Alberta's Natural Resources: Lesson Plan",
-        url: "https://docs.google.com/document/d/1pMXs-TmZTZcVP5PSmQVUi2jyT9IRvd_bOvSCBw6bSdg"
+        url: "https://docs.google.com/document/d/1Ch0-B2ktR8U7xp1T5b1QLqCeweCU6hYn-fN4EiXvNpI/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Alberta's Natural Resources: Student Worksheet",
-        url: "https://docs.google.com/document/d/11p5vAYKphMkiPaqH_4zJ49AFQKH_WEhSB5yVTxKjAAw"
+        url: "https://docs.google.com/document/d/19lq3XZjIB1SfQyb2viT3o210ptFGHvoE_h671A4rr3Q/edit"
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Ressources naturelles de l’Alberta : plan de leçon",
-        url: "https://docs.google.com/document/d/1KUFyuRXXLDf0bmCnTnFo4xTqN6QxFoha"
+        url: "https://docs.google.com/document/d/1FGFRfY0Hc7pCooG5uLU5m2IORxueCWbehXTj_c-y2l8/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Ressources naturelles de l’Alberta : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1HVNoxTzEKVB58FFgxduCn01xek2Lde6g"
+        url: "https://docs.google.com/document/d/1JqCHgUXp_kuqI3U0-zguDebLiXxHBdXlhIl5m641g6M/edit"
       }
     ]
   },

@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 30, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const watershed360TourVideo = {
 
   title: {
     en: "Watershed 360 Tour",
-    fr: ""
+    fr: "Visite à 360° du bassin versant"
   },
 
   description: {
     en: "Visit each sub-basin in the Bow River basin and get a feel for how people use the water and the landscape. Look at the different types of buildings, pathways, and activities that can take place within the watershed as you travel from the headwaters, down to the end in the prairies.",
-    fr: ""
+    fr: "Visitez chaque sous-bassin du bassin de la rivière Bow et découvrez comment les gens utilisent l’eau et le paysage. Observez les différents types de bâtiments, de sentiers et d’activités présents dans le bassin versant, depuis les sources jusqu’aux Prairies."
   },
 
   lessonPlans: [
@@ -44,6 +45,6 @@ export const watershed360TourVideo = {
 
   searchTerms: {
     en: ["water", "watershed", "monitoring", "tour"],
-    fr: []
+    fr: ["eau", "bassin versant", "surveillance", "visite"]
   },
 };

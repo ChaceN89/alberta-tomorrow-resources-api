@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const nativeTroutInAlbertaVideo = {
 
   title: {
     en: "Native Trout in Alberta",
-    fr: "N/A"
+    fr: "Truites indigènes de l’Alberta"
   },
 
   description: {
     en: "Watch this recording of a LiveStream presented by CPAWS SAB, Trout Unlimited and Cows and Fish to learn about Native Trout in Alberta.",
-    fr: "N/A"
+    fr: "Regardez cet enregistrement d’une diffusion en direct présentée par CPAWS SAB, Trout Unlimited et Cows and Fish pour en apprendre davantage sur les truites indigènes de l’Alberta."
   },
 
   media: {
@@ -44,6 +45,6 @@ export const nativeTroutInAlbertaVideo = {
       "recreation",
       "agriculture"
     ],
-    fr: []
+    fr: ["qualité de l’eau", "truites indigènes", "CPAWS", "Trout Unlimited", "loisirs", "agriculture"]
   }
 };

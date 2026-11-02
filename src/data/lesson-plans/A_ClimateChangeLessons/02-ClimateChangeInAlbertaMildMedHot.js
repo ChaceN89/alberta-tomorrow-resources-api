@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,12 +39,12 @@ export const climateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios: Lesson Plan",
-        url: "https://docs.google.com/document/d/1kymo9-CGBx6pPJtg5JnaGtfxYDVF_yGGFTJGeLc-ul4"
+        url: "https://docs.google.com/document/d/1qqEs1OF0aOA3LMGzEz3RxxtgcTnONJqcp6lsOR2TWos/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Climate Change in Alberta: Using the Alberta Tomorrow Simulator: Investigating Mild, Medium and Hot Scenarios Student Worksheet",
-        url: "https://docs.google.com/document/d/11HWj4NpysAj7OpfOnATllkD-x4TVCevlpOZLTDhbZhU"
+        url: "https://docs.google.com/document/d/1B6_uFpROMBB6K7vVR4If3kGk85lpojVl1MPh-eimfxc/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -56,12 +57,12 @@ export const climateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Changements climatiques en Alberta : étudier les scénarios climatiques Doux, Moyen et Chaud : plan de leçon",
-        url: "https://docs.google.com/document/d/1mzr-jLVldiHcQmJdBxeQKTclW3nEChuA"
+        url: "https://docs.google.com/document/d/1ehoihQjDPK0zIKBt_u-pZ8B2ffLFEAlObHFotqAgeqQ/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Changements climatiques en Alberta : utiliser le simulateur d’Alberta Tomorrow : feuille de travail sur les scénarios doux, moyens et chauds",
-        url: "https://docs.google.com/document/d/1W1cEJAggaNk5jpMf0KrTp8RKRK40d2Yg"
+        url: "https://docs.google.com/document/d/1C1EvmBENZXl4J3uYOHh305wCbwVogNPOW-Zmnncmfxg/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

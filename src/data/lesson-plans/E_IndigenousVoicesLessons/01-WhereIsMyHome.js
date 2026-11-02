@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,14 +39,14 @@ export const whereIsMyHomeLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Where is my Home? Using the Indigenous Map Layers",
-        url: "https://drive.google.com/file/d/1FnOm7Ja6IlrK483QT2m0pPbPhoY7c5HY"
+        url: "https://docs.google.com/document/d/1N29LfRlHfZ4SIklxj32MfhDfW3TBS250PAo9GibpwKA/edit"
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Où est ma maison? Utiliser les superpositions cartographiques autochtones.",
-        url: "https://docs.google.com/document/d/1D_ZcPRB23NF3M1BRHjbJpyPWWTWexcF8"
+        url: "https://docs.google.com/document/d/1bja_KxsUMc5S4XH0lHKCdzz4_sfo88biLECQRxZnSHQ/edit"
       }
     ]
   },

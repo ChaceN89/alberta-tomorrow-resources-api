@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const writingOnStoneProvincialParkVideo = {
 
   title: {
     en: "Writing on Stone Provincial Park",
-    fr: "N/A"
+    fr: "Parc provincial Writing-on-Stone"
   },
 
   description: {
     en: "Learn about the landforms and the significance of the area to the Blackfoot people.",
-    fr: "N/A"
+    fr: "Découvrez les formes de relief et l’importance de ce territoire pour les Pieds-Noirs."
   },
 
   media: {
@@ -42,6 +43,6 @@ export const writingOnStoneProvincialParkVideo = {
       "milk-river",
       "blackfoot"
     ],
-    fr: []
+    fr: ["Writing-on-Stone", "pétroglyphes", "rivière Milk", "Pieds-Noirs"]
   }
 };

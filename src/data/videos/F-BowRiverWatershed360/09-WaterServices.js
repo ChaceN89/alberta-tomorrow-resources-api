@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 30, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const waterServicesVideo = {
 
   title: {
     en: "Water Services",
-    fr: ""
+    fr: "Services liés à l’eau"
   },
 
   description: {
     en: "Explore some of the Glenmore dam and reservoir as Patrick Van den Eynden talks about its history, infrastructure, services, and the City's water drinking system.",
-    fr: ""
+    fr: "Explorez le barrage et le réservoir Glenmore tandis que Patrick Van den Eynden présente leur histoire, leurs infrastructures et leurs services, ainsi que le système d’approvisionnement en eau potable de la Ville."
   },
 
   lessonPlans: [
@@ -44,6 +45,6 @@ export const waterServicesVideo = {
 
   searchTerms: {
     en: ["water", "watershed", "monitoring"],
-    fr: []
+    fr: ["eau", "bassin versant", "surveillance", "services liés à l’eau", "approvisionnement en eau"]
   },
 };

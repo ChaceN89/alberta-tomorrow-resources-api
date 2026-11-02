@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 30, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const invasiveSpeciesAndControlVideo = {
 
   title: {
     en: "Invasive Species and Control",
-    fr: ""
+    fr: "Espèces envahissantes et lutte contre elles"
   },
 
   description: {
     en: "Learn about invasive species in native grasslands, control systems, and the importance of native species from Erin Anderson and Megan Evans as you explore various prairie landscapes.",
-    fr: ""
+    fr: "Erin Anderson et Megan Evans présentent les espèces envahissantes des prairies naturelles, les méthodes de lutte et l’importance des espèces indigènes. Explorez différents paysages des Prairies."
   },
 
   lessonPlans: [
@@ -44,6 +45,6 @@ export const invasiveSpeciesAndControlVideo = {
 
   searchTerms: {
     en: ["water", "watershed", "monitoring"],
-    fr: []
+    fr: ["eau", "bassin versant", "surveillance", "espèces envahissantes", "lutte", "plantes indigènes"]
   },
 };

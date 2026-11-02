@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -36,16 +37,16 @@ export const stakeholderDebateLessonPlan = {
   files: {
     en: [
       {
-        fileType: FileType.LESSON_PLAN,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Stakeholder Debate Lesson Plan",
-        url: "https://docs.google.com/document/d/1dYPccl23Ri-zunFgkDOj2ijqErP47S78"
+        url: "https://docs.google.com/document/d/1IcVnBk-l8aMsQBDEGkxnglfq1MkegNtZ7kYErDIuhNg"
       }
     ],
     fr: [
       {
-        fileType: FileType.LESSON_PLAN,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Débat d’intervenants : plan de leçon",
-        url: "https://docs.google.com/document/d/1tA21i4XtwKCopVD8L4OQ9tsDfJNgAzLT"
+        url: "https://docs.google.com/document/d/1gXxjgcAKaAWQx8QE_8TCU8THVmKI-RgpMq_eaECdvR8"
       }
     ]
   },

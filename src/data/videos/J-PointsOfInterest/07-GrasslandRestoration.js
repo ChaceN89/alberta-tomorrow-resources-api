@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const grasslandRestorationVideo = {
 
   title: {
     en: "Grassland Restoration",
-    fr: "N/A"
+    fr: "Restauration des prairies"
   },
 
   description: {
     en: "This ranch south of Manyberries is an Alberta Conservation Association site.",
-    fr: "N/A"
+    fr: "Ce ranch situé au sud de Manyberries est un site de l’Alberta Conservation Association."
   },
 
   media: {
@@ -42,6 +43,6 @@ export const grasslandRestorationVideo = {
       "ranching",
       "conservation"
     ],
-    fr: []
+    fr: ["prairies", "restauration", "élevage", "conservation"]
   }
 };

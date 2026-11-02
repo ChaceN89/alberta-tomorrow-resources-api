@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,12 +39,12 @@ export const introductionToGlaciersLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Introduction to Glaciers: Lesson Plan",
-        url: "https://docs.google.com/document/d/1BhngX8O-1MOSlBE5swn4425hgK7VOJKld0yfxHoY8wQ"
+        url: "https://docs.google.com/document/d/1TJMpAgj1CW2MqgWl0ElTnmoq78_uwL58nljrjU9Yx1E/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Introduction to Glaciers: Student Worksheet",
-        url: "https://docs.google.com/document/d/10YdcGJPaI3TbOVcfOeck9XqizLjeG2Jv3gY2tTBlG4M"
+        url: "https://docs.google.com/document/d/18boIwKo0x2dnJZof_hcD4mgBeq3sbObkH-tyQ4115Rk/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -56,12 +57,12 @@ export const introductionToGlaciersLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Introduction aux glaciers : plan de leçon",
-        url: "https://docs.google.com/document/d/1t5RbxeDS77jtxcVcN-qFLA7QYu02X1ZZ"
+        url: "https://docs.google.com/document/d/1AD6-NmeRvy9QBbHX0ZggTSnuxNgC-iIF3BuX7H89IO0/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Introduction aux glaciers : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1zhM9URFB-AOdjrRl3N3fz7E6eoiSHOrY"
+        url: "https://docs.google.com/document/d/108HlM6axM8FMEZJDJGfa7GoWzJkRQ9qllyngnfY-5lY/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

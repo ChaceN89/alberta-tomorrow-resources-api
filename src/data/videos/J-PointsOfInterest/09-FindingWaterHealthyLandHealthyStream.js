@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const findingWaterHealthyLandHealthyStreamVideo = {
 
   title: {
     en: "Finding Water: Healthy Land, Healthy Stream",
-    fr: "N/A"
+    fr: "Trouver l’eau : terres saines, cours d’eau en santé"
   },
 
   description: {
     en: "A documentary video on the sources of Canada’s prairie rivers and their vulnerability to land use.",
-    fr: "N/A"
+    fr: "Un documentaire sur les sources des rivières des Prairies canadiennes et leur vulnérabilité aux changements d’utilisation des terres."
   },
 
   media: {
@@ -42,6 +43,6 @@ export const findingWaterHealthyLandHealthyStreamVideo = {
       "land-use",
       "canadian-water"
     ],
-    fr: []
+    fr: ["rivières des Prairies", "santé des cours d’eau", "utilisation des terres", "eau au Canada"]
   }
 };

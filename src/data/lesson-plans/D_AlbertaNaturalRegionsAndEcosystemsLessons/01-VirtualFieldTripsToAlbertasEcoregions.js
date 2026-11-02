@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated English/French lesson-plan and scavenger-hunt worksheet URLs
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,12 +39,12 @@ export const virtualFieldTripsToAlbertasEcoregionsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Alberta's Ecoregions - 360 Virtual Field Trips Lesson Plan",
-        url: "https://drive.google.com/file/d/1X42InkOi6uEhKu195eCj29Xstk6gGHGi"
+        url: "https://docs.google.com/document/d/1ze-UZ4mdM1RNbJ5DOSOvH2ipuaNPs9xTYRQ4pObcBCM/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "360 Virtual Tours Scavenger Hunt Student Worksheet",
-        url: "https://drive.google.com/file/d/1fgBduzIjfvYWjkT2Y8m71qhiWMRjEwaL"
+        url: "https://docs.google.com/document/d/1aoEfuEUAScdMMAPd0bWemjb-85tDLZxu/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -60,12 +61,12 @@ export const virtualFieldTripsToAlbertasEcoregionsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Écorégions de l’Alberta – visites virtuelles à 360 degrés : plan de leçon",
-        url: "https://docs.google.com/document/d/1zMQUusoEZMeOQj_JAk-anB7VGoxBaPeI"
+        url: "https://docs.google.com/document/d/1JgmkAJbdESzjzme8EqM1gKfWdf6JMyWDSpautiEGxXk/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz"
+        url: "https://docs.google.com/document/d/11Vtx-IC7qg7tGE9hHtA3jWpKKMHcVEHv/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

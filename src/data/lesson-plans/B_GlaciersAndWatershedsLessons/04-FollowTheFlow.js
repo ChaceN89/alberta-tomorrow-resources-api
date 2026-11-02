@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,12 +39,12 @@ export const followTheFlowLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Follow the Flow: Lesson Plan",
-        url: "https://docs.google.com/document/d/1twB1ff_o9mF3ilUHyIYNV9oBfgcYPau7naA4pnK7POk"
+        url: "https://docs.google.com/document/d/1g08ZooBartnidbSCKrS8q2yFTEN9OMdaiY2Id2ANCEg/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Follow the Flow: Student Worksheet",
-        url: "https://docs.google.com/document/d/1vhF9bySogY1Ie_ghov17TdJx93WA6u-j94BHeJCg2NM"
+        url: "https://docs.google.com/document/d/18OlZHxTlZPhjlEffrMXLcTtf3SeYkonQqEbhyM8Tdls/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -61,12 +62,12 @@ export const followTheFlowLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Suivre le flux : plan de leçon",
-        url: "https://docs.google.com/document/d/1ETh1-9VemIzGnnd9eaVxbwtQ_IGlkw0g"
+        url: "https://docs.google.com/document/d/1M0PgTLxo86dIpfLQG4KlCUbWri-e_iVn_5aAc4KKZDI/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Suivre le flux : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/14nd4-44ffnWBS-bjr41M6whUkDrrCarw"
+        url: "https://docs.google.com/document/d/1rBChe1rbVhuQ9Xmu0fJit3d_SAYyqtKRP0-SakcDMT8/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

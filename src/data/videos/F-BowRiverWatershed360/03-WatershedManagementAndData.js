@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 30, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const watershedManagementAndDataVideo = {
 
   title: {
     en: "Watershed Management and Data",
-    fr: ""
+    fr: "Gestion du bassin versant et données"
   },
 
   description: {
     en: "Dr. Lee Jackson talks about the Sustainable Watershed Integrated Management Platform and the necessity of shared water data for the health of the Bow River Basin. Explore from the headwaters into the prairies and learn about citizen science projects, and different data parameters.",
-    fr: ""
+    fr: "Le Dr Lee Jackson présente la Plateforme intégrée de gestion durable des bassins versants et explique pourquoi le partage des données sur l’eau est essentiel à la santé du bassin de la rivière Bow. Explorez le territoire depuis les sources jusqu’aux Prairies et découvrez des projets de science citoyenne ainsi que différents paramètres de données."
   },
 
   lessonPlans: [],
@@ -39,6 +40,6 @@ export const watershedManagementAndDataVideo = {
 
   searchTerms: {
     en: ["water", "watershed", "monitoring", "sustainability"],
-    fr: []
+    fr: ["eau", "bassin versant", "surveillance", "durabilité", "données"]
   },
 };

@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,12 +39,12 @@ export const waterQualityClimateChangeAndAlbertasGlaciersWebinarLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Water Quality, Climate Change and Alberta's Glaciers",
-        url: "https://docs.google.com/document/d/132Q-l-fFcXQTFWDIgiB0j8w76_GhO-QwUxNykI2kivE"
+        url: "https://docs.google.com/document/d/1MjOnNaKi6lQFOL0m1NSMnsuDVB4lAAudYnvEKFd8rAQ/edit"
       },
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Webinar Worksheet",
-        url: "https://docs.google.com/document/d/1uHjqQk2WEWdBCJVrMcMaCo1O_sB91EZ0_SXHnAokWa0"
+        url: "https://docs.google.com/document/d/13bOMHwW_JAi2y5mR6XzAv_I5oKgr6rxUNaP3QhypO5s/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -56,12 +57,12 @@ export const waterQualityClimateChangeAndAlbertasGlaciersWebinarLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Qualité de l'eau, changements climatiques et glaciers de l'Alberta : plan de leçon",
-        url: "https://docs.google.com/document/d/1iD8IG_y0pr7nc08-04pvEwi4IIAU1W1Y"
+        url: "https://docs.google.com/document/d/1b687DrrAuzuItF7NjG60bzJAzJKKydgaYw5cC9ENM3k/edit"
       },
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Feuille de travail du webinaire",
-        url: "https://docs.google.com/document/d/1rTMgLM8H2LJzydtd2v0x_7-ofV3q6scm"
+        url: "https://docs.google.com/document/d/1CFqsV9zXHUhzednNzgazYYg4DMFPwX2jPb4wiytGU7c/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

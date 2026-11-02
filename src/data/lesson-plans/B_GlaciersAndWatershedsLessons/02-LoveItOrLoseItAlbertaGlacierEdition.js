@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  *
  * @dependencies
  * - LessonThemeIds.js
@@ -47,12 +48,12 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Love it or Lose it: Alberta Glacier Edition Lesson Plan",
-        url: "https://docs.google.com/document/d/1wciu6M4l3dNJLLW0z5dpUKWJB0wVV2F6cHxUSk9cqw4"
+        url: "https://docs.google.com/document/d/1dPrIMY8GokpgwawwHK1FmJIAUvVRdtV12UikMhgM5Oo/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Love it or Lose it: Alberta Glacier Edition: Student Worksheet",
-        url: "https://docs.google.com/document/d/1kOBV1PHx1rqMW2yESy1_YBgP_FebODrUCyaBCsYCwGA"
+        url: "https://docs.google.com/document/d/1H4nGbVrV_k0a4_8UUcd_BYc17zL8fmZ-jZWvQR_VCw4/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -65,12 +66,12 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : plan de leçon",
-        url: "https://docs.google.com/document/d/17NHaM7QHmIYSiQ4HY8-2kD9uHE5ZdIp2"
+        url: "https://docs.google.com/document/d/1RP-YVvvRaUzM3EBmzKU-ju8kMqTnIUUBGk2dOuqW7mU/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : feuille de travail de l'élève",
-        url: "https://docs.google.com/document/d/1LHCp6s3m7axm0n9b4mCsJ4t8x0TLydlY"
+        url: "https://docs.google.com/document/d/1vEw9lopnyl7zjTBQlTycTQ5eyQfE9p0lv2RSKJvPt18/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

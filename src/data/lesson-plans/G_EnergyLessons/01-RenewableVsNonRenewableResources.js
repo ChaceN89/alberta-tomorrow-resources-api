@@ -7,6 +7,7 @@
  * @author Chace Nielson
  * @created Aug 07, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -39,7 +40,7 @@ export const renewableVsNonRenewableResourcesLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Renewable vs Non-Renewable Resources - Lesson Plan",
-        url: "https://docs.google.com/document/d/1QU_kIWDMITb9Zau0XcB3-e3yTgBzn8W9P2qlM1NaDa8"
+        url: "https://docs.google.com/document/d/1wxVZL1i10wQAlxhno7HUqqlM5qnngG3xHMKHPbjzlME/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -49,14 +50,14 @@ export const renewableVsNonRenewableResourcesLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Renewable vs Non-Renewable Resources - Student Worksheet",
-        url: "https://docs.google.com/document/d/1v5XpJO-O9B7I94GstDyZikDhgIzeCuo_pO6LtWPTWCc"
+        url: "https://docs.google.com/document/d/1hUZUVthmYSWUTbQL_9kqrt3ZNyoeSjnSIlYtNt99hk0/edit"
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Ressources renouvelables ou non renouvelables : plan de leçon",
-        url: "https://docs.google.com/document/d/16N-5cAv1mheL8ckWzDipWRYr8FlamNP_"
+        url: "https://docs.google.com/document/d/1fp2_C7Ms3a_OVGswmcgc3c-HQUNm87H-Kn_xApSuR5M/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -66,7 +67,7 @@ export const renewableVsNonRenewableResourcesLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Ressources renouvelables ou non renouvelables : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1n1nPmf2z3hZdQk0w3OIrqwTazb7zhvXf"
+        url: "https://docs.google.com/document/d/1VIEqDcHM50rTOQyY95Qca4lHVeEDbkieBCu7tFjKm6M/edit"
       }
     ]
   },

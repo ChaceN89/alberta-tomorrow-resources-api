@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,7 +39,7 @@ export const mappingIndigenousAreasLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Mapping Indigenous Areas: Lesson Plan",
-        url: "https://docs.google.com/document/d/1Uyrqu1VyKnJFc7Y_6tZbWeXvMeHkU0zTfktRYppQlYA"
+        url: "https://docs.google.com/document/d/1bkD4p2APWVAP-HQb6Ev-X9KlRUfW5nT5DHpn5ffpIqs/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -55,7 +56,7 @@ export const mappingIndigenousAreasLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Cartographier les régions autochtones : plan de leçon",
-        url: "https://docs.google.com/document/d/18ZRfCirFFmvnZ5-45KBM_QWpU4RuHHpU"
+        url: "https://docs.google.com/document/d/189YLL7CavIUgwALI0e4WROVS7frtAbGkS1wH0E4kG8Y/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,

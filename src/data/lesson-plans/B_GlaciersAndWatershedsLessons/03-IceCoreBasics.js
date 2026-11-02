@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,12 +39,12 @@ export const iceCoreBasicsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Ice Core Basics: Lesson Plan",
-        url: "https://docs.google.com/document/d/1ju0v6zBaJoDP6enneGbY0HAMjSeIYZK63sP3gVRHw30"
+        url: "https://docs.google.com/document/d/121ISJanAFOQeqpHB5OFInSIW0j79VaIVJ3eN-Jh8lYQ/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Ice Core Basics: Student Worksheet",
-        url: "https://docs.google.com/document/d/1g3lM4vTFCBDtodNbkB1fCCKixxbEvZQH7hDxJhjoDhw"
+        url: "https://docs.google.com/document/d/1oOYm_vuK6JzAp9gSuI5TpkXijof1ruDt73ODTOY5Khc/edit"
       }
     ],
 
@@ -51,12 +52,12 @@ export const iceCoreBasicsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Notions de base sur les carottes de glace : plan de leçon",
-        url: "https://docs.google.com/document/d/1bLE67Z_lkQd74jEWKgUM1ikKFIUMZETI"
+        url: "https://docs.google.com/document/d/10ubjZk5bRPVNnQlyGtLR6FGzbfk_NdPNqCdxjzDzLvo/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Notions de base sur les carottes de glace : feuille de travail de l'élève",
-        url: "https://docs.google.com/document/d/1plOdui_VyO8bjxabKTaDmO7s9B5J1hgm"
+        url: "https://docs.google.com/document/d/1VUUbxqT2qlNlnys6JgMIVVn6o9I0nDaaUB0IWnXAQ4Q/edit"
       }
     ]
   },

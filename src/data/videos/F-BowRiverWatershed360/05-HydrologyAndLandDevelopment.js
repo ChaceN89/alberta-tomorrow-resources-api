@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 30, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const hydrologyAndLandDevelopmentVideo = {
 
   title: {
     en: "Hydrology and Land Development",
-    fr: ""
+    fr: "Hydrologie et aménagement du territoire"
   },
 
   description: {
     en: "Explore the watershed while Tricia Stadnyk explains how landscapes and water are affected by development and use changes. How does hydrology within the watershed change when the landscape changes because of humans?",
-    fr: ""
+    fr: "Explorez le bassin versant tandis que Tricia Stadnyk explique comment l’aménagement et les changements d’utilisation du territoire influencent les paysages et l’eau. Comment l’hydrologie du bassin versant change-t-elle lorsque les activités humaines transforment le paysage?"
   },
 
   lessonPlans: [
@@ -44,6 +45,6 @@ export const hydrologyAndLandDevelopmentVideo = {
 
   searchTerms: {
     en: ["water", "watershed", "monitoring"],
-    fr: []
+    fr: ["eau", "bassin versant", "surveillance", "hydrologie", "aménagement du territoire"]
   },
 };

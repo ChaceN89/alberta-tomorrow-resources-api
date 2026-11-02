@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const forestAttackMountainPineBeetleVideo = {
 
   title: {
     en: "Forest Attack - Mountain Pine Beetle",
-    fr: "N/A"
+    fr: "Attaque de la forêt : dendroctone du pin ponderosa"
   },
 
   description: {
     en: "Follow biologists as they look for trees attacked by Mountain Pine Beetles.",
-    fr: "N/A"
+    fr: "Suivez des biologistes à la recherche d’arbres attaqués par le dendroctone du pin ponderosa."
   },
 
   media: {
@@ -42,6 +43,6 @@ export const forestAttackMountainPineBeetleVideo = {
       "infestation",
       "biology"
     ],
-    fr: []
+    fr: ["forêts", "dendroctone du pin ponderosa", "infestation", "biologie"]
   }
 };

@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const athabascaSandDunesEcologicalReserveVideo = {
 
   title: {
     en: "Athabasca Sand Dunes Ecological Reserve",
-    fr: "N/A"
+    fr: "Réserve écologique des dunes de sable de l’Athabasca"
   },
 
   description: {
     en: "Open, moving sand dunes surrounded by lakes.",
-    fr: "N/A"
+    fr: "Des dunes de sable dégagées et mouvantes entourées de lacs."
   },
 
   media: {
@@ -42,6 +43,6 @@ export const athabascaSandDunesEcologicalReserveVideo = {
       "dunes",
       "ecological-reserve"
     ],
-    fr: []
+    fr: ["Athabasca", "sable", "dunes", "réserve écologique"]
   }
 };

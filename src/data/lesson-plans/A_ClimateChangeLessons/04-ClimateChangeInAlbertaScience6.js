@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Sep 08, 2026
  * @updated Sep 08, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,12 +39,12 @@ export const science6ClimateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Climate Change in Alberta: Lesson Plan (Sc 6)",
-        url: "https://docs.google.com/document/d/1j1reZMpUG8hr2aTxRFKGKUIrWKubjc6LBPs9YorcJQQ"
+        url: "https://docs.google.com/document/d/1jUo6Qb2Da5G9-8MazsjDmMJKB1Dsk3Suq1RRIYmGt8I/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Climate Change in Alberta: Student Worksheet",
-        url: "https://docs.google.com/document/d/1pL06qekV3WdnjSxIFHvFefVdAmgLEgvRCsrqvzzbaPM"
+        url: "https://docs.google.com/document/d/1f8ycWF6ZRYud7Sjp61jtPVo97fbmYUaXxLQYntgubRo/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -61,12 +62,12 @@ export const science6ClimateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Changements climatiques en Alberta : plan de leçon (Sc 6)",
-        url: "https://docs.google.com/document/d/1foXxyndlaQ1SCCIg34hnse3Cmd0o4L0q"
+        url: "https://docs.google.com/document/d/1ZE2Jt5GIRnOgj3BNx0QRlergxKvyPacAeiiBUqEBxAQ/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Changements climatiques en Alberta : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1o-ZVm2iDaavBgXvBg0zEArZjEU4npiFq"
+        url: "https://docs.google.com/document/d/1ZDUDD3_f3tG7UVtZGH1j8XhUCvn5nfUw12zWLmbvnIE/edit"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

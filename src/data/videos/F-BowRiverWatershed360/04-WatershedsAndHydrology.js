@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 30, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const watershedsAndHydrologyVideo = {
 
   title: {
     en: "Watersheds and Hydrology",
-    fr: ""
+    fr: "Bassins versants et hydrologie"
   },
 
   description: {
     en: "Go from the mountains through the river basin while learning what a watershed is, and how hydrology is apparent in the landscape. Tricia Stadnyk will explain how hydrology can affect everything around it as you explore.",
-    fr: ""
+    fr: "Parcourez le bassin fluvial depuis les montagnes et découvrez ce qu’est un bassin versant ainsi que les manifestations de l’hydrologie dans le paysage. Tricia Stadnyk explique comment l’hydrologie peut influencer tout ce qui l’entoure."
   },
 
   lessonPlans: [
@@ -44,6 +45,6 @@ export const watershedsAndHydrologyVideo = {
 
   searchTerms: {
     en: ["water", "watershed", "monitoring", "hydrology", "landscape"],
-    fr: []
+    fr: ["eau", "bassin versant", "surveillance", "hydrologie", "paysage"]
   },
 };

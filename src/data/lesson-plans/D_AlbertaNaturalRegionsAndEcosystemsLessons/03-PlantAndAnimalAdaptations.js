@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated English/French lesson-plan URLs
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,7 +39,7 @@ export const plantAndAnimalAdaptationsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Grade 9 Science Adaptations and the 360 Virtual Field Trips",
-        url: "https://drive.google.com/file/d/1oqRU9sDWebD92xmGi3RYhN-Ae00ACP_j"
+        url: "https://docs.google.com/document/d/1c25mjGzSDABg3f8ybelwybJEKp1DefdvRAwnPIgD3IE/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -50,7 +51,7 @@ export const plantAndAnimalAdaptationsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "9e année, Sciences : Adaptations et visites virtuelles à 360 degrés",
-        url: "https://docs.google.com/document/d/1IKLGOqi9ukqXGjawklTxjrAGOEzbS6wg"
+        url: "https://docs.google.com/document/d/1g0YcqfNO8JdXqg61DrmEdTNWm-RhBBRunOINcbYjVq4/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,

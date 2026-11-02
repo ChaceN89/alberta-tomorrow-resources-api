@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,24 +39,24 @@ export const exploringCollectiveRightsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Exploring Collective Rights: Lesson Plan",
-        url: "https://docs.google.com/document/d/1nMh2BVY6ZRFW0c8RjIShGn6t2QYi_ZvF"
+        url: "https://docs.google.com/document/d/1GZIktBUz44DUbUCcn9adkCXrirLj6k3gGvCT709QyYM/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Exploring Collective Rights: Student Worksheet",
-        url: "https://docs.google.com/document/d/10cCzISaKfH5wrf7O8CoBdIYfNG0V9sF4"
+        url: "https://docs.google.com/document/d/1Esz-RIi9Mr8ozfZylmN4x2GZcPnN-X1DL41AJLHCreE/edit"
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Étudier les droits collectifs : plan de leçon",
-        url: "https://docs.google.com/document/d/1MmE7sHJaMq5gmPgNpxGjXOjK7UFx2LBy/edit"
+        url: "https://docs.google.com/document/d/1TYwtfb1qDUtbxb2RCX-S1RE_aKr5m4TY_1pIrnk0TWc/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Étudier les droits collectifs : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1CL4u8LjHDWtwxPSM3EQ_4ilHDKVF0qgr/edit"
+        url: "https://docs.google.com/document/d/1jybV0ETNrHUkUy3_DPdlbw3LJxz9BK3zLeZJQne-rsE/edit"
       }
     ]
   },

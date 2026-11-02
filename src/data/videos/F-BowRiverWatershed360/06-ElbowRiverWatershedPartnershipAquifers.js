@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 30, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const elbowRiverWatershedPartnershipAquifersVideo = {
 
   title: {
     en: "Elbow River Watershed Partnership (ERWP) Aquifers",
-    fr: ""
+    fr: "Aquifères du partenariat du bassin versant de la rivière Elbow"
   },
 
   description: {
     en: "Explore the Elbow River watershed and learn about its groundwater, and state of the aquifer with Joe and Flora. Learn the definitions for what an aquifer is, how groundwater is used in the sub-basin, and how it is affected by people.",
-    fr: ""
+    fr: "Explorez le bassin versant de la rivière Elbow avec Joe et Flora et découvrez ses eaux souterraines ainsi que l’état de son aquifère. Apprenez ce qu’est un aquifère, comment les eaux souterraines sont utilisées dans le sous-bassin et comment les activités humaines les influencent."
   },
 
   lessonPlans: [
@@ -44,6 +45,6 @@ export const elbowRiverWatershedPartnershipAquifersVideo = {
 
   searchTerms: {
     en: ["water", "watershed", "monitoring"],
-    fr: []
+    fr: ["eau", "bassin versant", "surveillance", "eaux souterraines", "aquifères"]
   },
 };

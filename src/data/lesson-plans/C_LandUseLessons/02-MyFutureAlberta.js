@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -36,16 +37,16 @@ export const myFutureAlbertaLessonPlan = {
   files: {
     en: [
       {
-        fileType: FileType.LESSON_PLAN,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "My Future Alberta: Creating a Landuse Plan for 2050: Lesson Plan and Student Worksheet",
-        url: "https://docs.google.com/document/d/1m_ybmNFrgN1CYuKQUYUttrd_PDfzzsPwu8zMlEJRI24"
+        url: "https://docs.google.com/document/d/1DSeh7sKtz0aPw2avwpJx9EX48MODMQOUeRI8G4_z1VQ"
       }
     ],
     fr: [
       {
-        fileType: FileType.LESSON_PLAN,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Mon Alberta du futur : Créer un plan d’utilisation des terres pour 2050 : plan de leçon et feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/13ybEAk6XIv5r9Fkqv-5k8-CwWaF2Ybm7/edit#heading=h.nqnhio4pqyoe"
+        url: "https://docs.google.com/document/d/1UDRo6NxP8NWbfwsH_ggYj-rClTW_JEHaAWU2dEbPiEA"
       }
     ]
   },

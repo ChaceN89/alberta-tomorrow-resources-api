@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,34 +39,34 @@ export const governmentsHaveItRoughLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Governments Have it Rough!: Lesson Plan",
-        url: "https://docs.google.com/document/d/1aNPK0LmRNRv66uWmo3VaUHwx2cjW_lAI"
+        url: "https://docs.google.com/document/d/1Q0AxHAvznQZVEiuoI_TEk9k1DBtT561Ho3hPI0oVOBo/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Governments Have it Rough: Student Worksheet",
-        url: "https://docs.google.com/document/d/11H-NnD8zzI7BCLU7fPeKvzeL0o_zJoVh"
+        url: "https://docs.google.com/document/d/1u8VIqqBY9E_JYnyn3PRsPxt_A_U1cTrVwKpiwfk7IpU/edit"
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Governments Have it Rough: Answer Key",
-        url: "https://docs.google.com/document/d/17keBX7XHnluSLVzg9NDtJZUppjR_uo6s"
+        url: "https://docs.google.com/document/d/14PC-uO4IuV9DOdz4aloCH708RadU-dq4ZntzLTuUdk4/edit"
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "C’est difficile pour les gouvernements! : plan de leçon",
-        url: "https://docs.google.com/document/d/1x0a4-z0-FNdjN8_1OWLkeNLESI7Hx4AU"
+        url: "https://docs.google.com/document/d/1tFWbZP2zHLlSkwkL9UiercD6Mgq1iBgwz5Ww97hnXws/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "C’est difficile pour les gouvernements! : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1OA13N3cipJ3OqQT6SR_L3SSsQ1QUnoyb"
+        url: "https://docs.google.com/document/d/1y5zXhx8UA_kLKkVBh52FQ1Do42aCy5sNyxV9zTOJExI/edit"
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "C’est difficile pour les gouvernements! : clé de correction",
-        url: "https://docs.google.com/document/d/15S5_EEWeuLmi4-yepippSg_yGpugEjnE"
+        url: "https://docs.google.com/document/d/17b6HD0_D6gTvDR9CFL-8MpoMs2j4b1A2Z4WQvoLAOrM/edit"
       }
     ]
   },

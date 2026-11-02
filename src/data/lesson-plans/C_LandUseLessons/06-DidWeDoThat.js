@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -38,34 +39,34 @@ export const didWeDoThatLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Did we do that? Science 7 Lesson Plan",
-        url: "https://docs.google.com/document/d/1CR-RG016EQChxUjxY3X1aESpoSiSfHoq"
+        url: "https://docs.google.com/document/d/10p6C6eJ3lPhaPmNRSuVlnUyGUf3BFYUaheIJu3VnEaA/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Did we do that? Science 7 Student Worksheet",
-        url: "https://docs.google.com/document/d/19KxH-EaPWmDlqsE60XstzBlFCwTwSM8k"
+        url: "https://docs.google.com/document/d/1JDrSJc6F1eKEdCffRUlunt2WlNzyxQCoJ7ap3YDPGVE/edit"
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Did we do that? Science 7 Answer Sheet",
-        url: "https://docs.google.com/document/d/1FvtNf8WHVkLKo25ubjZknQ8DiM5QnfPY"
+        url: "https://docs.google.com/document/d/1DzGEN3HZAd5ccluasenC99eXXFUOuwAC96tYsgzH6MA/edit"
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Avons-nous fait ça? Sciences 7e année, plan de leçon",
-        url: "https://docs.google.com/document/d/17gp6CAHLREMW8NS83xN7td3SWwIvlV3l"
+        url: "https://docs.google.com/document/d/16ysldorbSif_4gs6lbNdiMzcQBUrgkjOqNv2ZjwKQW8/edit"
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Avons-nous fait ça? Sciences 7e année, feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1Lomq2mi_lvGGUIN2xBeP7IDJ9wE97dM-"
+        url: "https://docs.google.com/document/d/1G3Wv3s5nr9hBVIgW7_P77So45PNbcpAg-Upr0VvFuQM/edit"
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Avons-nous fait ça? Sciences 7e année, clé de correction",
-        url: "https://docs.google.com/document/d/1yHLiOPXEtkyQMZNmc6DOUI0cyJuDgLhZ"
+        url: "https://docs.google.com/document/d/1DO_e6Lj5NNyrEDhPCVX_Y61UCYBxEiaLTD1DTUysoO8/edit"
       }
     ]
   },

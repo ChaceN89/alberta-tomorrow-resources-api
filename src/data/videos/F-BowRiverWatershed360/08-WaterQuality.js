@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Jul 30, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const waterQualityVideo = {
 
   title: {
     en: "Water Quality",
-    fr: ""
+    fr: "Qualité de l’eau"
   },
 
   description: {
     en: "Join Patrick Van den Eynden as he talks about the City of Calgary's Glenmore Water Treatment Plant's process from getting the water from the reservoir, all the way to disinfection and sending the water out to service sites across the city.",
-    fr: ""
+    fr: "Patrick Van den Eynden présente le processus de traitement de l’eau à l’usine de traitement de Glenmore de la Ville de Calgary, depuis le prélèvement dans le réservoir jusqu’à la désinfection et à l’acheminement de l’eau vers les différents secteurs de la ville."
   },
 
   lessonPlans: [
@@ -44,6 +45,6 @@ export const waterQualityVideo = {
 
   searchTerms: {
     en: ["water", "watershed", "monitoring"],
-    fr: []
+    fr: ["eau", "bassin versant", "surveillance", "qualité de l’eau", "traitement de l’eau"]
   },
 };

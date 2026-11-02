@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
  */
 
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
@@ -36,16 +37,16 @@ export const yesterdayTodayAndTomorrowLessonPlan = {
   files: {
     en: [
       {
-        fileType: FileType.LESSON_PLAN,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Yesterday, Today and Tomorrow - Using the Alberta Tomorrow Simulator Lesson Plan and Student Worksheet",
-        url: "https://docs.google.com/document/d/1Bnm4lgL7gFeSJW0DRwunmlZUOey-v6mrSTRmU6-raBM"
+        url: "https://docs.google.com/document/d/14yCZEC8QEglyvSQD1HabXoy6kDXtGjRsr1Mhf6PGd-8"
       }
     ],
     fr: [
       {
-        fileType: FileType.LESSON_PLAN,
+        fileType: FileType.STUDENT_WORKSHEET,
         title: "Hier, aujourd’hui et demain - Utiliser le simulateur d’Alberta Tomorrow : plan de leçon et feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/19_h05r90eQzVl3V6TfJLKg-mTrWGmQmo"
+        url: "https://docs.google.com/document/d/1JQJsZ9KmWvpo-w44hgxg4lj4gxrNGmQP_oFhxPwL_Qw"
       }
     ]
   },

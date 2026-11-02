@@ -6,6 +6,7 @@
  * @author Chace Nielson
  * @created Jul 30, 2026
  * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
  */
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
@@ -20,12 +21,12 @@ export const beneathTheSurfaceWaterMonitoringInTheGhostWatershedVideo = {
 
   title: {
     en: "Beneath the Surface: Water Monitoring in the Ghost Watershed",
-    fr: "N/A"
+    fr: "Sous la surface : surveillance de l’eau dans le bassin versant de Ghost"
   },
 
   description: {
     en: "Peek into a bucket of bugs and see why these aquatic invertebrates are indicators of water quality.",
-    fr: "N/A"
+    fr: "Observez des invertébrés aquatiques dans un seau et découvrez pourquoi ils sont des indicateurs de la qualité de l’eau."
   },
 
   media: {
@@ -42,6 +43,6 @@ export const beneathTheSurfaceWaterMonitoringInTheGhostWatershedVideo = {
       "monitoring",
       "aquatic-invertebrates"
     ],
-    fr: []
+    fr: ["eau", "bassin versant de Ghost", "surveillance", "invertébrés aquatiques"]
   }
 };
