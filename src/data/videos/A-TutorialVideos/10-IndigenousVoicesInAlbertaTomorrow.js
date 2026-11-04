@@ -1,5 +1,5 @@
 /**
- * @file 11-IndigenousVoicesInAlbertaTomorrow.js
+ * @file 10-IndigenousVoicesInAlbertaTomorrow.js
  * @module Data/Videos/Tutorials
  * @desc Contains localized metadata and media information for the Indigenous Voices in Alberta Tomorrow tutorial video.
  *
@@ -12,7 +12,7 @@ import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
 
 export const indigenousVoicesInAlbertaTomorrowVideo = {
-  id: "tutorial-11a-indigenous-voices",
+  id: "tutorial-10a-indigenous-voices",
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
