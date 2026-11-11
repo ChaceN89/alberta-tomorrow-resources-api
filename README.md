@@ -249,6 +249,14 @@ npm run generate -- --strict
 - Injects `lessonPlanIds` into each video based on which lesson plans reference it
 - Throws if any duplicate `id` is found
 
+### Shared asset URLs
+
+`src/data/assetUrls.ts` centralizes the video, lesson-plan PDF, and legacy thumbnail
+base URLs, along with the case-sensitive video category folder mapping. Video records
+can build asset links with `getVideoAssetPaths(categoryId, videoId).file(fileName)`;
+lesson-plan files can use `getLessonPlanPdfUrl(lessonPlanId, "en")` or `"fr"`. Change
+the video base URL there when switching delivery from S3 to CloudFront.
+
 ### Pulling YouTube assets
 
 The local `pullyoutube` command looks up a video ID in the generated video data and saves

@@ -19,14 +19,18 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import {
+  getVideoAssetPaths,
+  getYouTubeThumbnailUrl,
+} from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
-const assetBaseUrl =
-  "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos/A-TutorialVideos/tutorial-01a-register-account";
+const videoId = "tutorial-01a-register-account";
+const videoAssets = getVideoAssetPaths(VideoCategory.TUTORIALS.id, videoId);
 
 export const registeringForAnAccountVideo = {
-  id: "tutorial-01a-register-account",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -43,15 +47,15 @@ export const registeringForAnAccountVideo = {
   },
 
   media: {
-    primaryUrl: `${assetBaseUrl}/User%20Tutorial_%20Registering%20for%20an%20Account.mp4`,
+    primaryUrl: videoAssets.file("User Tutorial_ Registering for an Account.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=5Qi8v-Y3iXM",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialRegisterAccount.jpg",
+    thumbnailUrl: getYouTubeThumbnailUrl("tutorialRegisterAccount.jpg"),
     is360: false
   },
 
   subtitles: {
-    en: `${assetBaseUrl}/en-captions.vtt`,
-    fr: `${assetBaseUrl}/fr-captions.vtt`
+    en: videoAssets.file("en-captions.vtt"),
+    fr: videoAssets.file("fr-captions.vtt")
   },
 
   searchTerms: {

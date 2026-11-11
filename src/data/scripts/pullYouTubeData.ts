@@ -17,7 +17,7 @@ import path from "node:path";
 import { spawn, spawnSync } from "node:child_process";
 import { randomBytes } from "node:crypto";
 import dotenv from "dotenv";
-import { VideoCategory } from "../enums/videoCategoryIds.js";
+import { getVideoCategoryFolder } from "../assetUrls.js";
 import { allVideos } from "../videoData.js";
 import type { GeneratedVideo } from "../videoTypes.js";
 
@@ -29,20 +29,6 @@ const CAPTION_LANGUAGES = [
   { fileName: "fr.vtt", language: "fr", preferredTag: "fr-CA" },
 ] as const;
 const OUTPUT_FILES = ["video.mp4", "thumbnail.jpg", "en.vtt", "fr.vtt"];
-
-const CATEGORY_FOLDERS: Record<string, string> = {
-  [VideoCategory.TUTORIALS.id]: "A-TutorialVideos",
-  [VideoCategory.LANDSCAPE.id]: "B-UnderstandingTheLandscape",
-  [VideoCategory.ENVIRONMENTAL_INDICATORS.id]: "C-EnvironmentalIndicators",
-  [VideoCategory.SOCIO_ECONOMIC_INDICATORS.id]: "D-SocioeconomicIndicators",
-  [VideoCategory.INDIGENOUS_INDICATORS.id]: "E-IndigenousIndicators",
-  [VideoCategory.BOW_RIVER_360.id]: "F-BowRiverWatershed360",
-  [VideoCategory.GLACIER_SERIES.id]: "G-GuardiansOfIce",
-  [VideoCategory.STONEY_VOICES.id]: "H-StoneyVideos",
-  [VideoCategory.BLACKFOOT_VOICES.id]: "I-BlackfootVideos",
-  [VideoCategory.POINTS_OF_INTEREST.id]: "J-PointsOfInterest",
-  [VideoCategory.OTHER.id]: "Z-OtherVideos",
-};
 
 interface CliOptions {
   videoId: string;
@@ -221,19 +207,15 @@ function getVideoRecord(videoId: string): GeneratedVideo {
   return video;
 }
 
-function getCategoryFolder(categoryId: string): string {
-  const folder = CATEGORY_FOLDERS[categoryId];
-  if (!folder) {
-    throw new Error(`No YouTube export folder is configured for category "${categoryId}".`);
-  }
-  return folder;
-}
-
 function getOutputDirectory(options: CliOptions, video: GeneratedVideo): string {
   if (!/^[a-zA-Z0-9][a-zA-Z0-9_-]*$/.test(video.id)) {
     throw new Error(`Video ID is not a safe output folder name: "${video.id}".`);
   }
-  return path.join(options.outputDirectory, getCategoryFolder(video.categoryId), video.id);
+  return path.join(
+    options.outputDirectory,
+    getVideoCategoryFolder(video.categoryId),
+    video.id,
+  );
 }
 
 async function pathExists(filePath: string): Promise<boolean> {
