@@ -46,3 +46,6 @@ Thumbs.db
 # Build artifacts
 dist/
 build/
+
+# Extracted YouTube data - will remove once i set up the upload to AWS
+/src/data/youtube-extracted-data

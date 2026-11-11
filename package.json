@@ -13,6 +13,7 @@
     "generate": "tsx src/data/scripts/generate.ts",
     "generate:lessons": "tsx src/data/scripts/generateLessonPlans.ts",
     "generate:videos": "tsx src/data/scripts/generateVideos.ts",
+    "pullyoutube": "tsx src/data/scripts/pullYouTubeData.ts",
     "test": "npm run typecheck"
   },
   "keywords": [],

@@ -249,6 +249,60 @@ npm run generate -- --strict
 - Injects `lessonPlanIds` into each video based on which lesson plans reference it
 - Throws if any duplicate `id` is found
 
+### Pulling YouTube assets
+
+The local `pullyoutube` command looks up a video ID in the generated video data and saves
+`video.mp4`, `thumbnail.jpg`, `en.vtt`, and `fr.vtt` under
+`src/data/youtube-extracted-data/<category-folder>/<video-id>/`. This directory is
+git-ignored.
+
+The command uses the YouTube Data API for the thumbnail and `yt-dlp` for subtitle track
+discovery and downloads. This avoids the captions download endpoint, which can return a
+403 even when a subtitle is published in Studio. Create a Google OAuth Desktop app client
+for thumbnail lookup and put its ID and secret in the repository root `.env` file:
+
+```dotenv
+YOUTUBE_OAUTH_CLIENT_ID=your-client-id
+YOUTUBE_OAUTH_CLIENT_SECRET=your-client-secret
+```
+
+For example, use the direct YouTube download path for an authorized video:
+
+```bash
+npm run pullyoutube -- tutorial-01a-register-account --video-source youtube
+```
+
+On the first run, the command opens Google authorization. A refresh token is stored outside the repository in
+`~/.config/alberta-tomorrow-resources-api/youtube-oauth.json` (or under
+`$XDG_CONFIG_HOME`). Keep the OAuth client secret and token private.
+
+If downloading the video directly is permitted for your video, install `yt-dlp` and
+FFmpeg and explicitly opt in:
+
+```bash
+npm run pullyoutube -- tutorial-01a-register-account --video-source youtube
+```
+
+The script does not read browser cookies. Direct video downloads may not be available
+for every video; in that case, export the original through YouTube Studio and use `--mp4`.
+For captions, it prefers published English subtitle tracks before English auto-captions.
+For French, it tries French (Canada) first, then other French regional tracks; it only
+requests the selected language codes, avoiding unrelated machine-translated variants.
+Both languages are attempted before reporting failures. If no track can be downloaded,
+completed assets and any successful captions are kept in the output folder. You can also
+export captions from Studio and supply them as WebVTT files:
+
+```bash
+npm run pullyoutube -- tutorial-01a-register-account \
+  --mp4 src/data/youtube-extracted-data/A-TutorialVideos/tutorial-01a-register-account/video.mp4 \
+  --en-vtt ./source/en.vtt \
+  --fr-vtt ./source/fr.vtt \
+  --overwrite
+```
+
+Machine-translated variants are not used as fallback tracks. Use `--overwrite` when
+replacing or completing an existing partial export.
+
 ---
 
 ## Running the API

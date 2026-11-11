@@ -15,14 +15,14 @@
       "fr": "Regardez ce tutoriel pour voir comment créer un compte grand public, enseignant ou élève."
     },
     "media": {
-      "primaryUrl": "N/A",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/videos/A-TutorialVideos/tutorial-01a-register-account/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=5Qi8v-Y3iXM",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/tutorialRegisterAccount.jpg",
       "is360": false
     },
     "subtitles": {
-      "en": "N/A",
-      "fr": "N/A"
+      "en": "https://d2qcvmovr4fv.cloudfront.net/videos/A-TutorialVideos/tutorial-01a-register-account/en.vtt",
+      "fr": "https://d2qcvmovr4fv.cloudfront.net/videos/A-TutorialVideos/tutorial-01a-register-account/fr.vtt"
     },
     "searchTerms": {
       "en": [
