@@ -1,0 +1,55 @@
+/**
+ * @file 06-ElbowRiverWatershedPartnershipAquifers.ts
+ * @module Data/Videos/BowRiverWatershed360
+ * @desc Contains localized metadata and media information for the Elbow River Watershed Partnership Aquifers video.
+ *
+ * @author Chace Nielson
+ * @created Jul 30, 2026
+ * @updated Jul 30, 2026
+ * @updated Nov 02, 2026 - added French titles, descriptions, and search terms to video metadata
+ */
+
+import { VideoCategory } from "../../enums/videoCategoryIds.js";
+import { Language } from "../../enums/language.js";
+
+import type { VideoSource } from "../../videoTypes.js";
+
+export const elbowRiverWatershedPartnershipAquifersVideo = {
+  id: "brbc-06f-erwp-aquifers",
+
+  supportedLanguages: [Language.EN.id],
+
+  categoryId: VideoCategory.BOW_RIVER_360.id,
+
+  title: {
+    en: "Elbow River Watershed Partnership (ERWP) Aquifers",
+    fr: "Aquifères du partenariat du bassin versant de la rivière Elbow"
+  },
+
+  description: {
+    en: "Explore the Elbow River watershed and learn about its groundwater, and state of the aquifer with Joe and Flora. Learn the definitions for what an aquifer is, how groundwater is used in the sub-basin, and how it is affected by people.",
+    fr: "Explorez le bassin versant de la rivière Elbow avec Joe et Flora et découvrez ses eaux souterraines ainsi que l’état de son aquifère. Apprenez ce qu’est un aquifère, comment les eaux souterraines sont utilisées dans le sous-bassin et comment les activités humaines les influencent."
+  },
+
+  lessonPlans: [
+    {
+      title: "Aquifers",
+      link: "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O"
+    }
+  ],
+
+  media: {
+    youtubeUrl: "https://www.youtube.com/watch?v=3wvA7macCMM",
+    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_2_elbow_river_watershed_partnership_aquifers.png",
+    is360: true
+  },
+  subtitles: {
+    en: "N/A",
+    fr: "N/A"
+  },
+
+  searchTerms: {
+    en: ["water", "watershed", "monitoring"],
+    fr: ["eau", "bassin versant", "surveillance", "eaux souterraines", "aquifères"]
+  },
+} satisfies VideoSource;

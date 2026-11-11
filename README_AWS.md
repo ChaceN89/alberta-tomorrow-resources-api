@@ -45,7 +45,8 @@ A serverless system allows you to run backend code without provisioning or manag
 ---
 
 ## Next Steps
-- Package your Express.js API for Lambda (see `lambda.js` and deployment template).
+- Build the TypeScript Lambda entrypoint with `npm run build`.
+- Package the compiled handler at `dist/lambda.js` (see `template.yaml`).
 - Deploy using AWS Console, CLI, or AWS SAM.
 - Update API Gateway settings as needed.
 

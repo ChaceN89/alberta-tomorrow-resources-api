@@ -1,0 +1,66 @@
+/**
+ * @file 21-UsingTheLand.ts
+ * @module Data/Videos/StoneyVideos
+ * @desc Contains localized metadata and media information for the Using The Land video.
+ *
+ * @author Chace Nielson
+ * @created Jul 30, 2026
+ * @updated Aug 07, 2026
+ */
+
+import { VideoCategory } from "../../enums/videoCategoryIds.js";
+import { Language } from "../../enums/language.js";
+
+import type { VideoSource } from "../../videoTypes.js";
+
+export const usingTheLandVideo = {
+  id: "stoney-21h-using-the-land",
+
+  supportedLanguages: [Language.EN.id, Language.FR.id],
+
+  categoryId: VideoCategory.STONEY_VOICES.id,
+
+  title: {
+    en: "Using The Land",
+    fr: "Utiliser les terres"
+  },
+
+  description: {
+    en: "Listen to Stoney Elders discuss gathering food and medicines, hunting, and passing on cultural knowledge through camps on the land. Learn how recreation and cattle grazing affect these traditional practices.",
+    fr: "Écoutez les aînés de la nation Stoney parler de la cueillette de nourriture et de plantes médicinales, de la chasse et de la transmission des savoirs culturels lors de camps sur le territoire. Découvrez comment les activités récréatives et le pâturage du bétail influencent ces pratiques traditionnelles."
+  },
+
+  media: {
+    youtubeUrl: "https://youtu.be/yz52Ysp_meQ?si=2uYyt4W4Qjq31z2N",
+    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/a7edc400-3c29-48bb-bcc6-296883adc89c/thumbnails/Using%20the%20Land_tumb.0000000.jpg",
+    is360: false
+  },
+  subtitles: {
+    en: "N/A",
+    fr: "N/A"
+  },
+
+  searchTerms: {
+    en: [
+      "indigenousstories",
+      "stoneynakoda",
+      "indigenouslanduse",
+      "morley",
+      "landuse",
+      "abwater",
+      "alberta",
+      "stoneyvoices",
+      "traditionallanduse"
+    ],
+    fr: [
+      "utiliser",
+      "terres",
+      "ecoutez",
+      "aines",
+      "parler",
+      "utilisation",
+      "faisaient",
+      "stoney"
+    ]
+  }
+} satisfies VideoSource;

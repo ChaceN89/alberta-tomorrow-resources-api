@@ -2,16 +2,18 @@
   "name": "alberta-tomorrow-resources-api",
   "version": "1.0.0",
   "description": "videos and lesson plans for alberta tomorrow",
-  "main": "lambda.js",
+  "main": "dist/lambda.js",
   "type": "module",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
-    "lambda": "NODE_ENV=lambda node lambda.js",
-    "generate": "node src/data/scripts/generate.js",
-    "generate:lessons": "node src/data/scripts/generateLessonPlans.js",
-    "generate:videos": "node src/data/scripts/generateVideos.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "start": "npm run build && node dist/src/app.js",
+    "dev": "tsx watch src/app.ts",
+    "lambda": "npm run build && NODE_ENV=lambda node dist/lambda.js",
+    "generate": "tsx src/data/scripts/generate.ts",
+    "generate:lessons": "tsx src/data/scripts/generateLessonPlans.ts",
+    "generate:videos": "tsx src/data/scripts/generateVideos.ts",
+    "test": "npm run typecheck"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +26,11 @@
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
   }
 }

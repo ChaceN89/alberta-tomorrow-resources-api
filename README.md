@@ -1,6 +1,6 @@
 # Alberta Tomorrow Resources API
 
-A Node.js/Express API that serves educational videos and lesson plans for the [Alberta Tomorrow](https://www.albertatomorrow.ca) platform. Resources are authored as individual JavaScript files, compiled into JSON via a generation script, and served through a REST API with Swagger documentation.
+A TypeScript/Express API that serves educational videos and lesson plans for the [Alberta Tomorrow](https://www.albertatomorrow.ca) platform. Resources are authored as individually typed TypeScript files, normalized into JSON by the generator, and served through a REST API with Swagger documentation.
 
 ---
 
@@ -22,11 +22,11 @@ A Node.js/Express API that serves educational videos and lesson plans for the [A
 The workflow has three stages:
 
 ```
-Author JS files  →  npm run generate  →  npm start
-(src/data/...)       (builds JSON)        (serves API)
+Author TS files  →  npm run generate  →  npm start
+(src/data/...)       (builds JSON)        (builds and serves API)
 ```
 
-1. **Author** — Each video and lesson plan is a single JS file exporting one object.
+1. **Author** — Each video and lesson plan is a single TypeScript file exporting one typed object.
 2. **Generate** — A script validates and compiles all files into two JSON files (`videos.json`, `lessonPlans.json`).
 3. **Serve** — Express reads the JSON files and serves them via REST endpoints.
 
@@ -36,12 +36,17 @@ Author JS files  →  npm run generate  →  npm start
 
 ```
 src/
-├── app.js                        # Express app entry point
+├── app.ts                        # Express app entry point
 ├── routes/
 │   ├── videos.js                 # GET /api/videos
 │   ├── lesson-plans.js           # GET /api/lessons
 │   └── stats.js                  # GET /api/stats
 └── data/
+    ├── sharedTypes.ts            # Types shared by video and lesson-plan data
+    ├── videoTypes.ts             # Video source and generated JSON schemas
+    ├── lessonPlanTypes.ts        # Lesson-plan source and generated JSON schemas
+    ├── videoData.ts               # Loads generated videos for the API
+    ├── lessonData.ts              # Loads generated lesson plans for the API
     ├── enums/
     │   ├── gradeIds.js           # Grade level definitions
     │   ├── subjectIds.js         # Subject definitions
@@ -50,7 +55,7 @@ src/
     ├── generated/
     │   ├── videos.json           # ← compiled output (do not edit manually)
     │   └── lessonPlans.json      # ← compiled output (do not edit manually)
-    ├── videos/                   # One JS file per video, organised by category
+    ├── videos/                   # One TS file per video, organised by category
     │   ├── A-TutorialVideos/
     │   ├── B-UnderstandingTheLandscape/
     │   ├── C-EnvironmentalIndicators/
@@ -62,7 +67,7 @@ src/
     │   ├── I-BlackfootVideos/
     │   ├── J-PointsOfInterest/
     │   └── Z-OtherVideos/
-    ├── lesson-plans/             # One JS file per lesson plan, organised by theme
+    ├── lesson-plans/             # One TS file per lesson plan, organised by theme
     │   ├── A_ClimateChangeLessons/
     │   ├── B_GlaciersAndWatershedsLessons/
     │   ├── C_LandUseLessons/
@@ -71,10 +76,10 @@ src/
     │   ├── F_BowRiverWatershedLessons/
     │   └── G_EnergyLessons/
     └── scripts/
-        ├── generate.js           # Orchestrator — runs both generators
-        ├── generateLessonPlans.js
-        ├── generateVideos.js
-        └── utils.js              # Shared helpers (file discovery, normalisation)
+        ├── generate.ts           # Orchestrator — runs both generators
+        ├── generateLessonPlans.ts
+        ├── generateVideos.ts
+        └── utils.ts              # Shared helpers (file discovery, normalisation)
 ```
 
 ---
@@ -98,13 +103,16 @@ npm run dev
 
 ### Video file
 
-Each video lives in its own JS file under `src/data/videos/<Category>/`. It must export exactly **one named object**:
+Each video lives in its own TypeScript file under `src/data/videos/<Category>/`. It exports one object checked against `VideoSource`:
 
-```js
+```ts
+import { Language } from "../../enums/language.js";
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
+import type { VideoSource } from "../../videoTypes.js";
 
 export const climateChangeVideo = {
   id: "landscape-01b-climate-change",          // required — must be unique
+  supportedLanguages: [Language.EN.id],
   categoryId: VideoCategory.LANDSCAPE.id,
 
   title: {
@@ -118,29 +126,38 @@ export const climateChangeVideo = {
   },
 
   media: {
-    type: "youtube",
-    url: "https://www.youtube.com/watch?v=Okh7vn60kxg",
+    primaryUrl: "N/A",
+    youtubeUrl: "https://www.youtube.com/watch?v=Okh7vn60kxg",
     thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/...",
     is360: false
+  },
+
+  subtitles: {
+    en: "N/A",
+    fr: "N/A"
   },
 
   searchTerms: {
     en: ["climate change", "global warming", "Alberta"],
     fr: ["changements climatiques", "réchauffement climatique", "Alberta"]
   }
-};
+} satisfies VideoSource;
 ```
 
-> `lessonPlanIds` is automatically populated by the generator — do not set it manually.
+Use `"N/A"` for subtitle URLs that are not available yet. `primaryUrl` may be omitted until a primary stream is found; the generator writes `"N/A"` for it. `youtubeUrl` is the backup link. `lessonPlanIds` is automatically populated by the generator.
 
 ---
 
 ### Lesson plan file
 
-Each lesson plan lives in its own JS file under `src/data/lesson-plans/<Theme>/`. It must export exactly **one named object**:
+Each lesson plan lives in its own TypeScript file under `src/data/lesson-plans/<Theme>/`, with its object checked against `LessonPlanSource`:
 
-```js
+```ts
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
+import { FileType } from "../../enums/fileTypes.js";
+import { Grade } from "../../enums/gradeIds.js";
+import { Subject } from "../../enums/subjectIds.js";
+import type { LessonPlanSource } from "../../lessonPlanTypes.js";
 
 export const goingGoingGoingGoneLessonPlan = {
   id: "climate-01a-going-going-gone",          // required — must be unique
@@ -156,18 +173,27 @@ export const goingGoingGoingGoneLessonPlan = {
     fr: "..."
   },
 
-  provider: {
-    name: "Alberta Tomorrow",
-    link: "https://www.albertatomorrow.ca"
+  approximateTime: {
+    en: "60 min",
+    fr: "60 min"
   },
 
-  approximateTime: "60 min",
-  tools: ["Land Use Simulator"],
+  files: {
+    en: [
+      {
+        fileType: FileType.LESSON_PLAN,
+        title: "Lesson Plan",
+        url: "https://example.com/lesson-plan",
+        pdfUrl: "N/A"
+      }
+    ],
+    fr: []
+  },
 
-  grades: [/* Grade enum objects from gradeIds.js */],
-  subjects: [/* Subject enum objects from subjectIds.js */],
+  gradeIds: [Grade.GRADE_6.id],
+  subjectIds: [Subject.SCIENCE.id],
 
-  tags: {
+  searchTerms: {
     en: ["glaciers", "climate change"],
     fr: ["glaciers", "changements climatiques"]
   },
@@ -177,16 +203,9 @@ export const goingGoingGoingGoneLessonPlan = {
     fr: ["..."]
   },
 
-  files: [
-    { title: "Lesson Plan PDF", link: "/pdfs/lesson-plans/..." }
-  ],
-
   videoIds: ["landscape-01b-climate-change"],  // references video IDs
-
-  relatedUrls: [
-    { title: "Guardians of the Ice", link: "https://guardiansoftheice.com" }
-  ]
-};
+  relatedResources: []
+} satisfies LessonPlanSource;
 ```
 
 ---
@@ -223,7 +242,7 @@ npm run generate -- --strict
 ```
 
 **What the generator does:**
-- Discovers all `.js` files recursively under each source directory
+- Discovers all `.ts` files recursively under each source directory
 - Skips files where the exported object has no `id` (summary shown by default, details with `--verbose`)
 - Fills missing localised strings with `"N/A"` and missing arrays with `[]`
 - Warns (but continues) when a lesson plan references a video that isn't loaded yet
@@ -235,12 +254,17 @@ npm run generate -- --strict
 ## Running the API
 
 ```bash
+# Build the TypeScript application
+npm run build
+
 # Development (auto-restarts on file changes)
 npm run dev
 
-# Production
+# Production (builds before starting)
 npm start
 ```
+
+`npm start` and `npm run lambda` build JavaScript into `dist/` before running. Run `npm run typecheck` to check the application without emitting build files.
 
 The server starts on `http://localhost:3000` by default. Set a `PORT` environment variable to override.
 
@@ -277,3 +301,4 @@ All user-facing text fields support English and French:
 ```
 
 Fields that have not yet been translated are set to `"N/A"` in the generated JSON. Enum IDs (grades, subjects, themes, categories) are language-neutral stable strings and are never translated.
+Missing subtitle URLs use `"N/A"` for both English and French until tracks are added. Missing arrays are generated as empty arrays.
