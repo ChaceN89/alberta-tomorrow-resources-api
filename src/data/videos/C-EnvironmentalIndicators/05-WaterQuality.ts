@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "env-05c-water-quality";
+const videoAssets = getVideoAssetPaths(VideoCategory.ENVIRONMENTAL_INDICATORS.id, videoId);
+
 export const waterQualityVideo = {
-  id: "env-05c-water-quality",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,14 +35,14 @@ export const waterQualityVideo = {
   },
 
   media: {
-    primaryUrl: "https://d2qcvmovr4fv.cloudfront.net/out/v1/5cde617d12f6457c8c1021b18aaa4796/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=qsaeCqrJ64o",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/71ac9e8a-e577-4765-9783-71eaee4c08dd/thumbnails/Water Quality v2_H264_tumb.0000063.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

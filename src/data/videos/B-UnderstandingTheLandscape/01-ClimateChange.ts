@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "landscape-01b-climate-change";
+const videoAssets = getVideoAssetPaths(VideoCategory.LANDSCAPE.id, videoId);
+
 export const climateChangeVideo = {
-  id: "landscape-01b-climate-change",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const climateChangeVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=Okh7vn60kxg",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/climate_change_video.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

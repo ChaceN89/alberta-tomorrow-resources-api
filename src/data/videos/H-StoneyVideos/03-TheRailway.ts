@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "stoney-03h-the-railway";
+const videoAssets = getVideoAssetPaths(VideoCategory.STONEY_VOICES.id, videoId);
+
 export const theRailwayVideo = {
-	id: "stoney-03h-the-railway",
+	id: videoId,
 
 	supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const theRailwayVideo = {
 	},
 
 	media: {
+		primaryUrl: videoAssets.file("video.mp4"),
 		youtubeUrl: "https://youtu.be/NvR7dT83UKE?si=MWipJUoMutYdAGzY",
-		thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/55aaaa60-b4e8-4a17-8e57-a160624b63a7/thumbnails/Railway_tumb.0000000.jpg",
+		thumbnailUrl: videoAssets.file("thumbnail.jpg"),
 		is360: false
 	},
 	subtitles: {
-	  en: "N/A",
-	  fr: "N/A"
+	  en: videoAssets.file("en.vtt"),
+	  fr: videoAssets.file("fr.vtt")
 	},
 
 	searchTerms: {

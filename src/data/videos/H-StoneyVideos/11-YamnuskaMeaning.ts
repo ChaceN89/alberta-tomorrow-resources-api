@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "stoney-11h-yamnuska-meaning";
+const videoAssets = getVideoAssetPaths(VideoCategory.STONEY_VOICES.id, videoId);
+
 export const yamnuskaMeaningVideo = {
-  id: "stoney-11h-yamnuska-meaning",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const yamnuskaMeaningVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://youtu.be/GX0PKaCqJiI?si=lL2dqXTkoa-tjh3r",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/6735981d-73e2-4ca4-8239-31f2a45921d5/thumbnails/Yamnuska%20Meaning_tumb.0000000.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

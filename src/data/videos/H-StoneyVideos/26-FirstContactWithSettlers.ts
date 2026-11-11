@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "stoney-26h-first-contact";
+const videoAssets = getVideoAssetPaths(VideoCategory.STONEY_VOICES.id, videoId);
+
 export const firstContactWithSettlersVideo = {
-	id: "stoney-26h-first-contact",
+	id: videoId,
 
 	supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const firstContactWithSettlersVideo = {
 	},
 
 	media: {
+		primaryUrl: videoAssets.file("video.mp4"),
 		youtubeUrl: "https://youtu.be/7pI3iyUuhK0?si=Y-8Gc_UmAStwrK1Y",
-		thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/cdf75db1-7b00-473f-bf7c-927b33b3589a/thumbnails/First%20Contact%20w%20Settlers_tumb.0000000.jpg",
+		thumbnailUrl: videoAssets.file("thumbnail.jpg"),
 		is360: false
 	},
 	subtitles: {
-	  en: "N/A",
-	  fr: "N/A"
+	  en: videoAssets.file("en.vtt"),
+	  fr: videoAssets.file("fr.vtt")
 	},
 
 	searchTerms: {

@@ -11,11 +11,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "brbc-06f-erwp-aquifers";
+const videoAssets = getVideoAssetPaths(VideoCategory.BOW_RIVER_360.id, videoId);
+
 export const elbowRiverWatershedPartnershipAquifersVideo = {
-  id: "brbc-06f-erwp-aquifers",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id],
 
@@ -39,13 +43,14 @@ export const elbowRiverWatershedPartnershipAquifersVideo = {
   ],
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=3wvA7macCMM",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_2_elbow_river_watershed_partnership_aquifers.png",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: true
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

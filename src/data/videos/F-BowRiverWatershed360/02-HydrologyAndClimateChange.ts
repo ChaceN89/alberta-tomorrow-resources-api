@@ -11,11 +11,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "brbc-02f-hydro-climate";
+const videoAssets = getVideoAssetPaths(VideoCategory.BOW_RIVER_360.id, videoId);
+
 export const hydrologyAndClimateChangeVideo = {
-  id: "brbc-02f-hydro-climate",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id],
 
@@ -39,13 +43,14 @@ export const hydrologyAndClimateChangeVideo = {
   ],
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=6B31usY3S6E&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=2",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_10_hydrology_and_climate_change.png",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: true
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

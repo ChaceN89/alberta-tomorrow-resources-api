@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "env-06c-greenhouse-gases";
+const videoAssets = getVideoAssetPaths(VideoCategory.ENVIRONMENTAL_INDICATORS.id, videoId);
+
 export const greenhouseGasesVideo = {
-  id: "env-06c-greenhouse-gases",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,14 +35,14 @@ export const greenhouseGasesVideo = {
   },
 
   media: {
-    primaryUrl: "https://d2qcvmovr4fv.cloudfront.net/out/v1/0ae65744bb3847bb9a6d8b8eb33c2ef0/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=m7G3mSq2aD0",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/be03a00b-b27d-4afe-be64-332ec61b92c5/thumbnails/Greenhouse Gases v2_H264_tumb.0000039.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

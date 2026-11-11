@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "stoney-12h-cougar-story";
+const videoAssets = getVideoAssetPaths(VideoCategory.STONEY_VOICES.id, videoId);
+
 export const cougarStoryVideo = {
-  id: "stoney-12h-cougar-story",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const cougarStoryVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://youtu.be/9269H-WWRBg?si=DX65Ftlw44R5YvbW",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/ea8539b2-f1e7-4b50-bd6b-b41af7d06c94/thumbnails/Cougar%20Story_tumb.0000000.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "stoney-08h-before-treaty";
+const videoAssets = getVideoAssetPaths(VideoCategory.STONEY_VOICES.id, videoId);
+
 export const beforeTreatyVideo = {
-  id: "stoney-08h-before-treaty",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const beforeTreatyVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://youtu.be/tuNheHwbU7c?si=uTlYq-LqELvWmpuf",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/a9b99252-a854-4a77-aaa2-f7fe43a1a6c1/thumbnails/Before%20Treaty_tumb.0000000.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

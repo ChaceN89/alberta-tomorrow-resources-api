@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "env-02c-caribou-habitat";
+const videoAssets = getVideoAssetPaths(VideoCategory.ENVIRONMENTAL_INDICATORS.id, videoId);
+
 export const caribouHabitatVideo = {
-  id: "env-02c-caribou-habitat",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,15 +35,15 @@ export const caribouHabitatVideo = {
   },
 
   media: {
-    primaryUrl: "https://d2qcvmovr4fv.cloudfront.net/out/v1/92b720ba2d60441d97a416358c3b700e/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=xiBz_Vov6H0",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/6d77c369-dc90-454f-a833-ace354a38e40/thumbnails/Caribou Habitat v4_H264_tumb.0000035.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
 
   subtitles: {
-    en: "N/A", // ex https://d2qcvmovr4fv.cloudfront.net/subtitles/caribou-habitat-en.vtt
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"), // ex https://d2qcvmovr4fv.cloudfront.net/subtitles/caribou-habitat-en.vtt
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

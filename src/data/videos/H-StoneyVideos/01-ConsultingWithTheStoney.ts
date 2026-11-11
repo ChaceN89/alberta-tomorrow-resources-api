@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "stoney-01h-consulting-with-the-stoney";
+const videoAssets = getVideoAssetPaths(VideoCategory.STONEY_VOICES.id, videoId);
+
 export const consultingWithTheStoneyVideo = {
-  id: "stoney-01h-consulting-with-the-stoney",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const consultingWithTheStoneyVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://youtu.be/CEmbcJ_2oPA?si=aqTK4AvzdPw2yPXx",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/6efd0003-1620-480a-95d4-49bf1d429d89/thumbnails/Consulting%20With%20Stoney_tumb.0000000.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

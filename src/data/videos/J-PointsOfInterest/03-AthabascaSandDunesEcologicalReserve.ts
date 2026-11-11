@@ -11,11 +11,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "poi-03j-athabasca-sand-dunes-ecological-reserve";
+const videoAssets = getVideoAssetPaths(VideoCategory.POINTS_OF_INTEREST.id, videoId);
+
 export const athabascaSandDunesEcologicalReserveVideo = {
-  id: "poi-03j-athabasca-sand-dunes-ecological-reserve",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id],
 
@@ -32,13 +36,14 @@ export const athabascaSandDunesEcologicalReserveVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=KrkcyfUn274",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/LGO_AthabascaSandDunes.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

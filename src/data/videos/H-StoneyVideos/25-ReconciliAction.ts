@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "stoney-25h-reconcili-action";
+const videoAssets = getVideoAssetPaths(VideoCategory.STONEY_VOICES.id, videoId);
+
 export const reconciliActionVideo = {
-	id: "stoney-25h-reconcili-action",
+	id: videoId,
 
 	supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const reconciliActionVideo = {
 	},
 
 	media: {
+		primaryUrl: videoAssets.file("video.mp4"),
 		youtubeUrl: "https://youtu.be/P65TspAOwrU?si=JEA8buNzlAZus7Jl",
-		thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/a84b6134-084c-4223-b8eb-ace6e197e71e/thumbnails/ReconciliACTION_tumb.0000000.jpg",
+		thumbnailUrl: videoAssets.file("thumbnail.jpg"),
 		is360: false
 	},
 	subtitles: {
-	  en: "N/A",
-	  fr: "N/A"
+	  en: videoAssets.file("en.vtt"),
+	  fr: videoAssets.file("fr.vtt")
 	},
 
 	searchTerms: {

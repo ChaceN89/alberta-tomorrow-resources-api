@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "stoney-06h-creator-story";
+const videoAssets = getVideoAssetPaths(VideoCategory.STONEY_VOICES.id, videoId);
+
 export const creatorStoryVideo = {
-	id: "stoney-06h-creator-story",
+	id: videoId,
 
 	supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const creatorStoryVideo = {
 	},
 
 	media: {
+		primaryUrl: videoAssets.file("video.mp4"),
 		youtubeUrl: "https://youtu.be/HKy3Sb2u-Mk?si=FUDzF1rx4dzmQzKz",
-		thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/7d5e3424-03c7-40c0-b1f6-e26ef8dd99ec/thumbnails/Creator Story_tumb.0000000.jpg",
+		thumbnailUrl: videoAssets.file("thumbnail.jpg"),
 		is360: false
 	},
 	subtitles: {
-	  en: "N/A",
-	  fr: "N/A"
+	  en: videoAssets.file("en.vtt"),
+	  fr: videoAssets.file("fr.vtt")
 	},
 
 	searchTerms: {

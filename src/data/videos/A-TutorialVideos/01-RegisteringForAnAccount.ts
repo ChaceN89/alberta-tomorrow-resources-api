@@ -19,10 +19,7 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
-import {
-  getVideoAssetPaths,
-  getYouTubeThumbnailUrl,
-} from "../../assetUrls.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
@@ -47,15 +44,15 @@ export const registeringForAnAccountVideo = {
   },
 
   media: {
-    primaryUrl: videoAssets.file("User Tutorial_ Registering for an Account.mp4"),
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=5Qi8v-Y3iXM",
-    thumbnailUrl: getYouTubeThumbnailUrl("tutorialRegisterAccount.jpg"),
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
 
   subtitles: {
-    en: videoAssets.file("en-captions.vtt"),
-    fr: videoAssets.file("fr-captions.vtt")
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

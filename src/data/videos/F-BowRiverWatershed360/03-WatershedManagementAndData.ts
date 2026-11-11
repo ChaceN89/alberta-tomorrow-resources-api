@@ -11,11 +11,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "brbc-03f-management-data";
+const videoAssets = getVideoAssetPaths(VideoCategory.BOW_RIVER_360.id, videoId);
+
 export const watershedManagementAndDataVideo = {
-  id: "brbc-03f-management-data",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id],
 
@@ -34,13 +38,14 @@ export const watershedManagementAndDataVideo = {
   lessonPlans: [],
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=1sIN7zr8xoo&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=5",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_9_watershed_management_and_data.png",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: true
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

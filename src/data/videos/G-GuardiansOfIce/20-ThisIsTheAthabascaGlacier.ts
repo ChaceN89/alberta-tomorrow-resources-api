@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "goi-20g-this-is-the-athabasca-glacier";
+const videoAssets = getVideoAssetPaths(VideoCategory.GLACIER_SERIES.id, videoId);
+
 export const thisIsTheAthabascaGlacierVideo = {
-  id: "goi-20g-this-is-the-athabasca-glacier",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const thisIsTheAthabascaGlacierVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=KF1JBsGdyZY",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/c6678f98-a6f3-4ca1-ab0b-4082cc0fc877/thumbnails/This%20is%20the%20Athabasca%20glacier._tumb.0000007.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

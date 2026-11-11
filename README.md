@@ -251,10 +251,11 @@ npm run generate -- --strict
 
 ### Shared asset URLs
 
-`src/data/assetUrls.ts` centralizes the video, lesson-plan PDF, and legacy thumbnail
-base URLs, along with the case-sensitive video category folder mapping. Video records
-can build asset links with `getVideoAssetPaths(categoryId, videoId).file(fileName)`;
-lesson-plan files can use `getLessonPlanPdfUrl(lessonPlanId, "en")` or `"fr"`. Change
+`src/data/assetUrls.ts` centralizes the video and lesson-plan PDF base URLs, along with
+the case-sensitive video category folder mapping. Video records use their internal ID
+and the standard filenames `video.mp4`, `thumbnail.jpg`, `en.vtt`, and `fr.vtt`; they
+can build asset links with `getVideoAssetPaths(categoryId, videoId).file(fileName)`.
+Lesson-plan files can use `getLessonPlanPdfUrl(lessonPlanId, "en")` or `"fr"`. Change
 the video base URL there when switching delivery from S3 to CloudFront.
 
 ### Pulling YouTube assets

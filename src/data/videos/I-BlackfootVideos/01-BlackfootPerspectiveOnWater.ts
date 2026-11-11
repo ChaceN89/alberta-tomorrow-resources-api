@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "bfv-01i-blackfoot-perspective-on-water";
+const videoAssets = getVideoAssetPaths(VideoCategory.BLACKFOOT_VOICES.id, videoId);
+
 export const blackfootPerspectiveOnWaterVideo = {
-  id: "bfv-01i-blackfoot-perspective-on-water",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const blackfootPerspectiveOnWaterVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=r-NzlnMgDj4",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/thumb-a-blackfoot-perspective.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: true
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

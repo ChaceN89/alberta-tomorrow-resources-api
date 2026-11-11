@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "goi-37g-cutting-glacier-ice-cores";
+const videoAssets = getVideoAssetPaths(VideoCategory.GLACIER_SERIES.id, videoId);
+
 export const cuttingGlacierIceCoresVideo = {
-  id: "goi-37g-cutting-glacier-ice-cores",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const cuttingGlacierIceCoresVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=VLaZWe8nACs",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/acb56cc0-edb4-4cb1-ae5e-d8504ee154d0/thumbnails/obs_9877d8ac-26fc-435d-8e9d-d1acad385aae_tumb.0000004.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

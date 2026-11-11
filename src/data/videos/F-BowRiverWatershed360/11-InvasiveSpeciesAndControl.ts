@@ -11,11 +11,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "brbc-11f-invasive-species";
+const videoAssets = getVideoAssetPaths(VideoCategory.BOW_RIVER_360.id, videoId);
+
 export const invasiveSpeciesAndControlVideo = {
-  id: "brbc-11f-invasive-species",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id],
 
@@ -39,13 +43,14 @@ export const invasiveSpeciesAndControlVideo = {
   ],
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=EQXmN_v_2qw&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=7",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/brbc_1_invasive_species_and_control.png",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: true
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

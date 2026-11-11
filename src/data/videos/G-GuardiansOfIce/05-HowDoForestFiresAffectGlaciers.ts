@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "goi-05g-how-do-forest-fires-affect-glaciers";
+const videoAssets = getVideoAssetPaths(VideoCategory.GLACIER_SERIES.id, videoId);
+
 export const howDoForestFiresAffectGlaciersVideo = {
-  id: "goi-05g-how-do-forest-fires-affect-glaciers",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const howDoForestFiresAffectGlaciersVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=LkkeMC8VhnA",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/a93656c2-dbe9-4cca-8b30-1348050ba4f1/thumbnails/obs_07c1c554-f590-4de2-9609-52263faafbda_tumb.0000024.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

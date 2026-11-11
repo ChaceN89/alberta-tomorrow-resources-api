@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "goi-04g-how-crevasses-form";
+const videoAssets = getVideoAssetPaths(VideoCategory.GLACIER_SERIES.id, videoId);
+
 export const howCrevassesFormVideo = {
-  id: "goi-04g-how-crevasses-form",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const howCrevassesFormVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=QbotXyLZXiQ",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/abc02ad4-803a-46a3-a40a-30f67c5deaab/thumbnails/obs_4e61c978-3fd4-41c1-8d01-637b2a629580_tumb.0000011.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "oth-01z-oxygen-isotopes";
+const videoAssets = getVideoAssetPaths(VideoCategory.OTHER.id, videoId);
+
 export const oxygenIsotopesAndThePaleoclimateRecordVideo = {
-  id: "oth-01z-oxygen-isotopes",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const oxygenIsotopesAndThePaleoclimateRecordVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=YfRDNyB1XOY",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/oxygenisotopes.jpg",
-    is360: true
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
+    is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

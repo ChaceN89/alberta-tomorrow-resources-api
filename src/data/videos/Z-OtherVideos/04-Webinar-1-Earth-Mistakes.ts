@@ -14,11 +14,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "oth-04z-webinar-land-use-mistakes-mitigation-restoration";
+const videoAssets = getVideoAssetPaths(VideoCategory.OTHER.id, videoId);
+
 export const webinarLandUseMistakesMitigationAndRestorationVideo = {
-  id: "oth-04z-webinar-land-use-mistakes-mitigation-restoration",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -35,13 +39,14 @@ export const webinarLandUseMistakesMitigationAndRestorationVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=dqkoz2CgSSU",
-    thumbnailUrl: "https://img.youtube.com/vi/dqkoz2CgSSU/hqdefault.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

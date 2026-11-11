@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "oth-02z-hydrolysis-and-the-faint-young-sun-paradox";
+const videoAssets = getVideoAssetPaths(VideoCategory.OTHER.id, videoId);
+
 export const hydrolysisAndTheFaintYoungSunParadoxVideo = {
-  id: "oth-02z-hydrolysis-and-the-faint-young-sun-paradox",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const hydrolysisAndTheFaintYoungSunParadoxVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=rEeixDNVjeE",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails/oxygenisotopes.jpg",
-    is360: true
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
+    is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

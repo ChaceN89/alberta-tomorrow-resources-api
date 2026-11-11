@@ -1,12 +1,17 @@
+
+
+/**
+ * Centralizes public asset URL construction for videos and lesson-plan PDFs.
+ * Update the base URLs here when delivery moves from S3 to CloudFront.
+ */
 import { VideoCategory } from "./enums/videoCategoryIds.js";
 
 const VIDEO_ASSETS_BASE_URL =
   "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos";
 const LESSON_PLAN_ASSETS_BASE_URL =
   "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/lesson-plans";
-const YOUTUBE_THUMBNAILS_BASE_URL =
-  "https://d2qcvmovr4fv.cloudfront.net/youtube/thumbnails";
 
+// These directory names match the existing S3 layout; preserve their spelling and case.
 const VIDEO_CATEGORY_FOLDERS: Record<string, string> = {
   [VideoCategory.TUTORIALS.id]: "A-TutorialVideos",
   [VideoCategory.LANDSCAPE.id]: "B-UnderstandingTheLandscape",
@@ -21,6 +26,7 @@ const VIDEO_CATEGORY_FOLDERS: Record<string, string> = {
   [VideoCategory.OTHER.id]: "Z-OtherVideos",
 };
 
+// Encode one URL path segment and reject values that could add or escape a directory.
 function encodePathSegment(value: string, label: string): string {
   if (!value.trim() || value === "." || value === ".." || /[\\/]/.test(value)) {
     throw new Error(`Invalid ${label} path segment: "${value}".`);
@@ -28,6 +34,7 @@ function encodePathSegment(value: string, label: string): string {
   return encodeURIComponent(value);
 }
 
+/** Returns the storage directory associated with a video category ID. */
 export function getVideoCategoryFolder(categoryId: string): string {
   const folder = VIDEO_CATEGORY_FOLDERS[categoryId];
   if (!folder) {
@@ -36,6 +43,10 @@ export function getVideoCategoryFolder(categoryId: string): string {
   return folder;
 }
 
+/**
+ * Builds URLs for a video's asset directory and its individual files.
+ * The directory is videos/<category-folder>/<video-id>; use file() for filenames.
+ */
 export function getVideoAssetPaths(categoryId: string, videoId: string) {
   const categoryFolder = getVideoCategoryFolder(categoryId);
   const baseUrl = [
@@ -51,10 +62,7 @@ export function getVideoAssetPaths(categoryId: string, videoId: string) {
   };
 }
 
-export function getYouTubeThumbnailUrl(fileName: string): string {
-  return `${YOUTUBE_THUMBNAILS_BASE_URL}/${encodePathSegment(fileName, "thumbnail filename")}`;
-}
-
+/** Builds the S3 URL for an English or French lesson-plan PDF. */
 export function getLessonPlanPdfUrl(
   lessonPlanId: string,
   language: "en" | "fr",

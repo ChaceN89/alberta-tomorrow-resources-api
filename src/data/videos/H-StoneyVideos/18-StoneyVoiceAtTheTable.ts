@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "stoney-18h-stoney-voice-at-table";
+const videoAssets = getVideoAssetPaths(VideoCategory.STONEY_VOICES.id, videoId);
+
 export const stoneyVoiceAtTheTableVideo = {
-  id: "stoney-18h-stoney-voice-at-table",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const stoneyVoiceAtTheTableVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://youtu.be/kuFB4CrTufw?si=rVjuYL9xCxY5HwVm",
-    thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/1bd74c11-faa1-41f4-8d12-cab9e5b0767c/thumbnails/Stoney%20Voice%20at%20the%20Table_tumb.0000000.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {

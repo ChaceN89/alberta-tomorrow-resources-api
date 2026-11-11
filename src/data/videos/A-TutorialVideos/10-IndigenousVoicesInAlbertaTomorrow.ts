@@ -10,11 +10,15 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
+import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
+const videoId = "tutorial-10a-indigenous-voices";
+const videoAssets = getVideoAssetPaths(VideoCategory.TUTORIALS.id, videoId);
+
 export const indigenousVoicesInAlbertaTomorrowVideo = {
-  id: "tutorial-10a-indigenous-voices",
+  id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
@@ -31,13 +35,14 @@ export const indigenousVoicesInAlbertaTomorrowVideo = {
   },
 
   media: {
+    primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=r-Yk6CjEKP8",
-    thumbnailUrl: "https://img.youtube.com/vi/r-Yk6CjEKP8/hqdefault.jpg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false
   },
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
   },
 
   searchTerms: {
