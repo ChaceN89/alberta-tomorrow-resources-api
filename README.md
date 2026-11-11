@@ -263,7 +263,24 @@ the video base URL there when switching delivery from S3 to CloudFront.
 The local `pullyoutube` command looks up a video ID in the generated video data and saves
 `video.mp4`, `thumbnail.jpg`, `en.vtt`, and `fr.vtt` under
 `src/data/youtube-extracted-data/<category-folder>/<video-id>/`. This directory is
-git-ignored.
+git-ignored. By default, existing files are left untouched and only missing files are
+downloaded or copied. This lets you keep a manually replaced thumbnail or asset while
+filling gaps in the same export. Interactive terminals show color-coded statuses; set
+`NO_COLOR=1` to disable ANSI colors.
+
+The goal is to collect the YouTube video, thumbnail, and English/French caption assets
+locally so they can be reviewed and uploaded alongside the video records. Extraction
+does not upload anything to AWS. After checking the files, manually upload each
+video's extracted files to the matching S3 prefix:
+
+```text
+Local: src/data/youtube-extracted-data/<category-folder>/<video-id>/
+S3:    s3://abt-video-assets-prod/videos/<category-folder>/<video-id>/
+```
+
+Keep the filenames (`video.mp4`, `thumbnail.jpg`, `en.vtt`, `fr.vtt`) unchanged. The
+S3 directory mirrors the local extraction directory, so the generated video URLs will
+resolve after the files are uploaded. Automating the AWS upload is a future step.
 
 The command uses the YouTube Data API for the thumbnail and `yt-dlp` for subtitle track
 discovery and downloads. This avoids the captions download endpoint, which can return a
@@ -281,16 +298,32 @@ For example, use the direct YouTube download path for an authorized video:
 npm run pullyoutube -- tutorial-01a-register-account --video-source youtube
 ```
 
+List available sections and inspect the files already extracted for a section:
+
+```bash
+npm run pullyoutube -- --list-sections
+npm run pullyoutube -- --list-section A-TutorialVideos
+```
+
+Export or fill missing assets for every video in a section:
+
+```bash
+npm run pullyoutube -- --section A-TutorialVideos --video-source youtube
+```
+
+To deliberately refresh every asset instead of keeping existing files, add
+`--override` (also accepted as `--overwrite`):
+
+```bash
+npm run pullyoutube -- --section A-TutorialVideos --video-source youtube --override
+```
+
 On the first run, the command opens Google authorization. A refresh token is stored outside the repository in
 `~/.config/alberta-tomorrow-resources-api/youtube-oauth.json` (or under
 `$XDG_CONFIG_HOME`). Keep the OAuth client secret and token private.
 
-If downloading the video directly is permitted for your video, install `yt-dlp` and
-FFmpeg and explicitly opt in:
-
-```bash
-npm run pullyoutube -- tutorial-01a-register-account --video-source youtube
-```
+The direct MP4 download option requires `yt-dlp` and FFmpeg. Use the
+`--video-source youtube` option shown above only for videos you are authorized to download.
 
 The script does not read browser cookies. Direct video downloads may not be available
 for every video; in that case, export the original through YouTube Studio and use `--mp4`.
@@ -309,8 +342,9 @@ npm run pullyoutube -- tutorial-01a-register-account \
   --overwrite
 ```
 
-Machine-translated variants are not used as fallback tracks. Use `--overwrite` when
-replacing or completing an existing partial export.
+Machine-translated variants are not used as fallback tracks. For one video, run the
+command again to fill any missing files; existing files remain unchanged unless you
+pass `--override`.
 
 ---
 

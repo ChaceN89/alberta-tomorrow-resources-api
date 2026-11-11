@@ -28,16 +28,39 @@ const CAPTION_LANGUAGES = [
   { fileName: "en.vtt", language: "en", preferredTag: "en-CA" },
   { fileName: "fr.vtt", language: "fr", preferredTag: "fr-CA" },
 ] as const;
+type CaptionLanguage = (typeof CAPTION_LANGUAGES)[number];
 const OUTPUT_FILES = ["video.mp4", "thumbnail.jpg", "en.vtt", "fr.vtt"];
 
+const ANSI_COLORS = {
+  blue: "34",
+  cyan: "36",
+  dim: "2",
+  green: "32",
+  red: "31",
+  yellow: "33",
+} as const;
+type AnsiColor = keyof typeof ANSI_COLORS;
+
+function colorize(
+  message: string,
+  color: AnsiColor,
+  stream: NodeJS.WriteStream = process.stdout,
+): string {
+  if (!stream.isTTY || process.env.NO_COLOR !== undefined) return message;
+  return `\u001b[${ANSI_COLORS[color]}m${message}\u001b[0m`;
+}
+
 interface CliOptions {
-  videoId: string;
+  videoId?: string;
+  section?: string;
+  listSection?: string;
+  listSections: boolean;
   mp4Path?: string;
   enVttPath?: string;
   frVttPath?: string;
   downloadFromYouTube: boolean;
   outputDirectory: string;
-  overwrite: boolean;
+  overrideExisting: boolean;
 }
 
 interface YtDlpSubtitleInfo {
@@ -68,8 +91,11 @@ interface OAuthTokenResponse {
 function usage(): string {
   return [
     "Usage:",
-    "  npm run pullyoutube -- <video-id> --mp4 <original.mp4> [--en-vtt <en.vtt>] [--fr-vtt <fr.vtt>]",
+    "  npm run pullyoutube -- <video-id> [--mp4 <original.mp4>] [--en-vtt <en.vtt>] [--fr-vtt <fr.vtt>]",
     "  npm run pullyoutube -- <video-id> --video-source youtube",
+    "  npm run pullyoutube -- --section <category-folder> --video-source youtube",
+    "  npm run pullyoutube -- --list-section <category-folder>",
+    "  npm run pullyoutube -- --list-sections",
     "",
     "Options:",
     "  --video-id <id>          Generated video ID (also accepted as the first argument)",
@@ -77,22 +103,29 @@ function usage(): string {
     "  --en-vtt <path>          Use an English WebVTT exported from YouTube Studio",
     "  --fr-vtt <path>          Use a French WebVTT exported from YouTube Studio",
     "  --video-source youtube   Use yt-dlp when permitted for this video",
+    "  --section <folder>       Export every generated video in a category folder",
+    "  --list-section <folder>  Show videos and extracted-file status in a category",
+    "  --list-sections          Show available category folders",
     "  --out-dir <path>         Output root (default: src/data/youtube-extracted-data)",
-    "  --overwrite              Replace existing export files",
+    "  --override               Replace all existing files; otherwise only fill missing files",
+    "  --overwrite              Alias for --override",
     "  --help                   Show this help",
     "",
-    "Set YOUTUBE_OAUTH_CLIENT_ID and YOUTUBE_OAUTH_CLIENT_SECRET for YouTube caption access.",
+    "Set YOUTUBE_OAUTH_CLIENT_ID and YOUTUBE_OAUTH_CLIENT_SECRET for YouTube thumbnail lookup.",
   ].join("\n");
 }
 
 function parseArguments(args: string[]): CliOptions | undefined {
   let videoId: string | undefined;
+  let section: string | undefined;
+  let listSection: string | undefined;
+  let listSections = false;
   let mp4Path: string | undefined;
   let enVttPath: string | undefined;
   let frVttPath: string | undefined;
   let downloadFromYouTube = false;
   let outputDirectory = DEFAULT_OUTPUT_DIRECTORY;
-  let overwrite = false;
+  let overrideExisting = false;
 
   for (let index = 0; index < args.length; index += 1) {
     const argument = args[index];
@@ -101,8 +134,13 @@ function parseArguments(args: string[]): CliOptions | undefined {
       return undefined;
     }
 
-    if (argument === "--overwrite") {
-      overwrite = true;
+    if (argument === "--override" || argument === "--overwrite") {
+      overrideExisting = true;
+      continue;
+    }
+
+    if (argument === "--list-sections") {
+      listSections = true;
       continue;
     }
 
@@ -121,7 +159,9 @@ function parseArguments(args: string[]): CliOptions | undefined {
       argument === "--mp4" ||
       argument === "--en-vtt" ||
       argument === "--fr-vtt" ||
-      argument === "--out-dir"
+      argument === "--out-dir" ||
+      argument === "--section" ||
+      argument === "--list-section"
     ) {
       const value = args[index + 1];
       if (!value || value.startsWith("--")) {
@@ -132,6 +172,8 @@ function parseArguments(args: string[]): CliOptions | undefined {
       if (argument === "--en-vtt") enVttPath = value;
       if (argument === "--fr-vtt") frVttPath = value;
       if (argument === "--out-dir") outputDirectory = path.resolve(value);
+      if (argument === "--section") section = value;
+      if (argument === "--list-section") listSection = value;
       index += 1;
       continue;
     }
@@ -145,24 +187,37 @@ function parseArguments(args: string[]): CliOptions | undefined {
     videoId = argument;
   }
 
-  if (!videoId) {
-    throw new Error(`A generated video ID is required.\n\n${usage()}`);
+  const isListing = listSections || listSection !== undefined;
+  if (listSections && listSection) {
+    throw new Error("Choose either --list-sections or --list-section <category-folder>.");
+  }
+  if (isListing && (videoId || section || mp4Path || enVttPath || frVttPath || downloadFromYouTube || overrideExisting)) {
+    throw new Error("Listing options cannot be combined with video export options.");
+  }
+  if (section && videoId) {
+    throw new Error("Choose either a video ID or --section, not both.");
+  }
+  if (!isListing && !section && !videoId) {
+    throw new Error(`Provide a video ID or choose --section / --list-sections.\n\n${usage()}`);
+  }
+  if (section && (mp4Path || enVttPath || frVttPath)) {
+    throw new Error("Manual MP4 or caption paths can only be used when exporting one video.");
   }
   if (mp4Path && downloadFromYouTube) {
     throw new Error("Choose either --mp4 or --video-source youtube, not both.");
   }
-  if (!mp4Path && !downloadFromYouTube) {
-    throw new Error("Provide --mp4 or explicitly choose --video-source youtube.");
-  }
 
   return {
     videoId,
+    section,
+    listSection,
+    listSections,
     mp4Path: mp4Path ? path.resolve(mp4Path) : undefined,
     enVttPath: enVttPath ? path.resolve(enVttPath) : undefined,
     frVttPath: frVttPath ? path.resolve(frVttPath) : undefined,
     downloadFromYouTube,
     outputDirectory,
-    overwrite,
+    overrideExisting,
   };
 }
 
@@ -207,12 +262,27 @@ function getVideoRecord(videoId: string): GeneratedVideo {
   return video;
 }
 
-function getOutputDirectory(options: CliOptions, video: GeneratedVideo): string {
+function getVideosInSection(section: string): GeneratedVideo[] {
+  const videos = allVideos.filter(
+    (video) => getVideoCategoryFolder(video.categoryId) === section,
+  );
+  if (videos.length === 0) {
+    const availableSections = [...new Set(
+      allVideos.map((video) => getVideoCategoryFolder(video.categoryId)),
+    )].sort();
+    throw new Error(
+      `No generated videos found for section "${section}". Available sections: ${availableSections.join(", ")}`,
+    );
+  }
+  return videos;
+}
+
+function getOutputDirectory(outputDirectory: string, video: GeneratedVideo): string {
   if (!/^[a-zA-Z0-9][a-zA-Z0-9_-]*$/.test(video.id)) {
     throw new Error(`Video ID is not a safe output folder name: "${video.id}".`);
   }
   return path.join(
-    options.outputDirectory,
+    outputDirectory,
     getVideoCategoryFolder(video.categoryId),
     video.id,
   );
@@ -230,22 +300,57 @@ async function pathExists(filePath: string): Promise<boolean> {
   }
 }
 
-async function assertOutputIsAvailable(
+async function getMissingOutputFiles(
   outputDirectory: string,
-  overwrite: boolean,
-): Promise<void> {
-  if (overwrite) return;
-  const existingFiles: string[] = [];
+  overrideExisting: boolean,
+): Promise<Set<string>> {
+  if (overrideExisting) return new Set(OUTPUT_FILES);
+  const missingFiles = new Set<string>();
   for (const fileName of OUTPUT_FILES) {
-    if (await pathExists(path.join(outputDirectory, fileName))) {
-      existingFiles.push(fileName);
+    if (!(await pathExists(path.join(outputDirectory, fileName)))) {
+      missingFiles.add(fileName);
     }
   }
-  if (existingFiles.length > 0) {
-    throw new Error(
-      `Export already contains ${existingFiles.join(", ")}. Use --overwrite to replace them.`,
-    );
+  return missingFiles;
+}
+
+function listSections(outputDirectory: string): void {
+  const counts = new Map<string, number>();
+  for (const video of allVideos) {
+    const section = getVideoCategoryFolder(video.categoryId);
+    counts.set(section, (counts.get(section) ?? 0) + 1);
   }
+
+  console.log(colorize("Available video sections:", "cyan"));
+  for (const [section, count] of [...counts.entries()].sort(([a], [b]) => a.localeCompare(b))) {
+    console.log(`  ${colorize(section, "blue")} ${colorize(`(${count} videos)`, "dim")}`);
+  }
+  console.log(`\n${colorize("Extraction root:", "dim")} ${outputDirectory}`);
+}
+
+async function listSection(section: string, outputDirectory: string): Promise<void> {
+  const videos = getVideosInSection(section);
+  let completeCount = 0;
+  console.log(colorize(`Videos in ${section}:`, "cyan"));
+  for (const video of videos) {
+    const videoDirectory = getOutputDirectory(outputDirectory, video);
+    const missingFiles: string[] = [];
+    for (const fileName of OUTPUT_FILES) {
+      if (!(await pathExists(path.join(videoDirectory, fileName)))) {
+        missingFiles.push(fileName);
+      }
+    }
+
+    if (missingFiles.length === 0) completeCount += 1;
+    const title = video.title.en;
+    const status =
+      missingFiles.length === 0
+        ? colorize("complete", "green")
+        : colorize(`missing ${missingFiles.join(", ")}`, "yellow");
+    console.log(`  ${colorize(video.id, "blue")} — ${title}: ${status}`);
+  }
+  const summary = `${completeCount}/${videos.length} videos have all extracted files.`;
+  console.log(`\n${colorize(summary, completeCount === videos.length ? "green" : "yellow")}`);
 }
 
 function getOAuthConfig(): { clientId: string; clientSecret: string } {
@@ -309,7 +414,13 @@ function openBrowser(url: string): void {
       : [url];
   const child = spawn(command, args, { stdio: "ignore", detached: true });
   child.once("error", () => {
-    console.warn("Could not open a browser automatically; open the authorization URL above.");
+    console.warn(
+      colorize(
+        "Could not open a browser automatically; open the authorization URL above.",
+        "yellow",
+        process.stderr,
+      ),
+    );
   });
   child.unref();
 }
@@ -380,8 +491,10 @@ async function authorizeGoogleAccount(
     state,
   }).toString();
 
-  console.log("Authorize the Google account that can edit this YouTube video.");
-  console.log(authorizationUrl.toString());
+  console.log(
+    colorize("Authorize the Google account that can edit this YouTube video.", "cyan"),
+  );
+  console.log(colorize(authorizationUrl.toString(), "blue"));
   openBrowser(authorizationUrl.toString());
 
   const timeout = setTimeout(() => {
@@ -657,7 +770,13 @@ async function downloadYtDlpCaptionWithFallback(
       const description = `${candidate.languageCode} (${candidate.source})`;
       const reason = error instanceof Error ? error.message : String(error);
       failures.push(`${description}: ${reason}`);
-      console.warn(`Could not download ${description}; trying the next matching subtitle track.`);
+      console.warn(
+        colorize(
+          `Could not download ${description}; trying the next matching subtitle track.`,
+          "yellow",
+          process.stderr,
+        ),
+      );
     }
   }
 
@@ -669,7 +788,10 @@ async function downloadYtDlpCaptionWithFallback(
 
   await writeFile(outputPath, selectedContents, "utf8");
   console.log(
-    `Using ${selectedCandidate.languageCode} ${selectedCandidate.source} subtitles.`,
+    colorize(
+      `Using ${selectedCandidate.languageCode} ${selectedCandidate.source} subtitles.`,
+      "green",
+    ),
   );
 }
 
@@ -683,15 +805,16 @@ async function copyCaptionOverride(
     throw new Error(`${language} subtitle file is not a valid, non-empty WebVTT file: ${sourcePath}`);
   }
   await writeFile(outputPath, caption, "utf8");
-  console.log(`Using ${language} captions from ${sourcePath}.`);
+  console.log(colorize(`Using ${language} captions from ${sourcePath}.`, "green"));
 }
 
 async function downloadCaptions(
   youtubeUrl: string,
   stagingDirectory: string,
   options: CliOptions,
+  requiredCaptions: readonly CaptionLanguage[],
 ): Promise<void> {
-  const captionOverrides = CAPTION_LANGUAGES.flatMap((caption) => {
+  const captionOverrides = requiredCaptions.flatMap((caption) => {
     const sourcePath = caption.language === "en" ? options.enVttPath : options.frVttPath;
     return sourcePath ? [{ caption, sourcePath }] : [];
   });
@@ -703,7 +826,7 @@ async function downloadCaptions(
     );
   }
   const overrideLanguages = new Set(captionOverrides.map(({ caption }) => caption.language));
-  const captionsToDownload = CAPTION_LANGUAGES.filter(
+  const captionsToDownload = requiredCaptions.filter(
     (caption) => !overrideLanguages.has(caption.language),
   );
   if (captionsToDownload.length === 0) return;
@@ -736,7 +859,7 @@ async function downloadCaptions(
 async function preservePartialAssets(
   stagingDirectory: string,
   outputDirectory: string,
-  overwrite: boolean,
+  overrideExisting: boolean,
 ): Promise<string[]> {
   await mkdir(outputDirectory, { recursive: true });
   const savedFiles: string[] = [];
@@ -744,16 +867,26 @@ async function preservePartialAssets(
   for (const fileName of OUTPUT_FILES) {
     const stagedPath = path.join(stagingDirectory, fileName);
     if (!(await pathExists(stagedPath))) continue;
+    const outputPath = path.join(outputDirectory, fileName);
+    if (!overrideExisting && (await pathExists(outputPath))) continue;
     try {
       await copyFile(
         stagedPath,
-        path.join(outputDirectory, fileName),
-        overwrite ? 0 : fsConstants.COPYFILE_EXCL,
+        outputPath,
+        overrideExisting ? 0 : fsConstants.COPYFILE_EXCL,
       );
-      savedFiles.push(path.join(outputDirectory, fileName));
+      savedFiles.push(outputPath);
     } catch (error) {
+      if (
+        !overrideExisting &&
+        error instanceof Error &&
+        "code" in error &&
+        error.code === "EEXIST"
+      ) {
+        continue;
+      }
       failures.push(
-        `${path.join(outputDirectory, fileName)}: ${error instanceof Error ? error.message : String(error)}`,
+        `${outputPath}: ${error instanceof Error ? error.message : String(error)}`,
       );
     }
   }
@@ -846,48 +979,103 @@ async function prepareMp4(
   }
 }
 
-async function exportVideo(options: CliOptions): Promise<void> {
-  const video = getVideoRecord(options.videoId);
+async function exportVideo(options: CliOptions, video: GeneratedVideo): Promise<void> {
   const youtubeVideoId = getYouTubeVideoId(video.media.youtubeUrl);
-  const outputDirectory = getOutputDirectory(options, video);
-  await assertOutputIsAvailable(outputDirectory, options.overwrite);
-  if (options.downloadFromYouTube || !options.enVttPath || !options.frVttPath) {
-    assertYouTubeDownloadToolsAvailable(options.downloadFromYouTube);
+  const outputDirectory = getOutputDirectory(options.outputDirectory, video);
+  const missingFiles = await getMissingOutputFiles(
+    outputDirectory,
+    options.overrideExisting,
+  );
+  if (missingFiles.size === 0) {
+    console.log(
+      colorize(
+        `All extracted files already exist for ${video.id}; leaving them unchanged.`,
+        "blue",
+      ),
+    );
+    return;
   }
-  if (options.mp4Path) {
+
+  const needsMp4 = missingFiles.has("video.mp4");
+  if (needsMp4 && !options.mp4Path && !options.downloadFromYouTube) {
+    throw new Error(
+      `The export for ${video.id} is missing video.mp4. Provide --mp4 <path> or use --video-source youtube.`,
+    );
+  }
+  const captionsToExport = CAPTION_LANGUAGES.filter((caption) =>
+    missingFiles.has(caption.fileName),
+  );
+  const captionsNeedYtDlp = captionsToExport.some((caption) =>
+    caption.language === "en" ? !options.enVttPath : !options.frVttPath,
+  );
+  const downloadingMp4FromYouTube =
+    needsMp4 && !options.mp4Path && options.downloadFromYouTube;
+  if (captionsNeedYtDlp || downloadingMp4FromYouTube) {
+    assertYouTubeDownloadToolsAvailable(downloadingMp4FromYouTube);
+  }
+  if (needsMp4 && options.mp4Path) {
     await assertMp4(options.mp4Path);
   }
 
-  const token = await getAccessToken();
-  console.log("YouTube API access is ready; retrieving the thumbnail.");
+  const needsThumbnail = missingFiles.has("thumbnail.jpg");
+  const token = needsThumbnail ? await getAccessToken() : undefined;
+  if (needsThumbnail) {
+    console.log(colorize("YouTube API access is ready; retrieving the thumbnail.", "cyan"));
+  }
   const stagingDirectory = await mkdtemp(path.join(os.tmpdir(), "youtube-data-pull-"));
   try {
-    await prepareMp4(options, video.media.youtubeUrl, stagingDirectory);
-    await downloadYouTubeThumbnail(youtubeVideoId, token, path.join(stagingDirectory, "thumbnail.jpg"));
-    await downloadCaptions(video.media.youtubeUrl, stagingDirectory, options);
-
-    await mkdir(outputDirectory, { recursive: true });
-    for (const fileName of OUTPUT_FILES) {
-      await copyFile(
-        path.join(stagingDirectory, fileName),
-        path.join(outputDirectory, fileName),
-        options.overwrite ? 0 : fsConstants.COPYFILE_EXCL,
+    if (needsMp4) {
+      await prepareMp4(options, video.media.youtubeUrl, stagingDirectory);
+    }
+    if (needsThumbnail && token) {
+      await downloadYouTubeThumbnail(
+        youtubeVideoId,
+        token,
+        path.join(stagingDirectory, "thumbnail.jpg"),
+      );
+    }
+    if (captionsToExport.length > 0) {
+      await downloadCaptions(
+        video.media.youtubeUrl,
+        stagingDirectory,
+        options,
+        captionsToExport,
       );
     }
 
-    console.log(`YouTube assets saved to ${outputDirectory}`);
-    for (const fileName of OUTPUT_FILES) {
-      console.log(`  ${path.join(outputDirectory, fileName)}`);
+    const savedFiles = await preservePartialAssets(
+      stagingDirectory,
+      outputDirectory,
+      options.overrideExisting,
+    );
+    const stillMissing = await getMissingOutputFiles(outputDirectory, false);
+    if (stillMissing.size > 0) {
+      throw new Error(
+        `Could not complete the export for ${video.id}; still missing: ${[...stillMissing].join(", ")}.`,
+      );
+    }
+    console.log(
+      colorize(
+        `${options.overrideExisting ? "Refreshed" : "Filled missing"} assets for ${video.id} in ${outputDirectory}`,
+        "green",
+      ),
+    );
+    for (const fileName of savedFiles) {
+      console.log(`  ${colorize(fileName, "dim")}`);
     }
   } catch (error) {
     const savedFiles = await preservePartialAssets(
       stagingDirectory,
       outputDirectory,
-      options.overwrite,
+      options.overrideExisting,
     );
     if (savedFiles.length > 0) {
-      console.error(`Partial assets were kept in ${outputDirectory}:`);
-      for (const fileName of savedFiles) console.error(`  ${fileName}`);
+      console.error(
+        colorize(`Partial assets were kept in ${outputDirectory}:`, "yellow", process.stderr),
+      );
+      for (const fileName of savedFiles) {
+        console.error(colorize(`  ${fileName}`, "dim", process.stderr));
+      }
     }
     throw error;
   } finally {
@@ -895,13 +1083,58 @@ async function exportVideo(options: CliOptions): Promise<void> {
   }
 }
 
+async function exportSection(options: CliOptions, section: string): Promise<void> {
+  const videos = getVideosInSection(section);
+  const failures: string[] = [];
+  console.log(
+    colorize(`Exporting ${videos.length} videos in ${section} (in source order).`, "cyan"),
+  );
+  for (const video of videos) {
+    try {
+      await exportVideo(options, video);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      console.error(
+        colorize(`\nFailed to export ${video.id}: ${message}`, "red", process.stderr),
+      );
+      failures.push(video.id);
+    }
+  }
+  if (failures.length > 0) {
+    throw new Error(
+      `${failures.length} video(s) failed in ${section}: ${failures.join(", ")}.`,
+    );
+  }
+}
+
 async function main(): Promise<void> {
   const options = parseArguments(process.argv.slice(2));
   if (!options) return;
-  await exportVideo(options);
+  if (options.listSections) {
+    listSections(options.outputDirectory);
+    return;
+  }
+  if (options.listSection) {
+    await listSection(options.listSection, options.outputDirectory);
+    return;
+  }
+  if (options.section) {
+    await exportSection(options, options.section);
+    return;
+  }
+  if (!options.videoId) {
+    throw new Error("A video ID is required for an individual export.");
+  }
+  await exportVideo(options, getVideoRecord(options.videoId));
 }
 
 main().catch((error: unknown) => {
-  console.error(error instanceof Error ? error.message : String(error));
+  console.error(
+    colorize(
+      error instanceof Error ? error.message : String(error),
+      "red",
+      process.stderr,
+    ),
+  );
   process.exitCode = 1;
 });
