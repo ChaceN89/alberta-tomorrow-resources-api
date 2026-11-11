@@ -318,6 +318,22 @@ To deliberately refresh every asset instead of keeping existing files, add
 npm run pullyoutube -- --section A-TutorialVideos --video-source youtube --override
 ```
 
+You can also refresh only thumbnails or only captions for a video or an entire section.
+These options replace the selected files while leaving the MP4 and other asset types
+untouched:
+
+```bash
+# Replace only thumbnail.jpg for every video in the section
+npm run pullyoutube -- --section F-BowRiverWatershed360 --refresh-thumbnails
+
+# Replace only en.vtt and fr.vtt for every video in the section
+npm run pullyoutube -- --section F-BowRiverWatershed360 --refresh-captions
+```
+
+For a single video, replace `--section <category-folder>` with its video ID. Thumbnail
+refresh uses YouTube OAuth; caption refresh uses `yt-dlp` and the usual English/French
+track preferences.
+
 On the first run, the command opens Google authorization. A refresh token is stored outside the repository in
 `~/.config/alberta-tomorrow-resources-api/youtube-oauth.json` (or under
 `$XDG_CONFIG_HOME`). Keep the OAuth client secret and token private.

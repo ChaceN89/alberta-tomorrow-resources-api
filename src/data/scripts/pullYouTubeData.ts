@@ -61,6 +61,7 @@ interface CliOptions {
   downloadFromYouTube: boolean;
   outputDirectory: string;
   overrideExisting: boolean;
+  refreshMode?: "thumbnails" | "captions";
 }
 
 interface YtDlpSubtitleInfo {
@@ -94,6 +95,8 @@ function usage(): string {
     "  npm run pullyoutube -- <video-id> [--mp4 <original.mp4>] [--en-vtt <en.vtt>] [--fr-vtt <fr.vtt>]",
     "  npm run pullyoutube -- <video-id> --video-source youtube",
     "  npm run pullyoutube -- --section <category-folder> --video-source youtube",
+    "  npm run pullyoutube -- --section <category-folder> --refresh-thumbnails",
+    "  npm run pullyoutube -- --section <category-folder> --refresh-captions",
     "  npm run pullyoutube -- --list-section <category-folder>",
     "  npm run pullyoutube -- --list-sections",
     "",
@@ -104,6 +107,8 @@ function usage(): string {
     "  --fr-vtt <path>          Use a French WebVTT exported from YouTube Studio",
     "  --video-source youtube   Use yt-dlp when permitted for this video",
     "  --section <folder>       Export every generated video in a category folder",
+    "  --refresh-thumbnails     Replace only thumbnail.jpg for the selected video(s)",
+    "  --refresh-captions       Replace only en.vtt and fr.vtt for the selected video(s)",
     "  --list-section <folder>  Show videos and extracted-file status in a category",
     "  --list-sections          Show available category folders",
     "  --out-dir <path>         Output root (default: src/data/youtube-extracted-data)",
@@ -126,6 +131,7 @@ function parseArguments(args: string[]): CliOptions | undefined {
   let downloadFromYouTube = false;
   let outputDirectory = DEFAULT_OUTPUT_DIRECTORY;
   let overrideExisting = false;
+  let refreshMode: CliOptions["refreshMode"];
 
   for (let index = 0; index < args.length; index += 1) {
     const argument = args[index];
@@ -141,6 +147,14 @@ function parseArguments(args: string[]): CliOptions | undefined {
 
     if (argument === "--list-sections") {
       listSections = true;
+      continue;
+    }
+
+    if (argument === "--refresh-thumbnails" || argument === "--refresh-captions") {
+      if (refreshMode) {
+        throw new Error("Choose either --refresh-thumbnails or --refresh-captions, not both.");
+      }
+      refreshMode = argument === "--refresh-thumbnails" ? "thumbnails" : "captions";
       continue;
     }
 
@@ -191,7 +205,17 @@ function parseArguments(args: string[]): CliOptions | undefined {
   if (listSections && listSection) {
     throw new Error("Choose either --list-sections or --list-section <category-folder>.");
   }
-  if (isListing && (videoId || section || mp4Path || enVttPath || frVttPath || downloadFromYouTube || overrideExisting)) {
+  if (
+    isListing &&
+    (videoId ||
+      section ||
+      mp4Path ||
+      enVttPath ||
+      frVttPath ||
+      downloadFromYouTube ||
+      overrideExisting ||
+      refreshMode)
+  ) {
     throw new Error("Listing options cannot be combined with video export options.");
   }
   if (section && videoId) {
@@ -206,6 +230,11 @@ function parseArguments(args: string[]): CliOptions | undefined {
   if (mp4Path && downloadFromYouTube) {
     throw new Error("Choose either --mp4 or --video-source youtube, not both.");
   }
+  if (refreshMode && (mp4Path || enVttPath || frVttPath || downloadFromYouTube || overrideExisting)) {
+    throw new Error(
+      "--refresh-thumbnails and --refresh-captions cannot be combined with source overrides, --video-source, or --override.",
+    );
+  }
 
   return {
     videoId,
@@ -218,6 +247,7 @@ function parseArguments(args: string[]): CliOptions | undefined {
     downloadFromYouTube,
     outputDirectory,
     overrideExisting,
+    refreshMode,
   };
 }
 
@@ -358,7 +388,7 @@ function getOAuthConfig(): { clientId: string; clientSecret: string } {
   const clientSecret = process.env.YOUTUBE_OAUTH_CLIENT_SECRET;
   if (!clientId || !clientSecret) {
     throw new Error(
-      "Set YOUTUBE_OAUTH_CLIENT_ID and YOUTUBE_OAUTH_CLIENT_SECRET from a Google OAuth Desktop app before exporting captions.",
+      "Set YOUTUBE_OAUTH_CLIENT_ID and YOUTUBE_OAUTH_CLIENT_SECRET from a Google OAuth Desktop app before retrieving thumbnails.",
     );
   }
   return { clientId, clientSecret };
@@ -860,6 +890,7 @@ async function preservePartialAssets(
   stagingDirectory: string,
   outputDirectory: string,
   overrideExisting: boolean,
+  replaceFiles: ReadonlySet<string> = new Set(),
 ): Promise<string[]> {
   await mkdir(outputDirectory, { recursive: true });
   const savedFiles: string[] = [];
@@ -868,17 +899,18 @@ async function preservePartialAssets(
     const stagedPath = path.join(stagingDirectory, fileName);
     if (!(await pathExists(stagedPath))) continue;
     const outputPath = path.join(outputDirectory, fileName);
-    if (!overrideExisting && (await pathExists(outputPath))) continue;
+    const replaceExisting = overrideExisting || replaceFiles.has(fileName);
+    if (!replaceExisting && (await pathExists(outputPath))) continue;
     try {
       await copyFile(
         stagedPath,
         outputPath,
-        overrideExisting ? 0 : fsConstants.COPYFILE_EXCL,
+        replaceExisting ? 0 : fsConstants.COPYFILE_EXCL,
       );
       savedFiles.push(outputPath);
     } catch (error) {
       if (
-        !overrideExisting &&
+        !replaceExisting &&
         error instanceof Error &&
         "code" in error &&
         error.code === "EEXIST"
@@ -1083,19 +1115,149 @@ async function exportVideo(options: CliOptions, video: GeneratedVideo): Promise<
   }
 }
 
+async function refreshVideoThumbnail(
+  options: CliOptions,
+  video: GeneratedVideo,
+): Promise<void> {
+  const youtubeVideoId = getYouTubeVideoId(video.media.youtubeUrl);
+  const outputDirectory = getOutputDirectory(options.outputDirectory, video);
+  const token = await getAccessToken();
+  const stagingDirectory = await mkdtemp(path.join(os.tmpdir(), "youtube-thumbnail-refresh-"));
+  const replaceFiles = new Set(["thumbnail.jpg"]);
+
+  try {
+    console.log(colorize(`Refreshing thumbnail for ${video.id}.`, "cyan"));
+    await downloadYouTubeThumbnail(
+      youtubeVideoId,
+      token,
+      path.join(stagingDirectory, "thumbnail.jpg"),
+    );
+    const savedFiles = await preservePartialAssets(
+      stagingDirectory,
+      outputDirectory,
+      false,
+      replaceFiles,
+    );
+    if (savedFiles.length !== 1) {
+      throw new Error(`Could not save the refreshed thumbnail for ${video.id}.`);
+    }
+    console.log(
+      colorize(`Refreshed thumbnail for ${video.id} in ${outputDirectory}`, "green"),
+    );
+    console.log(`  ${colorize(savedFiles[0], "dim")}`);
+  } catch (error) {
+    const savedFiles = await preservePartialAssets(
+      stagingDirectory,
+      outputDirectory,
+      false,
+      replaceFiles,
+    );
+    if (savedFiles.length > 0) {
+      console.error(
+        colorize(`Refreshed thumbnail saved for ${video.id}:`, "yellow", process.stderr),
+      );
+    }
+    throw error;
+  } finally {
+    await rm(stagingDirectory, { recursive: true, force: true });
+  }
+}
+
+async function refreshVideoCaptions(
+  options: CliOptions,
+  video: GeneratedVideo,
+): Promise<void> {
+  assertYouTubeDownloadToolsAvailable(false);
+  const outputDirectory = getOutputDirectory(options.outputDirectory, video);
+  const stagingDirectory = await mkdtemp(path.join(os.tmpdir(), "youtube-caption-refresh-"));
+  const replaceFiles = new Set(["en.vtt", "fr.vtt"]);
+
+  try {
+    console.log(colorize(`Refreshing English and French captions for ${video.id}.`, "cyan"));
+    await downloadCaptions(
+      video.media.youtubeUrl,
+      stagingDirectory,
+      options,
+      CAPTION_LANGUAGES,
+    );
+    const savedFiles = await preservePartialAssets(
+      stagingDirectory,
+      outputDirectory,
+      false,
+      replaceFiles,
+    );
+    if (savedFiles.length !== CAPTION_LANGUAGES.length) {
+      throw new Error(`Could not save both refreshed caption files for ${video.id}.`);
+    }
+    console.log(
+      colorize(`Refreshed captions for ${video.id} in ${outputDirectory}`, "green"),
+    );
+    for (const fileName of savedFiles) {
+      console.log(`  ${colorize(fileName, "dim")}`);
+    }
+  } catch (error) {
+    const savedFiles = await preservePartialAssets(
+      stagingDirectory,
+      outputDirectory,
+      false,
+      replaceFiles,
+    );
+    if (savedFiles.length > 0) {
+      console.error(
+        colorize(
+          `Partial caption refresh saved for ${video.id}:`,
+          "yellow",
+          process.stderr,
+        ),
+      );
+      for (const fileName of savedFiles) {
+        console.error(colorize(`  ${fileName}`, "dim", process.stderr));
+      }
+    }
+    throw error;
+  } finally {
+    await rm(stagingDirectory, { recursive: true, force: true });
+  }
+}
+
+async function processVideo(
+  options: CliOptions,
+  video: GeneratedVideo,
+): Promise<void> {
+  if (options.refreshMode === "thumbnails") {
+    await refreshVideoThumbnail(options, video);
+    return;
+  }
+  if (options.refreshMode === "captions") {
+    await refreshVideoCaptions(options, video);
+    return;
+  }
+  await exportVideo(options, video);
+}
+
 async function exportSection(options: CliOptions, section: string): Promise<void> {
   const videos = getVideosInSection(section);
   const failures: string[] = [];
+  const action =
+    options.refreshMode === "thumbnails"
+      ? "Refreshing thumbnails for"
+      : options.refreshMode === "captions"
+        ? "Refreshing captions for"
+        : "Exporting";
   console.log(
-    colorize(`Exporting ${videos.length} videos in ${section} (in source order).`, "cyan"),
+    colorize(`${action} ${videos.length} videos in ${section} (in source order).`, "cyan"),
   );
   for (const video of videos) {
     try {
-      await exportVideo(options, video);
+      await processVideo(options, video);
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
       console.error(
-        colorize(`\nFailed to export ${video.id}: ${message}`, "red", process.stderr),
+        colorize(
+          `\nFailed to ${options.refreshMode ? `refresh ${options.refreshMode}` : "export"} ${video.id}: ${message}`,
+          "red",
+          process.stderr,
+        ),
       );
       failures.push(video.id);
     }
@@ -1125,7 +1287,7 @@ async function main(): Promise<void> {
   if (!options.videoId) {
     throw new Error("A video ID is required for an individual export.");
   }
-  await exportVideo(options, getVideoRecord(options.videoId));
+  await processVideo(options, getVideoRecord(options.videoId));
 }
 
 main().catch((error: unknown) => {

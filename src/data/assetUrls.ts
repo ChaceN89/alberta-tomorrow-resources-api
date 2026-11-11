@@ -7,9 +7,12 @@
 import { VideoCategory } from "./enums/videoCategoryIds.js";
 
 const VIDEO_ASSETS_BASE_URL =
-  "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos";
+  "https://d2qcvmovr4fv.cloudfront.net/video-assets";
+// "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/videos";
+
 const LESSON_PLAN_ASSETS_BASE_URL =
-  "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/lesson-plans";
+  "https://d2qcvmovr4fv.cloudfront.net/lesson-plans";
+// "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/lesson-plans";
 
 // These directory names match the existing S3 layout; preserve their spelling and case.
 const VIDEO_CATEGORY_FOLDERS: Record<string, string> = {
