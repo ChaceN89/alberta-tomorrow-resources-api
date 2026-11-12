@@ -13,10 +13,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "brbc-06f-the-watershed";
+
 export const theWatershedLessonPlan = {
-  id: "brbc-06f-the-watershed",
+  id: lessonId,
 
   themeId: LessonTheme.BOW_RIVER_WATERSHED.id,
 
@@ -40,16 +44,14 @@ export const theWatershedLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "The Watershed - Google Doc",
-        url: "https://docs.google.com/document/d/1IJGMeGkcj1MlH58Ch4MnEmQOQ92UcrPz",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1IJGMeGkcj1MlH58Ch4MnEmQOQ92UcrPz`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Le bassin hydrographique – document Google",
-        url: "https://docs.google.com/document/d/1IJGMeGkcj1MlH58Ch4MnEmQOQ92UcrPz",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1IJGMeGkcj1MlH58Ch4MnEmQOQ92UcrPz`,
       }
     ]
   },

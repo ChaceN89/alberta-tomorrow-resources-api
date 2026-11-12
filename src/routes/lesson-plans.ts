@@ -66,7 +66,7 @@ const router = express.Router();
  *                     type: string
  *                   pdfUrl:
  *                     type: string
- *                     description: PDF download URL, or N/A if not available
+ *                     description: Planned PDF download URL; the PDF must be uploaded before it is available
  *         tools:
  *           type: array
  *           items:

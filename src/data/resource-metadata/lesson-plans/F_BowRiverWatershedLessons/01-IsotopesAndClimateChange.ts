@@ -13,10 +13,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "brbc-01f-isotopes-and-climate-change";
+
 export const isotopesAndClimateChangeLessonPlan = {
-  id: "brbc-01f-isotopes-and-climate-change",
+  id: lessonId,
 
   themeId: LessonTheme.BOW_RIVER_WATERSHED.id,
 
@@ -40,16 +44,14 @@ export const isotopesAndClimateChangeLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Isotopes and Climate Change - Google Doc",
-        url: "https://docs.google.com/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi/",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi/`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Isotopes et changements climatiques – document Google",
-        url: "https://docs.google.com/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi/",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1PcI2jRXdspNZqIkJeppDro2Ub0wXz9bi/`,
       }
     ]
   },

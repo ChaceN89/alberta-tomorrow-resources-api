@@ -14,7 +14,8 @@
     "generate:lessons": "tsx src/data/scripts/generateLessonPlans.ts",
     "generate:videos": "tsx src/data/scripts/generateVideos.ts",
     "pullyoutube": "tsx src/data/scripts/pullYouTubeData.ts",
-    "test": "npm run typecheck"
+    "pulllessonpdfs": "tsx src/data/scripts/pullLessonPlanPdfs.ts",
+    "test": "npm run typecheck && tsc -p tests/tsconfig.json && node --import tsx --test tests/*.test.ts"
   },
   "keywords": [],
   "author": "",

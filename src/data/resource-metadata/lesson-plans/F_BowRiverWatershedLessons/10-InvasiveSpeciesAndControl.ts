@@ -13,10 +13,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "brbc-10f-invasive-species-control";
+
 export const invasiveSpeciesAndControlLessonPlan = {
-  id: "brbc-10f-invasive-species-control",
+  id: lessonId,
 
   themeId: LessonTheme.BOW_RIVER_WATERSHED.id,
 
@@ -40,16 +44,14 @@ export const invasiveSpeciesAndControlLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Invasive Species and Control - Google Doc",
-        url: "https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Espèces envahissantes et mesures de contrôle – document Google",
-        url: "https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/`,
       }
     ]
   },

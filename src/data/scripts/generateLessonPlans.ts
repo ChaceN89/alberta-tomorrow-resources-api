@@ -29,6 +29,7 @@ import {
   shortPath,
   C,
 } from "./utils.js";
+import { getLessonPlanAssetPaths, getLessonPlanPdfFileNames, getLessonPlanThemeFolder } from "../core/assetUrls.js";
 import type {
   GeneratedLessonFile,
   GeneratedLessonPlan,
@@ -50,7 +51,7 @@ import type {
  *   title:           { en, fr }
  *   description:     { en, fr }
  *   approximateTime: { en, fr }
- *   files:           { en: [{ fileType, title, url, pdfUrl }], fr: [...] }
+ *   files:           { en: [{ fileType, title, url }], fr: [...] }
  *   gradeIds:        string[]
  *   subjectIds:      string[]
  *   searchTerms:     { en: string[], fr: string[] }
@@ -59,30 +60,25 @@ import type {
  *   relatedResources:[{ title, url }]
  * }
  */
-function normalizeFiles(
-  value: LessonPlanSource["files"]
+export function normalizeFiles(
+  value: LessonPlanSource["files"],
+  themeId: string,
+  lessonId: string,
 ): { en: GeneratedLessonFile[]; fr: GeneratedLessonFile[] } {
   if (!value || typeof value !== "object") return { en: [], fr: [] };
-  const allowedFileTypes = new Set([
-    "lesson-plan",
-    "answer-key",
-    "student-worksheet",
-    "presentation-slides",
-    "other-file-type",
-  ]);
-  const mapFile = (f: LessonFileSource): GeneratedLessonFile => {
-    const rawFileType = normalizeString(f.fileType);
-    const fileType = allowedFileTypes.has(rawFileType) ? rawFileType : "other-file-type";
-    return {
-      fileType: fileType,
-      title: normalizeString(f.title),
-      url: normalizeString(f.url),
-      pdfUrl: normalizeString(f.pdfUrl),
-    };
+  const assets = getLessonPlanAssetPaths(themeId, lessonId);
+  const mapLanguage = (files: LessonFileSource[], language: "en" | "fr"): GeneratedLessonFile[] => {
+    const names = getLessonPlanPdfFileNames(language, files);
+    return files.map((file, index) => ({
+      fileType: file.fileType,
+      title: normalizeString(file.title),
+      url: normalizeString(file.url),
+      pdfUrl: assets.file(names[index]),
+    }));
   };
   return {
-    en: Array.isArray(value.en) ? value.en.map(mapFile) : [],
-    fr: Array.isArray(value.fr) ? value.fr.map(mapFile) : [],
+    en: Array.isArray(value.en) ? mapLanguage(value.en, "en") : [],
+    fr: Array.isArray(value.fr) ? mapLanguage(value.fr, "fr") : [],
   };
 }
 
@@ -114,7 +110,7 @@ function normalizeLessonPlan(raw: LessonPlanSource): GeneratedLessonPlan {
 
     approximateTime: normalizeLocalizedString(raw.approximateTime),
 
-    files: normalizeFiles(raw.files),
+    files: normalizeFiles(raw.files, raw.themeId, raw.id),
 
     gradeIds: normalizeArray(raw.gradeIds),
 
@@ -220,6 +216,10 @@ async function loadLessonPlans(directory: string): Promise<{
     }
 
     const raw = rawValue as LessonPlanSource;
+
+    if (path.basename(path.dirname(filePath)) !== getLessonPlanThemeFolder(raw.themeId)) {
+      throw new Error(`Lesson theme "${raw.themeId}" does not match the source folder for ${raw.id} in ${filePath}.`);
+    }
 
     if (usedIds.has(raw.id)) {
       throw new Error(`Duplicate lesson plan ID found: "${raw.id}" in ${filePath}`);

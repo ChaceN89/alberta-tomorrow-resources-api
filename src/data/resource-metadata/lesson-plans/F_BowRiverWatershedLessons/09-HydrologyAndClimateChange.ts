@@ -13,10 +13,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "brbc-09f-hydrology-climate-change";
+
 export const hydrologyAndClimateChangeLessonPlan = {
-  id: "brbc-09f-hydrology-climate-change",
+  id: lessonId,
 
   themeId: LessonTheme.BOW_RIVER_WATERSHED.id,
 
@@ -40,16 +44,14 @@ export const hydrologyAndClimateChangeLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Hydrology and Climate Change - Google Doc",
-        url: "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Hydrologie et changements climatiques – document Google",
-        url: "https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4`,
       }
     ]
   },

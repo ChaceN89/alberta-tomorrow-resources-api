@@ -15,10 +15,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "energy-02g-factors-affecting-use";
+
 export const factorsAffectingEnergyUseLessonPlan = {
-  id: "energy-02g-factors-affecting-use",
+  id: lessonId,
 
   themeId: LessonTheme.ENERGY.id,
 
@@ -42,40 +46,34 @@ export const factorsAffectingEnergyUseLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Factors that Influence the type of Energy Used: Lesson Plan",
-        url: "https://docs.google.com/document/d/18RLxTQsMeTcf_ZhC9z4dSJKae1NyGZC8YK85ZefIU2M/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/18RLxTQsMeTcf_ZhC9z4dSJKae1NyGZC8YK85ZefIU2M/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Factors that Influence the type of Energy Used: Student Worksheet",
-        url: "https://docs.google.com/document/d/1IZqlFyV7Yxi-6eoiC5s9bC0ThH6yx-YjaUX1hfQsKJ4/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1IZqlFyV7Yxi-6eoiC5s9bC0ThH6yx-YjaUX1hfQsKJ4/edit`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Energy Resources and Climate Change in Alberta - Presentation Slides",
-        url: "https://docs.google.com/presentation/d/1RmQYHLOms6XnWvOTz0E0GW3dK6NdT53zE8AfozExhkY",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1RmQYHLOms6XnWvOTz0E0GW3dK6NdT53zE8AfozExhkY`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Facteurs qui influencent le type d’énergie utilisée : plan de leçon",
-        url: "https://docs.google.com/document/d/1lpeFyWLKRsEV8Qeie3U1N1HPqVlVmdFSQnqX3rJ7wqM/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1lpeFyWLKRsEV8Qeie3U1N1HPqVlVmdFSQnqX3rJ7wqM/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Facteurs qui influencent le type d’énergie utilisée : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1v9B64m8oQhGFp3lhFjER7-eB8nygEmJJnY9qVaWSF2E/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1v9B64m8oQhGFp3lhFjER7-eB8nygEmJJnY9qVaWSF2E/edit`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Ressources énergétiques et changements climatiques en Alberta – présentation PowerPoint",
-        url: "https://docs.google.com/presentation/d/1Kpaehlq2ap2n6W_Q0X9lDVAh-t6zChAt",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1Kpaehlq2ap2n6W_Q0X9lDVAh-t6zChAt`,
       }
     ]
   },

@@ -13,10 +13,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "brbc-05f-aquifers";
+
 export const aquifersLessonPlan = {
-  id: "brbc-05f-aquifers",
+  id: lessonId,
 
   themeId: LessonTheme.BOW_RIVER_WATERSHED.id,
 
@@ -40,16 +44,14 @@ export const aquifersLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Aquifers - Google Doc",
-        url: "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Aquifères – document Google",
-        url: "https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/`,
       }
     ]
   },

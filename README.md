@@ -158,14 +158,17 @@ Use `null` in video source files for missing media URLs, including `primaryUrl`.
 Each lesson plan lives in its own TypeScript file under `src/data/resource-metadata/lesson-plans/<Theme>/`, with its object checked against `LessonPlanSource`:
 
 ```ts
-import { LessonTheme } from "../../enums/LessonThemeIds.js";
-import { FileType } from "../../enums/fileTypes.js";
-import { Grade } from "../../enums/gradeIds.js";
-import { Subject } from "../../enums/subjectIds.js";
-import type { LessonPlanSource } from "../../core/lessonPlanTypes.js";
+import { LessonTheme } from "../../../enums/LessonThemeIds.js";
+import { FileType } from "../../../enums/fileTypes.js";
+import { Grade } from "../../../enums/gradeIds.js";
+import { Subject } from "../../../enums/subjectIds.js";
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
+
+const lessonId = "climate-01a-going-going-gone";
 
 export const goingGoingGoingGoneLessonPlan = {
-  id: "climate-01a-going-going-gone",          // required — must be unique
+  id: lessonId,                               // required — must be unique
   themeId: LessonTheme.CLIMATE_CHANGE.id,
 
   title: {
@@ -188,8 +191,7 @@ export const goingGoingGoingGoneLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Lesson Plan",
-        url: "https://example.com/lesson-plan",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/example/edit`
       }
     ],
     fr: []
@@ -256,12 +258,46 @@ npm run generate -- --strict
 
 ### Shared asset URLs
 
-`src/data/core/assetUrls.ts` centralizes the video and lesson-plan PDF base URLs, along with
-the case-sensitive video category folder mapping. Video records use their internal ID
+`src/data/core/assetUrls.ts` centralizes the Google Docs, video and lesson-plan PDF base URLs,
+along with the case-sensitive video category and lesson theme folder mappings. Video records use their internal ID
 and the standard filenames `video.mp4`, `thumbnail.jpg`, `en.vtt`, and `fr.vtt`; they
 can build asset links with `getVideoAssetPaths(categoryId, videoId).file(fileName)`.
-Lesson-plan files can use `getLessonPlanPdfUrl(lessonPlanId, "en")` or `"fr"`. Change
-the video base URL there when switching delivery from S3 to CloudFront.
+The generator derives each lesson file's `pdfUrl` from its `fileType` and language.
+The generated URLs use the CloudFront base and mirror the local extraction layout:
+`lesson-plans/<theme-folder>/<lesson-id>/<language>-<fileType>.pdf`.
+**These are planned URLs, not proof that the PDF has been uploaded.** They can return
+errors until the corresponding files are uploaded to the matching S3 keys and served
+by CloudFront.
+
+### Pulling lesson-plan PDFs
+
+The `pulllessonpdfs` command exports public Google Docs and Slides files for individual
+climate-change lessons or the entire climate-change section. It reads the source URLs from the lesson
+metadata and requires no Google credentials when the documents are publicly accessible.
+
+```bash
+npm run pulllessonpdfs -- climate-01-going-going-going-gone
+npm run pulllessonpdfs -- climate-01-going-going-going-gone --list
+npm run pulllessonpdfs -- --section A_ClimateChangeLessons
+npm run pulllessonpdfs -- --section A_ClimateChangeLessons --list
+```
+
+The command discovers lesson source files in the section, in source order. The files are
+saved in the git-ignored directory
+`src/data/extracted-data/lesson-plan-extracted-data/A_ClimateChangeLessons/<lesson-id>/`.
+Filenames combine the language and `fileType`, such as `en-lesson-plan.pdf`.
+Repeated file types within a language use `-2`, `-3`, and so on, in metadata order.
+The generator and downloader use the same naming logic. **Reordering or removing files
+of the same type changes which document a numbered filename refers to.** After upload,
+keep their order stable, or update the affected S3 files to match. Existing
+files are preserved; pass `--override` to replace them or `--out-dir <path>` to use
+a different extraction root. Failed exports are reported individually; successful
+exports remain available and the command exits unsuccessfully if any fail.
+
+This command does not yet process other sections or upload to S3. Some lesson sources
+use Google Drive links rather than Google Docs or Slides; those are not supported by
+the current exporter. Previously downloaded files with old descriptive names are not
+renamed or deleted automatically.
 
 ### Pulling YouTube assets
 

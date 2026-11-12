@@ -14,10 +14,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "abregions-04d-natural-resources";
+
 export const albertasNaturalResourcesLessonPlan = {
-  id: "abregions-04d-natural-resources",
+  id: lessonId,
 
   themeId: LessonTheme.ALBERTA_NATURAL_REGIONS.id,
 
@@ -41,28 +45,24 @@ export const albertasNaturalResourcesLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Alberta's Natural Resources: Lesson Plan",
-        url: "https://docs.google.com/document/d/1Ch0-B2ktR8U7xp1T5b1QLqCeweCU6hYn-fN4EiXvNpI/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Ch0-B2ktR8U7xp1T5b1QLqCeweCU6hYn-fN4EiXvNpI/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Alberta's Natural Resources: Student Worksheet",
-        url: "https://docs.google.com/document/d/19lq3XZjIB1SfQyb2viT3o210ptFGHvoE_h671A4rr3Q/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/19lq3XZjIB1SfQyb2viT3o210ptFGHvoE_h671A4rr3Q/edit`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Ressources naturelles de l’Alberta : plan de leçon",
-        url: "https://docs.google.com/document/d/1FGFRfY0Hc7pCooG5uLU5m2IORxueCWbehXTj_c-y2l8/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1FGFRfY0Hc7pCooG5uLU5m2IORxueCWbehXTj_c-y2l8/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Ressources naturelles de l’Alberta : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1JqCHgUXp_kuqI3U0-zguDebLiXxHBdXlhIl5m641g6M/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1JqCHgUXp_kuqI3U0-zguDebLiXxHBdXlhIl5m641g6M/edit`,
       }
     ]
   },

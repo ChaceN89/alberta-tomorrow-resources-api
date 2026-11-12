@@ -16,7 +16,6 @@ export interface LessonFileSource {
   fileType: (typeof FileType)[keyof typeof FileType];
   title: string;
   url: string;
-  pdfUrl: string;
 }
 
 /** Describes an external resource referenced by an authored lesson plan. */

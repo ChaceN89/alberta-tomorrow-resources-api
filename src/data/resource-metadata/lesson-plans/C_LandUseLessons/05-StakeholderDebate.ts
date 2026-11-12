@@ -14,10 +14,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "landuse-05c-stakeholder-debate";
+
 export const stakeholderDebateLessonPlan = {
-  id: "landuse-05c-stakeholder-debate",
+  id: lessonId,
 
   themeId: LessonTheme.LAND_USE.id,
 
@@ -41,16 +45,14 @@ export const stakeholderDebateLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Stakeholder Debate Lesson Plan",
-        url: "https://docs.google.com/document/d/1IcVnBk-l8aMsQBDEGkxnglfq1MkegNtZ7kYErDIuhNg",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1IcVnBk-l8aMsQBDEGkxnglfq1MkegNtZ7kYErDIuhNg`,
       }
     ],
     fr: [
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Débat d’intervenants : plan de leçon",
-        url: "https://docs.google.com/document/d/1gXxjgcAKaAWQx8QE_8TCU8THVmKI-RgpMq_eaECdvR8",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1gXxjgcAKaAWQx8QE_8TCU8THVmKI-RgpMq_eaECdvR8`,
       }
     ]
   },

@@ -14,10 +14,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "indigenous-01e-where-is-my-home";
+
 export const whereIsMyHomeLessonPlan = {
-  id: "indigenous-01e-where-is-my-home",
+  id: lessonId,
 
   themeId: LessonTheme.INDIGENOUS_VOICES.id,
 
@@ -41,16 +45,14 @@ export const whereIsMyHomeLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Where is my Home? Using the Indigenous Map Layers",
-        url: "https://docs.google.com/document/d/1N29LfRlHfZ4SIklxj32MfhDfW3TBS250PAo9GibpwKA/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1N29LfRlHfZ4SIklxj32MfhDfW3TBS250PAo9GibpwKA/edit`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Où est ma maison? Utiliser les superpositions cartographiques autochtones.",
-        url: "https://docs.google.com/document/d/1bja_KxsUMc5S4XH0lHKCdzz4_sfo88biLECQRxZnSHQ/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1bja_KxsUMc5S4XH0lHKCdzz4_sfo88biLECQRxZnSHQ/edit`,
       }
     ]
   },

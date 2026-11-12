@@ -13,10 +13,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "brbc-03f-water-quality-treatment";
+
 export const waterQualityWaterTreatmentLessonPlan = {
-  id: "brbc-03f-water-quality-treatment",
+  id: lessonId,
 
   themeId: LessonTheme.BOW_RIVER_WATERSHED.id,
 
@@ -40,16 +44,14 @@ export const waterQualityWaterTreatmentLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Water Quality: Water Treatment - Google Doc",
-        url: "https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Qualité de l’eau : traitement des eaux – document Google",
-        url: "https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/`,
       }
     ]
   },

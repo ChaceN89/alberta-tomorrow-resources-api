@@ -14,10 +14,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "climate-04-science-6-climate-change-in-alberta";
+
 export const science6ClimateChangeInAlbertaLessonPlan = {
-  id: "climate-04-science-6-climate-change-in-alberta",
+  id: lessonId,
 
   themeId: LessonTheme.CLIMATE_CHANGE.id,
 
@@ -41,26 +45,22 @@ export const science6ClimateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Climate Change in Alberta: Lesson Plan (Sc 6)",
-        url: "https://docs.google.com/document/d/1jUo6Qb2Da5G9-8MazsjDmMJKB1Dsk3Suq1RRIYmGt8I/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1jUo6Qb2Da5G9-8MazsjDmMJKB1Dsk3Suq1RRIYmGt8I/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Climate Change in Alberta: Student Worksheet",
-        url: "https://docs.google.com/document/d/1f8ycWF6ZRYud7Sjp61jtPVo97fbmYUaXxLQYntgubRo/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1f8ycWF6ZRYud7Sjp61jtPVo97fbmYUaXxLQYntgubRo/edit`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Energy Resources and Climate Change in Alberta - Presentation Slides",
-        url: "https://docs.google.com/presentation/d/1RmQYHLOms6XnWvOTz0E0GW3dK6NdT53zE8AfozExhkY",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1RmQYHLOms6XnWvOTz0E0GW3dK6NdT53zE8AfozExhkY`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Climate Change: Truth and Misconceptions - Presentation Slides",
-        url: "https://docs.google.com/presentation/d/1reQRVGi0VSEUcPAwk4SZ-NCiakFZNO3De-_0s9PehHk",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1reQRVGi0VSEUcPAwk4SZ-NCiakFZNO3De-_0s9PehHk`,
       }
     ],
 
@@ -68,26 +68,22 @@ export const science6ClimateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Changements climatiques en Alberta : plan de leçon (Sc 6)",
-        url: "https://docs.google.com/document/d/1ZE2Jt5GIRnOgj3BNx0QRlergxKvyPacAeiiBUqEBxAQ/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1ZE2Jt5GIRnOgj3BNx0QRlergxKvyPacAeiiBUqEBxAQ/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Changements climatiques en Alberta : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1ZDUDD3_f3tG7UVtZGH1j8XhUCvn5nfUw12zWLmbvnIE/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1ZDUDD3_f3tG7UVtZGH1j8XhUCvn5nfUw12zWLmbvnIE/edit`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Ressources énergétiques et changements climatiques en Alberta – présentation PowerPoint",
-        url: "https://docs.google.com/presentation/d/1Kpaehlq2ap2n6W_Q0X9lDVAh-t6zChAt",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1Kpaehlq2ap2n6W_Q0X9lDVAh-t6zChAt`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
-        url: "https://docs.google.com/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr`,
       }
     ]
   },

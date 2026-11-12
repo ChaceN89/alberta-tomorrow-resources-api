@@ -13,10 +13,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "brbc-08f-watersheds-hydrology";
+
 export const watershedsAndHydrologyLessonPlan = {
-  id: "brbc-08f-watersheds-hydrology",
+  id: lessonId,
 
   themeId: LessonTheme.BOW_RIVER_WATERSHED.id,
 
@@ -40,16 +44,14 @@ export const watershedsAndHydrologyLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Watersheds and Hydrology - Google Doc",
-        url: "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Bassins hydrographiques et hydrologie – document Google",
-        url: "https://docs.google.com/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1pluUXun-r0TxsYWRj8b5X__UlWWcJMcW`,
       }
     ]
   },

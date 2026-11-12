@@ -14,10 +14,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "abregions-03d-plant-animal-adaptations";
+
 export const plantAndAnimalAdaptationsLessonPlan = {
-  id: "abregions-03d-plant-animal-adaptations",
+  id: lessonId,
 
   themeId: LessonTheme.ALBERTA_NATURAL_REGIONS.id,
 
@@ -41,29 +45,25 @@ export const plantAndAnimalAdaptationsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Grade 9 Science Adaptations and the 360 Virtual Field Trips",
-        url: "https://docs.google.com/document/d/1c25mjGzSDABg3f8ybelwybJEKp1DefdvRAwnPIgD3IE/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1c25mjGzSDABg3f8ybelwybJEKp1DefdvRAwnPIgD3IE/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Grade 9 Plant and Animal Adaptations Student Worksheet - Fillable Google Slides",
-        url: "https://docs.google.com/presentation/d/1b_EosZ3fXr638ZeakaiqvjUYDMXGrXiwV7Yw3o04w8E",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1b_EosZ3fXr638ZeakaiqvjUYDMXGrXiwV7Yw3o04w8E`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "9e année, Sciences : Adaptations et visites virtuelles à 360 degrés",
-        url: "https://docs.google.com/document/d/1g0YcqfNO8JdXqg61DrmEdTNWm-RhBBRunOINcbYjVq4/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1g0YcqfNO8JdXqg61DrmEdTNWm-RhBBRunOINcbYjVq4/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "9e année, Adaptations des plantes et des animaux – feuille de travail de l’élève – diapositives Google à remplir",
-        url: "https://docs.google.com/presentation/d/1b_EosZ3fXr638ZeakaiqvjUYDMXGrXiwV7Yw3o04w8E", // note here about same as the English version - since this is the one document that isnt' translated
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1b_EosZ3fXr638ZeakaiqvjUYDMXGrXiwV7Yw3o04w8E`, // note here about same as the English version - since this is the one document that isnt' translated
 
-        pdfUrl: "N/A"
       }
     ]
 

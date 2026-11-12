@@ -14,10 +14,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "landuse-04c-governments-have-it-rough";
+
 export const governmentsHaveItRoughLessonPlan = {
-  id: "landuse-04c-governments-have-it-rough",
+  id: lessonId,
 
   themeId: LessonTheme.LAND_USE.id,
 
@@ -41,40 +45,34 @@ export const governmentsHaveItRoughLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Governments Have it Rough!: Lesson Plan",
-        url: "https://docs.google.com/document/d/1Q0AxHAvznQZVEiuoI_TEk9k1DBtT561Ho3hPI0oVOBo/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Q0AxHAvznQZVEiuoI_TEk9k1DBtT561Ho3hPI0oVOBo/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Governments Have it Rough: Student Worksheet",
-        url: "https://docs.google.com/document/d/1u8VIqqBY9E_JYnyn3PRsPxt_A_U1cTrVwKpiwfk7IpU/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1u8VIqqBY9E_JYnyn3PRsPxt_A_U1cTrVwKpiwfk7IpU/edit`,
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Governments Have it Rough: Answer Key",
-        url: "https://docs.google.com/document/d/14PC-uO4IuV9DOdz4aloCH708RadU-dq4ZntzLTuUdk4/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/14PC-uO4IuV9DOdz4aloCH708RadU-dq4ZntzLTuUdk4/edit`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "C’est difficile pour les gouvernements! : plan de leçon",
-        url: "https://docs.google.com/document/d/1tFWbZP2zHLlSkwkL9UiercD6Mgq1iBgwz5Ww97hnXws/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1tFWbZP2zHLlSkwkL9UiercD6Mgq1iBgwz5Ww97hnXws/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "C’est difficile pour les gouvernements! : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1y5zXhx8UA_kLKkVBh52FQ1Do42aCy5sNyxV9zTOJExI/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1y5zXhx8UA_kLKkVBh52FQ1Do42aCy5sNyxV9zTOJExI/edit`,
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "C’est difficile pour les gouvernements! : clé de correction",
-        url: "https://docs.google.com/document/d/17b6HD0_D6gTvDR9CFL-8MpoMs2j4b1A2Z4WQvoLAOrM/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/17b6HD0_D6gTvDR9CFL-8MpoMs2j4b1A2Z4WQvoLAOrM/edit`,
       }
     ]
   },

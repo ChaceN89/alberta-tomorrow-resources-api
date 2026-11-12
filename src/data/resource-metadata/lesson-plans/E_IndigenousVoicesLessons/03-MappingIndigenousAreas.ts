@@ -14,10 +14,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "indigenous-03e-mapping-indigenous-areas";
+
 export const mappingIndigenousAreasLessonPlan = {
-  id: "indigenous-03e-mapping-indigenous-areas",
+  id: lessonId,
 
   themeId: LessonTheme.INDIGENOUS_VOICES.id,
 
@@ -41,40 +45,34 @@ export const mappingIndigenousAreasLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Mapping Indigenous Areas: Lesson Plan",
-        url: "https://docs.google.com/document/d/1bkD4p2APWVAP-HQb6Ev-X9KlRUfW5nT5DHpn5ffpIqs/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1bkD4p2APWVAP-HQb6Ev-X9KlRUfW5nT5DHpn5ffpIqs/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Mapping Indigenous Areas: Student Worksheet",
         url: "https://drive.google.com/file/d/1TD5lTrUbYJPh1OxBeEULOzkZ_q1L5xXv",
-        pdfUrl: "N/A"
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Mapping Indigenous Areas: Answer Sheet",
         url: "https://drive.google.com/file/d/1iv-eAK8aW24oybt-9kOSeA3h4rZengJv",
-        pdfUrl: "N/A"
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Cartographier les régions autochtones : plan de leçon",
-        url: "https://docs.google.com/document/d/189YLL7CavIUgwALI0e4WROVS7frtAbGkS1wH0E4kG8Y/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/189YLL7CavIUgwALI0e4WROVS7frtAbGkS1wH0E4kG8Y/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Cartographier les régions autochtones : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1tmkUtOZkroEhYl56TmhyVM-Zmj0nfzZ0",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1tmkUtOZkroEhYl56TmhyVM-Zmj0nfzZ0`,
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Cartographier les régions autochtones : clé de correction",
-        url: "https://docs.google.com/document/d/1rpoEDqWvW12B7_B-Ycv73uYoHuZIABiu",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1rpoEDqWvW12B7_B-Ycv73uYoHuZIABiu`,
       }
     ]
   },

@@ -14,10 +14,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "abregions-05d-alberta-natural-regions";
+
 export const albertasNaturalRegionsLessonPlan = {
-  id: "abregions-05d-alberta-natural-regions",
+  id: lessonId,
 
   themeId: LessonTheme.ALBERTA_NATURAL_REGIONS.id,
 
@@ -43,52 +47,44 @@ export const albertasNaturalRegionsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Alberta's Natural Regions",
-        url: "https://docs.google.com/document/d/1WH7W7SBn_UjYTJtAW9IsRdMWwnY95e-MZpydWW3vINY",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1WH7W7SBn_UjYTJtAW9IsRdMWwnY95e-MZpydWW3vINY`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "360 Virtual Tours Scavenger Hunt Student Worksheet",
         url: "https://drive.google.com/file/d/1fgBduzIjfvYWjkT2Y8m71qhiWMRjEwaL",
-        pdfUrl: "N/A"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
-        url: "https://docs.google.com/presentation/d/1cqF8G4yz8O23Jg65PTvcoe-juJLizHjjP8vPkZY1H4k",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1cqF8G4yz8O23Jg65PTvcoe-juJLizHjjP8vPkZY1H4k`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "360 Virtual Tours Scavenger Hunt Circle Student Worksheet",
-        url: "https://docs.google.com/presentation/d/1iGXFpDscj18TBWM_f03jUxc7rGtzPWRxn6Yxvrn-Pfs",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1iGXFpDscj18TBWM_f03jUxc7rGtzPWRxn6Yxvrn-Pfs`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Régions naturelles de l’Alberta",
-        url: "https://docs.google.com/document/d/1HxmejJCoHTjUgrICzgRYVvsfWoDA75UjO9zrAEkSPSM",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1HxmejJCoHTjUgrICzgRYVvsfWoDA75UjO9zrAEkSPSM`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
         url: "https://drive.google.com/file/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz",
-        pdfUrl: "N/A"
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : diapositives Google à remplir",
-        url: "https://docs.google.com/presentation/d/1FrvTy8G4cR0kKAunb0rwjshiy56Uykg4",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1FrvTy8G4cR0kKAunb0rwjshiy56Uykg4`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève (encercler)",
         url: "https://drive.google.com/file/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0",
-        pdfUrl: "N/A"
       }
     ]
   },

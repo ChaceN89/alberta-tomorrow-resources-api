@@ -14,10 +14,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "glaciers-03b-ice-core-basics";
+
 export const iceCoreBasicsLessonPlan = {
-  id: "glaciers-03b-ice-core-basics",
+  id: lessonId,
 
   themeId: LessonTheme.GLACIERS_AND_WATERSHEDS.id,
 
@@ -41,14 +45,12 @@ export const iceCoreBasicsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Ice Core Basics: Lesson Plan",
-        url: "https://docs.google.com/document/d/121ISJanAFOQeqpHB5OFInSIW0j79VaIVJ3eN-Jh8lYQ/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/121ISJanAFOQeqpHB5OFInSIW0j79VaIVJ3eN-Jh8lYQ/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Ice Core Basics: Student Worksheet",
-        url: "https://docs.google.com/document/d/1oOYm_vuK6JzAp9gSuI5TpkXijof1ruDt73ODTOY5Khc/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1oOYm_vuK6JzAp9gSuI5TpkXijof1ruDt73ODTOY5Khc/edit`,
       }
     ],
 
@@ -56,14 +58,12 @@ export const iceCoreBasicsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Notions de base sur les carottes de glace : plan de leçon",
-        url: "https://docs.google.com/document/d/10ubjZk5bRPVNnQlyGtLR6FGzbfk_NdPNqCdxjzDzLvo/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/10ubjZk5bRPVNnQlyGtLR6FGzbfk_NdPNqCdxjzDzLvo/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Notions de base sur les carottes de glace : feuille de travail de l'élève",
-        url: "https://docs.google.com/document/d/1VUUbxqT2qlNlnys6JgMIVVn6o9I0nDaaUB0IWnXAQ4Q/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1VUUbxqT2qlNlnys6JgMIVVn6o9I0nDaaUB0IWnXAQ4Q/edit`,
       }
     ]
   },

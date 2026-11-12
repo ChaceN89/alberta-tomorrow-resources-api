@@ -13,10 +13,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "brbc-07f-hydrology-land-development";
+
 export const hydrologyAndLandDevelopmentLessonPlan = {
-  id: "brbc-07f-hydrology-land-development",
+  id: lessonId,
 
   themeId: LessonTheme.BOW_RIVER_WATERSHED.id,
 
@@ -40,16 +44,14 @@ export const hydrologyAndLandDevelopmentLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Hydrology and Land Development - Google Doc",
-        url: "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Hydrologie et aménagement du territoire – document Google",
-        url: "https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq`,
       }
     ]
   },

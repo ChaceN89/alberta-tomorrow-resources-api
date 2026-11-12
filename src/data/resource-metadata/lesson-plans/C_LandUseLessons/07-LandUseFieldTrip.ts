@@ -14,10 +14,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "landuse-07c-landuse-field-trip";
+
 export const landUseFieldTripLessonPlan = {
-  id: "landuse-07c-landuse-field-trip",
+  id: lessonId,
 
   themeId: LessonTheme.LAND_USE.id,
 
@@ -41,16 +45,14 @@ export const landUseFieldTripLessonPlan = {
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Landuse Field Trip",
-        url: "https://docs.google.com/document/d/12WGnD7f5R3WPF9qX6A822YZyZ7QWPy3Q6TXCp4qxVuQ/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/12WGnD7f5R3WPF9qX6A822YZyZ7QWPy3Q6TXCp4qxVuQ/edit`,
       }
     ],
     fr: [
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Sortie éducative liée à l’utilisation des terres",
-        url: "https://docs.google.com/document/d/1RE3zGZvKcNrw3SrBYbJoR_FkAyKnlPqTVIoO5hNhEEk/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1RE3zGZvKcNrw3SrBYbJoR_FkAyKnlPqTVIoO5hNhEEk/edit`,
       }
     ]
   },

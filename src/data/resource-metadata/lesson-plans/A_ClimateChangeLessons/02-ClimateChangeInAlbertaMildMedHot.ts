@@ -14,10 +14,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "climate-02-climate-change-in-alberta-mild-med-hot";
+
 export const climateChangeInAlbertaLessonPlan = {
-  id: "climate-02-climate-change-in-alberta-mild-med-hot",
+  id: lessonId,
 
   themeId: LessonTheme.CLIMATE_CHANGE.id,
 
@@ -41,20 +45,17 @@ export const climateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios: Lesson Plan",
-        url: "https://docs.google.com/document/d/1qqEs1OF0aOA3LMGzEz3RxxtgcTnONJqcp6lsOR2TWos/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1qqEs1OF0aOA3LMGzEz3RxxtgcTnONJqcp6lsOR2TWos/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Climate Change in Alberta: Using the Alberta Tomorrow Simulator: Investigating Mild, Medium and Hot Scenarios Student Worksheet",
-        url: "https://docs.google.com/document/d/1B6_uFpROMBB6K7vVR4If3kGk85lpojVl1MPh-eimfxc/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1B6_uFpROMBB6K7vVR4If3kGk85lpojVl1MPh-eimfxc/edit`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Climate Change: Truth and Misconceptions - Presentation Slides",
-        url: "https://docs.google.com/presentation/d/1reQRVGi0VSEUcPAwk4SZ-NCiakFZNO3De-_0s9PehHk",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1reQRVGi0VSEUcPAwk4SZ-NCiakFZNO3De-_0s9PehHk`,
       }
     ],
 
@@ -62,20 +63,17 @@ export const climateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Changements climatiques en Alberta : étudier les scénarios climatiques Doux, Moyen et Chaud : plan de leçon",
-        url: "https://docs.google.com/document/d/1ehoihQjDPK0zIKBt_u-pZ8B2ffLFEAlObHFotqAgeqQ/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1ehoihQjDPK0zIKBt_u-pZ8B2ffLFEAlObHFotqAgeqQ/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Changements climatiques en Alberta : utiliser le simulateur d’Alberta Tomorrow : feuille de travail sur les scénarios doux, moyens et chauds",
-        url: "https://docs.google.com/document/d/1C1EvmBENZXl4J3uYOHh305wCbwVogNPOW-Zmnncmfxg/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1C1EvmBENZXl4J3uYOHh305wCbwVogNPOW-Zmnncmfxg/edit`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
-        url: "https://docs.google.com/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr`,
       }
     ]
   },

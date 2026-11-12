@@ -14,10 +14,14 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
+import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
+
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
+const lessonId = "abregions-02d-ecosystem-diversity";
+
 export const albertasEcosystemDiversityLessonPlan = {
-  id: "abregions-02d-ecosystem-diversity",
+  id: lessonId,
 
   themeId: LessonTheme.ALBERTA_NATURAL_REGIONS.id,
 
@@ -41,28 +45,24 @@ export const albertasEcosystemDiversityLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Ecosystems in Alberta: Lesson Plan",
-        url: "https://docs.google.com/document/d/1GWB1yWcrgStwDGfjLjrYDBitg7oXBcb7Z-VUcSGFFFM/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GWB1yWcrgStwDGfjLjrYDBitg7oXBcb7Z-VUcSGFFFM/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
-        url: "https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Écosystèmes en Alberta : plan de leçon",
-        url: "https://docs.google.com/document/d/1GFr1Jz7EOqUl4CE9-Rr6ihL0piyh74QNA6XhNCV6M8M/edit",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GFr1Jz7EOqUl4CE9-Rr6ihL0piyh74QNA6XhNCV6M8M/edit`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Chasse au trésor dans les écosystèmes de l’Alberta",
-        url: "https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS",
-        pdfUrl: "N/A"
+        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS`,
       }
     ]
   },
