@@ -12,7 +12,7 @@ const VIDEO_ASSETS_BASE_URL =
   "https://d2qcvmovr4fv.cloudfront.net/video-assets";
 
 const LESSON_PLAN_ASSETS_BASE_URL =
-  "https://d2qcvmovr4fv.cloudfront.net/lesson-plans";
+  "https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs";
 
 export const GOOGLE_DOCS_BASE_URL = "https://docs.google.com";
 

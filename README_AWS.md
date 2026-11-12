@@ -23,7 +23,7 @@ This document provides an overview of the AWS services required to deploy the Al
 ---
 
 ## Not Required for Backend API
-- **Amazon S3:** Not needed for backend API code deployment. S3 is used for static assets (PDFs, images) for frontend applications (simulator, homepage).
+- **Amazon S3:** Not needed for backend API code deployment. The resource bucket stores videos, thumbnails, subtitles and lesson PDFs under `video-assets/` and `lesson-plan-pdfs/`, served by CloudFront. Use `make upload-assets DRY_RUN=1` to preview uploads and `make upload-assets` to upload extracted files to the existing `BUCKET_NAME` from `.env`; API deployment remains separate. Optional `make invalidate-assets` uses `ASSETS_DISTRIBUTION_ID`, not the API distribution ID. See the [asset upload commands](./README.md#uploading-resource-assets-to-s3).
 
 ---
 

@@ -1,15 +1,15 @@
 import { constants as fsConstants } from "node:fs";
-import { copyFile, mkdir, rename, stat, unlink, writeFile } from "node:fs/promises";
+import { copyFile, mkdir, readdir, rename, stat, unlink, writeFile } from "node:fs/promises";
 import { randomUUID } from "node:crypto";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { getLessonPlanPdfFileNames, GOOGLE_DOCS_BASE_URL } from "../core/assetUrls.js";
+import { getLessonPlanPdfFileNames, getLessonPlanThemeFolder, GOOGLE_DOCS_BASE_URL } from "../core/assetUrls.js";
 import { findTypeScriptFiles } from "./utils.js";
 import type { LessonPlanSource } from "../core/lessonPlanTypes.js";
 
 const DEFAULT_OUTPUT_DIRECTORY = path.resolve("src/data/extracted-data/lesson-plan-extracted-data");
-const SECTION = "A_ClimateChangeLessons";
-const SECTION_DIRECTORY = path.resolve("src/data/resource-metadata/lesson-plans", SECTION);
+const LESSON_DIRECTORY = path.resolve("src/data/resource-metadata/lesson-plans");
+const SECTION_DIRECTORY = path.join(LESSON_DIRECTORY, "A_ClimateChangeLessons");
 const LANGUAGES = ["en", "fr"] as const;
 
 interface PdfFile {
@@ -40,10 +40,22 @@ export async function loadSectionLessons(directory = SECTION_DIRECTORY): Promise
       throw new Error(`Invalid lesson ID "${value.id}" in ${filePath}.`);
     }
     if (ids.has(value.id)) throw new Error(`Duplicate lesson ID "${value.id}" in ${filePath}.`);
+    if (!("themeId" in value) || typeof value.themeId !== "string" ||
+        getLessonPlanThemeFolder(value.themeId) !== path.basename(path.dirname(filePath))) {
+      throw new Error(`Lesson theme does not match the source folder in ${filePath}.`);
+    }
     ids.add(value.id);
     lessons.push(value);
   }
   return lessons;
+}
+
+export async function getSections(): Promise<string[]> {
+  const entries = await readdir(LESSON_DIRECTORY, { withFileTypes: true });
+  const sections = entries.filter((entry) => entry.isDirectory()).map((entry) => entry.name)
+    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+  if (sections.length === 0) throw new Error(`No lesson sections found in ${LESSON_DIRECTORY}.`);
+  return sections;
 }
 
 function isLessonPlan(value: unknown): value is LessonPlanSource {
@@ -67,11 +79,20 @@ export function getExportUrl(source: string): string {
   try {
     url = new URL(source);
   } catch {
-    throw new Error(`Invalid Google Docs or Slides URL: ${source}`);
+    throw new Error(`Invalid Google Docs, Slides or Drive URL: ${source}`);
+  }
+  const driveMatch = /^\/file\/d\/([A-Za-z0-9_-]+)(?:\/|$)/.exec(url.pathname);
+  if (url.protocol === "https:" && url.hostname === "drive.google.com" && driveMatch) {
+    const download = new URL("https://drive.google.com/uc");
+    download.searchParams.set("export", "download");
+    download.searchParams.set("id", driveMatch[1]);
+    const resourceKey = url.searchParams.get("resourcekey");
+    if (resourceKey) download.searchParams.set("resourcekey", resourceKey);
+    return download.href;
   }
   const match = /^\/(document|presentation)\/d\/([A-Za-z0-9_-]+)(?:\/|$)/.exec(url.pathname);
   if (url.protocol !== "https:" || url.hostname !== "docs.google.com" || !match) {
-    throw new Error(`Unsupported Google Docs or Slides URL: ${source}`);
+    throw new Error(`Unsupported Google Docs, Slides or Drive URL: ${source}`);
   }
   return `${GOOGLE_DOCS_BASE_URL}/${match[1]}/d/${match[2]}/export?format=pdf`;
 }
@@ -100,8 +121,8 @@ export async function downloadPdf(
   });
   if (!response.ok) throw new Error(`PDF export failed with HTTP ${response.status}.`);
   const contentType = response.headers.get("content-type")?.split(";")[0].trim().toLowerCase();
-  if (contentType !== "application/pdf") {
-    throw new Error(`Expected a PDF response, received ${contentType ?? "no content type"}; check the document's sharing settings.`);
+  if (contentType !== "application/pdf" && contentType !== "application/octet-stream") {
+    throw new Error(`Expected a PDF response, received ${contentType ?? "no content type"}. Check sharing settings; non-PDF Drive files must be converted to PDF first.`);
   }
   const contents = Buffer.from(await response.arrayBuffer());
   if (contents.subarray(0, 5).toString("ascii") !== "%PDF-") {
@@ -132,10 +153,11 @@ function usage(): string {
   return [
     "Usage:",
     "  npm run pulllessonpdfs -- <lesson-id> [--out-dir <path>] [--override]",
-    `  npm run pulllessonpdfs -- --section ${SECTION} [--out-dir <path>] [--override]`,
-    `  npm run pulllessonpdfs -- --section ${SECTION} --list [--out-dir <path>]`,
+    "  npm run pulllessonpdfs -- --section <section-folder> [--out-dir <path>] [--override]",
+    "  npm run pulllessonpdfs -- --all [--out-dir <path>] [--override]",
+    "  npm run pulllessonpdfs -- --all --list",
     "",
-    `Exports Google Docs/Slides PDFs from ${SECTION}.`,
+    "Exports Google Docs/Slides PDFs and public Drive PDF files from every lesson section.",
     "Existing files are preserved unless --override (or --overwrite) is specified.",
     `Default output root: ${DEFAULT_OUTPUT_DIRECTORY}`,
   ].join("\n");
@@ -151,6 +173,7 @@ async function main(args: string[]): Promise<void> {
   let override = false;
   let list = false;
   let section: string | undefined;
+  let all = false;
   for (let i = 0; i < args.length; i++) {
     const arg = args[i];
     if (arg === "--out-dir" || arg === "--section") {
@@ -162,6 +185,8 @@ async function main(args: string[]): Promise<void> {
       override = true;
     } else if (arg === "--list") {
       list = true;
+    } else if (arg === "--all") {
+      all = true;
     } else if (!arg.startsWith("-") && !lessonId) {
       lessonId = arg;
     } else {
@@ -169,18 +194,32 @@ async function main(args: string[]): Promise<void> {
     }
   }
   if (list && override) throw new Error("--list cannot be combined with --override.");
-  if (!!lessonId === !!section) throw new Error(`Choose a lesson ID or --section ${SECTION}.\n\n${usage()}`);
-  if (section && section !== SECTION) throw new Error(`Unsupported section "${section}". Supported section: ${SECTION}.`);
-
-  const allLessons = await loadSectionLessons();
-  const lessons = section ? allLessons : allLessons.filter((lesson) => lesson.id === lessonId);
-  if (lessons.length === 0) {
-    throw new Error(`No lesson with ID "${lessonId}" found in ${SECTION}.`);
+  if ([!!lessonId, !!section, all].filter(Boolean).length !== 1) {
+    throw new Error(`Choose exactly one lesson ID, --section <folder>, or --all.\n\n${usage()}`);
   }
+
+  const sections = await getSections();
+  if (section && !sections.includes(section)) {
+    throw new Error(`Unknown section "${section}". Available sections: ${sections.join(", ")}.`);
+  }
+  const allLessons: LessonPlanSource[] = [];
+  const ids = new Set<string>();
+  for (const folder of section ? [section] : sections) {
+    for (const lesson of await loadSectionLessons(path.join(LESSON_DIRECTORY, folder))) {
+      if (ids.has(lesson.id)) throw new Error(`Duplicate lesson ID "${lesson.id}" across sections.`);
+      ids.add(lesson.id);
+      allLessons.push(lesson);
+    }
+  }
+  const lessons = lessonId ? allLessons.filter((lesson) => lesson.id === lessonId) : allLessons;
+  if (lessons.length === 0) {
+    throw new Error(`No lesson with ID "${lessonId}" found.`);
+  }
+  console.log(`${list ? "Listing" : "Exporting"} PDFs for ${lessons.length} lesson(s).`);
   const failures: string[] = [];
   for (const lesson of lessons) {
     try {
-      const outputDirectory = path.join(outputRoot, SECTION, lesson.id);
+      const outputDirectory = path.join(outputRoot, getLessonPlanThemeFolder(lesson.themeId), lesson.id);
       const files = getPdfFiles(lesson);
       console.log(`\nLesson: ${lesson.id}\nOutput: ${outputDirectory}`);
       for (const file of files) {

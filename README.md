@@ -264,15 +264,15 @@ and the standard filenames `video.mp4`, `thumbnail.jpg`, `en.vtt`, and `fr.vtt`;
 can build asset links with `getVideoAssetPaths(categoryId, videoId).file(fileName)`.
 The generator derives each lesson file's `pdfUrl` from its `fileType` and language.
 The generated URLs use the CloudFront base and mirror the local extraction layout:
-`lesson-plans/<theme-folder>/<lesson-id>/<language>-<fileType>.pdf`.
+`lesson-plan-pdfs/<theme-folder>/<lesson-id>/<language>-<fileType>.pdf`.
 **These are planned URLs, not proof that the PDF has been uploaded.** They can return
 errors until the corresponding files are uploaded to the matching S3 keys and served
 by CloudFront.
 
 ### Pulling lesson-plan PDFs
 
-The `pulllessonpdfs` command exports public Google Docs and Slides files for individual
-climate-change lessons or the entire climate-change section. It reads the source URLs from the lesson
+The `pulllessonpdfs` command exports public Google Docs and Slides files and downloads
+public Drive PDFs for individual lessons, one section, or all sections. It reads the source URLs from the lesson
 metadata and requires no Google credentials when the documents are publicly accessible.
 
 ```bash
@@ -280,11 +280,13 @@ npm run pulllessonpdfs -- climate-01-going-going-going-gone
 npm run pulllessonpdfs -- climate-01-going-going-going-gone --list
 npm run pulllessonpdfs -- --section A_ClimateChangeLessons
 npm run pulllessonpdfs -- --section A_ClimateChangeLessons --list
+npm run pulllessonpdfs -- --all
+npm run pulllessonpdfs -- --all --list
 ```
 
 The command discovers lesson source files in the section, in source order. The files are
 saved in the git-ignored directory
-`src/data/extracted-data/lesson-plan-extracted-data/A_ClimateChangeLessons/<lesson-id>/`.
+`src/data/extracted-data/lesson-plan-extracted-data/<section-folder>/<lesson-id>/`.
 Filenames combine the language and `fileType`, such as `en-lesson-plan.pdf`.
 Repeated file types within a language use `-2`, `-3`, and so on, in metadata order.
 The generator and downloader use the same naming logic. **Reordering or removing files
@@ -294,9 +296,11 @@ files are preserved; pass `--override` to replace them or `--out-dir <path>` to 
 a different extraction root. Failed exports are reported individually; successful
 exports remain available and the command exits unsuccessfully if any fail.
 
-This command does not yet process other sections or upload to S3. Some lesson sources
-use Google Drive links rather than Google Docs or Slides; those are not supported by
-the current exporter. Previously downloaded files with old descriptive names are not
+This command does not upload to S3. Google Drive links must point to actual PDFs;
+images and other non-PDF files are rejected and must be converted separately.
+Inaccessible documents are also reported as failures; the remaining files are still
+attempted, and rerunning skips previously downloaded files.
+Previously downloaded files with old descriptive names are not
 renamed or deleted automatically.
 
 ### Pulling YouTube assets
@@ -316,12 +320,61 @@ video's extracted files to the matching S3 prefix:
 
 ```text
 Local: src/data/extracted-data/youtube-extracted-data/<category-folder>/<video-id>/
-S3:    s3://abt-video-assets-prod/videos/<category-folder>/<video-id>/
+S3:    s3://<BUCKET_NAME>/video-assets/<category-folder>/<video-id>/
 ```
 
 Keep the filenames (`video.mp4`, `thumbnail.jpg`, `en.vtt`, `fr.vtt`) unchanged. The
 S3 directory mirrors the local extraction directory, so the generated video URLs will
-resolve after the files are uploaded. Automating the AWS upload is a future step.
+resolve after the files are uploaded.
+
+### Uploading resource assets to S3
+
+The Makefile uploads extracted assets to the **existing** bucket specified by
+`BUCKET_NAME` in `.env`. It reads the AWS credentials and region from that file too.
+AWS CLI access must allow writing to that bucket. This is separate from API deployment;
+it does not build the API, create buckets, or upload generated JSON.
+
+List named AWS profiles with `aws configure list-profiles`. Pass `PROFILE=<name>`
+to select one for any Makefile upload or invalidation command. When selected, the
+Makefile clears environment access keys and session tokens (including keys from `.env`)
+so they cannot override the profile. Without `PROFILE`, existing credential behavior
+is unchanged. The region and bucket still come from `.env`.
+
+```bash
+make upload-pdfs PROFILE=your-profile DRY_RUN=1
+make upload-assets DRY_RUN=1
+make upload-assets
+make upload-videos SECTION=A-TutorialVideos
+make upload-pdfs SECTION=A_ClimateChangeLessons
+make upload-pdfs SECTION=A_ClimateChangeLessons ID=climate-04-science-6-climate-change-in-alberta
+make upload-videos SECTION=A-TutorialVideos ID=tutorial-01a-register-account FILE=thumbnail.jpg
+```
+
+Any upload command accepts `DRY_RUN=1`. Uploads add or update files, **never delete
+S3 objects**, and preserve the local section/resource directory layout. The two mappings are:
+
+```text
+youtube-extracted-data/     -> s3://<BUCKET_NAME>/video-assets/
+lesson-plan-extracted-data/ -> s3://<BUCKET_NAME>/lesson-plan-pdfs/
+```
+
+Only standard video filenames and file-type-based PDF names are uploaded. Old
+descriptively named PDFs, temporary files and unrelated files are excluded. Directory
+uploads use `aws s3 sync`; use `FILE=<filename>` to explicitly replace one file with
+`aws s3 cp`, even if its size or timestamp would otherwise cause sync to skip it.
+
+Cache invalidation is optional and separate. Set `ASSETS_DISTRIBUTION_ID` in `.env`
+to the distribution serving the resource bucket, **not** the future API distribution's
+`DISTRIBUTION_ID`, then run:
+
+```bash
+make invalidate-assets DRY_RUN=1
+make invalidate-assets
+```
+
+This invalidates `/video-assets/*` and `/lesson-plan-pdfs/*` only. Uploads do not
+automatically invalidate caches. Bucket creation, CloudFront configuration and API
+deployment remain separate operations.
 
 The command uses the YouTube Data API for the thumbnail and `yt-dlp` for subtitle track
 discovery and downloads. This avoids the captions download endpoint, which can return a

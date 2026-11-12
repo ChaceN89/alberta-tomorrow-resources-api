@@ -4,7 +4,8 @@ import os from "node:os";
 import path from "node:path";
 import { test } from "node:test";
 import { pathToFileURL } from "node:url";
-import { downloadPdf, getExportUrl, getPdfFiles, loadSectionLessons } from "../src/data/scripts/pullLessonPlanPdfs.js";
+import { spawnSync } from "node:child_process";
+import { downloadPdf, getExportUrl, getPdfFiles, getSections, loadSectionLessons } from "../src/data/scripts/pullLessonPlanPdfs.js";
 import { getLessonPlanAssetPaths, getLessonPlanPdfFileNames } from "../src/data/core/assetUrls.js";
 import { normalizeFiles } from "../src/data/scripts/generateLessonPlans.js";
 import { findTypeScriptFiles } from "../src/data/scripts/utils.js";
@@ -42,7 +43,7 @@ test("discovers all climate lessons and all localized files, including repeated 
 test("asset paths match extraction filenames and reject invalid file types", () => {
   const lesson = goingGoingGoingGoneClimateChangeLessonPlan;
   const assets = getLessonPlanAssetPaths(lesson.themeId, lesson.id);
-  assert.equal(assets.file("en-lesson-plan.pdf"), `https://d2qcvmovr4fv.cloudfront.net/lesson-plans/A_ClimateChangeLessons/${lesson.id}/en-lesson-plan.pdf`);
+  assert.equal(assets.file("en-lesson-plan.pdf"), `https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/${lesson.id}/en-lesson-plan.pdf`);
   assert.throws(() => getLessonPlanPdfFileNames("en", [{ fileType: "../unsafe" }]), /Unsupported lesson file type/);
   assert.throws(() => assets.file("../unsafe"));
   assert.throws(() => getLessonPlanAssetPaths("unknown", lesson.id));
@@ -95,11 +96,63 @@ test("constructs PDF export URLs for Docs and Slides and rejects unsupported URL
     "https://docs.google.com/document/d/abc-123/export?format=pdf",
   );
   assert.equal(
+    getExportUrl("https://drive.google.com/file/d/abc_123/view?resourcekey=key"),
+    "https://drive.google.com/uc?export=download&id=abc_123&resourcekey=key",
+  );
+  assert.equal(
     getExportUrl("https://docs.google.com/presentation/d/abc_123"),
     "https://docs.google.com/presentation/d/abc_123/export?format=pdf",
   );
   for (const url of ["https://example.com/document/d/abc", "https://docs.google.com/spreadsheets/d/abc", "not a url"]) {
     assert.throws(() => getExportUrl(url));
+  }
+});
+
+test("CLI lists all sections, selects non-climate lessons, and rejects conflicting selectors", async () => {
+  const dir = await mkdtemp(path.join(os.tmpdir(), "lesson-pdf-list-test-"));
+  const run = (...args: string[]) => spawnSync(process.execPath, [
+    "--import", "tsx", "src/data/scripts/pullLessonPlanPdfs.ts", ...args, "--out-dir", dir,
+  ], { encoding: "utf8" });
+  try {
+    const sections = await getSections();
+    assert.equal(sections.length, 7);
+    const all = run("--all", "--list");
+    assert.equal(all.status, 0, all.stderr);
+    assert.equal((all.stdout.match(/\nLesson: /g) ?? []).length, 37);
+    assert.equal((all.stdout.match(/\.pdf: missing/g) ?? []).length, 154);
+    for (const section of sections) assert.ok(all.stdout.includes(`/${section}/`));
+    const section = run("--section", "B_GlaciersAndWatershedsLessons", "--list");
+    assert.equal(section.status, 0, section.stderr);
+    assert.equal((section.stdout.match(/\nLesson: /g) ?? []).length, 5);
+    const lessons = await loadSectionLessons(path.resolve("src/data/resource-metadata/lesson-plans/B_GlaciersAndWatershedsLessons"));
+    const single = run(lessons[0].id, "--list");
+    assert.equal(single.status, 0, single.stderr);
+    assert.equal((single.stdout.match(/\nLesson: /g) ?? []).length, 1);
+    for (const args of [
+      ["--all", "--section", "A_ClimateChangeLessons"],
+      ["--all", lessons[0].id],
+      ["--section", "../escape"],
+      ["--all", "--list", "--override"],
+    ]) assert.notEqual(run(...args).status, 0);
+    assert.deepEqual(await readdir(dir), []);
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+});
+
+test("Drive downloads require PDF bytes even with a generic binary content type", async () => {
+  const dir = await mkdtemp(path.join(os.tmpdir(), "lesson-pdf-drive-test-"));
+  const file = { fileName: "en-student-worksheet.pdf", url: "https://drive.google.com/file/d/abc" };
+  try {
+    assert.equal(await downloadPdf(file, dir, false, async () =>
+      new Response("%PDF-test", { headers: { "content-type": "application/octet-stream" } })), "saved");
+    await assert.rejects(downloadPdf(file, dir, true, async () =>
+      new Response("image", { headers: { "content-type": "image/png" } })), /non-PDF Drive files/);
+    await assert.rejects(downloadPdf(file, dir, true, async () =>
+      new Response("not a PDF", { headers: { "content-type": "application/octet-stream" } })), /not a valid PDF/);
+    assert.equal(await readFile(path.join(dir, file.fileName), "utf8"), "%PDF-test");
+  } finally {
+    await rm(dir, { recursive: true, force: true });
   }
 });
 
