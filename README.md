@@ -264,7 +264,7 @@ the video base URL there when switching delivery from S3 to CloudFront.
 
 The local `pullyoutube` command looks up a video ID in the generated video data and saves
 `video.mp4`, `thumbnail.jpg`, `en.vtt`, and `fr.vtt` under
-`src/data/youtube-extracted-data/<category-folder>/<video-id>/`. This directory is
+`src/data/extracted-data/youtube-extracted-data/<category-folder>/<video-id>/`. This directory is
 git-ignored. By default, existing files are left untouched and only missing files are
 downloaded or copied. This lets you keep a manually replaced thumbnail or asset while
 filling gaps in the same export. Interactive terminals show color-coded statuses; set
@@ -276,7 +276,7 @@ does not upload anything to AWS. After checking the files, manually upload each
 video's extracted files to the matching S3 prefix:
 
 ```text
-Local: src/data/youtube-extracted-data/<category-folder>/<video-id>/
+Local: src/data/extracted-data/youtube-extracted-data/<category-folder>/<video-id>/
 S3:    s3://abt-video-assets-prod/videos/<category-folder>/<video-id>/
 ```
 
@@ -300,7 +300,7 @@ For example, use the direct YouTube download path for an authorized video:
 npm run pullyoutube -- tutorial-01a-register-account --video-source youtube
 ```
 
-List available sections and inspect the files already extracted for a section:
+List available sections and inspect the files already extracted for a section. Sections with missing required files show a yellow count such as `(3/10 missing files)`; run `--list-section` on that section to see which videos and files are missing:
 
 ```bash
 npm run pullyoutube -- --list-sections
@@ -364,7 +364,7 @@ export captions from Studio and supply them as WebVTT files:
 
 ```bash
 npm run pullyoutube -- tutorial-01a-register-account \
-  --mp4 src/data/youtube-extracted-data/A-TutorialVideos/tutorial-01a-register-account/video.mp4 \
+  --mp4 src/data/extracted-data/youtube-extracted-data/A-TutorialVideos/tutorial-01a-register-account/video.mp4 \
   --en-vtt ./source/en.vtt \
   --fr-vtt ./source/fr.vtt \
   --overwrite

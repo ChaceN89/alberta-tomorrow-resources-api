@@ -23,7 +23,7 @@ import type { GeneratedVideo } from "../videoTypes.js";
 
 dotenv.config();
 
-const DEFAULT_OUTPUT_DIRECTORY = path.resolve("src/data/youtube-extracted-data");
+const DEFAULT_OUTPUT_DIRECTORY = path.resolve("src/data/extracted-data/youtube-extracted-data");
 const CAPTION_LANGUAGES = [
   { fileName: "en.vtt", language: "en", preferredTag: "en-CA" },
   { fileName: "fr.vtt", language: "fr", preferredTag: "fr-CA" },
@@ -110,8 +110,8 @@ function usage(): string {
     "  --refresh-thumbnails     Replace only thumbnail.jpg for the selected video(s)",
     "  --refresh-captions       Replace only en.vtt and fr.vtt for the selected video(s)",
     "  --list-section <folder>  Show videos and extracted-file status in a category",
-    "  --list-sections          Show available category folders",
-    "  --out-dir <path>         Output root (default: src/data/youtube-extracted-data)",
+    "  --list-sections          Show available category folders, flagging sections with missing files",
+    "  --out-dir <path>         Output root (default: src/data/extracted-data/youtube-extracted-data)",
     "  --override               Replace all existing files; otherwise only fill missing files",
     "  --overwrite              Alias for --override",
     "  --help                   Show this help",
@@ -346,16 +346,42 @@ async function getMissingOutputFiles(
   return missingFiles;
 }
 
-function listSections(outputDirectory: string): void {
-  const counts = new Map<string, number>();
+// Lists required output files that do not exist yet for one video.
+async function getMissingFilesForVideo(
+  video: GeneratedVideo,
+  outputDirectory: string,
+): Promise<string[]> {
+  const videoDirectory = getOutputDirectory(outputDirectory, video);
+  const missingFiles: string[] = [];
+  for (const fileName of getRequiredOutputFiles(video)) {
+    if (!(await pathExists(path.join(videoDirectory, fileName)))) {
+      missingFiles.push(fileName);
+    }
+  }
+  return missingFiles;
+}
+
+async function listSections(outputDirectory: string): Promise<void> {
+  const totals = new Map<string, { videos: number; incomplete: number }>();
   for (const video of allVideos) {
     const section = getVideoCategoryFolder(video.categoryId);
-    counts.set(section, (counts.get(section) ?? 0) + 1);
+    const entry = totals.get(section) ?? { videos: 0, incomplete: 0 };
+    entry.videos += 1;
+    if ((await getMissingFilesForVideo(video, outputDirectory)).length > 0) {
+      entry.incomplete += 1;
+    }
+    totals.set(section, entry);
   }
 
   console.log(colorize("Available video sections:", "cyan"));
-  for (const [section, count] of [...counts.entries()].sort(([a], [b]) => a.localeCompare(b))) {
-    console.log(`  ${colorize(section, "blue")} ${colorize(`(${count} videos)`, "dim")}`);
+  for (const [section, { videos, incomplete }] of [...totals.entries()].sort(([a], [b]) =>
+    a.localeCompare(b),
+  )) {
+    const missingNote =
+      incomplete > 0 ? ` ${colorize(`(${incomplete}/${videos} missing files)`, "yellow")}` : "";
+    console.log(
+      `  ${colorize(section, "blue")} ${colorize(`(${videos} videos)`, "dim")}${missingNote}`,
+    );
   }
   console.log(`\n${colorize("Extraction root:", "dim")} ${outputDirectory}`);
 }
@@ -390,14 +416,7 @@ async function listSection(section: string, outputDirectory: string): Promise<vo
   let completeCount = 0;
   console.log(colorize(`Videos in ${section}:`, "cyan"));
   for (const video of videos) {
-    const videoDirectory = getOutputDirectory(outputDirectory, video);
-    const missingFiles: string[] = [];
-    for (const fileName of getRequiredOutputFiles(video)) {
-      if (!(await pathExists(path.join(videoDirectory, fileName)))) {
-        missingFiles.push(fileName);
-      }
-    }
-
+    const missingFiles = await getMissingFilesForVideo(video, outputDirectory);
     if (missingFiles.length === 0) completeCount += 1;
     const title = video.title.en;
     const subtitleNote = describeMissingSubtitles(video);
@@ -1318,7 +1337,7 @@ async function main(): Promise<void> {
   const options = parseArguments(process.argv.slice(2));
   if (!options) return;
   if (options.listSections) {
-    listSections(options.outputDirectory);
+    await listSections(options.outputDirectory);
     return;
   }
   if (options.listSection) {

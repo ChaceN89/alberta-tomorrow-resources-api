@@ -50,8 +50,8 @@ export const invasiveSpeciesAndControlVideo = {
     provider: ALBERTA_TOMORROW_PROVIDER
   },
   subtitles: {
-    en: videoAssets.file("en.vtt"),
-    fr: videoAssets.file("fr.vtt")
+    en: null,
+    fr: null
   },
 
   searchTerms: {
