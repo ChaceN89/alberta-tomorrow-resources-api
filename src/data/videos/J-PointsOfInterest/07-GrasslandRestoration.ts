@@ -11,9 +11,9 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
-import { getVideoAssetPaths } from "../../assetUrls.js";
+import { getVideoAssetPaths } from "../../core/assetUrls.js";
 
-import type { VideoSource } from "../../videoTypes.js";
+import type { VideoSource } from "../../core/videoTypes.js";
 
 const videoId = "poi-07j-grassland-restoration";
 const videoAssets = getVideoAssetPaths(VideoCategory.POINTS_OF_INTEREST.id, videoId);

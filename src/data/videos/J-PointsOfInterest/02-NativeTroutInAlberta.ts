@@ -11,9 +11,9 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
-import { ALBERTA_TOMORROW_PROVIDER, getVideoAssetPaths } from "../../assetUrls.js";
+import { ALBERTA_TOMORROW_PROVIDER, getVideoAssetPaths } from "../../core/assetUrls.js";
 
-import type { VideoSource } from "../../videoTypes.js";
+import type { VideoSource } from "../../core/videoTypes.js";
 
 const videoId = "poi-02j-native-trout-in-alberta";
 const videoAssets = getVideoAssetPaths(VideoCategory.POINTS_OF_INTEREST.id, videoId);

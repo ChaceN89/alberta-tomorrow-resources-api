@@ -14,7 +14,7 @@ import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
-import type { LessonPlanSource } from "../../lessonPlanTypes.js";
+import type { LessonPlanSource } from "../../core/lessonPlanTypes.js";
 
 export const virtualFieldTripsToAlbertasEcoregionsLessonPlan = {
   id: "abregions-01d-virtual-field-trips-ecoregions",

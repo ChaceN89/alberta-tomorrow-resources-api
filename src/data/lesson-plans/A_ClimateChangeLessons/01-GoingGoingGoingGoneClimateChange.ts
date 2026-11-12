@@ -24,7 +24,7 @@ import { Grade } from "../../enums/gradeIds.js";
 import { LessonTheme } from "../../enums/LessonThemeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
-import type { LessonPlanSource } from "../../lessonPlanTypes.js";
+import type { LessonPlanSource } from "../../core/lessonPlanTypes.js";
 
 export const goingGoingGoingGoneClimateChangeLessonPlan = {
   id: "climate-01-going-going-going-gone",

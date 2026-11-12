@@ -42,11 +42,13 @@ src/
 │   ├── lesson-plans.js           # GET /api/lessons
 │   └── stats.js                  # GET /api/stats
 └── data/
-    ├── sharedTypes.ts            # Types shared by video and lesson-plan data
-    ├── videoTypes.ts             # Video source and generated JSON schemas
-    ├── lessonPlanTypes.ts        # Lesson-plan source and generated JSON schemas
-    ├── videoData.ts               # Loads generated videos for the API
-    ├── lessonData.ts              # Loads generated lesson plans for the API
+    ├── core/
+    │   ├── assetUrls.ts          # Asset URL builders and the Alberta Tomorrow provider constant
+    │   ├── sharedTypes.ts        # Types shared by video and lesson-plan data
+    │   ├── videoTypes.ts         # Video source and generated JSON schemas
+    │   ├── lessonPlanTypes.ts    # Lesson-plan source and generated JSON schemas
+    │   ├── videoData.ts          # Loads generated videos for the API
+    │   └── lessonData.ts         # Loads generated lesson plans for the API
     ├── enums/
     │   ├── gradeIds.js           # Grade level definitions
     │   ├── subjectIds.js         # Subject definitions
@@ -108,8 +110,8 @@ Each video lives in its own TypeScript file under `src/data/videos/<Category>/`.
 ```ts
 import { Language } from "../../enums/language.js";
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
-import { ALBERTA_TOMORROW_PROVIDER } from "../../assetUrls.js";
-import type { VideoSource } from "../../videoTypes.js";
+import { ALBERTA_TOMORROW_PROVIDER } from "../../core/assetUrls.js";
+import type { VideoSource } from "../../core/videoTypes.js";
 
 export const climateChangeVideo = {
   id: "landscape-01b-climate-change",          // required — must be unique
@@ -146,7 +148,7 @@ export const climateChangeVideo = {
 } satisfies VideoSource;
 ```
 
-Use `null` in video source files for missing media URLs, including `primaryUrl`. The generator converts null video URL values to `"N/A"` in the generated JSON. `subtitles.en` and `subtitles.fr` are set per language: use a URL when a caption track exists and `null` when it does not (for example, both `null` for a video with no speech). Null subtitles stay `null` in the generated JSON so the frontend can skip loading them, and the `pullyoutube` listing only requires `en.vtt` / `fr.vtt` for languages that have a URL. `youtubeUrl` is the backup link. `is360` and `provider` are required on every video so each record is explicit. Use `ALBERTA_TOMORROW_PROVIDER` (exported from `src/data/assetUrls.ts`, and imported alongside `getVideoAssetPaths`) for Alberta Tomorrow's own videos, or the channel/site URL for videos from other providers. `lessonPlanIds` is automatically populated by the generator.
+Use `null` in video source files for missing media URLs, including `primaryUrl`. The generator converts null video URL values to `"N/A"` in the generated JSON. `subtitles.en` and `subtitles.fr` are set per language: use a URL when a caption track exists and `null` when it does not (for example, both `null` for a video with no speech). Null subtitles stay `null` in the generated JSON so the frontend can skip loading them, and the `pullyoutube` listing only requires `en.vtt` / `fr.vtt` for languages that have a URL. `youtubeUrl` is the backup link. `is360` and `provider` are required on every video so each record is explicit. Use `ALBERTA_TOMORROW_PROVIDER` (exported from `src/data/core/assetUrls.ts`, and imported alongside `getVideoAssetPaths`) for Alberta Tomorrow's own videos, or the channel/site URL for videos from other providers. `lessonPlanIds` is automatically populated by the generator.
 
 ---
 
@@ -159,7 +161,7 @@ import { LessonTheme } from "../../enums/LessonThemeIds.js";
 import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
-import type { LessonPlanSource } from "../../lessonPlanTypes.js";
+import type { LessonPlanSource } from "../../core/lessonPlanTypes.js";
 
 export const goingGoingGoingGoneLessonPlan = {
   id: "climate-01a-going-going-gone",          // required — must be unique
@@ -253,7 +255,7 @@ npm run generate -- --strict
 
 ### Shared asset URLs
 
-`src/data/assetUrls.ts` centralizes the video and lesson-plan PDF base URLs, along with
+`src/data/core/assetUrls.ts` centralizes the video and lesson-plan PDF base URLs, along with
 the case-sensitive video category folder mapping. Video records use their internal ID
 and the standard filenames `video.mp4`, `thumbnail.jpg`, `en.vtt`, and `fr.vtt`; they
 can build asset links with `getVideoAssetPaths(categoryId, videoId).file(fileName)`.

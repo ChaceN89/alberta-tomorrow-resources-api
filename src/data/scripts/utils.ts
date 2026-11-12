@@ -11,7 +11,7 @@
 
 import { readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
-import type { Localized } from "../sharedTypes.js";
+import type { Localized } from "../core/sharedTypes.js";
 
 // ─── Generation Options ───────────────────────────────────────────────────────
 

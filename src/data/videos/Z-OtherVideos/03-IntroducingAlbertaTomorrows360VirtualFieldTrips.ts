@@ -10,9 +10,9 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
-import { ALBERTA_TOMORROW_PROVIDER, getVideoAssetPaths } from "../../assetUrls.js";
+import { ALBERTA_TOMORROW_PROVIDER, getVideoAssetPaths } from "../../core/assetUrls.js";
 
-import type { VideoSource } from "../../videoTypes.js";
+import type { VideoSource } from "../../core/videoTypes.js";
 
 const videoId = "oth-03z-intro-360-virtual-field-trips";
 const videoAssets = getVideoAssetPaths(VideoCategory.OTHER.id, videoId);

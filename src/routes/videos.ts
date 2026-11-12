@@ -9,7 +9,7 @@
  */
 
 import express from 'express';
-import { allVideos } from '../data/videoData.js';
+import { allVideos } from '../data/core/videoData.js';
 
 const router = express.Router();
 

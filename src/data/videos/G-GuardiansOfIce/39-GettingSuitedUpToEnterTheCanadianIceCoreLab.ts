@@ -10,9 +10,9 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
-import { ALBERTA_TOMORROW_PROVIDER, getVideoAssetPaths } from "../../assetUrls.js";
+import { ALBERTA_TOMORROW_PROVIDER, getVideoAssetPaths } from "../../core/assetUrls.js";
 
-import type { VideoSource } from "../../videoTypes.js";
+import type { VideoSource } from "../../core/videoTypes.js";
 
 const videoId = "goi-39g-getting-suited-up-to-enter-the";
 const videoAssets = getVideoAssetPaths(VideoCategory.GLACIER_SERIES.id, videoId);

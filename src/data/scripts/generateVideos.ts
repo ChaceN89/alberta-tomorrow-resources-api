@@ -32,8 +32,8 @@ import {
   shortPath,
   C,
 } from "./utils.js";
-import type { GeneratedLessonPlan } from "../lessonPlanTypes.js";
-import type { GeneratedVideo, VideoSource } from "../videoTypes.js";
+import type { GeneratedLessonPlan } from "../core/lessonPlanTypes.js";
+import type { GeneratedVideo, VideoSource } from "../core/videoTypes.js";
 
 // ─── Schema ───────────────────────────────────────────────────────────────────
 

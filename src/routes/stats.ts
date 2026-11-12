@@ -9,8 +9,8 @@
  */
 
 import express from 'express';
-import { allVideos } from '../data/videoData.js';
-import { allLessons } from '../data/lessonData.js';
+import { allVideos } from '../data/core/videoData.js';
+import { allLessons } from '../data/core/lessonData.js';
 
 const router = express.Router();
 

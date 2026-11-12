@@ -17,9 +17,9 @@ import path from "node:path";
 import { spawn, spawnSync } from "node:child_process";
 import { randomBytes } from "node:crypto";
 import dotenv from "dotenv";
-import { getVideoCategoryFolder } from "../assetUrls.js";
-import { allVideos } from "../videoData.js";
-import type { GeneratedVideo } from "../videoTypes.js";
+import { getVideoCategoryFolder } from "../core/assetUrls.js";
+import { allVideos } from "../core/videoData.js";
+import type { GeneratedVideo } from "../core/videoTypes.js";
 
 dotenv.config();
 

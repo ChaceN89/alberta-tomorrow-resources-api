@@ -11,7 +11,7 @@
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
 
-import type { VideoSource } from "../../videoTypes.js";
+import type { VideoSource } from "../../core/videoTypes.js";
 
 const videoId = "bfv-01i-blackfoot-perspective-on-water";
 

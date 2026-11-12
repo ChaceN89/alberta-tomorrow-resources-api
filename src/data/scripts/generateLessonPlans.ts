@@ -36,7 +36,7 @@ import type {
   LessonFileSource,
   LessonPlanSource,
   RelatedResourceSource,
-} from "../lessonPlanTypes.js";
+} from "../core/lessonPlanTypes.js";
 
 // ─── Schema ───────────────────────────────────────────────────────────────────
 

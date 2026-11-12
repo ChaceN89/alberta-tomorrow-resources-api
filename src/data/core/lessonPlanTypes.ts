@@ -8,7 +8,7 @@
  * @updated Nov 11, 2026
  */
 
-import type { FileType } from "./enums/fileTypes.js";
+import type { FileType } from "../enums/fileTypes.js";
 import type { Localized } from "./sharedTypes.js";
 
 /** Describes a resource file attached to an authored lesson plan. */

@@ -4,7 +4,7 @@
  * Centralizes public asset URL construction for videos and lesson-plan PDFs.
  * Update the base URLs here when delivery moves from S3 to CloudFront.
  */
-import { VideoCategory } from "./enums/videoCategoryIds.js";
+import { VideoCategory } from "../enums/videoCategoryIds.js";
 
 const VIDEO_ASSETS_BASE_URL =
   "https://d2qcvmovr4fv.cloudfront.net/video-assets";

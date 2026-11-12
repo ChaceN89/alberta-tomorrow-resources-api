@@ -15,7 +15,7 @@ import { FileType } from "../../enums/fileTypes.js";
 import { Grade } from "../../enums/gradeIds.js";
 import { Subject } from "../../enums/subjectIds.js";
 
-import type { LessonPlanSource } from "../../lessonPlanTypes.js";
+import type { LessonPlanSource } from "../../core/lessonPlanTypes.js";
 
 export const factorsAffectingEnergyUseLessonPlan = {
   id: "energy-02g-factors-affecting-use",
