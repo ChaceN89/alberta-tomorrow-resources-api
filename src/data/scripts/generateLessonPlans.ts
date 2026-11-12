@@ -256,7 +256,7 @@ async function loadLessonPlans(directory: string): Promise<{
 
 const ROOT_DIRECTORY = process.cwd();
 
-const LESSON_PLAN_DIRECTORY = path.join(ROOT_DIRECTORY, "src", "data", "lesson-plans");
+const LESSON_PLAN_DIRECTORY = path.join(ROOT_DIRECTORY, "src", "data", "resource-metadata", "lesson-plans");
 const OUTPUT_PATH = path.join(ROOT_DIRECTORY, "src", "data", "generated", "lessonPlans.json");
 
 export async function generateLessonPlans() {

@@ -57,26 +57,27 @@ src/
     ├── generated/
     │   ├── videos.json           # ← compiled output (do not edit manually)
     │   └── lessonPlans.json      # ← compiled output (do not edit manually)
-    ├── videos/                   # One TS file per video, organised by category
-    │   ├── A-TutorialVideos/
-    │   ├── B-UnderstandingTheLandscape/
-    │   ├── C-EnvironmentalIndicators/
-    │   ├── D-SocioeconomicIndicators/
-    │   ├── E-IndigenousIndicators/
-    │   ├── F-BowRiverWatershed360/
-    │   ├── G-GuardiansOfIce/
-    │   ├── H-StoneyVideos/
-    │   ├── I-BlackfootVideos/
-    │   ├── J-PointsOfInterest/
-    │   └── Z-OtherVideos/
-    ├── lesson-plans/             # One TS file per lesson plan, organised by theme
-    │   ├── A_ClimateChangeLessons/
-    │   ├── B_GlaciersAndWatershedsLessons/
-    │   ├── C_LandUseLessons/
-    │   ├── D_AlbertaNaturalRegionsAndEcosystemsLessons/
-    │   ├── E_IndigenousVoicesLessons/
-    │   ├── F_BowRiverWatershedLessons/
-    │   └── G_EnergyLessons/
+    ├── resource-metadata/        # Authored TypeScript metadata, one file per resource
+    │   ├── videos/               # One TS file per video, organised by category
+    │   │   ├── A-TutorialVideos/
+    │   │   ├── B-UnderstandingTheLandscape/
+    │   │   ├── C-EnvironmentalIndicators/
+    │   │   ├── D-SocioeconomicIndicators/
+    │   │   ├── E-IndigenousIndicators/
+    │   │   ├── F-BowRiverWatershed360/
+    │   │   ├── G-GuardiansOfIce/
+    │   │   ├── H-StoneyVideos/
+    │   │   ├── I-BlackfootVideos/
+    │   │   ├── J-PointsOfInterest/
+    │   │   └── Z-OtherVideos/
+    │   └── lesson-plans/         # One TS file per lesson plan, organised by theme
+    │       ├── A_ClimateChangeLessons/
+    │       ├── B_GlaciersAndWatershedsLessons/
+    │       ├── C_LandUseLessons/
+    │       ├── D_AlbertaNaturalRegionsAndEcosystemsLessons/
+    │       ├── E_IndigenousVoicesLessons/
+    │       ├── F_BowRiverWatershedLessons/
+    │       └── G_EnergyLessons/
     └── scripts/
         ├── generate.ts           # Orchestrator — runs both generators
         ├── generateLessonPlans.ts
@@ -105,7 +106,7 @@ npm run dev
 
 ### Video file
 
-Each video lives in its own TypeScript file under `src/data/videos/<Category>/`. It exports one object checked against `VideoSource`:
+Each video lives in its own TypeScript file under `src/data/resource-metadata/videos/<Category>/`. It exports one object checked against `VideoSource`:
 
 ```ts
 import { Language } from "../../enums/language.js";
@@ -154,7 +155,7 @@ Use `null` in video source files for missing media URLs, including `primaryUrl`.
 
 ### Lesson plan file
 
-Each lesson plan lives in its own TypeScript file under `src/data/lesson-plans/<Theme>/`, with its object checked against `LessonPlanSource`:
+Each lesson plan lives in its own TypeScript file under `src/data/resource-metadata/lesson-plans/<Theme>/`, with its object checked against `LessonPlanSource`:
 
 ```ts
 import { LessonTheme } from "../../enums/LessonThemeIds.js";

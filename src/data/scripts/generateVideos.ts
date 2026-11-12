@@ -200,7 +200,7 @@ export async function loadVideos(directory: string): Promise<{
 
 const ROOT_DIRECTORY = process.cwd();
 
-const VIDEO_DIRECTORY = path.join(ROOT_DIRECTORY, "src", "data", "videos");
+const VIDEO_DIRECTORY = path.join(ROOT_DIRECTORY, "src", "data", "resource-metadata", "videos");
 const OUTPUT_PATH = path.join(ROOT_DIRECTORY, "src", "data", "generated", "videos.json");
 
 export async function generateVideos(
