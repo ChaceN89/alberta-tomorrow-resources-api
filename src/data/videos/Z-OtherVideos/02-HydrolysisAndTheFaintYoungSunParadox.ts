@@ -38,7 +38,8 @@ export const hydrolysisAndTheFaintYoungSunParadoxVideo = {
     primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=rEeixDNVjeE",
     thumbnailUrl: videoAssets.file("thumbnail.jpg"),
-    is360: false
+    is360: false,
+    provider: "https://www.youtube.com/@suzanneobrien3361"
   },
   subtitles: {
     en: videoAssets.file("en.vtt"),

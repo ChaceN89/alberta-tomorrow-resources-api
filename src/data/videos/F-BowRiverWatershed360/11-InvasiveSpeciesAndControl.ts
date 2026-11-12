@@ -11,7 +11,7 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
-import { getVideoAssetPaths } from "../../assetUrls.js";
+import { ALBERTA_TOMORROW_PROVIDER, getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
@@ -46,7 +46,8 @@ export const invasiveSpeciesAndControlVideo = {
     primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=EQXmN_v_2qw&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=7",
     thumbnailUrl: videoAssets.file("thumbnail.jpg"),
-    is360: true
+    is360: true,
+    provider: ALBERTA_TOMORROW_PROVIDER
   },
   subtitles: {
     en: videoAssets.file("en.vtt"),

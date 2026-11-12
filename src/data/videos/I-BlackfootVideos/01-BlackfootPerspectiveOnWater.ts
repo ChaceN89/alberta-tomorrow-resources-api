@@ -10,12 +10,10 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
-import { getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
 const videoId = "bfv-01i-blackfoot-perspective-on-water";
-const videoAssets = getVideoAssetPaths(VideoCategory.BLACKFOOT_VOICES.id, videoId);
 
 export const blackfootPerspectiveOnWaterVideo = {
   id: videoId,
@@ -35,14 +33,15 @@ export const blackfootPerspectiveOnWaterVideo = {
   },
 
   media: {
-    primaryUrl: videoAssets.file("video.mp4"),
+    primaryUrl: null,
     youtubeUrl: "https://www.youtube.com/watch?v=r-NzlnMgDj4",
-    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
-    is360: true
+    thumbnailUrl: "https://img.youtube.com/vi/r-NzlnMgDj4/hqdefault.jpg",
+    is360: true,
+    provider: "https://www.youtube.com/@siksikasteam4025"
   },
   subtitles: {
-    en: videoAssets.file("en.vtt"),
-    fr: videoAssets.file("fr.vtt")
+    en: null,
+    fr: null
   },
 
   searchTerms: {

@@ -39,11 +39,12 @@ export const writingOnStoneProvincialParkVideo = {
     primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=-MJXlSxkka8",
     thumbnailUrl: videoAssets.file("thumbnail.jpg"),
-    is360: false
+    is360: false,
+    provider: "https://www.youtube.com/@LetsGoOutdoors"
   },
   subtitles: {
     en: videoAssets.file("en.vtt"),
-    fr: videoAssets.file("fr.vtt")
+    fr: null
   },
 
   searchTerms: {

@@ -22,6 +22,7 @@ import {
   findTypeScriptFiles,
   writeJsonFile,
   normalizeLocalizedString,
+  normalizeLocalizedNullableString,
   normalizeLocalizedArray,
   normalizeString,
   normalizeArray,
@@ -50,7 +51,8 @@ import type { GeneratedVideo, VideoSource } from "../videoTypes.js";
  *     primaryUrl:        string   (primary video stream)
  *     youtubeUrl:        string   (fallback)
  *     thumbnailUrl:      string
- *     is360:             boolean
+ *     is360:             boolean  (required)
+ *     provider:          string   (required; ALBERTA_TOMORROW_PROVIDER for our own videos)
  *   }
  *   searchTerms:         { en: string[], fr: string[] }
  *   lessonPlanIds:       string[]   (populated by the generator — not needed in source)
@@ -73,9 +75,10 @@ function normalizeVideo(raw: VideoSource): Omit<GeneratedVideo, "lessonPlanIds">
       youtubeUrl: normalizeString(raw.media?.youtubeUrl),
       thumbnailUrl: normalizeString(raw.media?.thumbnailUrl),
       is360: normalizeBoolean(raw.media?.is360),
+      provider: normalizeString(raw.media?.provider),
     },
 
-    subtitles: normalizeLocalizedString(raw.subtitles),
+    subtitles: normalizeLocalizedNullableString(raw.subtitles),
 
     searchTerms: normalizeLocalizedArray(raw.searchTerms),
 

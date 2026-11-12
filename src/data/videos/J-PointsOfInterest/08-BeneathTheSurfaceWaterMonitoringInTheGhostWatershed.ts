@@ -39,11 +39,12 @@ export const beneathTheSurfaceWaterMonitoringInTheGhostWatershedVideo = {
     primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=KdEN85OgG4o",
     thumbnailUrl: videoAssets.file("thumbnail.jpg"),
-    is360: false
+    is360: false,
+    provider: "https://www.youtube.com/@ghostwatershed7386"
   },
   subtitles: {
     en: videoAssets.file("en.vtt"),
-    fr: videoAssets.file("fr.vtt")
+    fr: null
   },
 
   searchTerms: {

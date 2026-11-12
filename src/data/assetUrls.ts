@@ -14,6 +14,9 @@ const LESSON_PLAN_ASSETS_BASE_URL =
   "https://d2qcvmovr4fv.cloudfront.net/lesson-plans";
 // "https://abt-video-assets-prod.s3.us-west-2.amazonaws.com/lesson-plans";
 
+/** Provider for videos published on Alberta Tomorrow's own YouTube channel. */
+export const ALBERTA_TOMORROW_PROVIDER = "https://www.youtube.com/@albertatomorrow";
+
 // These directory names match the existing S3 layout; preserve their spelling and case.
 const VIDEO_CATEGORY_FOLDERS: Record<string, string> = {
   [VideoCategory.TUTORIALS.id]: "A-TutorialVideos",

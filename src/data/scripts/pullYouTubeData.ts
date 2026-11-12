@@ -333,10 +333,12 @@ async function pathExists(filePath: string): Promise<boolean> {
 async function getMissingOutputFiles(
   outputDirectory: string,
   overrideExisting: boolean,
+  video: GeneratedVideo,
 ): Promise<Set<string>> {
-  if (overrideExisting) return new Set(OUTPUT_FILES);
+  const requiredFiles = getRequiredOutputFiles(video);
+  if (overrideExisting) return new Set(requiredFiles);
   const missingFiles = new Set<string>();
-  for (const fileName of OUTPUT_FILES) {
+  for (const fileName of requiredFiles) {
     if (!(await pathExists(path.join(outputDirectory, fileName)))) {
       missingFiles.add(fileName);
     }
@@ -358,6 +360,31 @@ function listSections(outputDirectory: string): void {
   console.log(`\n${colorize("Extraction root:", "dim")} ${outputDirectory}`);
 }
 
+// A caption file is only required for languages whose subtitle URL is set on the video.
+function getCaptionsForVideo(video: GeneratedVideo): CaptionLanguage[] {
+  return CAPTION_LANGUAGES.filter((caption) => video.subtitles[caption.language] !== null);
+}
+
+function getRequiredOutputFiles(video: GeneratedVideo): string[] {
+  const captionFiles = new Set<string>(CAPTION_LANGUAGES.map((caption) => caption.fileName));
+  const requiredCaptions = new Set<string>(
+    getCaptionsForVideo(video).map((caption) => caption.fileName),
+  );
+  return OUTPUT_FILES.filter(
+    (fileName) => !captionFiles.has(fileName) || requiredCaptions.has(fileName),
+  );
+}
+
+function describeMissingSubtitles(video: GeneratedVideo): string | undefined {
+  const missing = CAPTION_LANGUAGES.filter(
+    (caption) => video.subtitles[caption.language] === null,
+  ).map((caption) => caption.language);
+  if (missing.length === 0) return undefined;
+  return missing.length === CAPTION_LANGUAGES.length
+    ? "(no subtitles)"
+    : `(no ${missing.join(", ")} subtitles)`;
+}
+
 async function listSection(section: string, outputDirectory: string): Promise<void> {
   const videos = getVideosInSection(section);
   let completeCount = 0;
@@ -365,7 +392,7 @@ async function listSection(section: string, outputDirectory: string): Promise<vo
   for (const video of videos) {
     const videoDirectory = getOutputDirectory(outputDirectory, video);
     const missingFiles: string[] = [];
-    for (const fileName of OUTPUT_FILES) {
+    for (const fileName of getRequiredOutputFiles(video)) {
       if (!(await pathExists(path.join(videoDirectory, fileName)))) {
         missingFiles.push(fileName);
       }
@@ -373,13 +400,16 @@ async function listSection(section: string, outputDirectory: string): Promise<vo
 
     if (missingFiles.length === 0) completeCount += 1;
     const title = video.title.en;
-    const status =
+    const subtitleNote = describeMissingSubtitles(video);
+    const status = [
       missingFiles.length === 0
         ? colorize("complete", "green")
-        : colorize(`missing ${missingFiles.join(", ")}`, "yellow");
+        : colorize(`missing ${missingFiles.join(", ")}`, "yellow"),
+      ...(subtitleNote ? [colorize(subtitleNote, "yellow")] : []),
+    ].join(" ");
     console.log(`  ${colorize(video.id, "blue")} — ${title}: ${status}`);
   }
-  const summary = `${completeCount}/${videos.length} videos have all extracted files.`;
+  const summary = `${completeCount}/${videos.length} videos have all required extracted files.`;
   console.log(`\n${colorize(summary, completeCount === videos.length ? "green" : "yellow")}`);
 }
 
@@ -1017,6 +1047,7 @@ async function exportVideo(options: CliOptions, video: GeneratedVideo): Promise<
   const missingFiles = await getMissingOutputFiles(
     outputDirectory,
     options.overrideExisting,
+    video,
   );
   if (missingFiles.size === 0) {
     console.log(
@@ -1080,7 +1111,11 @@ async function exportVideo(options: CliOptions, video: GeneratedVideo): Promise<
       outputDirectory,
       options.overrideExisting,
     );
-    const stillMissing = await getMissingOutputFiles(outputDirectory, false);
+    const stillMissing = await getMissingOutputFiles(
+      outputDirectory,
+      false,
+      video,
+    );
     if (stillMissing.size > 0) {
       throw new Error(
         `Could not complete the export for ${video.id}; still missing: ${[...stillMissing].join(", ")}.`,
@@ -1167,18 +1202,28 @@ async function refreshVideoCaptions(
   options: CliOptions,
   video: GeneratedVideo,
 ): Promise<void> {
+  const captions = getCaptionsForVideo(video);
+  if (captions.length === 0) {
+    console.log(colorize(`No subtitles for ${video.id}; skipping caption refresh.`, "cyan"));
+    return;
+  }
   assertYouTubeDownloadToolsAvailable(false);
   const outputDirectory = getOutputDirectory(options.outputDirectory, video);
   const stagingDirectory = await mkdtemp(path.join(os.tmpdir(), "youtube-caption-refresh-"));
-  const replaceFiles = new Set(["en.vtt", "fr.vtt"]);
+  const replaceFiles = new Set<string>(captions.map((caption) => caption.fileName));
 
   try {
-    console.log(colorize(`Refreshing English and French captions for ${video.id}.`, "cyan"));
+    console.log(
+      colorize(
+        `Refreshing ${captions.map((caption) => caption.language.toUpperCase()).join(" and ")} captions for ${video.id}.`,
+        "cyan",
+      ),
+    );
     await downloadCaptions(
       video.media.youtubeUrl,
       stagingDirectory,
       options,
-      CAPTION_LANGUAGES,
+      captions,
     );
     const savedFiles = await preservePartialAssets(
       stagingDirectory,
@@ -1186,8 +1231,8 @@ async function refreshVideoCaptions(
       false,
       replaceFiles,
     );
-    if (savedFiles.length !== CAPTION_LANGUAGES.length) {
-      throw new Error(`Could not save both refreshed caption files for ${video.id}.`);
+    if (savedFiles.length !== captions.length) {
+      throw new Error(`Could not save all refreshed caption files for ${video.id}.`);
     }
     console.log(
       colorize(`Refreshed captions for ${video.id} in ${outputDirectory}`, "green"),

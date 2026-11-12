@@ -108,6 +108,7 @@ Each video lives in its own TypeScript file under `src/data/videos/<Category>/`.
 ```ts
 import { Language } from "../../enums/language.js";
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
+import { ALBERTA_TOMORROW_PROVIDER } from "../../assetUrls.js";
 import type { VideoSource } from "../../videoTypes.js";
 
 export const climateChangeVideo = {
@@ -126,15 +127,16 @@ export const climateChangeVideo = {
   },
 
   media: {
-    primaryUrl: "N/A",
+    primaryUrl: null,
     youtubeUrl: "https://www.youtube.com/watch?v=Okh7vn60kxg",
     thumbnailUrl: "https://d2qcvmovr4fv.cloudfront.net/...",
-    is360: false
+    is360: false,
+    provider: ALBERTA_TOMORROW_PROVIDER // or the channel URL for videos from other providers
   },
 
   subtitles: {
-    en: "N/A",
-    fr: "N/A"
+    en: "https://d2qcvmovr4fv.cloudfront.net/...",
+    fr: null // no French track
   },
 
   searchTerms: {
@@ -144,7 +146,7 @@ export const climateChangeVideo = {
 } satisfies VideoSource;
 ```
 
-Use `"N/A"` for subtitle URLs that are not available yet. `primaryUrl` may be omitted until a primary stream is found; the generator writes `"N/A"` for it. `youtubeUrl` is the backup link. `lessonPlanIds` is automatically populated by the generator.
+Use `null` in video source files for missing media URLs, including `primaryUrl`. The generator converts null video URL values to `"N/A"` in the generated JSON. `subtitles.en` and `subtitles.fr` are set per language: use a URL when a caption track exists and `null` when it does not (for example, both `null` for a video with no speech). Null subtitles stay `null` in the generated JSON so the frontend can skip loading them, and the `pullyoutube` listing only requires `en.vtt` / `fr.vtt` for languages that have a URL. `youtubeUrl` is the backup link. `is360` and `provider` are required on every video so each record is explicit. Use `ALBERTA_TOMORROW_PROVIDER` (exported from `src/data/assetUrls.ts`, and imported alongside `getVideoAssetPaths`) for Alberta Tomorrow's own videos, or the channel/site URL for videos from other providers. `lessonPlanIds` is automatically populated by the generator.
 
 ---
 
@@ -303,6 +305,16 @@ List available sections and inspect the files already extracted for a section:
 ```bash
 npm run pullyoutube -- --list-sections
 npm run pullyoutube -- --list-section A-TutorialVideos
+npm run pullyoutube -- --list-section B-UnderstandingTheLandscape
+npm run pullyoutube -- --list-section C-EnvironmentalIndicators
+npm run pullyoutube -- --list-section D-SocioeconomicIndicators
+npm run pullyoutube -- --list-section E-IndigenousIndicators
+npm run pullyoutube -- --list-section F-BowRiverWatershed360
+npm run pullyoutube -- --list-section G-GuardiansOfIce
+npm run pullyoutube -- --list-section H-StoneyVideos
+npm run pullyoutube -- --list-section I-BlackfootVideos
+npm run pullyoutube -- --list-section J-PointsOfInterest
+npm run pullyoutube -- --list-section Z-OtherVideos
 ```
 
 Export or fill missing assets for every video in a section:

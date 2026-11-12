@@ -39,11 +39,12 @@ export const grasslandRestorationVideo = {
     primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=u1qMoL3V61g",
     thumbnailUrl: videoAssets.file("thumbnail.jpg"),
-    is360: false
+    is360: false,
+    provider: "https://www.youtube.com/@LetsGoOutdoors"
   },
   subtitles: {
     en: videoAssets.file("en.vtt"),
-    fr: videoAssets.file("fr.vtt")
+    fr: null
   },
 
   searchTerms: {

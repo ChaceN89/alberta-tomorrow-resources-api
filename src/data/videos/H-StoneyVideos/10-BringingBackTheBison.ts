@@ -10,7 +10,7 @@
 
 import { VideoCategory } from "../../enums/videoCategoryIds.js";
 import { Language } from "../../enums/language.js";
-import { getVideoAssetPaths } from "../../assetUrls.js";
+import { ALBERTA_TOMORROW_PROVIDER, getVideoAssetPaths } from "../../assetUrls.js";
 
 import type { VideoSource } from "../../videoTypes.js";
 
@@ -38,7 +38,8 @@ export const bringingBackTheBisonVideo = {
     primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://youtu.be/Y5ib6lh4HLE?si=p3HpiNYvKy9rFqPT",
     thumbnailUrl: videoAssets.file("thumbnail.jpg"),
-    is360: false
+    is360: false,
+    provider: ALBERTA_TOMORROW_PROVIDER
   },
   subtitles: {
     en: videoAssets.file("en.vtt"),

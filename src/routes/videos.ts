@@ -56,13 +56,20 @@ const router = express.Router();
  *             is360:
  *               type: boolean
  *               description: Whether the video is 360-degree
+ *             provider:
+ *               type: string
+ *               description: Channel or site the video comes from (the Alberta Tomorrow YouTube channel by default)
  *         subtitles:
  *           type: object
  *           properties:
  *             en:
  *               type: string
+ *               nullable: true
+ *               description: English caption URL, or null when no English track exists
  *             fr:
  *               type: string
+ *               nullable: true
+ *               description: French caption URL, or null when no French track exists
  */
 
 /**

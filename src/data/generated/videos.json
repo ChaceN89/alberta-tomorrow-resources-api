@@ -18,7 +18,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=5Qi8v-Y3iXM",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-01a-register-account/en.vtt",
@@ -65,7 +66,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-02a-simulator-overview/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=nnm0V6jmpbM",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-02a-simulator-overview/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-02a-simulator-overview/en.vtt",
@@ -108,7 +110,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-03a-your-mission/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=yNljbKNBI1M",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-03a-your-mission/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-03a-your-mission/en.vtt",
@@ -149,7 +152,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-04a-historical-simulation/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=qMXZYBHCD_E",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-04a-historical-simulation/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-04a-historical-simulation/en.vtt",
@@ -190,7 +194,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-05a-create-bau-scenario/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=gWm7yWBkPHo",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-05a-create-bau-scenario/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-05a-create-bau-scenario/en.vtt",
@@ -231,7 +236,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-06a-landuse-scenario/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=RQ2Pz6gLIQ0",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-06a-landuse-scenario/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-06a-landuse-scenario/en.vtt",
@@ -272,7 +278,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-07a-create-observation/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=fp_WVPCdCnU",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-07a-create-observation/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-07a-create-observation/en.vtt",
@@ -311,7 +318,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-08a-climate-scenarios/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=yF4SY7VoqDs",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-08a-climate-scenarios/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-08a-climate-scenarios/en.vtt",
@@ -352,7 +360,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-09a-create-report/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=poxco59ASU8",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-09a-create-report/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-09a-create-report/en.vtt",
@@ -393,7 +402,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-10a-indigenous-voices/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=r-Yk6CjEKP8",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-10a-indigenous-voices/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/A-TutorialVideos/tutorial-10a-indigenous-voices/en.vtt",
@@ -434,7 +444,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-01b-climate-change/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Okh7vn60kxg",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-01b-climate-change/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-01b-climate-change/en.vtt",
@@ -458,11 +469,7 @@
         "avenir de l'alberta"
       ]
     },
-    "lessonPlanIds": [
-      "climate-01-going-going-going-gone",
-      "climate-02-climate-change-in-alberta-mild-med-hot",
-      "climate-04-science-6-climate-change-in-alberta"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "landscape-02b-management-practices",
@@ -483,7 +490,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-02b-management-practices/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=WBKwcDIqJ0U",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-02b-management-practices/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-02b-management-practices/en.vtt",
@@ -534,7 +542,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=WBdpkY9KSgs",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-03b-ecological-goods/en.vtt",
@@ -577,7 +586,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Xgb3_I8nagY",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/B-UnderstandingTheLandscape/landscape-04b-glaciers-webinar/en.vtt",
@@ -601,9 +611,7 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": [
-      "climate-03-water-quality-climate-change-and-albertas-glaciers"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "env-01c-natural-landscapes",
@@ -624,7 +632,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-01c-natural-landscapes/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Lx94jZ9ZSBY",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-01c-natural-landscapes/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-01c-natural-landscapes/en.vtt",
@@ -642,11 +651,7 @@
         "ecoregions alberta"
       ]
     },
-    "lessonPlanIds": [
-      "landuse-03c-biogeochemical-cycles",
-      "landuse-04c-governments-have-it-rough",
-      "landuse-06c-did-we-do-that"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "env-02c-caribou-habitat",
@@ -667,7 +672,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-02c-caribou-habitat/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=xiBz_Vov6H0",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-02c-caribou-habitat/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-02c-caribou-habitat/en.vtt",
@@ -691,11 +697,7 @@
         "faune alberta"
       ]
     },
-    "lessonPlanIds": [
-      "landuse-03c-biogeochemical-cycles",
-      "landuse-04c-governments-have-it-rough",
-      "landuse-06c-did-we-do-that"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "env-03c-grizzly-habitat",
@@ -716,7 +718,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-03c-grizzly-habitat/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=4wxOOhpNRhs",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-03c-grizzly-habitat/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-03c-grizzly-habitat/en.vtt",
@@ -738,11 +741,7 @@
         "espece menacee"
       ]
     },
-    "lessonPlanIds": [
-      "landuse-03c-biogeochemical-cycles",
-      "landuse-04c-governments-have-it-rough",
-      "landuse-06c-did-we-do-that"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "env-04c-fish-habitat",
@@ -763,7 +762,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-04c-fish-habitat/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=oti7o8JS62Q",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-04c-fish-habitat/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-04c-fish-habitat/en.vtt",
@@ -785,11 +785,7 @@
         "truite indigene"
       ]
     },
-    "lessonPlanIds": [
-      "landuse-03c-biogeochemical-cycles",
-      "landuse-04c-governments-have-it-rough",
-      "landuse-06c-did-we-do-that"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "env-05c-water-quality",
@@ -810,7 +806,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-05c-water-quality/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=qsaeCqrJ64o",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-05c-water-quality/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-05c-water-quality/en.vtt",
@@ -830,12 +827,7 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-03b-ice-core-basics",
-      "landuse-03c-biogeochemical-cycles",
-      "landuse-04c-governments-have-it-rough",
-      "landuse-06c-did-we-do-that"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "env-06c-greenhouse-gases",
@@ -856,7 +848,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-06c-greenhouse-gases/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=m7G3mSq2aD0",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-06c-greenhouse-gases/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/C-EnvironmentalIndicators/env-06c-greenhouse-gases/en.vtt",
@@ -886,12 +879,7 @@
         "effet de serre"
       ]
     },
-    "lessonPlanIds": [
-      "climate-01-going-going-going-gone",
-      "landuse-03c-biogeochemical-cycles",
-      "landuse-04c-governments-have-it-rough",
-      "landuse-06c-did-we-do-that"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "soc-01d-human-population",
@@ -912,7 +900,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-01d-human-population/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=BOBc-sv-qJw",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-01d-human-population/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-01d-human-population/en.vtt",
@@ -932,11 +921,7 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": [
-      "landuse-03c-biogeochemical-cycles",
-      "landuse-04c-governments-have-it-rough",
-      "landuse-06c-did-we-do-that"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "soc-02d-gdp",
@@ -957,7 +942,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-02d-gdp/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=u9_-Oz9W3Dg",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-02d-gdp/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-02d-gdp/en.vtt",
@@ -975,11 +961,7 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": [
-      "landuse-03c-biogeochemical-cycles",
-      "landuse-04c-governments-have-it-rough",
-      "landuse-06c-did-we-do-that"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "soc-03d-oil-and-gas-production",
@@ -1000,7 +982,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Bfz4p6dQQcE",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-03d-oil-and-gas-production/en.vtt",
@@ -1026,12 +1009,7 @@
         "économie de l’alberta"
       ]
     },
-    "lessonPlanIds": [
-      "climate-04-science-6-climate-change-in-alberta",
-      "landuse-03c-biogeochemical-cycles",
-      "landuse-04c-governments-have-it-rough",
-      "landuse-06c-did-we-do-that"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "soc-04d-forestry",
@@ -1052,7 +1030,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-04d-forestry/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=157uaHUOKJw",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-04d-forestry/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-04d-forestry/en.vtt",
@@ -1078,11 +1057,7 @@
         "habitats fauniques"
       ]
     },
-    "lessonPlanIds": [
-      "landuse-03c-biogeochemical-cycles",
-      "landuse-04c-governments-have-it-rough",
-      "landuse-06c-did-we-do-that"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "soc-05d-agriculture-production",
@@ -1103,7 +1078,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-05d-agriculture-production/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=hh84gk46swY",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-05d-agriculture-production/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-05d-agriculture-production/en.vtt",
@@ -1123,11 +1099,7 @@
         "economie alberta"
       ]
     },
-    "lessonPlanIds": [
-      "landuse-03c-biogeochemical-cycles",
-      "landuse-04c-governments-have-it-rough",
-      "landuse-06c-did-we-do-that"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "soc-06d-water-consumption",
@@ -1148,7 +1120,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-06d-water-consumption/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=WAIlkgtDTVk",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-06d-water-consumption/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/D-SocioeconomicIndicators/soc-06d-water-consumption/en.vtt",
@@ -1168,12 +1141,7 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-03b-ice-core-basics",
-      "landuse-03c-biogeochemical-cycles",
-      "landuse-04c-governments-have-it-rough",
-      "landuse-06c-did-we-do-that"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "ind-01e-tlu-access",
@@ -1194,7 +1162,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-01e-tlu-access/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=yz52Ysp_meQ",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-01e-tlu-access/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-01e-tlu-access/en.vtt",
@@ -1235,7 +1204,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-02e-moose-habitat/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=rb0WIzUHnYw",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-02e-moose-habitat/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-02e-moose-habitat/en.vtt",
@@ -1276,7 +1246,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-03e-hunting-opportunity/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=d_wKqUZMaTk",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-03e-hunting-opportunity/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-03e-hunting-opportunity/en.vtt",
@@ -1317,7 +1288,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-04e-water-quality/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=oG-PuCO-h7I",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-04e-water-quality/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-04e-water-quality/en.vtt",
@@ -1358,7 +1330,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-05e-fish-habitat/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=oti7o8JS62Q",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-05e-fish-habitat/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-05e-fish-habitat/en.vtt",
@@ -1399,7 +1372,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-06e-fishing-opportunity/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=vN_X59jznLE",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-06e-fishing-opportunity/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-06e-fishing-opportunity/en.vtt",
@@ -1439,7 +1413,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-01f-watershed/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=-66yGxMmQxE&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=9",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-01f-watershed/thumbnail.jpg",
-      "is360": true
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-01f-watershed/en.vtt",
@@ -1479,7 +1454,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-02f-hydro-climate/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=6B31usY3S6E&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=2",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-02f-hydro-climate/thumbnail.jpg",
-      "is360": true
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-02f-hydro-climate/en.vtt",
@@ -1521,7 +1497,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-03f-management-data/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=1sIN7zr8xoo&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=5",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-03f-management-data/thumbnail.jpg",
-      "is360": true
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-03f-management-data/en.vtt",
@@ -1562,7 +1539,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-04f-watersheds-hydro/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=_hFqA3agfhk&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-04f-watersheds-hydro/thumbnail.jpg",
-      "is360": true
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-04f-watersheds-hydro/en.vtt",
@@ -1604,7 +1582,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-05f-hydro-dev/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=2qSAx5fmtWg&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=3",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-05f-hydro-dev/thumbnail.jpg",
-      "is360": true
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-05f-hydro-dev/en.vtt",
@@ -1644,7 +1623,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-06f-erwp-aquifers/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=3wvA7macCMM",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-06f-erwp-aquifers/thumbnail.jpg",
-      "is360": true
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-06f-erwp-aquifers/en.vtt",
@@ -1684,7 +1664,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-07f-wetlands-stormwater/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=lmypedsjMjQ&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=10",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-07f-wetlands-stormwater/thumbnail.jpg",
-      "is360": true
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-07f-wetlands-stormwater/en.vtt",
@@ -1725,7 +1706,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-08f-water-quality/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=9ksSbswY_CA&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=8",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-08f-water-quality/thumbnail.jpg",
-      "is360": true
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-08f-water-quality/en.vtt",
@@ -1765,7 +1747,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-09f-water-services/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=BselhdsCzvM&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=6",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-09f-water-services/thumbnail.jpg",
-      "is360": true
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-09f-water-services/en.vtt",
@@ -1805,7 +1788,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-10f-native-prairies/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=EAVeYoygr0c&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=11",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-10f-native-prairies/thumbnail.jpg",
-      "is360": true
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-10f-native-prairies/en.vtt",
@@ -1845,7 +1829,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-11f-invasive-species/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=EQXmN_v_2qw&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=7",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-11f-invasive-species/thumbnail.jpg",
-      "is360": true
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-11f-invasive-species/en.vtt",
@@ -1886,7 +1871,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-12f-isotopes-climate/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=LebvVpUHCYE&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=4",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-12f-isotopes-climate/thumbnail.jpg",
-      "is360": true
+      "is360": true,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-12f-isotopes-climate/en.vtt",
@@ -1929,7 +1915,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Ns7BiGb3cMQ",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-01g-are-people-affecting-the-glaciers/en.vtt",
@@ -1957,10 +1944,7 @@
         "probablement"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-01b-intro-to-glaciers",
-      "glaciers-02b-love-it-or-lose-it"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-02g-colour-of-the-ice",
@@ -1981,7 +1965,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-02g-colour-of-the-ice/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=7Ld_jQCuJzE",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-02g-colour-of-the-ice/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-02g-colour-of-the-ice/en.vtt",
@@ -2009,9 +1994,7 @@
         "bleu"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-01b-intro-to-glaciers"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-03g-glaciers-move",
@@ -2032,7 +2015,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-03g-glaciers-move/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=1KGk2LAvz4s",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-03g-glaciers-move/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-03g-glaciers-move/en.vtt",
@@ -2081,7 +2065,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-04g-how-crevasses-form/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=QbotXyLZXiQ",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-04g-how-crevasses-form/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-04g-how-crevasses-form/en.vtt",
@@ -2109,9 +2094,7 @@
         "ici"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-01b-intro-to-glaciers"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-05g-how-do-forest-fires-affect-glaciers",
@@ -2132,7 +2115,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=LkkeMC8VhnA",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-05g-how-do-forest-fires-affect-glaciers/en.vtt",
@@ -2160,9 +2144,7 @@
         "fonte"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-04b-follow-the-flow"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-06g-is-it-important-glaciers-are-in-the-national-park",
@@ -2183,7 +2165,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Deu0HjSCzuM",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-06g-is-it-important-glaciers-are-in-the-national-park/en.vtt",
@@ -2231,7 +2214,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=KCKew0PiqOc",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-07g-seasonal-change-on-the-glacier/en.vtt",
@@ -2259,9 +2243,7 @@
         "sur"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-01b-intro-to-glaciers"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-08g-striations-on-the-rocks",
@@ -2282,7 +2264,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=sKF4M0v1GdM",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-08g-striations-on-the-rocks/en.vtt",
@@ -2301,9 +2284,7 @@
         "glaciaires"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-01b-intro-to-glaciers"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-09g-what-is-a-moraine",
@@ -2324,7 +2305,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-09g-what-is-a-moraine/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=nFzRuDBiB28",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-09g-what-is-a-moraine/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-09g-what-is-a-moraine/en.vtt",
@@ -2345,9 +2327,7 @@
         "pas"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-01b-intro-to-glaciers"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-10g-where-do-glaciers-form",
@@ -2368,7 +2348,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Y8IaKMp4dAk",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-10g-where-do-glaciers-form/en.vtt",
@@ -2395,9 +2376,7 @@
         "bas"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-01b-intro-to-glaciers"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-11g-where-does-water-from-the-snowdome",
@@ -2418,7 +2397,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=ZS8TG4_q24A",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-11g-where-does-water-from-the-snowdome/en.vtt",
@@ -2446,9 +2426,7 @@
         "intermediaire"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-04b-follow-the-flow"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-12g-where-was-the-athabasca-glacier-in-2006",
@@ -2469,7 +2447,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=NCKgmaIkIm0",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-12g-where-was-the-athabasca-glacier-in-2006/en.vtt",
@@ -2497,9 +2476,7 @@
         "plus"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-02b-love-it-or-lose-it"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-13g-where-was-the-glacier-in-1982",
@@ -2520,7 +2497,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=xYQocIUXHQU",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-13g-where-was-the-glacier-in-1982/en.vtt",
@@ -2539,9 +2517,7 @@
         "exactement"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-02b-love-it-or-lose-it"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-14g-where-will-the-glacier-be-in-30-years",
@@ -2562,7 +2538,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=HXQLMjomCes",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-14g-where-will-the-glacier-be-in-30-years/en.vtt",
@@ -2584,9 +2561,7 @@
         "prediction"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-02b-love-it-or-lose-it"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-15g-come-with-us-to-the-athabasca",
@@ -2607,11 +2582,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-15g-come-with-us-to-the-athabasca/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=IvYUaGfUesM",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-15g-come-with-us-to-the-athabasca/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-15g-come-with-us-to-the-athabasca/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-15g-come-with-us-to-the-athabasca/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -2652,7 +2628,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-16g-how-glaciers-move/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Iy6sdst_Nnc",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-16g-how-glaciers-move/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-16g-how-glaciers-move/en.vtt",
@@ -2680,9 +2657,7 @@
         "sol"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-01b-intro-to-glaciers"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-17g-how-much-glacial-ice-are-we-losing",
@@ -2703,7 +2678,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Htf4sCgOyvc",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-17g-how-much-glacial-ice-are-we-losing/en.vtt",
@@ -2747,7 +2723,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=KXSVsc1t8OQ",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-18g-why-are-some-lakes-blue/en.vtt",
@@ -2788,7 +2765,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=LKtGm_ZxZyU",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-19g-why-should-we-protect-glaciers/en.vtt",
@@ -2816,10 +2794,7 @@
         "une"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-01b-intro-to-glaciers",
-      "glaciers-02b-love-it-or-lose-it"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-20g-this-is-the-athabasca-glacier",
@@ -2840,11 +2815,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-20g-this-is-the-athabasca-glacier/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=KF1JBsGdyZY",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-20g-this-is-the-athabasca-glacier/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-20g-this-is-the-athabasca-glacier/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-20g-this-is-the-athabasca-glacier/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -2860,9 +2836,7 @@
         "athabasca"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-01b-intro-to-glaciers"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-21g-endocrine-disruptors",
@@ -2883,7 +2857,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-21g-endocrine-disruptors/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=fjJZesxnfBo",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-21g-endocrine-disruptors/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-21g-endocrine-disruptors/en.vtt",
@@ -2911,9 +2886,7 @@
         "cela"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-03b-ice-core-basics"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-22g-forest-fires-and-glaciers",
@@ -2934,7 +2907,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=f2wUf95774k",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-22g-forest-fires-and-glaciers/en.vtt",
@@ -2954,9 +2928,7 @@
         "effets"
       ]
     },
-    "lessonPlanIds": [
-      "climate-01-going-going-going-gone"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-23g-glacial-albedo",
@@ -2977,7 +2949,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-23g-glacial-albedo/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=RbPa7lv1fv0",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-23g-glacial-albedo/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-23g-glacial-albedo/en.vtt",
@@ -3026,7 +2999,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-24g-growth-and-attrition/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=uATZEvCjoT4",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-24g-growth-and-attrition/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-24g-growth-and-attrition/en.vtt",
@@ -3054,10 +3028,7 @@
         "pendant"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-01b-intro-to-glaciers",
-      "glaciers-02b-love-it-or-lose-it"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-25g-how-human-activity-affects-alberta",
@@ -3078,7 +3049,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=nr34h5i6oqI",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-25g-how-human-activity-affects-alberta/en.vtt",
@@ -3121,7 +3093,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=2ULp_NlGUHE",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-26g-how-do-chemicals-that-were-trapped/en.vtt",
@@ -3149,10 +3122,7 @@
         "chimiques"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-03b-ice-core-basics",
-      "glaciers-04b-follow-the-flow"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-27g-ion-chromatography",
@@ -3173,7 +3143,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-27g-ion-chromatography/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=L7F4VIAwcA0",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-27g-ion-chromatography/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-27g-ion-chromatography/en.vtt",
@@ -3197,9 +3168,7 @@
         "eau"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-03b-ice-core-basics"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-28g-measuring-isotopes",
@@ -3220,7 +3189,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-28g-measuring-isotopes/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=pHCFmnNBeL0",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-28g-measuring-isotopes/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-28g-measuring-isotopes/en.vtt",
@@ -3248,9 +3218,7 @@
         "oxygene"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-03b-ice-core-basics"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-29g-persistent-chemicals-in-alberta",
@@ -3271,7 +3239,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=dlIX3EisMpo",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-29g-persistent-chemicals-in-alberta/en.vtt",
@@ -3299,9 +3268,7 @@
         "degrade"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-04b-follow-the-flow"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-30g-what-is-the-picarro-machine",
@@ -3322,7 +3289,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Ps7dhpC1Gec",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-30g-what-is-the-picarro-machine/en.vtt",
@@ -3348,9 +3316,7 @@
         "oxygene"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-03b-ice-core-basics"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-31g-sea-level-rise",
@@ -3371,7 +3337,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-31g-sea-level-rise/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=uJ0ucfNs_io",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-31g-sea-level-rise/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-31g-sea-level-rise/en.vtt",
@@ -3420,7 +3387,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-32g-watershed-great-divide/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=OGN943BCxAk",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-32g-watershed-great-divide/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-32g-watershed-great-divide/en.vtt",
@@ -3444,9 +3412,7 @@
         "continent"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-04b-follow-the-flow"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-33g-what-can-we-do-to-protect-alberta",
@@ -3467,7 +3433,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=iHKg1WAQ3h8",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-33g-what-can-we-do-to-protect-alberta/en.vtt",
@@ -3495,9 +3462,7 @@
         "une"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-02b-love-it-or-lose-it"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-34g-where-do-we-find-glaciers",
@@ -3518,7 +3483,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=22vQm0cfKnI",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-34g-where-do-we-find-glaciers/en.vtt",
@@ -3564,7 +3530,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=HOhflZn8cqo",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-35g-why-are-alberta-glaciers-important/en.vtt",
@@ -3592,9 +3559,7 @@
         "raisons"
       ]
     },
-    "lessonPlanIds": [
-      "climate-01-going-going-going-gone"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-36g-why-protect-alberta-glaciers",
@@ -3615,7 +3580,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=PUJYQnJx3tY",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-36g-why-protect-alberta-glaciers/en.vtt",
@@ -3664,11 +3630,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-37g-cutting-glacier-ice-cores/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=VLaZWe8nACs",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-37g-cutting-glacier-ice-cores/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-37g-cutting-glacier-ice-cores/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-37g-cutting-glacier-ice-cores/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -3711,11 +3678,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-38g-how-cold-is-the-freezer-in-the/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=o4lpNdvjl98",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-38g-how-cold-is-the-freezer-in-the/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-38g-how-cold-is-the-freezer-in-the/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-38g-how-cold-is-the-freezer-in-the/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -3760,11 +3728,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-39g-getting-suited-up-to-enter-the/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Ofv6WtFd1Zc",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-39g-getting-suited-up-to-enter-the/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-39g-getting-suited-up-to-enter-the/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-39g-getting-suited-up-to-enter-the/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -3809,11 +3778,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-40g-into-the-cold/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=7cQbvb4l3Ro",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-40g-into-the-cold/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-40g-into-the-cold/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-40g-into-the-cold/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -3848,11 +3818,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-41g-into-the-lab/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=Nt4575dF2ME",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-41g-into-the-lab/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-41g-into-the-lab/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-41g-into-the-lab/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -3887,7 +3858,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=qq7vwd_ahzU",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-42g-how-big-is-the-athabasca-glacier/en.vtt",
@@ -3910,9 +3882,7 @@
         "athabasca"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-01b-intro-to-glaciers"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-43g-every-year-its-further-to-get-to-work",
@@ -3933,7 +3903,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=efoZxoc0_RE",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-43g-every-year-its-further-to-get-to-work/en.vtt",
@@ -3961,9 +3932,7 @@
         "nous"
       ]
     },
-    "lessonPlanIds": [
-      "glaciers-02b-love-it-or-lose-it"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "goi-44g-dr-criscitiello-and-her-research",
@@ -3984,7 +3953,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=VIt0NySXoGM",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/G-GuardiansOfIce/goi-44g-dr-criscitiello-and-her-research/en.vtt",
@@ -4033,7 +4003,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-00h-introductions/video.mp4",
       "youtubeUrl": "https://youtu.be/E1vzAxvrgR4?si=vCtjAcHbtMPzJsNf",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-00h-introductions/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-00h-introductions/en.vtt",
@@ -4083,7 +4054,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/video.mp4",
       "youtubeUrl": "https://youtu.be/CEmbcJ_2oPA?si=aqTK4AvzdPw2yPXx",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-01h-consulting-with-the-stoney/en.vtt",
@@ -4133,7 +4105,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-02h-cement-factory/video.mp4",
       "youtubeUrl": "https://youtu.be/KFbHx-jduws?si=IpEgy6vTFzxCDL-u",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-02h-cement-factory/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-02h-cement-factory/en.vtt",
@@ -4183,7 +4156,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-03h-the-railway/video.mp4",
       "youtubeUrl": "https://youtu.be/NvR7dT83UKE?si=MWipJUoMutYdAGzY",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-03h-the-railway/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-03h-the-railway/en.vtt",
@@ -4233,7 +4207,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-04h-using-land-for-protection/video.mp4",
       "youtubeUrl": "https://youtu.be/ZqpwZ1irYFY?si=sdiru7LP4nhu6jox",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-04h-using-land-for-protection/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-04h-using-land-for-protection/en.vtt",
@@ -4283,7 +4258,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-05h-glaciers/video.mp4",
       "youtubeUrl": "https://youtu.be/IxZgkmJnYrw?si=2haLY-beyIpsZQ5W",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-05h-glaciers/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-05h-glaciers/en.vtt",
@@ -4333,7 +4309,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-06h-creator-story/video.mp4",
       "youtubeUrl": "https://youtu.be/HKy3Sb2u-Mk?si=FUDzF1rx4dzmQzKz",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-06h-creator-story/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-06h-creator-story/en.vtt",
@@ -4383,7 +4360,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-07h-reacclimatizing/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=XQv_Gy_gpWo",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-07h-reacclimatizing/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-07h-reacclimatizing/en.vtt",
@@ -4433,7 +4411,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-08h-before-treaty/video.mp4",
       "youtubeUrl": "https://youtu.be/tuNheHwbU7c?si=uTlYq-LqELvWmpuf",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-08h-before-treaty/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-08h-before-treaty/en.vtt",
@@ -4483,7 +4462,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/video.mp4",
       "youtubeUrl": "https://youtu.be/2CaTbIIOHNE?si=yevh87KVNQY-uCua",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-09h-life-of-a-stoney-boy/en.vtt",
@@ -4533,7 +4513,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-10h-bringing-back-the-bison/video.mp4",
       "youtubeUrl": "https://youtu.be/Y5ib6lh4HLE?si=p3HpiNYvKy9rFqPT",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-10h-bringing-back-the-bison/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-10h-bringing-back-the-bison/en.vtt",
@@ -4581,7 +4562,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-11h-yamnuska-meaning/video.mp4",
       "youtubeUrl": "https://youtu.be/GX0PKaCqJiI?si=lL2dqXTkoa-tjh3r",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-11h-yamnuska-meaning/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-11h-yamnuska-meaning/en.vtt",
@@ -4631,7 +4613,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-12h-cougar-story/video.mp4",
       "youtubeUrl": "https://youtu.be/9269H-WWRBg?si=DX65Ftlw44R5YvbW",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-12h-cougar-story/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-12h-cougar-story/en.vtt",
@@ -4681,7 +4664,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-13h-food-and-camp/video.mp4",
       "youtubeUrl": "https://youtu.be/s1NAu1rTZzQ?si=8RolJGkfnYz5Bm06",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-13h-food-and-camp/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-13h-food-and-camp/en.vtt",
@@ -4731,7 +4715,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=8Rxut4EAyYg",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-14h-concept-of-time/en.vtt",
@@ -4781,7 +4766,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=UpJUo8M5Bck",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-15h-stoney-hope-for-the-future/en.vtt",
@@ -4833,7 +4819,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-16h-great-depression/video.mp4",
       "youtubeUrl": "https://youtu.be/57vkAX541xY?si=pygUdIJEajIdovUC",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-16h-great-depression/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-16h-great-depression/en.vtt",
@@ -4883,7 +4870,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-17h-water-now-and-future/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=oG-PuCO-h7I&list=PLvZi8sQT8o8MTHACtzLmHa69Eln1AiDsn",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-17h-water-now-and-future/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-17h-water-now-and-future/en.vtt",
@@ -4933,7 +4921,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-18h-stoney-voice-at-table/video.mp4",
       "youtubeUrl": "https://youtu.be/kuFB4CrTufw?si=rVjuYL9xCxY5HwVm",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-18h-stoney-voice-at-table/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-18h-stoney-voice-at-table/en.vtt",
@@ -4983,7 +4972,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-19h-fishing-on-the-bow/video.mp4",
       "youtubeUrl": "https://youtu.be/vN_X59jznLE?si=qs742rPJ9WvbOe1y",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-19h-fishing-on-the-bow/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-19h-fishing-on-the-bow/en.vtt",
@@ -5033,7 +5023,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-20h-tornado/video.mp4",
       "youtubeUrl": "https://youtu.be/Yhx8ylh81EM?si=gPY1Fj7h65WvWSk1",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-20h-tornado/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-20h-tornado/en.vtt",
@@ -5083,7 +5074,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-21h-using-the-land/video.mp4",
       "youtubeUrl": "https://youtu.be/yz52Ysp_meQ?si=2uYyt4W4Qjq31z2N",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-21h-using-the-land/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-21h-using-the-land/en.vtt",
@@ -5133,7 +5125,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-22h-moose-story/video.mp4",
       "youtubeUrl": "https://youtu.be/rb0WIzUHnYw?si=r438JuVzkL4PxsaR",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-22h-moose-story/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-22h-moose-story/en.vtt",
@@ -5182,7 +5175,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-23h-land-use-and-wildlife/video.mp4",
       "youtubeUrl": "https://youtu.be/d_wKqUZMaTk?si=3dnMMNcSOKg8pW5X",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-23h-land-use-and-wildlife/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-23h-land-use-and-wildlife/en.vtt",
@@ -5232,7 +5226,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-24h-protected-areas/video.mp4",
       "youtubeUrl": "https://youtu.be/IuvVMb1y0oU?si=mka-5Q1s3IP_kDPU",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-24h-protected-areas/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-24h-protected-areas/en.vtt",
@@ -5282,7 +5277,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-25h-reconcili-action/video.mp4",
       "youtubeUrl": "https://youtu.be/P65TspAOwrU?si=JEA8buNzlAZus7Jl",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-25h-reconcili-action/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-25h-reconcili-action/en.vtt",
@@ -5332,7 +5328,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-26h-first-contact/video.mp4",
       "youtubeUrl": "https://youtu.be/7pI3iyUuhK0?si=Y-8Gc_UmAStwrK1Y",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-26h-first-contact/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-26h-first-contact/en.vtt",
@@ -5382,7 +5379,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-27h-access-to-land/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=4ZixFCSIMww",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-27h-access-to-land/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/H-StoneyVideos/stoney-27h-access-to-land/en.vtt",
@@ -5429,14 +5427,15 @@
       "fr": "Une vidéo présentant le point de vue des Pieds-Noirs sur l’eau et son importance dans la culture autochtone et l’environnement."
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/I-BlackfootVideos/bfv-01i-blackfoot-perspective-on-water/video.mp4",
+      "primaryUrl": "N/A",
       "youtubeUrl": "https://www.youtube.com/watch?v=r-NzlnMgDj4",
-      "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/I-BlackfootVideos/bfv-01i-blackfoot-perspective-on-water/thumbnail.jpg",
-      "is360": true
+      "thumbnailUrl": "https://img.youtube.com/vi/r-NzlnMgDj4/hqdefault.jpg",
+      "is360": true,
+      "provider": "https://www.youtube.com/@siksikasteam4025"
     },
     "subtitles": {
-      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/I-BlackfootVideos/bfv-01i-blackfoot-perspective-on-water/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/I-BlackfootVideos/bfv-01i-blackfoot-perspective-on-water/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5477,11 +5476,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-01j-investigating-a-fish-kill/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=PD8FnEmi-l0",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-01j-investigating-a-fish-kill/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@edmontonjournal"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-01j-investigating-a-fish-kill/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-01j-investigating-a-fish-kill/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5521,11 +5521,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-02j-native-trout-in-alberta/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=lztrWhXpnHg",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-02j-native-trout-in-alberta/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-02j-native-trout-in-alberta/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-02j-native-trout-in-alberta/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5565,11 +5566,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-03j-athabasca-sand-dunes-ecological-reserve/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=KrkcyfUn274",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-03j-athabasca-sand-dunes-ecological-reserve/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@LetsGoOutdoors"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-03j-athabasca-sand-dunes-ecological-reserve/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-03j-athabasca-sand-dunes-ecological-reserve/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5605,11 +5607,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-04j-writing-on-stone-provincial-park/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=-MJXlSxkka8",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-04j-writing-on-stone-provincial-park/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@LetsGoOutdoors"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-04j-writing-on-stone-provincial-park/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-04j-writing-on-stone-provincial-park/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5645,11 +5648,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-05j-hanging-culvert/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=r-_LsSi7FJ0",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-05j-hanging-culvert/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@LetsGoOutdoors"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-05j-hanging-culvert/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-05j-hanging-culvert/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5687,11 +5691,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-06j-forest-attack-mountain-pine-beetle/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=3ojS4z9Z68c",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-06j-forest-attack-mountain-pine-beetle/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@LetsGoOutdoors"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-06j-forest-attack-mountain-pine-beetle/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-06j-forest-attack-mountain-pine-beetle/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5727,11 +5732,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-07j-grassland-restoration/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=u1qMoL3V61g",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-07j-grassland-restoration/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@LetsGoOutdoors"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-07j-grassland-restoration/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-07j-grassland-restoration/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5767,11 +5773,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-08j-beneath-the-surface-water-monitoring/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=KdEN85OgG4o",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-08j-beneath-the-surface-water-monitoring/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@ghostwatershed7386"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-08j-beneath-the-surface-water-monitoring/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-08j-beneath-the-surface-water-monitoring/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5807,11 +5814,12 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-09j-finding-water-healthy-land-stream/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=E2wYNZJ-tC4",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-09j-finding-water-healthy-land-stream/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@livingstonelandownersgroup2629"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-09j-finding-water-healthy-land-stream/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/J-PointsOfInterest/poi-09j-finding-water-healthy-land-stream/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -5848,7 +5856,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-01z-oxygen-isotopes/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=YfRDNyB1XOY",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-01z-oxygen-isotopes/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@suzanneobrien3361"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-01z-oxygen-isotopes/en.vtt",
@@ -5872,10 +5881,7 @@
         "passes"
       ]
     },
-    "lessonPlanIds": [
-      "climate-01-going-going-going-gone",
-      "glaciers-03b-ice-core-basics"
-    ]
+    "lessonPlanIds": []
   },
   {
     "id": "oth-02z-hydrolysis-and-the-faint-young-sun-paradox",
@@ -5896,7 +5902,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=rEeixDNVjeE",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@suzanneobrien3361"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/en.vtt",
@@ -5943,7 +5950,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=rL13Xz_x2dA",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-03z-intro-360-virtual-field-trips/en.vtt",
@@ -5991,7 +5999,8 @@
       "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/video.mp4",
       "youtubeUrl": "https://www.youtube.com/watch?v=dqkoz2CgSSU",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/thumbnail.jpg",
-      "is360": false
+      "is360": false,
+      "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-04z-webinar-land-use-mistakes-mitigation-restoration/en.vtt",

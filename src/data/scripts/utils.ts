@@ -134,6 +134,17 @@ export function normalizeLocalizedString(value: unknown): Localized<string> {
 }
 
 /**
+ * Returns a localised object with guaranteed `en` and `fr` keys where a missing
+ * or empty value becomes null instead of "N/A".
+ */
+export function normalizeLocalizedNullableString(value: unknown): Localized<string | null> {
+  const localized = value && typeof value === "object" ? (value as Record<string, unknown>) : {};
+  const text = (entry: unknown): string | null =>
+    typeof entry === "string" && entry.trim() !== "" ? entry : null;
+  return { en: text(localized.en), fr: text(localized.fr) };
+}
+
+/**
  * Returns a localised array object with guaranteed `en` and `fr` keys.
  */
 export function normalizeLocalizedArray(value: unknown): Localized<string[]> {

@@ -17,20 +17,20 @@ export interface VideoRecordBase {
   categoryId: string;
   title: Localized<string>;
   description: Localized<string>;
-  subtitles: Localized<string>;
+  /** Caption URL per language; null means no track exists, so the frontend should not load one. */
+  subtitles: Localized<string | null>;
   searchTerms: Localized<string[]>;
 }
 
-/** Describes media fields shared by authored and generated video records. */
-export interface VideoMediaBase {
-  youtubeUrl: string;
-  thumbnailUrl: string;
-  is360: boolean;
-}
-
 /** Describes media fields authored in a video source file. */
-export interface VideoMediaSource extends VideoMediaBase {
-  primaryUrl?: string;
+export interface VideoMediaSource {
+  primaryUrl: string | null;
+  youtubeUrl: string | null;
+  thumbnailUrl: string | null;
+  /** Whether the video is a 360-degree video; always stated explicitly. */
+  is360: boolean;
+  /** Channel or site the video comes from; use ALBERTA_TOMORROW_PROVIDER for our own videos. */
+  provider: string;
 }
 
 /** Describes an optional lesson-plan reference attached to an authored video source. */
@@ -46,8 +46,12 @@ export interface VideoSource extends VideoRecordBase {
 }
 
 /** Describes the normalized media fields written to generated video JSON. */
-export interface GeneratedVideoMedia extends VideoMediaBase {
+export interface GeneratedVideoMedia {
   primaryUrl: string;
+  youtubeUrl: string;
+  thumbnailUrl: string;
+  is360: boolean;
+  provider: string;
 }
 
 /** Describes the normalized video record written to JSON and served by the API. */
