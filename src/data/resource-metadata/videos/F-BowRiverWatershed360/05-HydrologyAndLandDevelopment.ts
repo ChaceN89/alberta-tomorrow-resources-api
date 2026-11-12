@@ -43,7 +43,7 @@ export const hydrologyAndLandDevelopmentVideo = {
   ],
 
   media: {
-    primaryUrl: videoAssets.file("video.mp4"),
+    primaryUrl: "https://d2qcvmovr4fv.cloudfront.net/out/v1/7a9a290fb3a84ce58f07e91f8e96049b/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
     youtubeUrl: "https://www.youtube.com/watch?v=2qSAx5fmtWg&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=3",
     thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: true,

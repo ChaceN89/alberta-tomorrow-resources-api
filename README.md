@@ -262,6 +262,9 @@ npm run generate -- --strict
 along with the case-sensitive video category and lesson theme folder mappings. Video records use their internal ID
 and the standard filenames `video.mp4`, `thumbnail.jpg`, `en.vtt`, and `fr.vtt`; they
 can build asset links with `getVideoAssetPaths(categoryId, videoId).file(fileName)`.
+The 12 Bow River 360 videos instead use their existing CloudFront HLS (`.m3u8`)
+streams as `primaryUrl`, keeping their YouTube fallback links and asset thumbnails.
+Both subtitle languages remain `null`; the Blackfoot video is unchanged.
 The generator derives each lesson file's `pdfUrl` from its `fileType` and language.
 The generated URLs use the CloudFront base and mirror the local extraction layout:
 `lesson-plan-pdfs/<theme-folder>/<lesson-id>/<language>-<fileType>.pdf`.

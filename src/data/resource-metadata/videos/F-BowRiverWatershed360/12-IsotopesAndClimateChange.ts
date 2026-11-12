@@ -43,7 +43,7 @@ export const isotopesAndClimateChangeVideo = {
   ],
 
   media: {
-    primaryUrl: videoAssets.file("video.mp4"),
+    primaryUrl: "https://d2qcvmovr4fv.cloudfront.net/faa923d3-a4a0-461d-b339-e5dbcc2c641c/hls/Isotopes.m3u8",
     youtubeUrl: "https://www.youtube.com/watch?v=LebvVpUHCYE&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=4",
     thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: true,

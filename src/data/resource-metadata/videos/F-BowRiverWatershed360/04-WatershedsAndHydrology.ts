@@ -43,7 +43,7 @@ export const watershedsAndHydrologyVideo = {
   ],
 
   media: {
-    primaryUrl: videoAssets.file("video.mp4"),
+    primaryUrl: "https://d2qcvmovr4fv.cloudfront.net/out/v1/a2355c31a3d7451483e63750d2ae1f48/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
     youtubeUrl: "https://www.youtube.com/watch?v=_hFqA3agfhk&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3",
     thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: true,

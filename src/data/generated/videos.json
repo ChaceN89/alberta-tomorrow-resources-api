@@ -469,7 +469,11 @@
         "avenir de l'alberta"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "climate-01-going-going-going-gone",
+      "climate-02-climate-change-in-alberta-mild-med-hot",
+      "climate-04-science-6-climate-change-in-alberta"
+    ]
   },
   {
     "id": "landscape-02b-management-practices",
@@ -611,7 +615,9 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "climate-03-water-quality-climate-change-and-albertas-glaciers"
+    ]
   },
   {
     "id": "env-01c-natural-landscapes",
@@ -651,7 +657,11 @@
         "ecoregions alberta"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-06c-did-we-do-that"
+    ]
   },
   {
     "id": "env-02c-caribou-habitat",
@@ -697,7 +707,11 @@
         "faune alberta"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-06c-did-we-do-that"
+    ]
   },
   {
     "id": "env-03c-grizzly-habitat",
@@ -741,7 +755,11 @@
         "espece menacee"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-06c-did-we-do-that"
+    ]
   },
   {
     "id": "env-04c-fish-habitat",
@@ -785,7 +803,11 @@
         "truite indigene"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-06c-did-we-do-that"
+    ]
   },
   {
     "id": "env-05c-water-quality",
@@ -827,7 +849,12 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics",
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-06c-did-we-do-that"
+    ]
   },
   {
     "id": "env-06c-greenhouse-gases",
@@ -879,7 +906,12 @@
         "effet de serre"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "climate-01-going-going-going-gone",
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-06c-did-we-do-that"
+    ]
   },
   {
     "id": "soc-01d-human-population",
@@ -921,7 +953,11 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-06c-did-we-do-that"
+    ]
   },
   {
     "id": "soc-02d-gdp",
@@ -961,7 +997,11 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-06c-did-we-do-that"
+    ]
   },
   {
     "id": "soc-03d-oil-and-gas-production",
@@ -1009,7 +1049,12 @@
         "économie de l’alberta"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "climate-04-science-6-climate-change-in-alberta",
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-06c-did-we-do-that"
+    ]
   },
   {
     "id": "soc-04d-forestry",
@@ -1057,7 +1102,11 @@
         "habitats fauniques"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-06c-did-we-do-that"
+    ]
   },
   {
     "id": "soc-05d-agriculture-production",
@@ -1099,7 +1148,11 @@
         "economie alberta"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-06c-did-we-do-that"
+    ]
   },
   {
     "id": "soc-06d-water-consumption",
@@ -1141,7 +1194,12 @@
         "utilisation des terres"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics",
+      "landuse-03c-biogeochemical-cycles",
+      "landuse-04c-governments-have-it-rough",
+      "landuse-06c-did-we-do-that"
+    ]
   },
   {
     "id": "ind-01e-tlu-access",
@@ -1410,7 +1468,7 @@
       "fr": "Visitez chaque sous-bassin du bassin de la rivière Bow et découvrez comment les gens utilisent l’eau et le paysage. Observez les différents types de bâtiments, de sentiers et d’activités présents dans le bassin versant, depuis les sources jusqu’aux Prairies."
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-01f-watershed/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/7f8e6a38b7534de6b27c6d87eade9d62/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=-66yGxMmQxE&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=9",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-01f-watershed/thumbnail.jpg",
       "is360": true,
@@ -1451,7 +1509,7 @@
       "fr": "Tricia Stadnyk explique comment un bassin versant peut influencer le climat de sa région et, à son tour, comment le climat influence le paysage. Suivez le parcours des sources jusqu’aux Prairies tandis qu’elle parle des précipitations et d’autres sujets."
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-02f-hydro-climate/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/4364db1e1a7041538db38b0d58346cb5/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=6B31usY3S6E&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=2",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-02f-hydro-climate/thumbnail.jpg",
       "is360": true,
@@ -1494,7 +1552,7 @@
       "fr": "Le Dr Lee Jackson présente la Plateforme intégrée de gestion durable des bassins versants et explique pourquoi le partage des données sur l’eau est essentiel à la santé du bassin de la rivière Bow. Explorez le territoire depuis les sources jusqu’aux Prairies et découvrez des projets de science citoyenne ainsi que différents paramètres de données."
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-03f-management-data/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/fa86c43190f043ce98aed64b16304c33/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=1sIN7zr8xoo&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=5",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-03f-management-data/thumbnail.jpg",
       "is360": true,
@@ -1536,7 +1594,7 @@
       "fr": "Parcourez le bassin fluvial depuis les montagnes et découvrez ce qu’est un bassin versant ainsi que les manifestations de l’hydrologie dans le paysage. Tricia Stadnyk explique comment l’hydrologie peut influencer tout ce qui l’entoure."
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-04f-watersheds-hydro/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/a2355c31a3d7451483e63750d2ae1f48/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=_hFqA3agfhk&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-04f-watersheds-hydro/thumbnail.jpg",
       "is360": true,
@@ -1579,7 +1637,7 @@
       "fr": "Explorez le bassin versant tandis que Tricia Stadnyk explique comment l’aménagement et les changements d’utilisation du territoire influencent les paysages et l’eau. Comment l’hydrologie du bassin versant change-t-elle lorsque les activités humaines transforment le paysage?"
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-05f-hydro-dev/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/7a9a290fb3a84ce58f07e91f8e96049b/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=2qSAx5fmtWg&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=3",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-05f-hydro-dev/thumbnail.jpg",
       "is360": true,
@@ -1620,7 +1678,7 @@
       "fr": "Explorez le bassin versant de la rivière Elbow avec Joe et Flora et découvrez ses eaux souterraines ainsi que l’état de son aquifère. Apprenez ce qu’est un aquifère, comment les eaux souterraines sont utilisées dans le sous-bassin et comment les activités humaines les influencent."
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-06f-erwp-aquifers/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/0acc6dd386ae4331bf1388181d2511dc/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=3wvA7macCMM",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-06f-erwp-aquifers/thumbnail.jpg",
       "is360": true,
@@ -1661,7 +1719,7 @@
       "fr": "Visitez les milieux humides aménagés du parc North Glenmore avec Liliana Bozic, qui explique comment ils servent au stockage de l’eau et à la gestion des eaux pluviales. Découvrez leur influence sur la qualité de l’eau, ainsi que les effets de l’aménagement du territoire et des saisons."
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-07f-wetlands-stormwater/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/eb92e3d8e984451f9386414c7dd75121/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=lmypedsjMjQ&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=10",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-07f-wetlands-stormwater/thumbnail.jpg",
       "is360": true,
@@ -1703,7 +1761,7 @@
       "fr": "Patrick Van den Eynden présente le processus de traitement de l’eau à l’usine de traitement de Glenmore de la Ville de Calgary, depuis le prélèvement dans le réservoir jusqu’à la désinfection et à l’acheminement de l’eau vers les différents secteurs de la ville."
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-08f-water-quality/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/0566b3f5515243b89026137be6fe050e/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=9ksSbswY_CA&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=8",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-08f-water-quality/thumbnail.jpg",
       "is360": true,
@@ -1744,7 +1802,7 @@
       "fr": "Explorez le barrage et le réservoir Glenmore tandis que Patrick Van den Eynden présente leur histoire, leurs infrastructures et leurs services, ainsi que le système d’approvisionnement en eau potable de la Ville."
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-09f-water-services/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/71e5011337c04dda87b9327490254d70/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=BselhdsCzvM&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=6",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-09f-water-services/thumbnail.jpg",
       "is360": true,
@@ -1785,7 +1843,7 @@
       "fr": "Megan Evans et Erin Anderson expliquent l’importance des prairies et de leurs plantes indigènes. Explorez plusieurs paysages de prairies du bassin de la rivière Bow."
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-10f-native-prairies/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/31117838b5b049f195d0a14790e95a64/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=EAVeYoygr0c&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=11",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-10f-native-prairies/thumbnail.jpg",
       "is360": true,
@@ -1826,7 +1884,7 @@
       "fr": "Erin Anderson et Megan Evans présentent les espèces envahissantes des prairies naturelles, les méthodes de lutte et l’importance des espèces indigènes. Explorez différents paysages des Prairies."
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-11f-invasive-species/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/out/v1/3360de4ce6ba4b1ead9e342a2cdec406/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=EQXmN_v_2qw&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=7",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-11f-invasive-species/thumbnail.jpg",
       "is360": true,
@@ -1868,7 +1926,7 @@
       "fr": "Découvrez comment les isotopes permettent de surveiller les changements climatiques et les processus hydrologiques au sein d’un bassin versant."
     },
     "media": {
-      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-12f-isotopes-climate/video.mp4",
+      "primaryUrl": "https://d2qcvmovr4fv.cloudfront.net/faa923d3-a4a0-461d-b339-e5dbcc2c641c/hls/Isotopes.m3u8",
       "youtubeUrl": "https://www.youtube.com/watch?v=LebvVpUHCYE&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=4",
       "thumbnailUrl": "https://d2qcvmovr4fv.cloudfront.net/video-assets/F-BowRiverWatershed360/brbc-12f-isotopes-climate/thumbnail.jpg",
       "is360": true,
@@ -1944,7 +2002,10 @@
         "probablement"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers",
+      "glaciers-02b-love-it-or-lose-it"
+    ]
   },
   {
     "id": "goi-02g-colour-of-the-ice",
@@ -1994,7 +2055,9 @@
         "bleu"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-03g-glaciers-move",
@@ -2094,7 +2157,9 @@
         "ici"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-05g-how-do-forest-fires-affect-glaciers",
@@ -2144,7 +2209,9 @@
         "fonte"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-04b-follow-the-flow"
+    ]
   },
   {
     "id": "goi-06g-is-it-important-glaciers-are-in-the-national-park",
@@ -2243,7 +2310,9 @@
         "sur"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-08g-striations-on-the-rocks",
@@ -2284,7 +2353,9 @@
         "glaciaires"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-09g-what-is-a-moraine",
@@ -2327,7 +2398,9 @@
         "pas"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-10g-where-do-glaciers-form",
@@ -2376,7 +2449,9 @@
         "bas"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-11g-where-does-water-from-the-snowdome",
@@ -2426,7 +2501,9 @@
         "intermediaire"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-04b-follow-the-flow"
+    ]
   },
   {
     "id": "goi-12g-where-was-the-athabasca-glacier-in-2006",
@@ -2476,7 +2553,9 @@
         "plus"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-02b-love-it-or-lose-it"
+    ]
   },
   {
     "id": "goi-13g-where-was-the-glacier-in-1982",
@@ -2517,7 +2596,9 @@
         "exactement"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-02b-love-it-or-lose-it"
+    ]
   },
   {
     "id": "goi-14g-where-will-the-glacier-be-in-30-years",
@@ -2561,7 +2642,9 @@
         "prediction"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-02b-love-it-or-lose-it"
+    ]
   },
   {
     "id": "goi-15g-come-with-us-to-the-athabasca",
@@ -2657,7 +2740,9 @@
         "sol"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-17g-how-much-glacial-ice-are-we-losing",
@@ -2794,7 +2879,10 @@
         "une"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers",
+      "glaciers-02b-love-it-or-lose-it"
+    ]
   },
   {
     "id": "goi-20g-this-is-the-athabasca-glacier",
@@ -2836,7 +2924,9 @@
         "athabasca"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-21g-endocrine-disruptors",
@@ -2886,7 +2976,9 @@
         "cela"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics"
+    ]
   },
   {
     "id": "goi-22g-forest-fires-and-glaciers",
@@ -2928,7 +3020,9 @@
         "effets"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "climate-01-going-going-going-gone"
+    ]
   },
   {
     "id": "goi-23g-glacial-albedo",
@@ -3028,7 +3122,10 @@
         "pendant"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers",
+      "glaciers-02b-love-it-or-lose-it"
+    ]
   },
   {
     "id": "goi-25g-how-human-activity-affects-alberta",
@@ -3122,7 +3219,10 @@
         "chimiques"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics",
+      "glaciers-04b-follow-the-flow"
+    ]
   },
   {
     "id": "goi-27g-ion-chromatography",
@@ -3168,7 +3268,9 @@
         "eau"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics"
+    ]
   },
   {
     "id": "goi-28g-measuring-isotopes",
@@ -3218,7 +3320,9 @@
         "oxygene"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics"
+    ]
   },
   {
     "id": "goi-29g-persistent-chemicals-in-alberta",
@@ -3268,7 +3372,9 @@
         "degrade"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-04b-follow-the-flow"
+    ]
   },
   {
     "id": "goi-30g-what-is-the-picarro-machine",
@@ -3316,7 +3422,9 @@
         "oxygene"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-03b-ice-core-basics"
+    ]
   },
   {
     "id": "goi-31g-sea-level-rise",
@@ -3412,7 +3520,9 @@
         "continent"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-04b-follow-the-flow"
+    ]
   },
   {
     "id": "goi-33g-what-can-we-do-to-protect-alberta",
@@ -3462,7 +3572,9 @@
         "une"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-02b-love-it-or-lose-it"
+    ]
   },
   {
     "id": "goi-34g-where-do-we-find-glaciers",
@@ -3559,7 +3671,9 @@
         "raisons"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "climate-01-going-going-going-gone"
+    ]
   },
   {
     "id": "goi-36g-why-protect-alberta-glaciers",
@@ -3882,7 +3996,9 @@
         "athabasca"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-01b-intro-to-glaciers"
+    ]
   },
   {
     "id": "goi-43g-every-year-its-further-to-get-to-work",
@@ -3932,7 +4048,9 @@
         "nous"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "glaciers-02b-love-it-or-lose-it"
+    ]
   },
   {
     "id": "goi-44g-dr-criscitiello-and-her-research",
@@ -5881,7 +5999,10 @@
         "passes"
       ]
     },
-    "lessonPlanIds": []
+    "lessonPlanIds": [
+      "climate-01-going-going-going-gone",
+      "glaciers-03b-ice-core-basics"
+    ]
   },
   {
     "id": "oth-02z-hydrolysis-and-the-faint-young-sun-paradox",

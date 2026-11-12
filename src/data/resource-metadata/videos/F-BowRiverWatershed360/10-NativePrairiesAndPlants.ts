@@ -43,7 +43,7 @@ export const nativePrairiesAndPlantsVideo = {
   ],
 
   media: {
-    primaryUrl: videoAssets.file("video.mp4"),
+    primaryUrl: "https://d2qcvmovr4fv.cloudfront.net/out/v1/31117838b5b049f195d0a14790e95a64/4ca13953c62041b89da9ee75727d50c9/d421596074b04016aafe5f186ec3ff53/index.m3u8",
     youtubeUrl: "https://www.youtube.com/watch?v=EAVeYoygr0c&list=PLvZi8sQT8o8PgFddqYnvhY3EJUJx-N6y3&index=11",
     thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: true,
