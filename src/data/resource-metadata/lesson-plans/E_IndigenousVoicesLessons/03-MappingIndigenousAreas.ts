@@ -45,7 +45,7 @@ export const mappingIndigenousAreasLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Mapping Indigenous Areas: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1bkD4p2APWVAP-HQb6Ev-X9KlRUfW5nT5DHpn5ffpIqs/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1bkD4p2APWVAP-HQb6Ev-X9KlRUfW5nT5DHpn5ffpIqs`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -62,7 +62,7 @@ export const mappingIndigenousAreasLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Cartographier les régions autochtones : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/189YLL7CavIUgwALI0e4WROVS7frtAbGkS1wH0E4kG8Y/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/189YLL7CavIUgwALI0e4WROVS7frtAbGkS1wH0E4kG8Y`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,

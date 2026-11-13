@@ -45,12 +45,12 @@ export const followTheFlowLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Follow the Flow: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1g08ZooBartnidbSCKrS8q2yFTEN9OMdaiY2Id2ANCEg/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1g08ZooBartnidbSCKrS8q2yFTEN9OMdaiY2Id2ANCEg`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Follow the Flow: Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/18OlZHxTlZPhjlEffrMXLcTtf3SeYkonQqEbhyM8Tdls/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/18OlZHxTlZPhjlEffrMXLcTtf3SeYkonQqEbhyM8Tdls`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -68,12 +68,12 @@ export const followTheFlowLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Suivre le flux : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1M0PgTLxo86dIpfLQG4KlCUbWri-e_iVn_5aAc4KKZDI/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1M0PgTLxo86dIpfLQG4KlCUbWri-e_iVn_5aAc4KKZDI`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Suivre le flux : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1rBChe1rbVhuQ9Xmu0fJit3d_SAYyqtKRP0-SakcDMT8/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1rBChe1rbVhuQ9Xmu0fJit3d_SAYyqtKRP0-SakcDMT8`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

@@ -45,34 +45,34 @@ export const didWeDoThatLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Did we do that? Science 7 Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/10p6C6eJ3lPhaPmNRSuVlnUyGUf3BFYUaheIJu3VnEaA/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/10p6C6eJ3lPhaPmNRSuVlnUyGUf3BFYUaheIJu3VnEaA`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Did we do that? Science 7 Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1JDrSJc6F1eKEdCffRUlunt2WlNzyxQCoJ7ap3YDPGVE/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1JDrSJc6F1eKEdCffRUlunt2WlNzyxQCoJ7ap3YDPGVE`,
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Did we do that? Science 7 Answer Sheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1DzGEN3HZAd5ccluasenC99eXXFUOuwAC96tYsgzH6MA/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1DzGEN3HZAd5ccluasenC99eXXFUOuwAC96tYsgzH6MA`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Avons-nous fait ça? Sciences 7e année, plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/16ysldorbSif_4gs6lbNdiMzcQBUrgkjOqNv2ZjwKQW8/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/16ysldorbSif_4gs6lbNdiMzcQBUrgkjOqNv2ZjwKQW8`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Avons-nous fait ça? Sciences 7e année, feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1G3Wv3s5nr9hBVIgW7_P77So45PNbcpAg-Upr0VvFuQM/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1G3Wv3s5nr9hBVIgW7_P77So45PNbcpAg-Upr0VvFuQM`,
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Avons-nous fait ça? Sciences 7e année, clé de correction",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1DO_e6Lj5NNyrEDhPCVX_Y61UCYBxEiaLTD1DTUysoO8/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1DO_e6Lj5NNyrEDhPCVX_Y61UCYBxEiaLTD1DTUysoO8`,
       }
     ]
   },

@@ -45,34 +45,34 @@ export const biogeochemicalCyclesAndLandUseLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Biogeochemical Cycles: Bio 20 Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1IM5oCd92ukJcRS2_7oc32dxNq6x3yArb3aEDWw4BcPU/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1IM5oCd92ukJcRS2_7oc32dxNq6x3yArb3aEDWw4BcPU`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Biogeochemical Cycles: Bio 20 Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Knd-0RQaq0PIPQEFwbkz9DUS1DpzdXudDw9aoBKkS-4/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Knd-0RQaq0PIPQEFwbkz9DUS1DpzdXudDw9aoBKkS-4`,
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Biogeochemical Cycles: Bio 20 Answer Key",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Bw5a6xQoKQW8R8i3P76ymLw1btT6PGwD7ejJPC823TY/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Bw5a6xQoKQW8R8i3P76ymLw1btT6PGwD7ejJPC823TY`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Cycles biogéochimiques : Biologie 20 - plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1NTmqATlG7Iv5swmk31QzWI41w9tYY883js_VDNeUBGU/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1NTmqATlG7Iv5swmk31QzWI41w9tYY883js_VDNeUBGU`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Cycles biogéochimiques : Biologie 20 - feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1gOt1x40DRKUGDR1igXeg_MnoFLz-Y46v_z6Woojc8YE/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1gOt1x40DRKUGDR1igXeg_MnoFLz-Y46v_z6Woojc8YE`,
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Cycles biogéochimiques : Biologie 20 - clé de correction",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1s6XubMREQSbpAcJq6TUyN_RmycvVGPJTWmdnkWrVFV0/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1s6XubMREQSbpAcJq6TUyN_RmycvVGPJTWmdnkWrVFV0`,
       }
     ]
   },

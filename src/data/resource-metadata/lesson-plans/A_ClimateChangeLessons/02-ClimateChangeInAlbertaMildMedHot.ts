@@ -45,12 +45,12 @@ export const climateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Climate Change in Alberta: Investigating Mild, Medium and Hot Climate Scenarios: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1qqEs1OF0aOA3LMGzEz3RxxtgcTnONJqcp6lsOR2TWos/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1qqEs1OF0aOA3LMGzEz3RxxtgcTnONJqcp6lsOR2TWos`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Climate Change in Alberta: Using the Alberta Tomorrow Simulator: Investigating Mild, Medium and Hot Scenarios Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1B6_uFpROMBB6K7vVR4If3kGk85lpojVl1MPh-eimfxc/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1B6_uFpROMBB6K7vVR4If3kGk85lpojVl1MPh-eimfxc`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -63,12 +63,12 @@ export const climateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Changements climatiques en Alberta : étudier les scénarios climatiques Doux, Moyen et Chaud : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1ehoihQjDPK0zIKBt_u-pZ8B2ffLFEAlObHFotqAgeqQ/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1ehoihQjDPK0zIKBt_u-pZ8B2ffLFEAlObHFotqAgeqQ`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Changements climatiques en Alberta : utiliser le simulateur d’Alberta Tomorrow : feuille de travail sur les scénarios doux, moyens et chauds",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1C1EvmBENZXl4J3uYOHh305wCbwVogNPOW-Zmnncmfxg/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1C1EvmBENZXl4J3uYOHh305wCbwVogNPOW-Zmnncmfxg`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

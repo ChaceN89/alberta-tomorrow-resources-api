@@ -55,12 +55,12 @@ export const goingGoingGoingGoneClimateChangeLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Going Going Going Gone: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/15qASYCif_kc-O_SiHLeJ2kiOvgMGQKP67lFBy4S12yw/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/15qASYCif_kc-O_SiHLeJ2kiOvgMGQKP67lFBy4S12yw`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Going Going Going Gone: Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1kBBQg6A3spHvJTk_EY8KlOV5jrXwpU9jEyPK_rW2ges/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1kBBQg6A3spHvJTk_EY8KlOV5jrXwpU9jEyPK_rW2ges`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -73,12 +73,12 @@ export const goingGoingGoingGoneClimateChangeLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Il recule, il recule, il disparaît : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1dKDeiQrZtuHi-hviP-o3QpE7bg8t7RWV0LJjIRcs59Q/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1dKDeiQrZtuHi-hviP-o3QpE7bg8t7RWV0LJjIRcs59Q`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Il recule, il recule, il disparaît : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1rZWhfvHwCP0WjLErp-mCvxomhBNeZdTHBs3Y9mULbLg/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1rZWhfvHwCP0WjLErp-mCvxomhBNeZdTHBs3Y9mULbLg`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

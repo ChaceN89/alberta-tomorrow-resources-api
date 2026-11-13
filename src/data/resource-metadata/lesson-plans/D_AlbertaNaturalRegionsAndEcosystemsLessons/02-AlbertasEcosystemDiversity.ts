@@ -45,7 +45,7 @@ export const albertasEcosystemDiversityLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Ecosystems in Alberta: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GWB1yWcrgStwDGfjLjrYDBitg7oXBcb7Z-VUcSGFFFM/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GWB1yWcrgStwDGfjLjrYDBitg7oXBcb7Z-VUcSGFFFM`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -57,7 +57,7 @@ export const albertasEcosystemDiversityLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Écosystèmes en Alberta : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GFr1Jz7EOqUl4CE9-Rr6ihL0piyh74QNA6XhNCV6M8M/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GFr1Jz7EOqUl4CE9-Rr6ihL0piyh74QNA6XhNCV6M8M`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,

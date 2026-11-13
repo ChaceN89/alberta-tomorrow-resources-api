@@ -45,7 +45,7 @@ export const plantAndAnimalAdaptationsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Grade 9 Science Adaptations and the 360 Virtual Field Trips",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1c25mjGzSDABg3f8ybelwybJEKp1DefdvRAwnPIgD3IE/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1c25mjGzSDABg3f8ybelwybJEKp1DefdvRAwnPIgD3IE`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -57,7 +57,7 @@ export const plantAndAnimalAdaptationsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "9e année, Sciences : Adaptations et visites virtuelles à 360 degrés",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1g0YcqfNO8JdXqg61DrmEdTNWm-RhBBRunOINcbYjVq4/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1g0YcqfNO8JdXqg61DrmEdTNWm-RhBBRunOINcbYjVq4`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,

@@ -45,14 +45,14 @@ export const landUseFieldTripLessonPlan = {
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Landuse Field Trip",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/12WGnD7f5R3WPF9qX6A822YZyZ7QWPy3Q6TXCp4qxVuQ/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/12WGnD7f5R3WPF9qX6A822YZyZ7QWPy3Q6TXCp4qxVuQ`,
       }
     ],
     fr: [
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Sortie éducative liée à l’utilisation des terres",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1RE3zGZvKcNrw3SrBYbJoR_FkAyKnlPqTVIoO5hNhEEk/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1RE3zGZvKcNrw3SrBYbJoR_FkAyKnlPqTVIoO5hNhEEk`,
       }
     ]
   },

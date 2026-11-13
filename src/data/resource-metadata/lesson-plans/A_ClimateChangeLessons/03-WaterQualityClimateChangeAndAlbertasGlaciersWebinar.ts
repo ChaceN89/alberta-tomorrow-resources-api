@@ -45,12 +45,12 @@ export const waterQualityClimateChangeAndAlbertasGlaciersWebinarLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Water Quality, Climate Change and Alberta's Glaciers",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1MjOnNaKi6lQFOL0m1NSMnsuDVB4lAAudYnvEKFd8rAQ/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1MjOnNaKi6lQFOL0m1NSMnsuDVB4lAAudYnvEKFd8rAQ`,
       },
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Webinar Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/13bOMHwW_JAi2y5mR6XzAv_I5oKgr6rxUNaP3QhypO5s/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/13bOMHwW_JAi2y5mR6XzAv_I5oKgr6rxUNaP3QhypO5s`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -63,12 +63,12 @@ export const waterQualityClimateChangeAndAlbertasGlaciersWebinarLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Qualité de l'eau, changements climatiques et glaciers de l'Alberta : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1b687DrrAuzuItF7NjG60bzJAzJKKydgaYw5cC9ENM3k/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1b687DrrAuzuItF7NjG60bzJAzJKKydgaYw5cC9ENM3k`,
       },
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Feuille de travail du webinaire",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1CFqsV9zXHUhzednNzgazYYg4DMFPwX2jPb4wiytGU7c/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1CFqsV9zXHUhzednNzgazYYg4DMFPwX2jPb4wiytGU7c`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

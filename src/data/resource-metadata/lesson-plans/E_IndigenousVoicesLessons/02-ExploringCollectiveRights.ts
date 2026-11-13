@@ -45,24 +45,24 @@ export const exploringCollectiveRightsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Exploring Collective Rights: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GZIktBUz44DUbUCcn9adkCXrirLj6k3gGvCT709QyYM/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GZIktBUz44DUbUCcn9adkCXrirLj6k3gGvCT709QyYM`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Exploring Collective Rights: Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Esz-RIi9Mr8ozfZylmN4x2GZcPnN-X1DL41AJLHCreE/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Esz-RIi9Mr8ozfZylmN4x2GZcPnN-X1DL41AJLHCreE`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Étudier les droits collectifs : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1TYwtfb1qDUtbxb2RCX-S1RE_aKr5m4TY_1pIrnk0TWc/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1TYwtfb1qDUtbxb2RCX-S1RE_aKr5m4TY_1pIrnk0TWc`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Étudier les droits collectifs : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1jybV0ETNrHUkUy3_DPdlbw3LJxz9BK3zLeZJQne-rsE/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1jybV0ETNrHUkUy3_DPdlbw3LJxz9BK3zLeZJQne-rsE`,
       }
     ]
   },

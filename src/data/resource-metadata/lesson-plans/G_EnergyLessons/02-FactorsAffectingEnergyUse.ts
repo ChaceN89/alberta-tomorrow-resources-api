@@ -46,12 +46,12 @@ export const factorsAffectingEnergyUseLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Factors that Influence the type of Energy Used: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/18RLxTQsMeTcf_ZhC9z4dSJKae1NyGZC8YK85ZefIU2M/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/18RLxTQsMeTcf_ZhC9z4dSJKae1NyGZC8YK85ZefIU2M`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Factors that Influence the type of Energy Used: Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1IZqlFyV7Yxi-6eoiC5s9bC0ThH6yx-YjaUX1hfQsKJ4/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1IZqlFyV7Yxi-6eoiC5s9bC0ThH6yx-YjaUX1hfQsKJ4`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -63,12 +63,12 @@ export const factorsAffectingEnergyUseLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Facteurs qui influencent le type d’énergie utilisée : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1lpeFyWLKRsEV8Qeie3U1N1HPqVlVmdFSQnqX3rJ7wqM/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1lpeFyWLKRsEV8Qeie3U1N1HPqVlVmdFSQnqX3rJ7wqM`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Facteurs qui influencent le type d’énergie utilisée : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1v9B64m8oQhGFp3lhFjER7-eB8nygEmJJnY9qVaWSF2E/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1v9B64m8oQhGFp3lhFjER7-eB8nygEmJJnY9qVaWSF2E`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

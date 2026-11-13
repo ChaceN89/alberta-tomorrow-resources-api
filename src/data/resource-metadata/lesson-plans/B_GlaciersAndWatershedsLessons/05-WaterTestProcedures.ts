@@ -45,7 +45,7 @@ export const waterTestProceduresLessonPlan = {
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Water Test Procedures",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Q2g-nVZG0baudgqc1rcnBLc5f3ULJKNDOQxG7AcGYhQ/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Q2g-nVZG0baudgqc1rcnBLc5f3ULJKNDOQxG7AcGYhQ`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -58,7 +58,7 @@ export const waterTestProceduresLessonPlan = {
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Procédures d’analyse de l’eau",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1wy_mU3dHGB-o2sr0huKwkOqBl_KkTEpgSIZGkrd4UFU/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1wy_mU3dHGB-o2sr0huKwkOqBl_KkTEpgSIZGkrd4UFU`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

@@ -45,14 +45,14 @@ export const whereIsMyHomeLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Where is my Home? Using the Indigenous Map Layers",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1N29LfRlHfZ4SIklxj32MfhDfW3TBS250PAo9GibpwKA/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1N29LfRlHfZ4SIklxj32MfhDfW3TBS250PAo9GibpwKA`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Où est ma maison? Utiliser les superpositions cartographiques autochtones.",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1bja_KxsUMc5S4XH0lHKCdzz4_sfo88biLECQRxZnSHQ/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1bja_KxsUMc5S4XH0lHKCdzz4_sfo88biLECQRxZnSHQ`,
       }
     ]
   },

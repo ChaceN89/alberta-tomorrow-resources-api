@@ -54,12 +54,12 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Love it or Lose it: Alberta Glacier Edition Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1dPrIMY8GokpgwawwHK1FmJIAUvVRdtV12UikMhgM5Oo/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1dPrIMY8GokpgwawwHK1FmJIAUvVRdtV12UikMhgM5Oo`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Love it or Lose it: Alberta Glacier Edition: Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1H4nGbVrV_k0a4_8UUcd_BYc17zL8fmZ-jZWvQR_VCw4/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1H4nGbVrV_k0a4_8UUcd_BYc17zL8fmZ-jZWvQR_VCw4`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -72,12 +72,12 @@ export const loveItOrLoseItAlbertaGlacierEditionLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1RP-YVvvRaUzM3EBmzKU-ju8kMqTnIUUBGk2dOuqW7mU/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1RP-YVvvRaUzM3EBmzKU-ju8kMqTnIUUBGk2dOuqW7mU`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Aimez-les ou perdez-les : les glaciers de l'Alberta : feuille de travail de l'élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1vEw9lopnyl7zjTBQlTycTQ5eyQfE9p0lv2RSKJvPt18/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1vEw9lopnyl7zjTBQlTycTQ5eyQfE9p0lv2RSKJvPt18`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

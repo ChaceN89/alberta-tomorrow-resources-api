@@ -45,12 +45,12 @@ export const introductionToGlaciersLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Introduction to Glaciers: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1TJMpAgj1CW2MqgWl0ElTnmoq78_uwL58nljrjU9Yx1E/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1TJMpAgj1CW2MqgWl0ElTnmoq78_uwL58nljrjU9Yx1E`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Introduction to Glaciers: Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/18boIwKo0x2dnJZof_hcD4mgBeq3sbObkH-tyQ4115Rk/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/18boIwKo0x2dnJZof_hcD4mgBeq3sbObkH-tyQ4115Rk`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -63,12 +63,12 @@ export const introductionToGlaciersLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Introduction aux glaciers : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1AD6-NmeRvy9QBbHX0ZggTSnuxNgC-iIF3BuX7H89IO0/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1AD6-NmeRvy9QBbHX0ZggTSnuxNgC-iIF3BuX7H89IO0`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Introduction aux glaciers : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/108HlM6axM8FMEZJDJGfa7GoWzJkRQ9qllyngnfY-5lY/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/108HlM6axM8FMEZJDJGfa7GoWzJkRQ9qllyngnfY-5lY`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

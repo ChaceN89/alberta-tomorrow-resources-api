@@ -46,7 +46,7 @@ export const renewableVsNonRenewableResourcesLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Renewable vs Non-Renewable Resources - Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1wxVZL1i10wQAlxhno7HUqqlM5qnngG3xHMKHPbjzlME/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1wxVZL1i10wQAlxhno7HUqqlM5qnngG3xHMKHPbjzlME`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -56,14 +56,14 @@ export const renewableVsNonRenewableResourcesLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Renewable vs Non-Renewable Resources - Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1hUZUVthmYSWUTbQL_9kqrt3ZNyoeSjnSIlYtNt99hk0/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1hUZUVthmYSWUTbQL_9kqrt3ZNyoeSjnSIlYtNt99hk0`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Ressources renouvelables ou non renouvelables : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1fp2_C7Ms3a_OVGswmcgc3c-HQUNm87H-Kn_xApSuR5M/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1fp2_C7Ms3a_OVGswmcgc3c-HQUNm87H-Kn_xApSuR5M`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -73,7 +73,7 @@ export const renewableVsNonRenewableResourcesLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Ressources renouvelables ou non renouvelables : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1VIEqDcHM50rTOQyY95Qca4lHVeEDbkieBCu7tFjKm6M/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1VIEqDcHM50rTOQyY95Qca4lHVeEDbkieBCu7tFjKm6M`,
       }
     ]
   },

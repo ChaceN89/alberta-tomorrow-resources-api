@@ -45,12 +45,12 @@ export const science6ClimateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Climate Change in Alberta: Lesson Plan (Sc 6)",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1jUo6Qb2Da5G9-8MazsjDmMJKB1Dsk3Suq1RRIYmGt8I/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1jUo6Qb2Da5G9-8MazsjDmMJKB1Dsk3Suq1RRIYmGt8I`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Climate Change in Alberta: Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1f8ycWF6ZRYud7Sjp61jtPVo97fbmYUaXxLQYntgubRo/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1f8ycWF6ZRYud7Sjp61jtPVo97fbmYUaXxLQYntgubRo`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -68,12 +68,12 @@ export const science6ClimateChangeInAlbertaLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Changements climatiques en Alberta : plan de leçon (Sc 6)",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1ZE2Jt5GIRnOgj3BNx0QRlergxKvyPacAeiiBUqEBxAQ/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1ZE2Jt5GIRnOgj3BNx0QRlergxKvyPacAeiiBUqEBxAQ`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Changements climatiques en Alberta : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1ZDUDD3_f3tG7UVtZGH1j8XhUCvn5nfUw12zWLmbvnIE/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1ZDUDD3_f3tG7UVtZGH1j8XhUCvn5nfUw12zWLmbvnIE`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,

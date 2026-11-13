@@ -45,34 +45,34 @@ export const governmentsHaveItRoughLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Governments Have it Rough!: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Q0AxHAvznQZVEiuoI_TEk9k1DBtT561Ho3hPI0oVOBo/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Q0AxHAvznQZVEiuoI_TEk9k1DBtT561Ho3hPI0oVOBo`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Governments Have it Rough: Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1u8VIqqBY9E_JYnyn3PRsPxt_A_U1cTrVwKpiwfk7IpU/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1u8VIqqBY9E_JYnyn3PRsPxt_A_U1cTrVwKpiwfk7IpU`,
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Governments Have it Rough: Answer Key",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/14PC-uO4IuV9DOdz4aloCH708RadU-dq4ZntzLTuUdk4/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/14PC-uO4IuV9DOdz4aloCH708RadU-dq4ZntzLTuUdk4`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "C’est difficile pour les gouvernements! : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1tFWbZP2zHLlSkwkL9UiercD6Mgq1iBgwz5Ww97hnXws/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1tFWbZP2zHLlSkwkL9UiercD6Mgq1iBgwz5Ww97hnXws`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "C’est difficile pour les gouvernements! : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1y5zXhx8UA_kLKkVBh52FQ1Do42aCy5sNyxV9zTOJExI/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1y5zXhx8UA_kLKkVBh52FQ1Do42aCy5sNyxV9zTOJExI`,
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "C’est difficile pour les gouvernements! : clé de correction",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/17b6HD0_D6gTvDR9CFL-8MpoMs2j4b1A2Z4WQvoLAOrM/edit`,
+        url: `${GOOGLE_DOCS_BASE_URL}/document/d/17b6HD0_D6gTvDR9CFL-8MpoMs2j4b1A2Z4WQvoLAOrM`,
       }
     ]
   },
