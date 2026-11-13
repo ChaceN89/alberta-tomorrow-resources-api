@@ -43,14 +43,14 @@ export const stakeholderDebateLessonPlan = {
     en: [
       {
         fileType: FileType.STUDENT_WORKSHEET,
-        title: "Stakeholder Debate Lesson Plan",
+        title: "Stakeholder Debate Student Activity",
         url: `https://docs.google.com/document/d/1IcVnBk-l8aMsQBDEGkxnglfq1MkegNtZ7kYErDIuhNg`,
       }
     ],
     fr: [
       {
         fileType: FileType.STUDENT_WORKSHEET,
-        title: "Débat d’intervenants : plan de leçon",
+        title: "Débat d’intervenants : activité pour les élèves",
         url: `https://docs.google.com/document/d/1gXxjgcAKaAWQx8QE_8TCU8THVmKI-RgpMq_eaECdvR8`,
       }
     ]
