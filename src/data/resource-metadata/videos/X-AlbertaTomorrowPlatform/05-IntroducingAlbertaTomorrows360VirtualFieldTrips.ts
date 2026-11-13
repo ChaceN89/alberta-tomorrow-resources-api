@@ -1,6 +1,6 @@
 /**
- * @file 03-IntroducingAlbertaTomorrows360VirtualFieldTrips.ts
- * @module Data/Videos/OtherVideos
+ * @file 05-IntroducingAlbertaTomorrows360VirtualFieldTrips.ts
+ * @module Data/Videos/AlbertaTomorrowPlatform
  * @desc Contains localized metadata and media information for the Introducing Alberta Tomorrow's 360 Virtual Field Trips video.
  *
  * @author Chace Nielson
@@ -14,15 +14,15 @@ import { ALBERTA_TOMORROW_PROVIDER, getVideoAssetPaths } from "../../../core/ass
 
 import type { VideoSource } from "../../../core/videoTypes.js";
 
-const videoId = "oth-03z-intro-360-virtual-field-trips";
-const videoAssets = getVideoAssetPaths(VideoCategory.OTHER.id, videoId);
+const videoId = "atp-05x-intro-360-virtual-field-trips";
+const videoAssets = getVideoAssetPaths(VideoCategory.ALBERTA_TOMORROW_PLATFORM.id, videoId);
 
 export const introducingAlbertaTomorrows360VirtualFieldTripsVideo = {
   id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
-  categoryId: VideoCategory.OTHER.id,
+  categoryId: VideoCategory.ALBERTA_TOMORROW_PLATFORM.id,
 
   title: {
     en: "Introducing Alberta Tomorrow's 360 Virtual Field Trips",

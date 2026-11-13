@@ -1,6 +1,6 @@
 /**
- * @file 04-Webinar-1-Earth-Mistakes.ts
- * @module Data/Videos/OtherVideos
+ * @file 01-Webinar-1-Earth-Mistakes.ts
+ * @module Data/Videos/Webinars
  * @desc Contains English and French metadata for a webinar on land-use
  *       mistakes, mitigation, and restoration.
  *
@@ -18,15 +18,15 @@ import { ALBERTA_TOMORROW_PROVIDER, getVideoAssetPaths } from "../../../core/ass
 
 import type { VideoSource } from "../../../core/videoTypes.js";
 
-const videoId = "oth-04z-webinar-land-use-mistakes-mitigation-restoration";
-const videoAssets = getVideoAssetPaths(VideoCategory.OTHER.id, videoId);
+const videoId = "web-01y-webinar-land-use-mistakes-mitigation-restoration";
+const videoAssets = getVideoAssetPaths(VideoCategory.WEBINARS.id, videoId);
 
 export const webinarLandUseMistakesMitigationAndRestorationVideo = {
   id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
-  categoryId: VideoCategory.OTHER.id,
+  categoryId: VideoCategory.WEBINARS.id,
 
   title: {
     en: "Webinar 1: Land-Use Mistakes, Mitigation and Restoration",
@@ -40,7 +40,7 @@ export const webinarLandUseMistakesMitigationAndRestorationVideo = {
 
   media: {
     primaryUrl: videoAssets.file("video.mp4"),
-    youtubeUrl: "https://www.youtube.com/watch?v=dqkoz2CgSSU",
+    youtubeUrl: "https://www.youtube.com/watch?v=dqkoz2CgSSU&list=PLvZi8sQT8o8PgzjiO0jxe4r8HYmj7vFgG",
     thumbnailUrl: videoAssets.file("thumbnail.jpg"),
     is360: false,
     provider: ALBERTA_TOMORROW_PROVIDER

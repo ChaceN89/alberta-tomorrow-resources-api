@@ -18,7 +18,7 @@ import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
-const lessonId = "climate-03-water-quality-climate-change-and-albertas-glaciers";
+const lessonId = "web-02y-water-quality-climate-change-and-albertas-glaciers";
 
 export const waterQualityClimateChangeAndAlbertasGlaciersWebinarLessonPlan = {
   id: lessonId,
@@ -135,7 +135,7 @@ export const waterQualityClimateChangeAndAlbertasGlaciersWebinarLessonPlan = {
   },
 
   videoIds: [
-    "landscape-04b-glaciers-webinar"
+    "web-02y-water-quality-climate-change-and-albertas-glaciers"
   ],
 
   relatedResources: [

@@ -32,6 +32,8 @@ const VIDEO_CATEGORY_FOLDERS: Record<string, string> = {
   [VideoCategory.STONEY_VOICES.id]: "H-StoneyVideos",
   [VideoCategory.BLACKFOOT_VOICES.id]: "I-BlackfootVideos",
   [VideoCategory.POINTS_OF_INTEREST.id]: "J-PointsOfInterest",
+  [VideoCategory.ALBERTA_TOMORROW_PLATFORM.id]: "X-AlbertaTomorrowPlatform",
+  [VideoCategory.WEBINARS.id]: "Y-Webinars",
   [VideoCategory.OTHER.id]: "Z-OtherVideos",
 };
 

@@ -1,11 +1,11 @@
 /**
- * @file 04-WaterQualityClimateChangeAndAlbertasGlaciersWebinar.ts
- * @module Data/Videos/UnderstandingTheLandscape
+ * @file 02-WaterQualityClimateChangeAndAlbertasGlaciersWebinar.ts
+ * @module Data/Videos/Webinars
  * @desc Contains localized metadata and media information for the Water Quality, Climate Change and Alberta's Glaciers Webinar video.
  *
  * @author Chace Nielson
  * @created Jul 30, 2026
- * @updated Jul 30, 2026
+ * @updated Nov 13, 2026
  */
 
 import { VideoCategory } from "../../../enums/videoCategoryIds.js";
@@ -14,15 +14,15 @@ import { ALBERTA_TOMORROW_PROVIDER, getVideoAssetPaths } from "../../../core/ass
 
 import type { VideoSource } from "../../../core/videoTypes.js";
 
-const videoId = "landscape-04b-glaciers-webinar";
-const videoAssets = getVideoAssetPaths(VideoCategory.LANDSCAPE.id, videoId);
+const videoId = "web-02y-water-quality-climate-change-and-albertas-glaciers";
+const videoAssets = getVideoAssetPaths(VideoCategory.WEBINARS.id, videoId);
 
 export const waterQualityClimateChangeAndAlbertasGlaciersWebinarVideo = {
   id: videoId,
 
   supportedLanguages: [Language.EN.id, Language.FR.id],
 
-  categoryId: VideoCategory.LANDSCAPE.id,
+  categoryId: VideoCategory.WEBINARS.id,
 
   title: {
     en: "Water Quality, Climate Change and Alberta's Glaciers Webinar",
@@ -35,7 +35,7 @@ export const waterQualityClimateChangeAndAlbertasGlaciersWebinarVideo = {
   },
 
   media: {
-    
+
     primaryUrl: videoAssets.file("video.mp4"),
     youtubeUrl: "https://www.youtube.com/watch?v=Xgb3_I8nagY",
     thumbnailUrl: videoAssets.file("thumbnail.jpg"),

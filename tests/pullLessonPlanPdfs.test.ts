@@ -26,7 +26,7 @@ test("discovers all climate lessons and all localized files, including repeated 
   assert.deepEqual(lessons.map((lesson) => lesson.id), [
     "climate-01-going-going-going-gone",
     "climate-02-climate-change-in-alberta-mild-med-hot",
-    "climate-03-water-quality-climate-change-and-albertas-glaciers",
+    "web-02y-water-quality-climate-change-and-albertas-glaciers",
     "climate-04-science-6-climate-change-in-alberta",
   ]);
   assert.deepEqual(lessons.map((lesson) => getPdfFiles(lesson).length), [6, 6, 6, 8]);

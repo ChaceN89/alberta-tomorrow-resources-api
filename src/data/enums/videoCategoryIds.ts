@@ -93,6 +93,22 @@ export const VideoCategory = {
     }
   },
 
+  ALBERTA_TOMORROW_PLATFORM: {
+    id: "alberta-tomorrow-platform",
+    label: {
+      en: "Alberta Tomorrow Platform",
+      fr: "Plateforme Alberta Tomorrow"
+    }
+  },
+
+  WEBINARS: {
+    id: "webinars",
+    label: {
+      en: "Webinars",
+      fr: "Webinaires"
+    }
+  },
+
   OTHER: {
     id: "other",
     label: {
