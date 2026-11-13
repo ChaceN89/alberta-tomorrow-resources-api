@@ -43,7 +43,7 @@ export const oxygenIsotopesAndThePaleoclimateRecordVideo = {
   },
   subtitles: {
     en: videoAssets.file("en.vtt"),
-    fr: videoAssets.file("fr.vtt")
+    fr: null
   },
 
   searchTerms: {

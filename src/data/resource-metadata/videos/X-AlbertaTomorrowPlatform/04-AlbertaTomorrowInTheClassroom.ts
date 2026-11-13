@@ -43,8 +43,8 @@ export const albertaTomorrowInTheClassroomVideo = {
   },
 
   subtitles: {
-    en: videoAssets.file("en.vtt"),
-    fr: videoAssets.file("fr.vtt")
+    en: null,
+    fr: null
   },
 
   searchTerms: {

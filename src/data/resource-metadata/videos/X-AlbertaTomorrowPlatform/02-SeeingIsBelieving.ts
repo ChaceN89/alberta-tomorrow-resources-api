@@ -29,7 +29,7 @@ export const seeingIsBelievingVideo = {
 
   title: {
     en: "Seeing is Believing: A Legacy of Providing EdTech for Sustainability to Alberta Students",
-    fr: "Voir pour y croire : un héritage de technologies éducatives au service du développement durable des élèves de l’Alberta"
+    fr: "Voir pour y croire : un héritage d’outils éducatifs pour un avenir durable en Alberta"
   },
 
   description: {

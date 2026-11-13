@@ -5958,7 +5958,7 @@
     "categoryId": "alberta-tomorrow-platform",
     "title": {
       "en": "Seeing is Believing: A Legacy of Providing EdTech for Sustainability to Alberta Students",
-      "fr": "Voir pour y croire : un héritage de technologies éducatives au service du développement durable des élèves de l’Alberta"
+      "fr": "Voir pour y croire : un héritage d’outils éducatifs pour un avenir durable en Alberta"
     },
     "description": {
       "en": "Produced by the Alberta Emerald Foundation: 2022",
@@ -6055,8 +6055,8 @@
       "provider": "https://www.youtube.com/@albertatomorrow"
     },
     "subtitles": {
-      "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-04x-alberta-tomorrow-in-the-classroom/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-04x-alberta-tomorrow-in-the-classroom/fr.vtt"
+      "en": null,
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -6145,7 +6145,7 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-06x-bow-river-watershed-historic-animation/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-06x-bow-river-watershed-historic-animation/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -6187,7 +6187,7 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-07x-canada-tomorrow/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/X-AlbertaTomorrowPlatform/atp-07x-canada-tomorrow/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -6326,7 +6326,7 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-01z-oxygen-isotopes/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-01z-oxygen-isotopes/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [
@@ -6375,7 +6375,7 @@
     },
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/en.vtt",
-      "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/Z-OtherVideos/oth-02z-hydrolysis-and-the-faint-young-sun-paradox/fr.vtt"
+      "fr": null
     },
     "searchTerms": {
       "en": [

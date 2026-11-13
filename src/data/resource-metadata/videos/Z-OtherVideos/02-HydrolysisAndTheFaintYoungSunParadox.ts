@@ -43,7 +43,7 @@ export const hydrolysisAndTheFaintYoungSunParadoxVideo = {
   },
   subtitles: {
     en: videoAssets.file("en.vtt"),
-    fr: videoAssets.file("fr.vtt")
+    fr: null
   },
 
   searchTerms: {
