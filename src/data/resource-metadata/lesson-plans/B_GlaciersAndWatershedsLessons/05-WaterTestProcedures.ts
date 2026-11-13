@@ -14,7 +14,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -45,12 +44,12 @@ export const waterTestProceduresLessonPlan = {
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Water Test Procedures",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Q2g-nVZG0baudgqc1rcnBLc5f3ULJKNDOQxG7AcGYhQ`,
+        url: `https://docs.google.com/document/d/1Q2g-nVZG0baudgqc1rcnBLc5f3ULJKNDOQxG7AcGYhQ`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta: Slide Show",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg`,
+        url: `https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg`,
       }
     ],
 
@@ -58,12 +57,12 @@ export const waterTestProceduresLessonPlan = {
       {
         fileType: FileType.OTHER_FILE_TYPE,
         title: "Procédures d’analyse de l’eau",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1wy_mU3dHGB-o2sr0huKwkOqBl_KkTEpgSIZGkrd4UFU`,
+        url: `https://docs.google.com/document/d/1wy_mU3dHGB-o2sr0huKwkOqBl_KkTEpgSIZGkrd4UFU`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta : présentation PowerPoint",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li/`,
+        url: `https://docs.google.com/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li/`,
       }
     ]
   },

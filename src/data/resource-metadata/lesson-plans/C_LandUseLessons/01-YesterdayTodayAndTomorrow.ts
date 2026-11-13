@@ -14,7 +14,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -45,14 +44,14 @@ export const yesterdayTodayAndTomorrowLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Yesterday, Today and Tomorrow - Using the Alberta Tomorrow Simulator Lesson Plan and Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/14yCZEC8QEglyvSQD1HabXoy6kDXtGjRsr1Mhf6PGd-8`,
+        url: `https://docs.google.com/document/d/14yCZEC8QEglyvSQD1HabXoy6kDXtGjRsr1Mhf6PGd-8`,
       }
     ],
     fr: [
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Hier, aujourd’hui et demain - Utiliser le simulateur d’Alberta Tomorrow : plan de leçon et feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1JQJsZ9KmWvpo-w44hgxg4lj4gxrNGmQP_oFhxPwL_Qw`,
+        url: `https://docs.google.com/document/d/1JQJsZ9KmWvpo-w44hgxg4lj4gxrNGmQP_oFhxPwL_Qw`,
       }
     ]
   },

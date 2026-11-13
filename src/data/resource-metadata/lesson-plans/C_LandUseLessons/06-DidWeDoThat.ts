@@ -14,7 +14,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -45,34 +44,34 @@ export const didWeDoThatLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Did we do that? Science 7 Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/10p6C6eJ3lPhaPmNRSuVlnUyGUf3BFYUaheIJu3VnEaA`,
+        url: `https://docs.google.com/document/d/10p6C6eJ3lPhaPmNRSuVlnUyGUf3BFYUaheIJu3VnEaA`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Did we do that? Science 7 Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1JDrSJc6F1eKEdCffRUlunt2WlNzyxQCoJ7ap3YDPGVE`,
+        url: `https://docs.google.com/document/d/1JDrSJc6F1eKEdCffRUlunt2WlNzyxQCoJ7ap3YDPGVE`,
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Did we do that? Science 7 Answer Sheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1DzGEN3HZAd5ccluasenC99eXXFUOuwAC96tYsgzH6MA`,
+        url: `https://docs.google.com/document/d/1DzGEN3HZAd5ccluasenC99eXXFUOuwAC96tYsgzH6MA`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Avons-nous fait ça? Sciences 7e année, plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/16ysldorbSif_4gs6lbNdiMzcQBUrgkjOqNv2ZjwKQW8`,
+        url: `https://docs.google.com/document/d/16ysldorbSif_4gs6lbNdiMzcQBUrgkjOqNv2ZjwKQW8`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Avons-nous fait ça? Sciences 7e année, feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1G3Wv3s5nr9hBVIgW7_P77So45PNbcpAg-Upr0VvFuQM`,
+        url: `https://docs.google.com/document/d/1G3Wv3s5nr9hBVIgW7_P77So45PNbcpAg-Upr0VvFuQM`,
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Avons-nous fait ça? Sciences 7e année, clé de correction",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1DO_e6Lj5NNyrEDhPCVX_Y61UCYBxEiaLTD1DTUysoO8`,
+        url: `https://docs.google.com/document/d/1DO_e6Lj5NNyrEDhPCVX_Y61UCYBxEiaLTD1DTUysoO8`,
       }
     ]
   },

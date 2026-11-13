@@ -13,7 +13,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -44,14 +43,14 @@ export const invasiveSpeciesAndControlLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Invasive Species and Control - Google Doc",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/`,
+        url: `https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Espèces envahissantes et mesures de contrôle – document Google",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/`,
+        url: `https://docs.google.com/document/d/1qqVuwjHNtqhLvMsjksYxXIQTULxbah9S/`,
       }
     ]
   },

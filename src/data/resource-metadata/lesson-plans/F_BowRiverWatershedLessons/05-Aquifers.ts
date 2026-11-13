@@ -13,7 +13,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -44,14 +43,14 @@ export const aquifersLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Aquifers - Google Doc",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/`,
+        url: `https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Aquifères – document Google",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/`,
+        url: `https://docs.google.com/document/d/1GBnAfLDry3L8DEJTw1hqczlE5lSD0r5O/`,
       }
     ]
   },

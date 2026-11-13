@@ -13,7 +13,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -44,14 +43,14 @@ export const constructedWetlandsAndStormwaterLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Constructed Wetlands and Stormwater - Google Doc",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_/`,
+        url: `https://docs.google.com/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_/`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Marais artificiels et eau pluviale – document Google",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_/`,
+        url: `https://docs.google.com/document/d/1GrkDcND2Fflt_-S-R6DyNrJL8lwalLG_/`,
       }
     ]
   },

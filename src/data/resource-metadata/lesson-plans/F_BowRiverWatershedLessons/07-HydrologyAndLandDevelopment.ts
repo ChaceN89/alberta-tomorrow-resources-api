@@ -13,7 +13,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -44,14 +43,14 @@ export const hydrologyAndLandDevelopmentLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Hydrology and Land Development - Google Doc",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq`,
+        url: `https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Hydrologie et aménagement du territoire – document Google",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq`,
+        url: `https://docs.google.com/document/d/1d4mr6hIi_J3jNzJVj77lyBNeCW_jGhWq`,
       }
     ]
   },

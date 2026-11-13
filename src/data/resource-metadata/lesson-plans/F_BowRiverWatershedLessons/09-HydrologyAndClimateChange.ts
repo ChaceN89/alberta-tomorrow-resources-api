@@ -13,7 +13,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -44,14 +43,14 @@ export const hydrologyAndClimateChangeLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Hydrology and Climate Change - Google Doc",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4`,
+        url: `https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Hydrologie et changements climatiques – document Google",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4`,
+        url: `https://docs.google.com/document/d/1RgpNqFu8Muak1gNkwCZbaxPoFc6qzXM4`,
       }
     ]
   },

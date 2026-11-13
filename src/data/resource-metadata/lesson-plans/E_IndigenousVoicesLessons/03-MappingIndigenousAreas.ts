@@ -14,7 +14,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -45,7 +44,7 @@ export const mappingIndigenousAreasLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Mapping Indigenous Areas: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1bkD4p2APWVAP-HQb6Ev-X9KlRUfW5nT5DHpn5ffpIqs`,
+        url: `https://docs.google.com/document/d/1bkD4p2APWVAP-HQb6Ev-X9KlRUfW5nT5DHpn5ffpIqs`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -62,17 +61,17 @@ export const mappingIndigenousAreasLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Cartographier les régions autochtones : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/189YLL7CavIUgwALI0e4WROVS7frtAbGkS1wH0E4kG8Y`,
+        url: `https://docs.google.com/document/d/189YLL7CavIUgwALI0e4WROVS7frtAbGkS1wH0E4kG8Y`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Cartographier les régions autochtones : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1tmkUtOZkroEhYl56TmhyVM-Zmj0nfzZ0`,
+        url: `https://docs.google.com/document/d/1tmkUtOZkroEhYl56TmhyVM-Zmj0nfzZ0`,
       },
       {
         fileType: FileType.ANSWER_KEY,
         title: "Cartographier les régions autochtones : clé de correction",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1rpoEDqWvW12B7_B-Ycv73uYoHuZIABiu`,
+        url: `https://docs.google.com/document/d/1rpoEDqWvW12B7_B-Ycv73uYoHuZIABiu`,
       }
     ]
   },

@@ -13,7 +13,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -44,14 +43,14 @@ export const waterQualityWaterTreatmentLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Water Quality: Water Treatment - Google Doc",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/`,
+        url: `https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Qualité de l’eau : traitement des eaux – document Google",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/`,
+        url: `https://docs.google.com/document/d/1unCOQUIHRLS5YZJ3J5ekBFurcbr9zaL7/`,
       }
     ]
   },

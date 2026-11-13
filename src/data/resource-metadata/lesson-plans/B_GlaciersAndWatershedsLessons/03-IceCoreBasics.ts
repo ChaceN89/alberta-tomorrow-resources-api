@@ -14,7 +14,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -45,12 +44,12 @@ export const iceCoreBasicsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Ice Core Basics: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/121ISJanAFOQeqpHB5OFInSIW0j79VaIVJ3eN-Jh8lYQ`,
+        url: `https://docs.google.com/document/d/121ISJanAFOQeqpHB5OFInSIW0j79VaIVJ3eN-Jh8lYQ`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Ice Core Basics: Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1oOYm_vuK6JzAp9gSuI5TpkXijof1ruDt73ODTOY5Khc`,
+        url: `https://docs.google.com/document/d/1oOYm_vuK6JzAp9gSuI5TpkXijof1ruDt73ODTOY5Khc`,
       }
     ],
 
@@ -58,12 +57,12 @@ export const iceCoreBasicsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Notions de base sur les carottes de glace : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/10ubjZk5bRPVNnQlyGtLR6FGzbfk_NdPNqCdxjzDzLvo`,
+        url: `https://docs.google.com/document/d/10ubjZk5bRPVNnQlyGtLR6FGzbfk_NdPNqCdxjzDzLvo`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Notions de base sur les carottes de glace : feuille de travail de l'élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1VUUbxqT2qlNlnys6JgMIVVn6o9I0nDaaUB0IWnXAQ4Q`,
+        url: `https://docs.google.com/document/d/1VUUbxqT2qlNlnys6JgMIVVn6o9I0nDaaUB0IWnXAQ4Q`,
       }
     ]
   },

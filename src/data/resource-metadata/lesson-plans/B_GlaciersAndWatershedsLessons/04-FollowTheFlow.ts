@@ -14,7 +14,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -45,22 +44,22 @@ export const followTheFlowLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Follow the Flow: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1g08ZooBartnidbSCKrS8q2yFTEN9OMdaiY2Id2ANCEg`,
+        url: `https://docs.google.com/document/d/1g08ZooBartnidbSCKrS8q2yFTEN9OMdaiY2Id2ANCEg`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Follow the Flow: Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/18OlZHxTlZPhjlEffrMXLcTtf3SeYkonQqEbhyM8Tdls`,
+        url: `https://docs.google.com/document/d/18OlZHxTlZPhjlEffrMXLcTtf3SeYkonQqEbhyM8Tdls`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Follow the Flow: Slide Show",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/12OrymNcfZXL8iWEIgtktG0Lkr0QsVZbCbdvhrtMJXr0`,
+        url: `https://docs.google.com/presentation/d/12OrymNcfZXL8iWEIgtktG0Lkr0QsVZbCbdvhrtMJXr0`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta: Slide Show",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg`,
+        url: `https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg`,
       }
     ],
 
@@ -68,22 +67,22 @@ export const followTheFlowLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Suivre le flux : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1M0PgTLxo86dIpfLQG4KlCUbWri-e_iVn_5aAc4KKZDI`,
+        url: `https://docs.google.com/document/d/1M0PgTLxo86dIpfLQG4KlCUbWri-e_iVn_5aAc4KKZDI`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Suivre le flux : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1rBChe1rbVhuQ9Xmu0fJit3d_SAYyqtKRP0-SakcDMT8`,
+        url: `https://docs.google.com/document/d/1rBChe1rbVhuQ9Xmu0fJit3d_SAYyqtKRP0-SakcDMT8`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Suivre le flux : présentation PowerPoint",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1rl9N4QY6T2q3J9QYrYFAuIO2GN5l8C_b`,
+        url: `https://docs.google.com/presentation/d/1rl9N4QY6T2q3J9QYrYFAuIO2GN5l8C_b`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta : présentation PowerPoint",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li/`,
+        url: `https://docs.google.com/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li/`,
       }
     ]
   },

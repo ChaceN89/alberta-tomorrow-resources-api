@@ -14,7 +14,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -45,24 +44,24 @@ export const albertasNaturalResourcesLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Alberta's Natural Resources: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1Ch0-B2ktR8U7xp1T5b1QLqCeweCU6hYn-fN4EiXvNpI`,
+        url: `https://docs.google.com/document/d/1Ch0-B2ktR8U7xp1T5b1QLqCeweCU6hYn-fN4EiXvNpI`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Alberta's Natural Resources: Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/19lq3XZjIB1SfQyb2viT3o210ptFGHvoE_h671A4rr3Q`,
+        url: `https://docs.google.com/document/d/19lq3XZjIB1SfQyb2viT3o210ptFGHvoE_h671A4rr3Q`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Ressources naturelles de l’Alberta : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1FGFRfY0Hc7pCooG5uLU5m2IORxueCWbehXTj_c-y2l8`,
+        url: `https://docs.google.com/document/d/1FGFRfY0Hc7pCooG5uLU5m2IORxueCWbehXTj_c-y2l8`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Ressources naturelles de l’Alberta : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1JqCHgUXp_kuqI3U0-zguDebLiXxHBdXlhIl5m641g6M`,
+        url: `https://docs.google.com/document/d/1JqCHgUXp_kuqI3U0-zguDebLiXxHBdXlhIl5m641g6M`,
       }
     ]
   },

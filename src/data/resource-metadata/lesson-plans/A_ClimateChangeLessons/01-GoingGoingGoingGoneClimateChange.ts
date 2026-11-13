@@ -24,7 +24,6 @@ import { Grade } from "../../../enums/gradeIds.js";
 import { LessonTheme } from "../../../enums/LessonThemeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -55,17 +54,17 @@ export const goingGoingGoingGoneClimateChangeLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Going Going Going Gone: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/15qASYCif_kc-O_SiHLeJ2kiOvgMGQKP67lFBy4S12yw`,
+        url: `https://docs.google.com/document/d/15qASYCif_kc-O_SiHLeJ2kiOvgMGQKP67lFBy4S12yw`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Going Going Going Gone: Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1kBBQg6A3spHvJTk_EY8KlOV5jrXwpU9jEyPK_rW2ges`,
+        url: `https://docs.google.com/document/d/1kBBQg6A3spHvJTk_EY8KlOV5jrXwpU9jEyPK_rW2ges`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Climate Change: Truth and Misconceptions - Presentation Slides",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1reQRVGi0VSEUcPAwk4SZ-NCiakFZNO3De-_0s9PehHk`,
+        url: `https://docs.google.com/presentation/d/1reQRVGi0VSEUcPAwk4SZ-NCiakFZNO3De-_0s9PehHk`,
       }
     ],
 
@@ -73,17 +72,17 @@ export const goingGoingGoingGoneClimateChangeLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Il recule, il recule, il disparaît : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1dKDeiQrZtuHi-hviP-o3QpE7bg8t7RWV0LJjIRcs59Q`,
+        url: `https://docs.google.com/document/d/1dKDeiQrZtuHi-hviP-o3QpE7bg8t7RWV0LJjIRcs59Q`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Il recule, il recule, il disparaît : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1rZWhfvHwCP0WjLErp-mCvxomhBNeZdTHBs3Y9mULbLg`,
+        url: `https://docs.google.com/document/d/1rZWhfvHwCP0WjLErp-mCvxomhBNeZdTHBs3Y9mULbLg`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Changements climatiques : vérités et idées fausses – présentation PowerPoint",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr`,
+        url: `https://docs.google.com/presentation/d/17-5R62F8HKHMgR73L6VYdk74aj13nudr`,
       }
     ]
   },

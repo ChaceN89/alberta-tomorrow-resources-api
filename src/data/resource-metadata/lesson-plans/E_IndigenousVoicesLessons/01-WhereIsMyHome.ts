@@ -14,7 +14,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -45,14 +44,14 @@ export const whereIsMyHomeLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Where is my Home? Using the Indigenous Map Layers",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1N29LfRlHfZ4SIklxj32MfhDfW3TBS250PAo9GibpwKA`,
+        url: `https://docs.google.com/document/d/1N29LfRlHfZ4SIklxj32MfhDfW3TBS250PAo9GibpwKA`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Où est ma maison? Utiliser les superpositions cartographiques autochtones.",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1bja_KxsUMc5S4XH0lHKCdzz4_sfo88biLECQRxZnSHQ`,
+        url: `https://docs.google.com/document/d/1bja_KxsUMc5S4XH0lHKCdzz4_sfo88biLECQRxZnSHQ`,
       }
     ]
   },

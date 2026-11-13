@@ -14,7 +14,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -45,14 +44,14 @@ export const stakeholderDebateLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Stakeholder Debate Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1IcVnBk-l8aMsQBDEGkxnglfq1MkegNtZ7kYErDIuhNg`,
+        url: `https://docs.google.com/document/d/1IcVnBk-l8aMsQBDEGkxnglfq1MkegNtZ7kYErDIuhNg`,
       }
     ],
     fr: [
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Débat d’intervenants : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1gXxjgcAKaAWQx8QE_8TCU8THVmKI-RgpMq_eaECdvR8`,
+        url: `https://docs.google.com/document/d/1gXxjgcAKaAWQx8QE_8TCU8THVmKI-RgpMq_eaECdvR8`,
       }
     ]
   },

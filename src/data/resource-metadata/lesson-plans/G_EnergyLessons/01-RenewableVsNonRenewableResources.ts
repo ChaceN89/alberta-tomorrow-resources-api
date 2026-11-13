@@ -15,7 +15,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -46,34 +45,34 @@ export const renewableVsNonRenewableResourcesLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Renewable vs Non-Renewable Resources - Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1wxVZL1i10wQAlxhno7HUqqlM5qnngG3xHMKHPbjzlME`,
+        url: `https://docs.google.com/document/d/1wxVZL1i10wQAlxhno7HUqqlM5qnngG3xHMKHPbjzlME`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Renewable and Non-Renewable Sources of Energy - Presentation Slides",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1ZeVKUKvxdKaTkf24aXG_xr29TvKWb4hX3bKAFThe-Cg`,
+        url: `https://docs.google.com/presentation/d/1ZeVKUKvxdKaTkf24aXG_xr29TvKWb4hX3bKAFThe-Cg`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Renewable vs Non-Renewable Resources - Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1hUZUVthmYSWUTbQL_9kqrt3ZNyoeSjnSIlYtNt99hk0`,
+        url: `https://docs.google.com/document/d/1hUZUVthmYSWUTbQL_9kqrt3ZNyoeSjnSIlYtNt99hk0`,
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
         title: "Ressources renouvelables ou non renouvelables : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1fp2_C7Ms3a_OVGswmcgc3c-HQUNm87H-Kn_xApSuR5M`,
+        url: `https://docs.google.com/document/d/1fp2_C7Ms3a_OVGswmcgc3c-HQUNm87H-Kn_xApSuR5M`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Sources d’énergie renouvelables et non renouvelables : présentation PowerPoint",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1kJBQH2n6TLF00_PLb1h--GYlEvwP-gD7`,
+        url: `https://docs.google.com/presentation/d/1kJBQH2n6TLF00_PLb1h--GYlEvwP-gD7`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Ressources renouvelables ou non renouvelables : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1VIEqDcHM50rTOQyY95Qca4lHVeEDbkieBCu7tFjKm6M`,
+        url: `https://docs.google.com/document/d/1VIEqDcHM50rTOQyY95Qca4lHVeEDbkieBCu7tFjKm6M`,
       }
     ]
   },

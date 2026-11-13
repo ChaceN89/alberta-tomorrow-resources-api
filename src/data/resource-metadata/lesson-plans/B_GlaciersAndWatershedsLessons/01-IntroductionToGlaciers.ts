@@ -14,7 +14,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -45,17 +44,17 @@ export const introductionToGlaciersLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Introduction to Glaciers: Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1TJMpAgj1CW2MqgWl0ElTnmoq78_uwL58nljrjU9Yx1E`,
+        url: `https://docs.google.com/document/d/1TJMpAgj1CW2MqgWl0ElTnmoq78_uwL58nljrjU9Yx1E`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Introduction to Glaciers: Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/18boIwKo0x2dnJZof_hcD4mgBeq3sbObkH-tyQ4115Rk`,
+        url: `https://docs.google.com/document/d/18boIwKo0x2dnJZof_hcD4mgBeq3sbObkH-tyQ4115Rk`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Glaciers in Alberta: Slide Show",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg`,
+        url: `https://docs.google.com/presentation/d/1rBX6NS-xWfHD3HxAV341q1ZC4wZV5FvNaUdsLi94ptg`,
       }
     ],
 
@@ -63,17 +62,17 @@ export const introductionToGlaciersLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Introduction aux glaciers : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1AD6-NmeRvy9QBbHX0ZggTSnuxNgC-iIF3BuX7H89IO0`,
+        url: `https://docs.google.com/document/d/1AD6-NmeRvy9QBbHX0ZggTSnuxNgC-iIF3BuX7H89IO0`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Introduction aux glaciers : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/108HlM6axM8FMEZJDJGfa7GoWzJkRQ9qllyngnfY-5lY`,
+        url: `https://docs.google.com/document/d/108HlM6axM8FMEZJDJGfa7GoWzJkRQ9qllyngnfY-5lY`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Les glaciers en Alberta : présentation PowerPoint",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li`,
+        url: `https://docs.google.com/presentation/d/1UUs1xkGOnZ2nMDM42bccVAcw0AJaL-Li`,
       }
     ]
   },

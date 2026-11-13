@@ -14,7 +14,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -45,14 +44,14 @@ export const myFutureAlbertaLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "My Future Alberta: Creating a Landuse Plan for 2050: Lesson Plan and Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1DSeh7sKtz0aPw2avwpJx9EX48MODMQOUeRI8G4_z1VQ`,
+        url: `https://docs.google.com/document/d/1DSeh7sKtz0aPw2avwpJx9EX48MODMQOUeRI8G4_z1VQ`,
       }
     ],
     fr: [
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Mon Alberta du futur : Créer un plan d’utilisation des terres pour 2050 : plan de leçon et feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1UDRo6NxP8NWbfwsH_ggYj-rClTW_JEHaAWU2dEbPiEA`,
+        url: `https://docs.google.com/document/d/1UDRo6NxP8NWbfwsH_ggYj-rClTW_JEHaAWU2dEbPiEA`,
       }
     ]
   },

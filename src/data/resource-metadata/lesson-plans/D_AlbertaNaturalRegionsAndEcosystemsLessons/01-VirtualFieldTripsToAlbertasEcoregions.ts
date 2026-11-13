@@ -14,7 +14,6 @@ import { FileType } from "../../../enums/fileTypes.js";
 import { Grade } from "../../../enums/gradeIds.js";
 import { Subject } from "../../../enums/subjectIds.js";
 
-import { GOOGLE_DOCS_BASE_URL } from "../../../core/assetUrls.js";
 
 import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
 
@@ -45,17 +44,17 @@ export const virtualFieldTripsToAlbertasEcoregionsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Alberta's Ecoregions - 360 Virtual Field Trips Lesson Plan",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1ze-UZ4mdM1RNbJ5DOSOvH2ipuaNPs9xTYRQ4pObcBCM`,
+        url: `https://docs.google.com/document/d/1ze-UZ4mdM1RNbJ5DOSOvH2ipuaNPs9xTYRQ4pObcBCM`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "360 Virtual Tours Scavenger Hunt Student Worksheet",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1aoEfuEUAScdMMAPd0bWemjb-85tDLZxu`,
+        url: `https://docs.google.com/document/d/1aoEfuEUAScdMMAPd0bWemjb-85tDLZxu`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "360 Virtual Tours Scavenger Hunt - Fillable Google Slides",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE`,
+        url: `https://docs.google.com/presentation/d/17NmG5afAwCA12cb5tdobQO7XrcPzGxUSODk_rzsSAbE`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
@@ -67,22 +66,22 @@ export const virtualFieldTripsToAlbertasEcoregionsLessonPlan = {
       {
         fileType: FileType.LESSON_PLAN,
         title: "Écorégions de l’Alberta – visites virtuelles à 360 degrés : plan de leçon",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/1JgmkAJbdESzjzme8EqM1gKfWdf6JMyWDSpautiEGxXk`,
+        url: `https://docs.google.com/document/d/1JgmkAJbdESzjzme8EqM1gKfWdf6JMyWDSpautiEGxXk`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
-        url: `${GOOGLE_DOCS_BASE_URL}/document/d/11Vtx-IC7qg7tGE9hHtA3jWpKKMHcVEHv`,
+        url: `https://docs.google.com/document/d/11Vtx-IC7qg7tGE9hHtA3jWpKKMHcVEHv`,
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : diapositives Google à remplir",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS`,
+        url: `https://docs.google.com/presentation/d/1iz0b3BOVfKQYd-wDOzuWlUTe6eCpalgS`,
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève (encercler)",
-        url: `${GOOGLE_DOCS_BASE_URL}/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0`,
+        url: `https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0`,
       }
     ]
   },
