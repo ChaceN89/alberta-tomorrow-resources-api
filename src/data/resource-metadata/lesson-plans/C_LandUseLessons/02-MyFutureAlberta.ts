@@ -39,21 +39,32 @@ export const myFutureAlbertaLessonPlan = {
     fr: "90 min"
   },
 
+
   files: {
     en: [
       {
-        fileType: FileType.STUDENT_WORKSHEET,
-        title: "My Future Alberta: Creating a Landuse Plan for 2050: Lesson Plan and Student Worksheet",
+        fileType: FileType.LESSON_PLAN,
+        title: "My Future Alberta: Using the Alberta Tomorrow Simulator – Lesson Plan",
         url: `https://docs.google.com/document/d/1DSeh7sKtz0aPw2avwpJx9EX48MODMQOUeRI8G4_z1VQ`,
-      }
+      },
+      {
+        fileType: FileType.STUDENT_WORKSHEET,
+        title: "My Future Alberta: Using the Alberta Tomorrow Simulator – Student Worksheet",
+        url: `https://docs.google.com/document/d/1gA2TKx2yU2bsoAR4i717oy_PWtAf-_MVkk8odDwiIlc`,
+      },
     ],
     fr: [
       {
+        fileType: FileType.LESSON_PLAN,
+        title: "Mon Alberta du futur : utiliser le simulateur Alberta Tomorrow – plan de leçon",
+        url: `https://docs.google.com/document/d/1-hFcrv0shTUIZbrvYmzlR59l5MlcuOuYPXgqvQCt7sI`,
+      },
+      {
         fileType: FileType.STUDENT_WORKSHEET,
-        title: "Mon Alberta du futur : Créer un plan d’utilisation des terres pour 2050 : plan de leçon et feuille de travail de l’élève",
+        title: "Mon Alberta du futur : utiliser le simulateur Alberta Tomorrow – fiche de travail de l’élève",
         url: `https://docs.google.com/document/d/1UDRo6NxP8NWbfwsH_ggYj-rClTW_JEHaAWU2dEbPiEA`,
-      }
-    ]
+      },
+    ],
   },
 
   gradeIds: [

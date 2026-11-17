@@ -48,8 +48,13 @@ export const mappingIndigenousAreasLessonPlan = {
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
-        title: "Mapping Indigenous Areas: Student Worksheet",
+        title: "Mapping Indigenous Mapping Template: Student Worksheet",
         url: "https://drive.google.com/file/d/1TD5lTrUbYJPh1OxBeEULOzkZ_q1L5xXv",
+      },
+      {
+        fileType: FileType.STUDENT_WORKSHEET,
+        title: "Mapping Indigenous Areas: Student Worksheet",
+        url: "https://docs.google.com/document/d/15AMB_hQyBNP-CKO2eMNdnhVc2jvztlLx-Jk_DAxQJgc",
       },
       {
         fileType: FileType.ANSWER_KEY,
@@ -65,12 +70,17 @@ export const mappingIndigenousAreasLessonPlan = {
       },
       {
         fileType: FileType.STUDENT_WORKSHEET,
-        title: "Cartographier les régions autochtones : feuille de travail de l’élève",
+        title: "Modèle de carte des régions autochtones : fiche de travail de l’élève",
         url: `https://docs.google.com/document/d/1tmkUtOZkroEhYl56TmhyVM-Zmj0nfzZ0`,
       },
       {
+        fileType: FileType.STUDENT_WORKSHEET,
+        title: "Cartographier les régions autochtones : fiche de travail de l’élève",
+        url: "https://docs.google.com/document/d/14jLgwLjvyA7A3rYZ1RmY9eKZ9zE1mkGYnn4XMnJU_mk",
+      },
+      {
         fileType: FileType.ANSWER_KEY,
-        title: "Cartographier les régions autochtones : clé de correction",
+        title: "Cartographier les régions autochtones : corrigé",
         url: `https://docs.google.com/document/d/1rpoEDqWvW12B7_B-Ycv73uYoHuZIABiu`,
       }
     ]

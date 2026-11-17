@@ -39,19 +39,30 @@ export const whereIsMyHomeLessonPlan = {
     fr: "60 min"
   },
 
+
   files: {
     en: [
       {
         fileType: FileType.LESSON_PLAN,
-        title: "Where is my Home? Using the Indigenous Map Layers",
+        title: "Where is my Home? Using the Indigenous Map Layers: Lesson Plan",
         url: `https://docs.google.com/document/d/1N29LfRlHfZ4SIklxj32MfhDfW3TBS250PAo9GibpwKA`,
+      },
+      {
+        fileType: FileType.STUDENT_WORKSHEET,
+        title: "Where is my Home? Using the Indigenous Map Layers: Student Worksheet",
+        url: "https://docs.google.com/document/d/1N29LfRlHfZ4SIklxj32MfhDfW3TBS250PAo9GibpwKA",
       }
     ],
     fr: [
       {
         fileType: FileType.LESSON_PLAN,
-        title: "Où est ma maison? Utiliser les superpositions cartographiques autochtones.",
+        title: "Où est ma maison? Utiliser les superpositions cartographiques autochtones : plan de leçon",
         url: `https://docs.google.com/document/d/1bja_KxsUMc5S4XH0lHKCdzz4_sfo88biLECQRxZnSHQ`,
+      },
+      {
+        fileType: FileType.STUDENT_WORKSHEET,
+        title: "Où est ma maison? Utiliser les superpositions cartographiques autochtones : feuille de travail de l’élève",
+        url: "https://docs.google.com/document/d/1bja_KxsUMc5S4XH0lHKCdzz4_sfo88biLECQRxZnSHQ",
       }
     ]
   },
