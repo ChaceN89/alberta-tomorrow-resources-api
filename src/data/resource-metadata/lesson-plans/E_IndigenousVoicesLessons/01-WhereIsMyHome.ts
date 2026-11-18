@@ -50,7 +50,7 @@ export const whereIsMyHomeLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Where is my Home? Using the Indigenous Map Layers: Student Worksheet",
-        url: "https://docs.google.com/document/d/1N29LfRlHfZ4SIklxj32MfhDfW3TBS250PAo9GibpwKA",
+        url: "https://docs.google.com/document/d/1BvCBPAJOSGBhtpgX2y8M_FUQzc0FdIEXa5nynS5JSt0",
       }
     ],
     fr: [
@@ -62,7 +62,7 @@ export const whereIsMyHomeLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Où est ma maison? Utiliser les superpositions cartographiques autochtones : feuille de travail de l’élève",
-        url: "https://docs.google.com/document/d/1bja_KxsUMc5S4XH0lHKCdzz4_sfo88biLECQRxZnSHQ",
+        url: "https://docs.google.com/document/d/16BKH_B0hc1HMGosns7oPfGSIPxP9M92m9kBHk9mQC_k",
       }
     ]
   },

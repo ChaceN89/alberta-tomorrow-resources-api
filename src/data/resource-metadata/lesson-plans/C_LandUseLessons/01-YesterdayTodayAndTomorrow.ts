@@ -42,15 +42,25 @@ export const yesterdayTodayAndTomorrowLessonPlan = {
   files: {
     en: [
       {
+        fileType: FileType.LESSON_PLAN,
+        title: "Yesterday, Today, and Tomorrow: Using the Alberta Tomorrow Simulator – Lesson Plan",
+        url: `https://docs.google.com/document/d/1BeXdyFmB5N8-YULrpCXc3eHewXub1t4yOW7vxbn1dWE`,
+      },
+      {
         fileType: FileType.STUDENT_WORKSHEET,
-        title: "Yesterday, Today and Tomorrow - Using the Alberta Tomorrow Simulator Lesson Plan and Student Worksheet",
-        url: `https://docs.google.com/document/d/14yCZEC8QEglyvSQD1HabXoy6kDXtGjRsr1Mhf6PGd-8`,
+        title: "Yesterday, Today, and Tomorrow: Using the Alberta Tomorrow Simulator – Student Worksheet",
+        url: `https://docs.google.com/document/d/12SL7VWLPtAmFmwuG_HOJeTm7eP8auD59QhGyw_OZ4wQ`,
       }
     ],
     fr: [
       {
+        fileType: FileType.LESSON_PLAN,
+        title: "Hier, aujourd’hui et demain : utiliser le simulateur d’Alberta Tomorrow – plan de leçon",
+        url: `https://docs.google.com/document/d/15SUd9s83cUVQmTzbSna9xd3xwv-UmhIMJ4-R625EWb4`,
+      },
+      {
         fileType: FileType.STUDENT_WORKSHEET,
-        title: "Hier, aujourd’hui et demain - Utiliser le simulateur d’Alberta Tomorrow : plan de leçon et feuille de travail de l’élève",
+        title: "Hier, aujourd’hui et demain : utiliser le simulateur d’Alberta Tomorrow – fiche de travail de l’élève",
         url: `https://docs.google.com/document/d/1JQJsZ9KmWvpo-w44hgxg4lj4gxrNGmQP_oFhxPwL_Qw`,
       }
     ]
