@@ -51,7 +51,8 @@ export const albertasNaturalRegionsLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "360 Virtual Tours Scavenger Hunt Student Worksheet",
-        url: "https://drive.google.com/file/d/1fgBduzIjfvYWjkT2Y8m71qhiWMRjEwaL",
+        url: "https://docs.google.com/document/d/1aoEfuEUAScdMMAPd0bWemjb-85tDLZxu",
+        // url: "https://drive.google.com/file/d/1fgBduzIjfvYWjkT2Y8m71qhiWMRjEwaL",
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -61,7 +62,7 @@ export const albertasNaturalRegionsLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "360 Virtual Tours Scavenger Hunt Circle Student Worksheet",
-        url: `https://docs.google.com/presentation/d/1iGXFpDscj18TBWM_f03jUxc7rGtzPWRxn6Yxvrn-Pfs`,
+        url: `https://docs.google.com/presentation/d/11u5AvTgymCbjn1yyrF-LwWoI8AfiPLQ8`,
       }
     ],
     fr: [
@@ -73,7 +74,7 @@ export const albertasNaturalRegionsLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève",
-        url: "https://drive.google.com/file/d/1QA42jXD1KM79HQ-w4QJpMnAu9NCKWIyz",
+        url: "https://docs.google.com/document/d/11Vtx-IC7qg7tGE9hHtA3jWpKKMHcVEHv",
       },
       {
         fileType: FileType.PRESENTATION_SLIDES,
@@ -83,7 +84,7 @@ export const albertasNaturalRegionsLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "Visites virtuelles à 360 degrés et chasse au trésor : feuille de travail de l’élève (encercler)",
-        url: "https://drive.google.com/file/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0",
+        url: "https://docs.google.com/presentation/d/1AHJmMQBpcaRVFxCR5-Q24Jsk_VSTo_I0",
       }
     ]
   },

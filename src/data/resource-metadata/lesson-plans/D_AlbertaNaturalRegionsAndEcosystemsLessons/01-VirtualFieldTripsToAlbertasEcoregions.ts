@@ -59,7 +59,7 @@ export const virtualFieldTripsToAlbertasEcoregionsLessonPlan = {
       {
         fileType: FileType.STUDENT_WORKSHEET,
         title: "360 Virtual Tours Scavenger Hunt Circle Student Worksheet",
-        url: "https://drive.google.com/file/d/1VQg8Gzp-yw2QrZ0gDl56iIjSiwpdoe8f",
+        url: "https://docs.google.com/presentation/d/11u5AvTgymCbjn1yyrF-LwWoI8AfiPLQ8",
       }
     ],
     fr: [
