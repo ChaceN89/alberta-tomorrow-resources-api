@@ -10,6 +10,21 @@
 
 import type { Localized } from "./sharedTypes.js";
 
+export type SubtitlePosition =
+  "top-left" |
+  "top-center" |
+  "top-right" |
+  "bottom-left" |
+  "bottom-center" |
+  "bottom-right" |
+  "middle-left" |
+  "middle-center" |
+  "middle-right";
+
+export interface VideoSubtitles extends Localized<string | null> {
+  position?: SubtitlePosition;
+}
+
 /** Describes fields shared by authored videos and generated video records. */
 export interface VideoRecordBase {
   id: string;
@@ -18,7 +33,7 @@ export interface VideoRecordBase {
   title: Localized<string>;
   description: Localized<string>;
   /** Caption URL per language; null means no track exists, so the frontend should not load one. */
-  subtitles: Localized<string | null>;
+  subtitles: VideoSubtitles;
   searchTerms: Localized<string[]>;
 }
 
@@ -56,6 +71,7 @@ export interface GeneratedVideoMedia {
 
 /** Describes the normalized video record written to JSON and served by the API. */
 export interface GeneratedVideo extends VideoRecordBase {
+  subtitles: VideoSubtitles & { position: SubtitlePosition };
   media: GeneratedVideoMedia;
   lessonPlanIds: string[];
   tools?: string[];

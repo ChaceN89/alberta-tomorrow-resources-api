@@ -78,7 +78,10 @@ function normalizeVideo(raw: VideoSource): Omit<GeneratedVideo, "lessonPlanIds">
       provider: normalizeString(raw.media?.provider),
     },
 
-    subtitles: normalizeLocalizedNullableString(raw.subtitles),
+    subtitles: {
+      ...normalizeLocalizedNullableString(raw.subtitles),
+      position: raw.subtitles.position ?? "bottom-center",
+    },
 
     searchTerms: normalizeLocalizedArray(raw.searchTerms),
 

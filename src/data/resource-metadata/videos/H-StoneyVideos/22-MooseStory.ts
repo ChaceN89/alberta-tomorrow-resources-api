@@ -42,6 +42,7 @@ export const mooseStoryVideo = {
     provider: ALBERTA_TOMORROW_PROVIDER
   },
   subtitles: {
+    position: "top-center",
     en: videoAssets.file("en.vtt"),
     fr: videoAssets.file("fr.vtt")
   },
