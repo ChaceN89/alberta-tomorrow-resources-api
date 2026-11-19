@@ -18,7 +18,8 @@ test("Makefile scopes asset uploads and invalidation without calling AWS", async
     await mkdir(path.join(directory, videos, "A-TutorialVideos", "tutorial-01a-register-account"), { recursive: true });
     await mkdir(path.join(directory, pdfs, "A_ClimateChangeLessons", "climate-04-science-6-climate-change-in-alberta"), { recursive: true });
     await writeFile(path.join(directory, videos, "A-TutorialVideos", "tutorial-01a-register-account", "thumbnail.jpg"), "image");
-    await writeFile(path.join(directory, pdfs, "A_ClimateChangeLessons", "climate-04-science-6-climate-change-in-alberta", "en-presentation-slides-2.pdf"), "%PDF-test");
+    const pdfName = "en-presentation_slides-climate_change_truth_and_misconceptions_presentation_slides.pdf";
+    await writeFile(path.join(directory, pdfs, "A_ClimateChangeLessons", "climate-04-science-6-climate-change-in-alberta", pdfName), "%PDF-test");
 
     const run = (...args: string[]) => spawnSync("make", ["--no-print-directory", `AWS=${aws}`, ...args], {
       cwd: directory,
@@ -38,7 +39,8 @@ test("Makefile scopes asset uploads and invalidation without calling AWS", async
       assert.ok(args.includes("--no-follow-symlinks"));
       assert.equal(args.includes("--delete"), false);
     }
-    assert.ok(uploads[1].includes("en-presentation-slides-[0-9]*.pdf"));
+    assert.ok(uploads[1].includes("en-presentation_slides-*.pdf"));
+    assert.ok(uploads[1].includes("*/en-presentation_slides-*.pdf"));
     assert.equal(uploads[1].includes("*.pdf"), false);
 
     const section = run("upload-pdfs", "SECTION=A_ClimateChangeLessons");
@@ -52,7 +54,7 @@ test("Makefile scopes asset uploads and invalidation without calling AWS", async
       "s3://test-resource-bucket/video-assets/A-TutorialVideos/tutorial-01a-register-account/thumbnail.jpg",
     ]);
 
-    const pdf = run("upload-pdfs", "SECTION=A_ClimateChangeLessons", "ID=climate-04-science-6-climate-change-in-alberta", "FILE=en-presentation-slides-2.pdf");
+    const pdf = run("upload-pdfs", "SECTION=A_ClimateChangeLessons", "ID=climate-04-science-6-climate-change-in-alberta", `FILE=${pdfName}`);
     assert.equal(pdf.status, 0, pdf.stderr);
     assert.equal(calls(pdf.stdout)[0][1], "cp");
 

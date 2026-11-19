@@ -12,11 +12,15 @@ import { findTypeScriptFiles } from "../src/data/scripts/utils.js";
 import type { GeneratedLessonFile, GeneratedLessonPlan, LessonPlanSource } from "../src/data/core/lessonPlanTypes.js";
 import { goingGoingGoingGoneClimateChangeLessonPlan } from "../src/data/resource-metadata/lesson-plans/A_ClimateChangeLessons/01-GoingGoingGoingGoneClimateChange.js";
 
-test("selects exactly six files with distinct language and type names", () => {
+test("selects exactly six files with localized language prefixes and English title slugs", () => {
   const files = getPdfFiles(goingGoingGoingGoneClimateChangeLessonPlan);
   assert.deepEqual(files.map((file) => file.fileName), [
-    "en-lesson-plan.pdf", "en-student-worksheet.pdf", "en-presentation-slides.pdf",
-    "fr-lesson-plan.pdf", "fr-student-worksheet.pdf", "fr-presentation-slides.pdf",
+    "en-lesson_plan-going_going_going_gone_lesson_plan.pdf",
+    "en-student_worksheet-going_going_going_gone_student_worksheet.pdf",
+    "en-presentation_slides-climate_change_truth_and_misconceptions_presentation_slides.pdf",
+    "fr-lesson_plan-going_going_going_gone_lesson_plan.pdf",
+    "fr-student_worksheet-going_going_going_gone_student_worksheet.pdf",
+    "fr-presentation_slides-climate_change_truth_and_misconceptions_presentation_slides.pdf",
   ]);
   assert.equal(new Set(files.map((file) => file.url)).size, 6);
 });
@@ -30,10 +34,13 @@ test("discovers all climate lessons and all localized files, including repeated 
     "climate-04-science-6-climate-change-in-alberta",
   ]);
   assert.deepEqual(lessons.map((lesson) => getPdfFiles(lesson).length), [6, 6, 6, 8]);
-  assert.ok(getPdfFiles(lessons[2]).some((file) => file.fileName === "en-other-file-type.pdf"));
+  assert.ok(getPdfFiles(lessons[2]).some((file) =>
+    file.fileName.startsWith("en-other_file_type-")));
   const lastLesson = getPdfFiles(lessons[3]);
-  assert.ok(lastLesson.some((file) => file.fileName === "en-presentation-slides-2.pdf"));
-  assert.ok(lastLesson.some((file) => file.fileName === "fr-presentation-slides-2.pdf"));
+  assert.ok(lastLesson.some((file) =>
+    file.fileName === "en-presentation_slides-climate_change_truth_and_misconceptions_presentation_slides.pdf"));
+  assert.ok(lastLesson.some((file) =>
+    file.fileName === "fr-presentation_slides-climate_change_truth_and_misconceptions_presentation_slides.pdf"));
   assert.equal(new Set(lastLesson.map((file) => file.fileName)).size, 8);
   for (const lesson of lessons) {
     for (const file of getPdfFiles(lesson)) assert.match(getExportUrl(file.url), /^https:\/\/docs\.google\.com\//);
@@ -43,23 +50,50 @@ test("discovers all climate lessons and all localized files, including repeated 
 test("asset paths match extraction filenames and reject invalid file types", () => {
   const lesson = goingGoingGoingGoneClimateChangeLessonPlan;
   const assets = getLessonPlanAssetPaths(lesson.themeId, lesson.id);
-  assert.equal(assets.file("en-lesson-plan.pdf"), `https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/${lesson.id}/en-lesson-plan.pdf`);
-  assert.throws(() => getLessonPlanPdfFileNames("en", [{ fileType: "../unsafe" }]), /Unsupported lesson file type/);
+  assert.equal(
+    assets.file("en-lesson_plan-going_going_going_gone_lesson_plan.pdf"),
+    `https://d2qcvmovr4fv.cloudfront.net/lesson-plan-pdfs/A_ClimateChangeLessons/${lesson.id}/en-lesson_plan-going_going_going_gone_lesson_plan.pdf`,
+  );
+  assert.throws(
+    () => getLessonPlanPdfFileNames("en", [{ fileType: "../unsafe", title: "Unsafe" }]),
+    /Unsupported lesson file type/,
+  );
   assert.throws(() => assets.file("../unsafe"));
   assert.throws(() => getLessonPlanAssetPaths("unknown", lesson.id));
 });
 
-test("duplicate file types are numbered independently per language and type", () => {
+test("duplicate title slugs within one type receive numeric suffixes", () => {
   const lesson = goingGoingGoingGoneClimateChangeLessonPlan;
-  const duplicate = { en: [lesson.files.en[0], lesson.files.en[1], lesson.files.en[0], lesson.files.en[0]], fr: [lesson.files.fr[0], lesson.files.fr[0]] };
+  const duplicate = {
+    en: [lesson.files.en[0], lesson.files.en[1], lesson.files.en[0], lesson.files.en[0]],
+    fr: [lesson.files.fr[0], lesson.files.fr[1], lesson.files.fr[0], lesson.files.fr[0]],
+  };
   assert.deepEqual(getPdfFiles({ ...lesson, files: duplicate }).map((file) => file.fileName), [
-    "en-lesson-plan.pdf", "en-student-worksheet.pdf", "en-lesson-plan-2.pdf", "en-lesson-plan-3.pdf",
-    "fr-lesson-plan.pdf", "fr-lesson-plan-2.pdf",
+    "en-lesson_plan-going_going_going_gone_lesson_plan.pdf",
+    "en-student_worksheet-going_going_going_gone_student_worksheet.pdf",
+    "en-lesson_plan-going_going_going_gone_lesson_plan-2.pdf",
+    "en-lesson_plan-going_going_going_gone_lesson_plan-3.pdf",
+    "fr-lesson_plan-going_going_going_gone_lesson_plan.pdf",
+    "fr-student_worksheet-going_going_going_gone_student_worksheet.pdf",
+    "fr-lesson_plan-going_going_going_gone_lesson_plan-2.pdf",
+    "fr-lesson_plan-going_going_going_gone_lesson_plan-3.pdf",
   ]);
   const normalized = normalizeFiles(duplicate, lesson.themeId, lesson.id);
-  assert.ok(normalized.en[2].pdfUrl.endsWith("/en-lesson-plan-2.pdf"));
-  assert.ok(normalized.en[3].pdfUrl.endsWith("/en-lesson-plan-3.pdf"));
-  assert.ok(normalized.fr[1].pdfUrl.endsWith("/fr-lesson-plan-2.pdf"));
+  assert.ok(normalized.en[2].pdfUrl.endsWith(
+    "/en-lesson_plan-going_going_going_gone_lesson_plan-2.pdf",
+  ));
+  assert.ok(normalized.en[3].pdfUrl.endsWith(
+    "/en-lesson_plan-going_going_going_gone_lesson_plan-3.pdf",
+  ));
+  assert.ok(normalized.fr[1].pdfUrl.endsWith(
+    "/fr-student_worksheet-going_going_going_gone_student_worksheet.pdf",
+  ));
+  assert.ok(normalized.fr[2].pdfUrl.endsWith(
+    "/fr-lesson_plan-going_going_going_gone_lesson_plan-2.pdf",
+  ));
+  assert.ok(normalized.fr[3].pdfUrl.endsWith(
+    "/fr-lesson_plan-going_going_going_gone_lesson_plan-3.pdf",
+  ));
 });
 
 test("generated files and PDF paths agree with every authored lesson", async () => {
@@ -77,7 +111,11 @@ test("generated files and PDF paths agree with every authored lesson", async () 
     assert.deepEqual(normalizeFiles(lesson.files, lesson.themeId, lesson.id), output.files);
     const localFiles = getPdfFiles(lesson);
     for (const language of ["en", "fr"] as const) {
-      const names = getLessonPlanPdfFileNames(language, lesson.files[language]);
+      const names = getLessonPlanPdfFileNames(
+        language,
+        lesson.files[language],
+        lesson.files.en,
+      );
       for (const [index, file] of lesson.files[language].entries()) {
         const name = names[index];
         assert.ok(localFiles.some((local) => local.fileName === name && local.url === file.url));
@@ -119,7 +157,7 @@ test("CLI lists all sections, selects non-climate lessons, and rejects conflicti
     const all = run("--all", "--list");
     assert.equal(all.status, 0, all.stderr);
     assert.equal((all.stdout.match(/\nLesson: /g) ?? []).length, 37);
-    assert.equal((all.stdout.match(/\.pdf: missing/g) ?? []).length, 154);
+    assert.equal((all.stdout.match(/\.pdf: missing/g) ?? []).length, 162);
     for (const section of sections) assert.ok(all.stdout.includes(`/${section}/`));
     const section = run("--section", "B_GlaciersAndWatershedsLessons", "--list");
     assert.equal(section.status, 0, section.stderr);

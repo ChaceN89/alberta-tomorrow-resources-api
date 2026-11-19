@@ -85,15 +85,40 @@ export function getVideoAssetPaths(categoryId: string, videoId: string) {
 
 export function getLessonPlanPdfFileNames(
   language: "en" | "fr",
-  files: ReadonlyArray<{ fileType: string }>,
+  files: ReadonlyArray<{ fileType: string; title: string }>,
+  englishFiles: ReadonlyArray<{ fileType: string; title: string }> = files,
 ): string[] {
   const allowedTypes = new Set<string>(Object.values(FileType));
+  if (files.length !== englishFiles.length) {
+    throw new Error(
+      `Lesson files must have matching English and ${language} counts (${englishFiles.length} !== ${files.length}).`,
+    );
+  }
   const counts = new Map<string, number>();
-  return files.map(({ fileType }) => {
-    if (!allowedTypes.has(fileType)) throw new Error(`Unsupported lesson file type: "${fileType}".`);
-    const count = (counts.get(fileType) ?? 0) + 1;
-    counts.set(fileType, count);
-    return `${language}-${fileType}${count === 1 ? "" : `-${count}`}.pdf`;
+  return files.map(({ fileType }, index) => {
+    if (!allowedTypes.has(fileType)) {
+      throw new Error(`Unsupported lesson file type: "${fileType}".`);
+    }
+    const englishFile = englishFiles[index];
+    if (englishFile.fileType !== fileType) {
+      throw new Error(
+        `Lesson file ${index + 1} has mismatched English/${language} types: "${englishFile.fileType}" !== "${fileType}".`,
+      );
+    }
+    const type = fileType.replaceAll("-", "_");
+    const title = englishFile.title
+      .normalize("NFKD")
+      .replace(/\p{Diacritic}/gu, "")
+      .replace(/['’]/g, "")
+      .toLowerCase()
+      .replace(/&/g, " and ")
+      .replace(/[^a-z0-9]+/g, "_")
+      .replace(/^_+|_+$/g, "");
+    if (!title) throw new Error(`Lesson file title is empty after slugging: "${englishFile.title}".`);
+    const baseName = `${language}-${type}-${title}`;
+    const count = (counts.get(baseName) ?? 0) + 1;
+    counts.set(baseName, count);
+    return `${baseName}${count === 1 ? "" : `-${count}`}.pdf`;
   });
 }
 

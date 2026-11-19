@@ -68,7 +68,8 @@ export function normalizeFiles(
   if (!value || typeof value !== "object") return { en: [], fr: [] };
   const assets = getLessonPlanAssetPaths(themeId, lessonId);
   const mapLanguage = (files: LessonFileSource[], language: "en" | "fr"): GeneratedLessonFile[] => {
-    const names = getLessonPlanPdfFileNames(language, files);
+    const englishFiles = Array.isArray(value.en) ? value.en : [];
+    const names = getLessonPlanPdfFileNames(language, files, englishFiles);
     return files.map((file, index) => ({
       fileType: file.fileType,
       title: normalizeString(file.title),

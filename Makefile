@@ -58,7 +58,7 @@ define upload
 		if [[ "$(2)" == video-assets ]]; then \
 			[[ "$$FILE" =~ ^(video\.mp4|thumbnail\.jpg|en\.vtt|fr\.vtt)$$ ]] || { echo "Unsupported video asset filename: $$FILE" >&2; exit 1; }; \
 		else \
-			[[ "$$FILE" =~ ^(en|fr)-(lesson-plan|answer-key|student-worksheet|presentation-slides|other-file-type)(-[2-9][0-9]*|-1[0-9]+)?\.pdf$$ ]] || { echo "Unsupported PDF filename: $$FILE" >&2; exit 1; }; \
+			[[ "$$FILE" =~ ^(en|fr)-(lesson_plan|answer_key|student_worksheet|presentation_slides|other_file_type)-[a-z0-9_]+(-[2-9][0-9]*|-1[0-9]+)?\.pdf$$ ]] || { echo "Unsupported PDF filename: $$FILE" >&2; exit 1; }; \
 		fi; \
 		[[ -f "$$source_dir/$$FILE" && ! -L "$$source_dir/$$FILE" ]] || { echo "Asset file is missing or a symlink: $$source_dir/$$FILE" >&2; exit 1; }; \
 		"$$AWS" s3 cp "$$source_dir/$$FILE" "$$destination/$$FILE" "$${options[@]}"; \
@@ -68,9 +68,8 @@ define upload
 			for name in video.mp4 thumbnail.jpg en.vtt fr.vtt; do options+=(--include "$$name" --include "*/$$name"); done; \
 		else \
 			for language in en fr; do \
-				for type in lesson-plan answer-key student-worksheet presentation-slides other-file-type; do \
-					options+=(--include "$$language-$$type.pdf" --include "*/$$language-$$type.pdf" \
-						--include "$$language-$$type-[0-9]*.pdf" --include "*/$$language-$$type-[0-9]*.pdf"); \
+				for type in lesson_plan answer_key student_worksheet presentation_slides other_file_type; do \
+					options+=(--include "$$language-$$type-*.pdf" --include "*/$$language-$$type-*.pdf"); \
 				done; \
 			done; \
 		fi; \

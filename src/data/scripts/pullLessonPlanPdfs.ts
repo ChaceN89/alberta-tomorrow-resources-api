@@ -11,6 +11,24 @@ const DEFAULT_OUTPUT_DIRECTORY = path.resolve("src/data/extracted-data/lesson-pl
 const LESSON_DIRECTORY = path.resolve("src/data/resource-metadata/lesson-plans");
 const SECTION_DIRECTORY = path.join(LESSON_DIRECTORY, "A_ClimateChangeLessons");
 const LANGUAGES = ["en", "fr"] as const;
+const ANSI_COLORS = {
+  blue: "34",
+  cyan: "36",
+  dim: "2",
+  green: "32",
+  red: "31",
+  yellow: "33",
+} as const;
+type AnsiColor = keyof typeof ANSI_COLORS;
+
+function colorize(
+  message: string,
+  color: AnsiColor,
+  stream: NodeJS.WriteStream = process.stdout,
+): string {
+  if (!stream.isTTY || process.env.NO_COLOR !== undefined) return message;
+  return `\u001b[${ANSI_COLORS[color]}m${message}\u001b[0m`;
+}
 
 interface PdfFile {
   fileName: string;
@@ -19,7 +37,11 @@ interface PdfFile {
 
 export function getPdfFiles(lesson: LessonPlanSource): PdfFile[] {
   return LANGUAGES.flatMap((language) => {
-    const names = getLessonPlanPdfFileNames(language, lesson.files[language]);
+    const names = getLessonPlanPdfFileNames(
+      language,
+      lesson.files[language],
+      lesson.files.en,
+    );
     return lesson.files[language].map((file, index) => ({ fileName: names[index], url: file.url }));
   });
 }
@@ -215,39 +237,53 @@ async function main(args: string[]): Promise<void> {
   if (lessons.length === 0) {
     throw new Error(`No lesson with ID "${lessonId}" found.`);
   }
-  console.log(`${list ? "Listing" : "Exporting"} PDFs for ${lessons.length} lesson(s).`);
+  console.log(colorize(
+    `${list ? "Listing" : "Exporting"} PDFs for ${lessons.length} lesson(s).`,
+    "cyan",
+  ));
   const failures: string[] = [];
   for (const lesson of lessons) {
     try {
       const outputDirectory = path.join(outputRoot, getLessonPlanThemeFolder(lesson.themeId), lesson.id);
       const files = getPdfFiles(lesson);
-      console.log(`\nLesson: ${lesson.id}\nOutput: ${outputDirectory}`);
+      console.log(`\n${colorize("Lesson:", "cyan")} ${colorize(lesson.id, "blue")}`);
+      console.log(`${colorize("Output:", "dim")} ${outputDirectory}`);
       for (const file of files) {
         try {
           if (list) {
-            console.log(`  ${file.fileName}: ${await exists(path.join(outputDirectory, file.fileName)) ? "present" : "missing"}`);
+            const present = await exists(path.join(outputDirectory, file.fileName));
+            console.log(
+              `  ${file.fileName}: ${colorize(present ? "present" : "missing", present ? "green" : "yellow")}`,
+            );
           } else {
             const result = await downloadPdf(file, outputDirectory, override);
-            console.log(`  ${file.fileName}: ${result}`);
+            console.log(`  ${file.fileName}: ${colorize(result, result === "saved" ? "green" : "yellow")}`);
           }
         } catch (error) {
           const message = error instanceof Error ? error.message : String(error);
-          console.error(`  ${file.fileName}: failed: ${message}`);
+          console.error(`  ${file.fileName}: ${colorize("failed", "red", process.stderr)}: ${message}`);
           failures.push(`${lesson.id}/${file.fileName}`);
         }
       }
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
-      console.error(`${lesson.id}: failed: ${message}`);
+      console.error(`${lesson.id}: ${colorize("failed", "red", process.stderr)}: ${message}`);
       failures.push(lesson.id);
     }
   }
-  if (failures.length) throw new Error(`${failures.length} lesson or PDF operation(s) failed: ${failures.join(", ")}.`);
+  if (failures.length) {
+    throw new Error(colorize(
+      `${failures.length} lesson or PDF operation(s) failed: ${failures.join(", ")}.`,
+      "red",
+      process.stderr,
+    ));
+  }
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
   main(process.argv.slice(2)).catch((error: unknown) => {
-    console.error(error instanceof Error ? error.message : String(error));
+    const message = error instanceof Error ? error.message : String(error);
+    console.error(colorize(message, "red", process.stderr));
     process.exitCode = 1;
   });
 }

@@ -267,7 +267,11 @@ streams as `primaryUrl`, keeping their YouTube fallback links and asset thumbnai
 Both subtitle languages remain `null`; the Blackfoot video is unchanged.
 The generator derives each lesson file's `pdfUrl` from its `fileType` and language.
 The generated URLs use the CloudFront base and mirror the local extraction layout:
-`lesson-plan-pdfs/<theme-folder>/<lesson-id>/<language>-<fileType>.pdf`.
+`lesson-plan-pdfs/<theme-folder>/<lesson-id>/<language>-<file_type>-<english_title_slug>.pdf`.
+Names are lowercase; file types and title words use underscores, and punctuation is
+removed. French files use the title of the corresponding English file by metadata
+position. For example:
+`fr-student_worksheet-360_virtual_tours_scavenger_hunt_student_worksheet.pdf`.
 **These are planned URLs, not proof that the PDF has been uploaded.** They can return
 errors until the corresponding files are uploaded to the matching S3 keys and served
 by CloudFront.
@@ -318,8 +322,10 @@ npm run pulllessonpdfs -- --all --list
 The command discovers lesson source files in the section, in source order. The files are
 saved in the git-ignored directory
 `src/data/extracted-data/lesson-plan-extracted-data/<section-folder>/<lesson-id>/`.
-Filenames combine the language and `fileType`, such as `en-lesson-plan.pdf`.
-Repeated file types within a language use `-2`, `-3`, and so on, in metadata order.
+Filenames combine language, file type, and a slug of the corresponding English
+file title, such as
+`en-lesson_plan-albertas_natural_regions.pdf`. Identical generated names use
+`-2`, `-3`, and so on, in metadata order.
 The generator and downloader use the same naming logic. **Reordering or removing files
 of the same type changes which document a numbered filename refers to.** After upload,
 keep their order stable, or update the affected S3 files to match. Existing
@@ -389,8 +395,8 @@ youtube-extracted-data/     -> s3://<BUCKET_NAME>/video-assets/
 lesson-plan-extracted-data/ -> s3://<BUCKET_NAME>/lesson-plan-pdfs/
 ```
 
-Only standard video filenames and file-type-based PDF names are uploaded. Old
-descriptively named PDFs, temporary files and unrelated files are excluded. Directory
+Only standard video filenames and generated lowercase title-based PDF names are
+uploaded. Legacy PDF names, temporary files and unrelated files are excluded. Directory
 uploads use `aws s3 sync`; use `FILE=<filename>` to explicitly replace one file with
 `aws s3 cp`, even if its size or timestamp would otherwise cause sync to skip it.
 
