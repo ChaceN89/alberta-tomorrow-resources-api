@@ -15,6 +15,7 @@
     "generate:videos": "tsx src/data/scripts/generateVideos.ts",
     "pullyoutube": "tsx src/data/scripts/pullYouTubeData.ts",
     "pulllessonpdfs": "tsx src/data/scripts/pullLessonPlanPdfs.ts",
+    "audit:resources": "tsx src/data/scripts/auditResourceLinks.ts",
     "test": "npm run typecheck && tsc -p tests/tsconfig.json && node --import tsx --test tests/*.test.ts"
   },
   "keywords": [],

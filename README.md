@@ -272,6 +272,34 @@ The generated URLs use the CloudFront base and mirror the local extraction layou
 errors until the corresponding files are uploaded to the matching S3 keys and served
 by CloudFront.
 
+### Auditing CloudFront resource links
+
+The `audit:resources` command checks the generated links against their upstream content.
+For each video, it compares the English metadata title and a two-second duration tolerance
+between YouTube and CloudFront. The duration comparison requires both `yt-dlp` and
+`ffprobe`; on macOS they can be installed with `brew install yt-dlp ffmpeg`.
+
+For lesson-plan files, the command exports the current Google Docs or Slides PDF and
+first compares it byte-for-byte with the CloudFront PDF. If export metadata makes the
+bytes differ, it renders both PDFs and compares every page. This requires `pdftoppm`;
+on macOS it can be installed with `brew install poppler`. A mismatch after rendering
+usually means the uploaded PDF is stale, or that the CloudFront URL points at the
+wrong file.
+
+```bash
+npm run audit:resources
+npm run audit:resources -- --videos-only
+npm run audit:resources -- --lessons-only
+npm run audit:resources -- --video tutorial-01a-register-account
+npm run audit:resources -- --lesson climate-01-going-going-going-gone
+npm run audit:resources -- --output ./resource-audit.json
+```
+
+Use `--duration-tolerance <seconds>` to change the video tolerance or
+`--concurrency <count>` to change how many checks run at once. The command reports
+individual failures, writes the full result when `--output` is supplied, and exits
+unsuccessfully if any mismatch or check failure is found.
+
 ### Pulling lesson-plan PDFs
 
 The `pulllessonpdfs` command exports public Google Docs and Slides files and downloads

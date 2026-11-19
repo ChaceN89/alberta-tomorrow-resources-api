@@ -1203,7 +1203,7 @@
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-01e-tlu-access/en.vtt",
       "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-01e-tlu-access/fr.vtt",
-      "position": "bottom-center"
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -1246,7 +1246,7 @@
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-02e-moose-habitat/en.vtt",
       "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-02e-moose-habitat/fr.vtt",
-      "position": "bottom-center"
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -1289,7 +1289,7 @@
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-03e-hunting-opportunity/en.vtt",
       "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-03e-hunting-opportunity/fr.vtt",
-      "position": "bottom-center"
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -1332,7 +1332,7 @@
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-04e-water-quality/en.vtt",
       "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-04e-water-quality/fr.vtt",
-      "position": "bottom-center"
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -1375,7 +1375,7 @@
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-05e-fish-habitat/en.vtt",
       "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-05e-fish-habitat/fr.vtt",
-      "position": "bottom-center"
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [
@@ -1418,7 +1418,7 @@
     "subtitles": {
       "en": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-06e-fishing-opportunity/en.vtt",
       "fr": "https://d2qcvmovr4fv.cloudfront.net/video-assets/E-IndigenousIndicators/ind-06e-fishing-opportunity/fr.vtt",
-      "position": "bottom-center"
+      "position": "top-center"
     },
     "searchTerms": {
       "en": [

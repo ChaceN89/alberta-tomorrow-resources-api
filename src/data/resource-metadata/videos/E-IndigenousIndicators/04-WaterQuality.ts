@@ -43,7 +43,8 @@ export const waterQualityVideo = {
   },
   subtitles: {
     en: videoAssets.file("en.vtt"),
-    fr: videoAssets.file("fr.vtt")
+    fr: videoAssets.file("fr.vtt"),
+    position: "top-center"
   },
 
   searchTerms: {
