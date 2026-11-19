@@ -13,7 +13,7 @@
 # Usage:
 #   - Deploy with AWS SAM CLI (`sam deploy`) or AWS CloudFormation
 #   - Do not modify handler or runtime unless your entry point or Node.js version changes
-#   - For local development, use src/app.js directly
+#   - Build the TypeScript application with `npm run build` before deployment
 # ------------------------------------------------------------------------------
 
 AWSTemplateFormatVersion: '2010-09-09'
@@ -33,7 +33,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: ./
-      Handler: lambda.handler
+      Handler: dist/lambda.handler
       Runtime: nodejs18.x
       Events:
         ApiEvent:

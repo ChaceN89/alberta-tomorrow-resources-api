@@ -1,0 +1,68 @@
+/**
+ * @file 01-ClimateChange.ts
+ * @module Data/Videos/UnderstandingTheLandscape
+ * @desc Contains localized metadata and media information for the Climate Change video.
+ *
+ * @author Chace Nielson
+ * @created Jul 30, 2026
+ * @updated Jul 30, 2026
+ */
+
+import { VideoCategory } from "../../../enums/videoCategoryIds.js";
+import { Language } from "../../../enums/language.js";
+import { ALBERTA_TOMORROW_PROVIDER, getVideoAssetPaths } from "../../../core/assetUrls.js";
+
+import type { VideoSource } from "../../../core/videoTypes.js";
+
+const videoId = "landscape-01b-climate-change";
+const videoAssets = getVideoAssetPaths(VideoCategory.LANDSCAPE.id, videoId);
+
+export const climateChangeVideo = {
+  id: videoId,
+
+  supportedLanguages: [Language.EN.id, Language.FR.id],
+
+  categoryId: VideoCategory.LANDSCAPE.id,
+
+  title: {
+    en: "Climate Change",
+    fr: "Changements climatiques"
+  },
+
+  description: {
+    en: "How will Alberta be affected by Climate Change? What's the difference between Climate Change and Global Warming?",
+    fr: "Comment l’Alberta sera-t-elle touchée par les changements climatiques? Quelle est la différence entre changements climatiques et réchauffement planétaire?"
+  },
+
+  media: {
+    primaryUrl: videoAssets.file("video.mp4"),
+    youtubeUrl: "https://www.youtube.com/watch?v=Okh7vn60kxg",
+    thumbnailUrl: videoAssets.file("thumbnail.jpg"),
+    is360: false,
+    provider: ALBERTA_TOMORROW_PROVIDER
+  },
+  subtitles: {
+    en: videoAssets.file("en.vtt"),
+    fr: videoAssets.file("fr.vtt")
+  },
+
+  searchTerms: {
+    en: [
+      "climate change",
+      "global warming",
+      "land use",
+      "education",
+      "renewable energy",
+      "future Alberta"
+    ],
+
+    fr: [
+      "changements climatiques",
+      "rechauffement climatique",
+      "utilisation des terres",
+      "education",
+      "energie renouvelable",
+      "avenir de l'alberta"
+    ]
+  },
+} satisfies VideoSource;

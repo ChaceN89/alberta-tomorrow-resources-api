@@ -1,0 +1,121 @@
+/**
+ * @file 01-YesterdayTodayAndTomorrow.ts
+ * @module Data/LessonPlans/LandUse
+ * @desc Contains localized metadata and lesson plan information for the Yesterday, Today and Tomorrow lesson.
+ *
+ * @author Chace Nielson
+ * @created Jul 30, 2026
+ * @updated Aug 07, 2026
+ * @updated Nov 02, 2026 - updated lesson resource URLs using the V8 mapping
+ */
+
+import { LessonTheme } from "../../../enums/LessonThemeIds.js";
+import { FileType } from "../../../enums/fileTypes.js";
+import { Grade } from "../../../enums/gradeIds.js";
+import { Subject } from "../../../enums/subjectIds.js";
+
+
+import type { LessonPlanSource } from "../../../core/lessonPlanTypes.js";
+
+const lessonId = "landuse-01c-yesterday-today-tomorrow";
+
+export const yesterdayTodayAndTomorrowLessonPlan = {
+  id: lessonId,
+
+  themeId: LessonTheme.LAND_USE.id,
+
+  title: {
+    en: "Yesterday, Today, and Tomorrow: Using the Alberta Tomorrow Simulator",
+    fr: "Hier, aujourd’hui et demain : Utiliser le simulateur d’Alberta Tomorrow"
+  },
+
+  description: {
+    en: "Students will see how the landscape has changed since 1900 as a result of human activity. They will then investigate a business-as-usual future based on past development rates.",
+    fr: "Les élèves verront comment le paysage a changé depuis les années 1900 en raison de l’activité humaine. Ils étudieront le futur prévu selon un scénario d’avenir de « maintien du statu quo » qui repose sur le taux de développement passé."
+  },
+
+  approximateTime: {
+    en: "90 min",
+    fr: "90 min"
+  },
+
+  files: {
+    en: [
+      {
+        fileType: FileType.LESSON_PLAN,
+        title: "Yesterday, Today, and Tomorrow: Using the Alberta Tomorrow Simulator – Lesson Plan",
+        url: `https://docs.google.com/document/d/1BeXdyFmB5N8-YULrpCXc3eHewXub1t4yOW7vxbn1dWE`,
+      },
+      {
+        fileType: FileType.STUDENT_WORKSHEET,
+        title: "Yesterday, Today, and Tomorrow: Using the Alberta Tomorrow Simulator – Student Worksheet",
+        url: `https://docs.google.com/document/d/12SL7VWLPtAmFmwuG_HOJeTm7eP8auD59QhGyw_OZ4wQ`,
+      }
+    ],
+    fr: [
+      {
+        fileType: FileType.LESSON_PLAN,
+        title: "Hier, aujourd’hui et demain : utiliser le simulateur d’Alberta Tomorrow – plan de leçon",
+        url: `https://docs.google.com/document/d/15SUd9s83cUVQmTzbSna9xd3xwv-UmhIMJ4-R625EWb4`,
+      },
+      {
+        fileType: FileType.STUDENT_WORKSHEET,
+        title: "Hier, aujourd’hui et demain : utiliser le simulateur d’Alberta Tomorrow – fiche de travail de l’élève",
+        url: `https://docs.google.com/document/d/1JQJsZ9KmWvpo-w44hgxg4lj4gxrNGmQP_oFhxPwL_Qw`,
+      }
+    ]
+  },
+
+  gradeIds: [
+    Grade.GRADE_4.id,
+    Grade.GRADE_5.id,
+    Grade.GRADE_6.id,
+    Grade.GRADE_7.id,
+    Grade.GRADE_8.id,
+    Grade.GRADE_9.id,
+    Grade.GRADE_10.id,
+    Grade.GRADE_11.id
+  ],
+
+  subjectIds: [
+    Subject.SCIENCE.id,
+    Subject.SOCIAL_STUDIES.id,
+    Subject.OUTDOOR_EDUCATION.id,
+    Subject.CTS.id
+  ],
+
+  searchTerms: {
+    en: [
+      "land use",
+      "historical change",
+      "ecosystem services",
+      "climate change",
+      "simulator"
+    ],
+    fr: [
+      "utilisation des terres",
+      "changement historique",
+      "indicateurs environnementaux",
+      "simulateur"
+    ]
+  },
+
+  learningOutcomes: {
+    en: [
+      "Explore the province of Alberta on satellite imagery",
+      "Identify which watershed they live in",
+      "See how the landscape has changed and the effect on environmental indicators",
+      "Explore a projected 'business as usual' scenario"
+    ],
+    fr: [
+      "Explorer la province de l’Alberta par les images satellite.",
+      "Trouver dans quel bassin hydrographique ils habitent.",
+      "Voir comment le paysage a changé par le passé et l’effet sur les indicateurs environnementaux.",
+      "Étudier un scénario de « maintien du statu quo »."
+    ]
+  },
+
+  videoIds: [],
+
+  relatedResources: []
+} satisfies LessonPlanSource;
